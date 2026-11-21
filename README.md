@@ -95,10 +95,10 @@ Seção cards (tags: cards, bento, scroll) stack react:
 | --- | ---: | --- |
 | `componentes` | 16 | Bibliotecas organizadas (shadcn/ui, Magic UI, Aceternity, React Bits, HeroUI, daisyUI…) |
 | `comunidade` | 7 | Coleções soltas de vários autores (21st.dev, Skiper, FreeFrontend…) |
-| `referencia` | 9 | Inspiração real (Dribbble, Mobbin, Refero, Godly, SaaS Landing Page…) |
+| `referencia` | 10 | Inspiração real (Igloo Inc, Dribbble, Mobbin, Refero, Godly…) |
 | `geracao-ia` | 4 | Imagem, vídeo e telas por IA |
-| `animacao` | 3 | Anime.js, Motion, Transitions.dev |
-| `shaders-3d` | 3 | Shaders, partículas e WebGL |
+| `animacao` | 4 | Anime.js, Motion, GSAP, Transitions.dev |
+| `shaders-3d` | 5 | Three.js, React Three Fiber, Shaders, partículas |
 | `skill-ia` | 3 | Taste Skill, Impeccable, reanimate |
 | `graficos` | 2 | Recharts, Bklit |
 | `design-md` | 2 | Sistemas de design em texto para a IA |

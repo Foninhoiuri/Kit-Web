@@ -90,6 +90,13 @@
     "vidro": [
       "vidro",
       "glass"
+    ],
+    "intro": [
+      "intro",
+      "svg",
+      "3d",
+      "particulas",
+      "shader"
     ]
   },
   "etapas": [
@@ -165,7 +172,9 @@
         "svg",
         "scroll",
         "texto",
-        "micro-interacao"
+        "micro-interacao",
+        "intro",
+        "svg"
       ],
       "resumo": "Motor de animação em JS puro: timelines, SVG, texto, rolagem. Serve em qualquer stack.",
       "cuidado": "",
@@ -188,7 +197,8 @@
         "scroll",
         "transicao",
         "layout",
-        "micro-interacao"
+        "micro-interacao",
+        "svg"
       ],
       "resumo": "Padrão de animação no React (whileInView, useScroll, layout). Parte da stack padrão.",
       "cuidado": "Exemplos e componentes do Motion+ são pagos.",
@@ -785,7 +795,8 @@
       "tags": [
         "particulas",
         "background",
-        "hero"
+        "hero",
+        "intro"
       ],
       "resumo": "Partículas e confete configuráveis, sucessor do particles.js.",
       "cuidado": "Pesa no celular; limite a contagem.",
@@ -1240,6 +1251,93 @@
       ],
       "resumo": "Cena three.js que continua entre várias janelas do navegador, sincronizadas por localStorage.",
       "cuidado": "Truque de demo; não é componente pronto.",
+      "em_uso": false
+    },
+    {
+      "id": "igloo-inc",
+      "nome": "Igloo Inc",
+      "url": "https://www.igloo.inc/",
+      "categoria": "referencia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "referência",
+      "tags": [
+        "inspiracao",
+        "intro",
+        "3d",
+        "particulas",
+        "scroll",
+        "webgl"
+      ],
+      "resumo": "Site premiado: intro em tempo real em que cristais e partículas constroem o ícone, cenas 3D conduzidas pelo scroll (Three.js, GSAP, shaders).",
+      "cuidado": "Os 'recreations' no GitHub são cópia por engenharia reversa de site proprietário: estude a técnica, não copie.",
+      "em_uso": false
+    },
+    {
+      "id": "threejs",
+      "nome": "Three.js",
+      "url": "https://threejs.org/",
+      "categoria": "shaders-3d",
+      "stack": [
+        "qualquer",
+        "js"
+      ],
+      "acesso": "gratis",
+      "licenca": "MIT",
+      "tags": [
+        "3d",
+        "shader",
+        "particulas",
+        "intro",
+        "webgl"
+      ],
+      "resumo": "Base do 3D na web: cenas, partículas, shaders. Por trás de intros como a do Igloo Inc.",
+      "cuidado": "Pesado no celular: tenha versão leve e respeite prefers-reduced-motion.",
+      "em_uso": false
+    },
+    {
+      "id": "r3f",
+      "nome": "React Three Fiber",
+      "url": "https://r3f.docs.pmnd.rs/",
+      "categoria": "shaders-3d",
+      "stack": [
+        "react"
+      ],
+      "acesso": "gratis",
+      "licenca": "MIT",
+      "tags": [
+        "3d",
+        "shader",
+        "particulas",
+        "intro",
+        "webgl"
+      ],
+      "resumo": "Three.js em componentes React, com o ecossistema drei para atalhos.",
+      "cuidado": "Mesmo cuidado de desempenho do Three.js.",
+      "em_uso": false
+    },
+    {
+      "id": "gsap",
+      "nome": "GSAP",
+      "url": "https://gsap.com/",
+      "categoria": "animacao",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "GSAP Standard License (grátis, plugins inclusos)",
+      "tags": [
+        "animacao",
+        "scroll",
+        "svg",
+        "intro",
+        "texto",
+        "timeline"
+      ],
+      "resumo": "Timelines precisas, ScrollTrigger, DrawSVG, MorphSVG e SplitText; padrão de sites premiados.",
+      "cuidado": "Licença própria, não MIT: grátis, mas proíbe usar em ferramenta concorrente do Webflow.",
       "em_uso": false
     }
   ],
