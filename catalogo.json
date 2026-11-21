@@ -1342,9 +1342,9 @@
     },
     {
       "id": "marca",
-      "pergunta": "Já existem logo, cores e fontes? Quais?",
+      "pergunta": "Já existe design system, logo, cores e fontes? Onde estão os arquivos?",
       "obrigatoria": false,
-      "por_que": "Sem marca, a etapa 2 define uma."
+      "por_que": "Procure antes nos repositórios e pastas da marca: um design system pronto manda nas etapas 2 e 3. Sem marca, a etapa 2 define uma."
     },
     {
       "id": "secoes",
