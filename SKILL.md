@@ -19,6 +19,18 @@ Funciona com qualquer IA ou pessoa no terminal; não depende de outro sistema. R
    `aceita_pago` não for "sim", seções do tipo de projeto, sem shaders/3D se `efeitos` for "calmo".
    Se ainda faltar pergunta obrigatória, o guia avisa no topo; não comece a construir antes de responder.
 
+## Vídeos e imagens geradas por IA
+
+Não precisam estar prontos para começar. Durante a entrevista e a produção:
+
+1. Cada lugar que vai ter mídia vira um item em `midia` no briefing: `id`, `secao`, `tipo` (video ou imagem),
+   `formato`, `prompt` (em inglês, já escrito com o clima do projeto), `status: planejado`.
+2. No código, o espaço leva `data-midia="<id>"` e um substituto leve (gradiente ou imagem estática).
+3. Para gerar: `python kitweb.py midia --briefing projeto.json` lista os prompts prontos e os geradores do catálogo.
+   A pessoa cola o prompt no gerador e salva o arquivo na pasta do projeto.
+4. `python kitweb.py midia --briefing projeto.json --marcar <id> gerado --arquivo public/midia/<id>.mp4`; a IA troca o
+   marcador `data-midia` pelo arquivo e marca `aplicado`.
+
 ## Quando usar
 
 - **Começo de qualquer projeto web:** o fluxo acima. Sem briefing, `python kitweb.py guia --stack react` dá o roteiro genérico.

@@ -163,7 +163,7 @@ def contexto(a, d, b):
     """Junta filtros da linha de comando com o briefing; a linha de comando vence."""
     stacks = {s for i in d["itens"] for s in i["stack"]} - {"qualquer"}
     stack = a.stack or next((t for t in termos(b.get("stack", "")) if t in stacks), None)
-    gratis = a.gratis or (bool(b) and plano(b.get("aceita_pago", "")).strip() != "sim")
+    gratis = a.gratis or (bool(b) and not plano(b.get("aceita_pago", "")).strip().startswith("sim"))
     secoes = como_lista(b.get("secoes")) or d["tipos"].get(plano(b.get("tipo", "")).strip(), [])
     calmo = plano(b.get("efeitos", "")).startswith("calm")
     return stack, gratis, [s for s in secoes if s in d["secoes"]], calmo
@@ -228,6 +228,9 @@ def cmd_guia(a, d):
             print("(nada no catálogo para: %s)" % b["servicos"] if b.get("servicos") else "(nada pedido em 'servicos' no briefing)")
         if e["itens"]:
             print("\n".join(linha(i) for i in e["itens"]))
+        if e.get("so_se_pedido") and b.get("midia"):
+            n = sum(s.get("status", "planejado") == "planejado" for s in b["midia"])
+            print("Mídia: %d espaço(s), %d ainda por gerar. Prompts prontos: python kitweb.py midia --briefing <arquivo>" % (len(b["midia"]), n))
     if not b:
         print("\nSem briefing o guia é genérico. Comece por: python kitweb.py briefing projeto.json && python kitweb.py entrevista --briefing projeto.json")
 
@@ -240,6 +243,40 @@ def cmd_briefing(a, d):
     modelo["referencias"] = [{"url": "", "olhar": ""}]
     destino.write_text(json.dumps(modelo, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("Briefing criado em %s. Agora: python kitweb.py entrevista --briefing %s" % (destino, destino))
+
+
+STATUS_MIDIA = ("planejado", "gerado", "aplicado")
+
+
+def cmd_midia(a, d):
+    b = ler_briefing(a.briefing)
+    slots = b.setdefault("midia", [])
+    if a.marcar:
+        sid, status = a.marcar
+        slot = next((s for s in slots if s.get("id") == sid), None)
+        if not slot or status not in STATUS_MIDIA:
+            sys.exit("Use --marcar <id existente> <%s>" % "|".join(STATUS_MIDIA))
+        slot["status"] = status
+        if a.arquivo:
+            slot["arquivo"] = a.arquivo
+        Path(a.briefing).write_text(json.dumps(b, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        return print("%s: %s%s. %s" % (sid, status, " (" + a.arquivo + ")" if a.arquivo else "",
+                     "Agora troque no código o marcador data-midia=\"%s\" pelo arquivo e marque como aplicado." % sid if status == "gerado" else ""))
+    tipos = {s.get("tipo", "video") for s in slots}
+    geradores = ordenar([i for i in d["itens"] if i["categoria"] == "geracao-ia" and tipos & set(i["tags"])])
+    if a.json:
+        return print(json.dumps({"slots": slots, "geradores": geradores, "regras": d["midia"]}, ensure_ascii=False, indent=2))
+    if not slots:
+        return print("Nenhuma mídia planejada. Campos de cada item em 'midia' no briefing: %s\n%s" % (d["midia"]["campos"], d["midia"]["marcador"]))
+    for st in STATUS_MIDIA:
+        grupo = [s for s in slots if s.get("status", "planejado") == st]
+        if grupo:
+            print("\n## %s (%d)" % (st, len(grupo)))
+        for s in grupo:
+            print("- %s — seção %s, %s, %s%s\n  prompt: %s" % (s.get("id"), s.get("secao", "?"), s.get("tipo", "video"), s.get("formato", "formato ?"),
+                  " → " + s["arquivo"] if s.get("arquivo") else "", s.get("prompt") or "(falta escrever o prompt)"))
+    if geradores:
+        print("\nGeradores no catálogo (cole o prompt e salve o arquivo na pasta do projeto):\n" + "\n".join(linha(i) for i in geradores))
 
 
 def cmd_entrevista(a, d):
@@ -334,6 +371,7 @@ def cmd_teste(a, d):
     stack, gratis, secoes, calmo = contexto(argparse.Namespace(stack=None, gratis=False), d, b)
     assert (stack, gratis, calmo) == ("react", True, True) and secoes == d["tipos"]["institucional"]
     assert not any(q["id"] == "referencias" for q in pendentes(d, b))
+    assert not contexto(argparse.Namespace(stack=None, gratis=False), d, {"aceita_pago": "Sim (uso próprio)"})[1]
     assert not any(INTENSOS & set(i["tags"]) for i in escolher_secao(d, d["itens"], "hero", 10, True))
     print("ok: %d itens, %d categorias, %d seções" % (len(ids), len(d["categorias"]), len(d["secoes"])))
 
@@ -365,6 +403,11 @@ def main():
     g.add_argument("--briefing", help="arquivo JSON do projeto (crie com `briefing`)")
     br = sub.add_parser("briefing")
     br.add_argument("arquivo")
+    md = sub.add_parser("midia")
+    md.add_argument("--briefing", required=True)
+    md.add_argument("--marcar", nargs=2, metavar=("ID", "STATUS"))
+    md.add_argument("--arquivo")
+    md.add_argument("--json", action="store_true")
     en = sub.add_parser("entrevista")
     en.add_argument("--briefing", help="sem arquivo, lista todas as perguntas")
     en.add_argument("--json", action="store_true")

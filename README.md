@@ -23,6 +23,8 @@ o que olhar primeiro, o que usar em cada seção e o que **não** pode ir para o
 - **Entrevista antes de sugerir:** um briefing do projeto; o kit pergunta o que falta (público, ação, referências,
   orçamento para itens pagos) e insiste quando há pouca referência.
 - **Guia por etapa:** das referências até a checagem de licença, em 7 passos, filtrado pelo briefing.
+- **Vídeos com prompt pronto:** cada espaço de vídeo ou imagem gerada por IA nasce marcado no código, com o prompt
+  escrito no briefing; gerar depois é colar no gerador e entregar o arquivo.
 - **Atalho por seção:** hero, cards, fundo, rolagem, preços, dashboard, login…
 - **Licença visível:** grátis, grátis com parte Pro, freemium ou pago, mais a licença de cada item.
 - **Funciona com qualquer IA:** `SKILL.md` com as instruções e `--json` em todo comando de leitura.
@@ -48,6 +50,8 @@ roteiro genérico.
 | `briefing arquivo.json` | Cria o briefing do projeto em branco |
 | `entrevista --briefing arquivo.json` | Perguntas que faltam, obrigatórias primeiro |
 | `guia --briefing arquivo.json` | Roteiro sob medida: stack, seções do tipo, só grátis se não houver orçamento |
+| `midia --briefing arquivo.json` | Vídeos e imagens planejados, com prompts prontos e geradores |
+| `midia --briefing … --marcar <id> gerado --arquivo …` | Registra o arquivo gerado para a IA aplicar no código |
 | `guia [--stack react]` | Roteiro genérico, sem briefing |
 | `guia --secao hero` | Opções para uma seção específica (veja `secoes`) |
 | `buscar fundo animado --gratis` | Busca livre, com filtros `--stack`, `--categoria`, `--gratis`, `--n` |
