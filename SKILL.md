@@ -8,10 +8,20 @@ description: "Guia e catálogo de bibliotecas de componentes, animação, shader
 Ferramenta autônoma: uma pasta com `kitweb.py` (Python 3.9+, só biblioteca padrão) e `catalogo.json`.
 Funciona com qualquer IA ou pessoa no terminal; não depende de outro sistema. Rode os comandos a partir desta pasta.
 
+## Fluxo de um projeto novo
+
+1. `python kitweb.py briefing projeto.json` cria o briefing em branco (guarde na pasta do projeto).
+2. **Antes de perguntar, procure:** preencha o que já estiver nos arquivos, notas ou código do projeto.
+3. `python kitweb.py entrevista --briefing projeto.json` lista o que falta, obrigatórias primeiro.
+   Entreviste a pessoa **uma pergunta por vez**, oferecendo o que você achou como sugestão, e grave cada resposta no JSON.
+   Com poucas referências (menos de 3, ou sem dizer o que olhar em cada uma), a entrevista insiste nelas e oferece onde buscar.
+4. `python kitweb.py guia --briefing projeto.json` dá o roteiro em 7 etapas já filtrado: stack, só grátis se
+   `aceita_pago` não for "sim", seções do tipo de projeto, sem shaders/3D se `efeitos` for "calmo".
+   Se ainda faltar pergunta obrigatória, o guia avisa no topo; não comece a construir antes de responder.
+
 ## Quando usar
 
-- **Começo de qualquer projeto web:** `python kitweb.py guia --stack <react|vue|html|...>` dá o roteiro em 7 etapas
-  (referências, direção visual, base, efeitos por seção, movimento, serviços, licença) com os itens certos de cada uma.
+- **Começo de qualquer projeto web:** o fluxo acima. Sem briefing, `python kitweb.py guia --stack react` dá o roteiro genérico.
 - **Escolher uma seção:** `python kitweb.py guia --secao hero --stack react` (veja `secoes`).
 - **Procurar algo:** `python kitweb.py buscar fundo animado --stack react --gratis`.
 - **Detalhe de um item:** `python kitweb.py ver reactbits`.

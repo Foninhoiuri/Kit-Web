@@ -20,7 +20,9 @@ Shadcn, Aceternity, Magic UI, React Bits, Untitled UI, HeroUI, 21st.dev, Skiper,
 Refero… o problema nunca é falta de opção, é **excesso**. O Kit Web transforma essa pilha de favoritos num roteiro:
 o que olhar primeiro, o que usar em cada seção e o que **não** pode ir para o cliente sem pagar.
 
-- **Guia por etapa:** das referências até a checagem de licença, em 7 passos.
+- **Entrevista antes de sugerir:** um briefing do projeto; o kit pergunta o que falta (público, ação, referências,
+  orçamento para itens pagos) e insiste quando há pouca referência.
+- **Guia por etapa:** das referências até a checagem de licença, em 7 passos, filtrado pelo briefing.
 - **Atalho por seção:** hero, cards, fundo, rolagem, preços, dashboard, login…
 - **Licença visível:** grátis, grátis com parte Pro, freemium ou pago, mais a licença de cada item.
 - **Funciona com qualquer IA:** `SKILL.md` com as instruções e `--json` em todo comando de leitura.
@@ -31,16 +33,22 @@ o que olhar primeiro, o que usar em cada seção e o que **não** pode ir para o
 ```bash
 git clone <url-do-repositorio> kit-web
 cd kit-web
-python kitweb.py guia --stack react
+python kitweb.py briefing meu-site.json          # cria o briefing em branco
+python kitweb.py entrevista --briefing meu-site.json  # o que falta responder
+python kitweb.py guia --briefing meu-site.json        # roteiro sob medida
 ```
 
-Só precisa de Python 3.9 ou mais novo. Nada para instalar.
+Só precisa de Python 3.9 ou mais novo. Nada para instalar. Com pressa? `python kitweb.py guia --stack react` dá o
+roteiro genérico.
 
 ## Comandos
 
 | Comando | O que faz |
 | --- | --- |
-| `guia [--stack react]` | Roteiro completo do projeto, com os melhores itens de cada etapa |
+| `briefing arquivo.json` | Cria o briefing do projeto em branco |
+| `entrevista --briefing arquivo.json` | Perguntas que faltam, obrigatórias primeiro |
+| `guia --briefing arquivo.json` | Roteiro sob medida: stack, seções do tipo, só grátis se não houver orçamento |
+| `guia [--stack react]` | Roteiro genérico, sem briefing |
 | `guia --secao hero` | Opções para uma seção específica (veja `secoes`) |
 | `buscar fundo animado --gratis` | Busca livre, com filtros `--stack`, `--categoria`, `--gratis`, `--n` |
 | `ver reactbits` | Ficha completa de um item |

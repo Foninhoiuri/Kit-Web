@@ -14,83 +14,1370 @@
     "experimento": "Demos e truques técnicos para estudar."
   },
   "secoes": {
-    "hero": ["hero", "background", "texto", "3d", "shader", "particulas"],
-    "fundo": ["background", "shader", "particulas", "3d"],
-    "texto": ["texto", "micro-interacao"],
-    "cards": ["cards", "bento", "scroll"],
-    "navegacao": ["navegacao", "menu", "dock"],
-    "botoes": ["botao", "micro-interacao"],
-    "formulario": ["formulario", "input", "auth"],
-    "dashboard": ["dashboard", "grafico", "tabela"],
-    "graficos": ["grafico", "dashboard"],
-    "precos": ["pricing", "cards"],
-    "depoimentos": ["depoimentos", "marquee"],
-    "rolagem": ["scroll", "transicao"],
-    "transicao": ["transicao", "scroll"],
-    "chat-ia": ["ai-chat"],
-    "login": ["auth"],
-    "imagens": ["imagem", "video", "icones"]
+    "hero": [
+      "hero",
+      "background",
+      "texto",
+      "3d",
+      "shader",
+      "particulas"
+    ],
+    "fundo": [
+      "background",
+      "shader",
+      "particulas",
+      "3d"
+    ],
+    "texto": [
+      "texto",
+      "micro-interacao"
+    ],
+    "cards": [
+      "cards",
+      "bento",
+      "scroll"
+    ],
+    "navegacao": [
+      "navegacao",
+      "menu",
+      "dock"
+    ],
+    "botoes": [
+      "botao",
+      "micro-interacao"
+    ],
+    "formulario": [
+      "formulario",
+      "input",
+      "auth"
+    ],
+    "dashboard": [
+      "dashboard",
+      "grafico",
+      "tabela"
+    ],
+    "graficos": [
+      "grafico",
+      "dashboard"
+    ],
+    "precos": [
+      "pricing",
+      "cards"
+    ],
+    "depoimentos": [
+      "depoimentos",
+      "marquee"
+    ],
+    "rolagem": [
+      "scroll",
+      "transicao"
+    ],
+    "transicao": [
+      "transicao",
+      "scroll"
+    ],
+    "chat-ia": [
+      "ai-chat"
+    ],
+    "login": [
+      "auth"
+    ],
+    "imagens": [
+      "imagem",
+      "video",
+      "icones"
+    ],
+    "vidro": [
+      "vidro",
+      "glass"
+    ]
   },
   "etapas": [
-    {"titulo": "1. Referências reais", "categorias": ["referencia"], "dica": "Junte 3 a 5 telas reais do mesmo tipo de projeto antes de escolher qualquer componente. Copie a ideia, nunca o código ou a marca."},
-    {"titulo": "2. Direção visual", "categorias": ["design-md", "skill-ia"], "dica": "Fixe tipografia, cores, espaçamento e tom num DESIGN.md antes de codar. Rode uma skill de gosto (Taste, Impeccable) para fugir da cara de IA."},
-    {"titulo": "3. Base de componentes", "categorias": ["componentes"], "dica": "Uma base só (shadcn/ui no React, daisyUI no HTML puro). Prefira o que o projeto já usa (itens [em uso])."},
-    {"titulo": "4. Efeitos por seção", "categorias": ["componentes", "comunidade", "shaders-3d", "graficos"], "dica": "Escolha por seção (use --secao). Um efeito forte por tela; o resto calmo."},
-    {"titulo": "5. Movimento", "categorias": ["animacao"], "dica": "Anime só transform e opacity, respeite prefers-reduced-motion e reserve altura (sem pulo de layout)."},
-    {"titulo": "6. Serviços e mídia", "categorias": ["servico", "geracao-ia"], "dica": "Login, pagamento e imagens por serviço pronto; segredos só em variável de ambiente."},
-    {"titulo": "7. Licença antes de entregar", "categorias": [], "dica": "Confira o campo licenca de cada item usado. 'gratis+pro': só o gratuito entra sem compra. 'MIT + Commons Clause': pode usar no site, não pode revender o componente. Comunidade: licença por item. Registre no projeto o que entrou e a licença."}
+    {
+      "titulo": "1. Referências reais",
+      "categorias": [
+        "referencia"
+      ],
+      "dica": "Junte 3 a 5 telas reais do mesmo tipo de projeto antes de escolher qualquer componente. Copie a ideia, nunca o código ou a marca."
+    },
+    {
+      "titulo": "2. Direção visual",
+      "categorias": [
+        "design-md",
+        "skill-ia"
+      ],
+      "dica": "Fixe tipografia, cores, espaçamento e tom num DESIGN.md antes de codar. Rode uma skill de gosto (Taste, Impeccable) para fugir da cara de IA."
+    },
+    {
+      "titulo": "3. Base de componentes",
+      "categorias": [
+        "componentes"
+      ],
+      "dica": "Uma base só (shadcn/ui no React, daisyUI no HTML puro). Prefira o que o projeto já usa (itens [em uso])."
+    },
+    {
+      "titulo": "4. Efeitos por seção",
+      "categorias": [
+        "componentes",
+        "comunidade",
+        "shaders-3d",
+        "graficos"
+      ],
+      "dica": "Uma escolha por seção, vinda das seções do briefing. Um efeito forte por tela; o resto calmo.",
+      "por_secao": true
+    },
+    {
+      "titulo": "5. Movimento",
+      "categorias": [
+        "animacao"
+      ],
+      "dica": "Anime só transform e opacity, respeite prefers-reduced-motion e reserve altura (sem pulo de layout)."
+    },
+    {
+      "titulo": "6. Serviços e mídia",
+      "categorias": [
+        "servico",
+        "geracao-ia"
+      ],
+      "dica": "Login, pagamento e imagens por serviço pronto; segredos só em variável de ambiente. Só entra o que o briefing pedir em 'servicos'.",
+      "so_se_pedido": true
+    },
+    {
+      "titulo": "7. Licença antes de entregar",
+      "categorias": [],
+      "dica": "Confira o campo licenca de cada item usado. 'gratis+pro': só o gratuito entra sem compra. 'MIT + Commons Clause': pode usar no site, não pode revender o componente. Comunidade: licença por item. Registre no projeto o que entrou e a licença."
+    }
   ],
   "itens": [
-    {"id": "animejs", "nome": "Anime.js", "url": "https://animejs.com/", "categoria": "animacao", "stack": ["qualquer"], "acesso": "gratis", "licenca": "MIT", "tags": ["animacao", "timeline", "svg", "scroll", "texto", "micro-interacao"], "resumo": "Motor de animação em JS puro: timelines, SVG, texto, rolagem. Serve em qualquer stack.", "cuidado": "", "em_uso": false},
-    {"id": "motion", "nome": "Motion (ex-Framer Motion)", "url": "https://motion.dev/docs", "categoria": "animacao", "stack": ["react", "vue", "js"], "acesso": "gratis+pro", "licenca": "MIT (núcleo); Motion+ pago", "tags": ["animacao", "scroll", "transicao", "layout", "micro-interacao"], "resumo": "Padrão de animação no React (whileInView, useScroll, layout). Parte da stack padrão.", "cuidado": "Exemplos e componentes do Motion+ são pagos.", "em_uso": true},
-    {"id": "transitions-dev", "nome": "Transitions.dev", "url": "https://transitions.dev/builder.html", "categoria": "animacao", "stack": ["react", "css"], "acesso": "gratis+pro", "licenca": "conferir", "tags": ["transicao", "micro-interacao", "animacao", "mcp", "skill"], "resumo": "Biblioteca de transições de UI, builder com agente, Motion Skill e MCP para o agente de código.", "cuidado": "Builder e parte da biblioteca exigem Pro.", "em_uso": false},
-    {"id": "shadcn-ui", "nome": "shadcn/ui", "url": "https://ui.shadcn.com/", "categoria": "componentes", "stack": ["react", "tailwind"], "acesso": "gratis", "licenca": "MIT", "tags": ["base", "design-system", "formulario", "modal", "tabela", "navegacao", "botao", "dashboard"], "resumo": "Base de componentes copiados para o projeto (Radix/Base UI + Tailwind). Base padrão da stack.", "cuidado": "", "em_uso": true},
-    {"id": "shadcn-io", "nome": "shadcn.io", "url": "https://www.shadcn.io/", "categoria": "componentes", "stack": ["react", "vue", "svelte", "tailwind"], "acesso": "gratis+pro", "licenca": "conferir", "tags": ["texto", "background", "botao", "shader", "ai-chat", "dashboard", "blocos"], "resumo": "Catálogo não oficial sobre o shadcn: botões animados, efeitos de texto, fundos, shaders, blocos.", "cuidado": "Blocos e templates via Pro; não é o shadcn oficial.", "em_uso": false},
-    {"id": "aceternity", "nome": "Aceternity UI", "url": "https://ui.aceternity.com/components", "categoria": "componentes", "stack": ["react", "tailwind", "motion"], "acesso": "gratis+pro", "licenca": "gratuitos liberados; Pro proprietário", "tags": ["hero", "background", "cards", "bento", "scroll", "texto", "3d", "navegacao"], "resumo": "Componentes de impacto: spotlight, cards 3D, paralaxe, revelação ao rolar, fundos animados.", "cuidado": "Templates e blocos Pro são pagos. Fácil de exagerar: um por tela.", "em_uso": false},
-    {"id": "magicui", "nome": "Magic UI", "url": "https://magicui.design/docs/components", "categoria": "componentes", "stack": ["react", "tailwind", "motion"], "acesso": "gratis+pro", "licenca": "MIT; Pro proprietário", "tags": ["texto", "bento", "marquee", "background", "botao", "depoimentos", "particulas", "landing"], "resumo": "Animações de landing page: grade bento, marquee, texto com desfoque, números animados.", "cuidado": "Templates Pro pagos.", "em_uso": false},
-    {"id": "reactbits", "nome": "React Bits", "url": "https://reactbits.dev/get-started/introduction", "categoria": "componentes", "stack": ["react", "tailwind", "css"], "acesso": "gratis", "licenca": "MIT + Commons Clause", "tags": ["background", "texto", "cursor", "3d", "shader", "particulas", "cards", "micro-interacao"], "resumo": "Fundos elegantes, efeitos de texto e cursor, versões em CSS e Tailwind.", "cuidado": "Pode usar no site do cliente; não pode vender os componentes em si (kit, template, biblioteca).", "em_uso": false},
-    {"id": "inspira-ui", "nome": "Inspira UI", "url": "https://v2.inspira-ui.com/docs/en/components", "categoria": "componentes", "stack": ["vue", "nuxt", "tailwind"], "acesso": "gratis", "licenca": "MIT", "tags": ["hero", "background", "texto", "cards", "3d", "particulas"], "resumo": "Equivalente Vue/Nuxt de Aceternity e Magic UI.", "cuidado": "", "em_uso": false},
-    {"id": "hextaui", "nome": "HextaUI", "url": "https://hextaui.com/components", "categoria": "componentes", "stack": ["react", "tailwind"], "acesso": "gratis+pro", "licenca": "gratuitos abertos; Pro US$ 79 único", "tags": ["ai-chat", "blocos", "formulario", "dashboard", "base"], "resumo": "Extensão do shadcn com foco em interface de chat de IA (streaming, tool calls, voz).", "cuidado": "Blocos de chat Pro pagos.", "em_uso": false},
-    {"id": "untitledui", "nome": "Untitled UI React", "url": "https://www.untitledui.com/react/components", "categoria": "componentes", "stack": ["react", "tailwind"], "acesso": "gratis+pro", "licenca": "gratuitos MIT; PRO proprietário", "tags": ["base", "design-system", "dashboard", "formulario", "tabela", "saas"], "resumo": "Sistema de design sóbrio e completo, bom para SaaS e painel.", "cuidado": "Boa parte dos componentes e o Figma completo são PRO.", "em_uso": false},
-    {"id": "heroui", "nome": "HeroUI", "url": "https://heroui.com/en/docs/react/getting-started", "categoria": "componentes", "stack": ["react", "tailwind"], "acesso": "gratis", "licenca": "MIT", "tags": ["base", "design-system", "formulario", "modal", "tabela", "navegacao"], "resumo": "Biblioteca completa (ex-NextUI), acabamento polido, temas prontos.", "cuidado": "Não misturar com shadcn no mesmo projeto.", "em_uso": false},
-    {"id": "heroui-pro", "nome": "HeroUI Pro", "url": "https://heroui.pro/docs/react/getting-started", "categoria": "componentes", "stack": ["react", "tailwind"], "acesso": "pago", "licenca": "proprietária", "tags": ["blocos", "dashboard", "landing", "saas"], "resumo": "Blocos e templates pagos sobre o HeroUI.", "cuidado": "Pago: só com licença comprada.", "em_uso": false},
-    {"id": "daisyui", "nome": "daisyUI", "url": "https://daisyui.com/", "categoria": "componentes", "stack": ["tailwind", "html", "qualquer"], "acesso": "gratis", "licenca": "MIT", "tags": ["base", "design-system", "temas", "formulario", "botao", "navegacao"], "resumo": "Plugin Tailwind com classes prontas; funciona sem React (HTML puro, Vue, Svelte).", "cuidado": "", "em_uso": false},
-    {"id": "kokonutui", "nome": "Kokonut UI", "url": "https://kokonutui.com/", "categoria": "componentes", "stack": ["react", "tailwind", "motion"], "acesso": "gratis+pro", "licenca": "MIT; Pro proprietário", "tags": ["ai-chat", "cards", "input", "micro-interacao"], "resumo": "Componentes para apps de IA: chat, agentes, inputs e cards.", "cuidado": "Templates Pro pagos.", "em_uso": false},
-    {"id": "codedvisuals", "nome": "Coded Visuals", "url": "https://codedvisuals.com/docs", "categoria": "componentes", "stack": ["react"], "acesso": "conferir", "licenca": "conferir", "tags": ["hero", "bento", "cards", "grafico", "dashboard", "ilustracao"], "resumo": "Visuais de interface prontos para ilustrar cards e heros (chat, calendário, gráficos, pagamentos). Tem docs para IA.", "cuidado": "Licença não conferida.", "em_uso": false},
-    {"id": "cult-ui", "nome": "Cult UI", "url": "https://www.cult-ui.com/", "categoria": "componentes", "stack": ["react", "tailwind", "motion"], "acesso": "gratis", "licenca": "MIT", "tags": ["cards", "botao", "texto", "ai-chat", "micro-interacao", "blocos"], "resumo": "154 componentes animados sobre shadcn, todos grátis; padrões de AI SDK.", "cuidado": "Blocos e Cult Pro à parte.", "em_uso": false},
-    {"id": "skiper-ui", "nome": "Skiper UI", "url": "https://skiper-ui.com/", "categoria": "comunidade", "stack": ["react", "tailwind", "motion"], "acesso": "gratis+pro", "licenca": "gratuitos livres; Premium US$ 129 único", "tags": ["micro-interacao", "cards", "texto", "scroll", "navegacao"], "resumo": "Componentes autorais com animação caprichada.", "cuidado": "106+ componentes Premium pagos; conferir quais são grátis.", "em_uso": false},
-    {"id": "originkit", "nome": "OriginKit", "url": "https://www.originkit.dev/", "categoria": "comunidade", "stack": ["react"], "acesso": "conferir", "licenca": "conferir", "tags": ["cards", "micro-interacao"], "resumo": "Coleção de componentes (página carrega por JS; não conferida).", "cuidado": "Licença e preço não conferidos.", "em_uso": false},
-    {"id": "freefrontend", "nome": "FreeFrontend", "url": "https://freefrontend.com/", "categoria": "comunidade", "stack": ["html", "css", "js"], "acesso": "gratis", "licenca": "por item (demos do CodePen)", "tags": ["css", "botao", "cards", "texto", "background", "menu", "formulario"], "resumo": "Milhares de demos em HTML/CSS/JS organizadas por tipo.", "cuidado": "Cada demo tem autor e licença próprios; conferir no CodePen de origem.", "em_uso": false},
-    {"id": "bencho", "nome": "Bencho", "url": "https://bencho.dev/", "categoria": "comunidade", "stack": ["react"], "acesso": "conferir", "licenca": "conferir", "tags": ["micro-interacao", "grafico", "botao", "cards"], "resumo": "Micro-interações React para agentes: segurar para apagar, tooltip líquido, gráfico 3D, mapa de assentos.", "cuidado": "Licença não conferida.", "em_uso": false},
-    {"id": "aura-build", "nome": "Aura", "url": "https://www.aura.build/components", "categoria": "comunidade", "stack": ["html", "tailwind"], "acesso": "freemium", "licenca": "conferir", "tags": ["landing", "hero", "cards", "blocos"], "resumo": "Gerador de landing pages por IA com biblioteca de componentes da comunidade.", "cuidado": "Plano pago para exportar à vontade.", "em_uso": false},
-    {"id": "21st-dev", "nome": "21st.dev", "url": "https://21st.dev/", "categoria": "comunidade", "stack": ["react", "tailwind"], "acesso": "freemium", "licenca": "por componente", "tags": ["hero", "cards", "botao", "texto", "background", "pricing", "mcp"], "resumo": "Registro gigante de componentes shadcn da comunidade, instalação por CLI e MCP (Magic) para gerar.", "cuidado": "Cada componente tem autor e licença; MCP Magic tem limite grátis.", "em_uso": false},
-    {"id": "shadcnblocks", "nome": "shadcnblocks", "url": "https://www.shadcnblocks.com/components", "categoria": "comunidade", "stack": ["react", "tailwind"], "acesso": "gratis+pro", "licenca": "conferir", "tags": ["blocos", "hero", "pricing", "footer", "landing"], "resumo": "Seções prontas de landing page sobre shadcn.", "cuidado": "Maioria dos blocos é paga.", "em_uso": false},
-    {"id": "tailwind-plus", "nome": "Tailwind Plus", "url": "https://tailwindcss.com/plus", "categoria": "componentes", "stack": ["react", "vue", "html", "tailwind"], "acesso": "pago", "licenca": "proprietária", "tags": ["blocos", "landing", "dashboard", "base"], "resumo": "Componentes e templates oficiais do Tailwind.", "cuidado": "Pago.", "em_uso": false},
-    {"id": "shaders", "nome": "Shaders", "url": "https://shaders.com/docs/components", "categoria": "shaders-3d", "stack": ["react", "vue", "js"], "acesso": "gratis+pro", "licenca": "gratuitos abertos; Pro US$ 10/mês", "tags": ["shader", "background", "hero", "efeito"], "resumo": "200+ componentes de shader (aurora, blob, ascii, desfoques, texturas).", "cuidado": "1.000+ shaders e prompts de seção só no Pro.", "em_uso": false},
-    {"id": "shaders-pro", "nome": "Shaders Pro", "url": "https://shaders.com/pro", "categoria": "shaders-3d", "stack": ["react", "vue", "js"], "acesso": "pago", "licenca": "proprietária", "tags": ["shader", "background", "hero"], "resumo": "Biblioteca paga do Shaders, com prompts de seção para o agente.", "cuidado": "US$ 10/mês.", "em_uso": false},
-    {"id": "tsparticles", "nome": "tsParticles", "url": "https://particles.js.org/", "categoria": "shaders-3d", "stack": ["qualquer"], "acesso": "gratis", "licenca": "MIT", "tags": ["particulas", "background", "hero"], "resumo": "Partículas e confete configuráveis, sucessor do particles.js.", "cuidado": "Pesa no celular; limite a contagem.", "em_uso": false},
-    {"id": "bklit", "nome": "Bklit UI", "url": "https://bklit.com/", "categoria": "graficos", "stack": ["react"], "acesso": "conferir", "licenca": "conferir", "tags": ["grafico", "dashboard"], "resumo": "235 gráficos com acabamento de design, estúdio de gráficos e exportação em vídeo.", "cuidado": "Licença não conferida; alternativa ao Recharts.", "em_uso": false},
-    {"id": "recharts", "nome": "Recharts", "url": "https://recharts.org/", "categoria": "graficos", "stack": ["react"], "acesso": "gratis", "licenca": "MIT", "tags": ["grafico", "dashboard"], "resumo": "Gráficos React; parte da stack padrão.", "cuidado": "", "em_uso": true},
-    {"id": "dribbble", "nome": "Dribbble", "url": "https://dribbble.com/", "categoria": "referencia", "stack": ["qualquer"], "acesso": "gratis", "licenca": "referência", "tags": ["inspiracao", "landing", "dashboard", "mobile"], "resumo": "Conceitos visuais de designers; ótimo para direção, nem sempre realista.", "cuidado": "Muito conceito que não vira produto; confirme com sites reais.", "em_uso": false},
-    {"id": "uxpeak", "nome": "UX Peak (YouTube)", "url": "https://www.youtube.com/@uxpeak", "categoria": "referencia", "stack": ["qualquer"], "acesso": "gratis", "licenca": "referência", "tags": ["inspiracao", "video", "processo"], "resumo": "Vídeos sobre processo e decisões de UI/UX.", "cuidado": "", "em_uso": false},
-    {"id": "mobbin", "nome": "Mobbin", "url": "https://mobbin.com/discover/apps/ios/latest", "categoria": "referencia", "stack": ["qualquer"], "acesso": "freemium", "licenca": "referência", "tags": ["inspiracao", "mobile", "fluxos", "app"], "resumo": "Telas e fluxos reais de apps (iOS, Android, web).", "cuidado": "Acesso completo pago.", "em_uso": false},
-    {"id": "webdesigninspiration", "nome": "Web Design Inspiration", "url": "https://webdesigninspiration.io/", "categoria": "referencia", "stack": ["qualquer"], "acesso": "gratis", "licenca": "referência", "tags": ["inspiracao", "landing"], "resumo": "Galeria de sites com bom design.", "cuidado": "", "em_uso": false},
-    {"id": "refero", "nome": "Refero", "url": "https://refero.design/", "categoria": "referencia", "stack": ["qualquer"], "acesso": "freemium", "licenca": "referência", "tags": ["inspiracao", "fluxos", "dashboard", "app", "landing"], "resumo": "Telas reais de produtos web pesquisáveis por padrão (onboarding, preços, tabelas).", "cuidado": "Busca completa paga.", "em_uso": false},
-    {"id": "onepagelove", "nome": "One Page Love", "url": "https://onepagelove.com/", "categoria": "referencia", "stack": ["qualquer"], "acesso": "gratis", "licenca": "referência", "tags": ["inspiracao", "landing", "portfolio"], "resumo": "Sites de uma página só.", "cuidado": "", "em_uso": false},
-    {"id": "saaslandingpage", "nome": "SaaS Landing Page", "url": "https://saaslandingpage.com/", "categoria": "referencia", "stack": ["qualquer"], "acesso": "gratis", "licenca": "referência", "tags": ["inspiracao", "landing", "saas", "pricing"], "resumo": "Landing pages de SaaS reais, separadas por seção.", "cuidado": "", "em_uso": false},
-    {"id": "recent-design", "nome": "Recent Design", "url": "https://recent.design/", "categoria": "referencia", "stack": ["qualquer"], "acesso": "gratis", "licenca": "referência", "tags": ["inspiracao", "landing", "video", "og-image", "icones"], "resumo": "Sites, vídeos de lançamento, imagens OG, ícones de app e skills recentes.", "cuidado": "", "em_uso": false},
-    {"id": "godly", "nome": "Godly", "url": "https://godly.website/", "categoria": "referencia", "stack": ["qualquer"], "acesso": "gratis", "licenca": "referência", "tags": ["inspiracao", "landing", "animacao"], "resumo": "Sites premiados com vídeo do movimento.", "cuidado": "", "em_uso": false},
-    {"id": "getdesign-md", "nome": "getdesign.md", "url": "https://getdesign.md/design-md", "categoria": "design-md", "stack": ["qualquer"], "acesso": "gratis", "licenca": "conferir", "tags": ["design-system", "ia", "tipografia", "cores"], "resumo": "Arquivos DESIGN.md prontos para dar à IA um sistema de design.", "cuidado": "Inspirados em marcas reais: não copie a identidade de terceiros no cliente.", "em_uso": false},
-    {"id": "refero-styles", "nome": "Refero Styles", "url": "https://styles.refero.design/", "categoria": "design-md", "stack": ["qualquer"], "acesso": "freemium", "licenca": "conferir", "tags": ["design-system", "ia", "tipografia", "cores"], "resumo": "Estilos extraídos de sites reais em formato para agente.", "cuidado": "Mesmo cuidado com marca de terceiros.", "em_uso": false},
-    {"id": "tasteskill", "nome": "Taste Skill (design-taste-frontend)", "url": "https://www.tasteskill.dev/docs#how-it-works", "categoria": "skill-ia", "stack": ["qualquer"], "acesso": "gratis", "licenca": "conferir (GitHub)", "tags": ["skill", "ia", "design-system", "qualidade"], "resumo": "Skill que dá gosto de design ao agente: seis passos, checagens e biblioteca de referência.", "cuidado": "", "em_uso": false},
-    {"id": "impeccable", "nome": "Impeccable", "url": "https://impeccable.style/", "categoria": "skill-ia", "stack": ["qualquer"], "acesso": "gratis", "licenca": "conferir", "tags": ["skill", "ia", "qualidade", "critica", "acessibilidade"], "resumo": "Skill de crítica e polimento de interface; instalável no Claude Code.", "cuidado": "", "em_uso": true},
-    {"id": "reanimate", "nome": "reanimate", "url": "https://reanimate.niazmorshed.dev/", "categoria": "skill-ia", "stack": ["qualquer"], "acesso": "gratis", "licenca": "conferir (GitHub)", "tags": ["skill", "ia", "animacao", "copiar-efeito"], "resumo": "Skill do Claude Code: aponta uma animação de outro site e ela recria no seu código, comparando o movimento.", "cuidado": "Recriar a ideia, não copiar a marca. Instalar: npx skills add NiazMorshed2007/reanimate -g.", "em_uso": false},
-    {"id": "higgsfield", "nome": "Higgsfield", "url": "https://higgsfield.ai/", "categoria": "geracao-ia", "stack": ["qualquer"], "acesso": "pago", "licenca": "proprietária", "tags": ["video", "imagem", "mcp"], "resumo": "Vídeo e imagem por IA (tem MCP); bom para hero em vídeo.", "cuidado": "Pago por crédito.", "em_uso": false},
-    {"id": "designkit", "nome": "DesignKit", "url": "https://www.designkit.com/pt", "categoria": "geracao-ia", "stack": ["qualquer"], "acesso": "freemium", "licenca": "proprietária", "tags": ["imagem", "video", "ecommerce", "produto"], "resumo": "Fotos de produto, vídeos de marketing e posts por IA.", "cuidado": "Pro pago.", "em_uso": false},
-    {"id": "buzzy", "nome": "Buzzy", "url": "https://www.buzzy.now/", "categoria": "geracao-ia", "stack": ["qualquer"], "acesso": "freemium", "licenca": "proprietária", "tags": ["video", "imagem", "mcp", "anuncio"], "resumo": "Agregador de modelos de vídeo e imagem (Kling, Sora, Nano Banana) com MCP e skills.", "cuidado": "Pago por crédito.", "em_uso": false},
-    {"id": "v0", "nome": "v0", "url": "https://v0.app/", "categoria": "geracao-ia", "stack": ["react", "tailwind"], "acesso": "freemium", "licenca": "proprietária", "tags": ["landing", "prototipo", "ia"], "resumo": "Gera telas React/shadcn a partir de texto; bom para rascunho rápido.", "cuidado": "Resultado com cara de IA se não houver direção visual.", "em_uso": false},
-    {"id": "clerk", "nome": "Clerk", "url": "https://clerk.com/", "categoria": "servico", "stack": ["react", "next", "qualquer"], "acesso": "freemium", "licenca": "proprietária", "tags": ["auth", "login", "usuarios"], "resumo": "Login e gestão de usuários prontos, com componentes.", "cuidado": "Chaves só em variável de ambiente; custo sobe por usuário ativo.", "em_uso": false},
-    {"id": "lucide", "nome": "Lucide", "url": "https://lucide.dev/", "categoria": "componentes", "stack": ["qualquer"], "acesso": "gratis", "licenca": "ISC", "tags": ["icones"], "resumo": "Ícones padrão da stack (lucide-react).", "cuidado": "", "em_uso": true},
-    {"id": "multiplewindow3d", "nome": "multipleWindow3dScene", "url": "https://github.com/bgstaal/multipleWindow3dScene", "categoria": "experimento", "stack": ["js", "threejs"], "acesso": "gratis", "licenca": "conferir (GitHub)", "tags": ["3d", "experimento", "janelas"], "resumo": "Cena three.js que continua entre várias janelas do navegador, sincronizadas por localStorage.", "cuidado": "Truque de demo; não é componente pronto.", "em_uso": false}
+    {
+      "id": "animejs",
+      "nome": "Anime.js",
+      "url": "https://animejs.com/",
+      "categoria": "animacao",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "MIT",
+      "tags": [
+        "animacao",
+        "timeline",
+        "svg",
+        "scroll",
+        "texto",
+        "micro-interacao"
+      ],
+      "resumo": "Motor de animação em JS puro: timelines, SVG, texto, rolagem. Serve em qualquer stack.",
+      "cuidado": "",
+      "em_uso": false
+    },
+    {
+      "id": "motion",
+      "nome": "Motion (ex-Framer Motion)",
+      "url": "https://motion.dev/docs",
+      "categoria": "animacao",
+      "stack": [
+        "react",
+        "vue",
+        "js"
+      ],
+      "acesso": "gratis+pro",
+      "licenca": "MIT (núcleo); Motion+ pago",
+      "tags": [
+        "animacao",
+        "scroll",
+        "transicao",
+        "layout",
+        "micro-interacao"
+      ],
+      "resumo": "Padrão de animação no React (whileInView, useScroll, layout). Parte da stack padrão.",
+      "cuidado": "Exemplos e componentes do Motion+ são pagos.",
+      "em_uso": true
+    },
+    {
+      "id": "transitions-dev",
+      "nome": "Transitions.dev",
+      "url": "https://transitions.dev/builder.html",
+      "categoria": "animacao",
+      "stack": [
+        "react",
+        "css"
+      ],
+      "acesso": "gratis+pro",
+      "licenca": "conferir",
+      "tags": [
+        "transicao",
+        "micro-interacao",
+        "animacao",
+        "mcp",
+        "skill"
+      ],
+      "resumo": "Biblioteca de transições de UI, builder com agente, Motion Skill e MCP para o agente de código.",
+      "cuidado": "Builder e parte da biblioteca exigem Pro.",
+      "em_uso": false
+    },
+    {
+      "id": "shadcn-ui",
+      "nome": "shadcn/ui",
+      "url": "https://ui.shadcn.com/",
+      "categoria": "componentes",
+      "stack": [
+        "react",
+        "tailwind"
+      ],
+      "acesso": "gratis",
+      "licenca": "MIT",
+      "tags": [
+        "base",
+        "design-system",
+        "formulario",
+        "modal",
+        "tabela",
+        "navegacao",
+        "botao",
+        "dashboard"
+      ],
+      "resumo": "Base de componentes copiados para o projeto (Radix/Base UI + Tailwind). Base padrão da stack.",
+      "cuidado": "",
+      "em_uso": true
+    },
+    {
+      "id": "shadcn-io",
+      "nome": "shadcn.io",
+      "url": "https://www.shadcn.io/",
+      "categoria": "componentes",
+      "stack": [
+        "react",
+        "vue",
+        "svelte",
+        "tailwind"
+      ],
+      "acesso": "gratis+pro",
+      "licenca": "conferir",
+      "tags": [
+        "texto",
+        "background",
+        "botao",
+        "shader",
+        "ai-chat",
+        "dashboard",
+        "blocos"
+      ],
+      "resumo": "Catálogo não oficial sobre o shadcn: botões animados, efeitos de texto, fundos, shaders, blocos.",
+      "cuidado": "Blocos e templates via Pro; não é o shadcn oficial.",
+      "em_uso": false
+    },
+    {
+      "id": "aceternity",
+      "nome": "Aceternity UI",
+      "url": "https://ui.aceternity.com/components",
+      "categoria": "componentes",
+      "stack": [
+        "react",
+        "tailwind",
+        "motion"
+      ],
+      "acesso": "gratis+pro",
+      "licenca": "gratuitos liberados; Pro proprietário",
+      "tags": [
+        "hero",
+        "background",
+        "cards",
+        "bento",
+        "scroll",
+        "texto",
+        "3d",
+        "navegacao",
+        "glass"
+      ],
+      "resumo": "Componentes de impacto: spotlight, cards 3D, paralaxe, revelação ao rolar, fundos animados.",
+      "cuidado": "Templates e blocos Pro são pagos. Fácil de exagerar: um por tela.",
+      "em_uso": false
+    },
+    {
+      "id": "magicui",
+      "nome": "Magic UI",
+      "url": "https://magicui.design/docs/components",
+      "categoria": "componentes",
+      "stack": [
+        "react",
+        "tailwind",
+        "motion"
+      ],
+      "acesso": "gratis+pro",
+      "licenca": "MIT; Pro proprietário",
+      "tags": [
+        "texto",
+        "bento",
+        "marquee",
+        "background",
+        "botao",
+        "depoimentos",
+        "particulas",
+        "landing"
+      ],
+      "resumo": "Animações de landing page: grade bento, marquee, texto com desfoque, números animados.",
+      "cuidado": "Templates Pro pagos.",
+      "em_uso": false
+    },
+    {
+      "id": "reactbits",
+      "nome": "React Bits",
+      "url": "https://reactbits.dev/get-started/introduction",
+      "categoria": "componentes",
+      "stack": [
+        "react",
+        "tailwind",
+        "css"
+      ],
+      "acesso": "gratis",
+      "licenca": "MIT + Commons Clause",
+      "tags": [
+        "background",
+        "texto",
+        "cursor",
+        "3d",
+        "shader",
+        "particulas",
+        "cards",
+        "micro-interacao",
+        "vidro",
+        "glass"
+      ],
+      "resumo": "Fundos elegantes, efeitos de texto e cursor, versões em CSS e Tailwind. Tem GlassSurface (vidro com refração).",
+      "cuidado": "Pode usar no site do cliente; não pode vender os componentes em si (kit, template, biblioteca).",
+      "em_uso": false
+    },
+    {
+      "id": "inspira-ui",
+      "nome": "Inspira UI",
+      "url": "https://v2.inspira-ui.com/docs/en/components",
+      "categoria": "componentes",
+      "stack": [
+        "vue",
+        "nuxt",
+        "tailwind"
+      ],
+      "acesso": "gratis",
+      "licenca": "MIT",
+      "tags": [
+        "hero",
+        "background",
+        "texto",
+        "cards",
+        "3d",
+        "particulas"
+      ],
+      "resumo": "Equivalente Vue/Nuxt de Aceternity e Magic UI.",
+      "cuidado": "",
+      "em_uso": false
+    },
+    {
+      "id": "hextaui",
+      "nome": "HextaUI",
+      "url": "https://hextaui.com/components",
+      "categoria": "componentes",
+      "stack": [
+        "react",
+        "tailwind"
+      ],
+      "acesso": "gratis+pro",
+      "licenca": "gratuitos abertos; Pro US$ 79 único",
+      "tags": [
+        "ai-chat",
+        "blocos",
+        "formulario",
+        "dashboard",
+        "base"
+      ],
+      "resumo": "Extensão do shadcn com foco em interface de chat de IA (streaming, tool calls, voz).",
+      "cuidado": "Blocos de chat Pro pagos.",
+      "em_uso": false
+    },
+    {
+      "id": "untitledui",
+      "nome": "Untitled UI React",
+      "url": "https://www.untitledui.com/react/components",
+      "categoria": "componentes",
+      "stack": [
+        "react",
+        "tailwind"
+      ],
+      "acesso": "gratis+pro",
+      "licenca": "gratuitos MIT; PRO proprietário",
+      "tags": [
+        "base",
+        "design-system",
+        "dashboard",
+        "formulario",
+        "tabela",
+        "saas"
+      ],
+      "resumo": "Sistema de design sóbrio e completo, bom para SaaS e painel.",
+      "cuidado": "Boa parte dos componentes e o Figma completo são PRO.",
+      "em_uso": false
+    },
+    {
+      "id": "heroui",
+      "nome": "HeroUI",
+      "url": "https://heroui.com/en/docs/react/getting-started",
+      "categoria": "componentes",
+      "stack": [
+        "react",
+        "tailwind"
+      ],
+      "acesso": "gratis",
+      "licenca": "MIT",
+      "tags": [
+        "base",
+        "design-system",
+        "formulario",
+        "modal",
+        "tabela",
+        "navegacao"
+      ],
+      "resumo": "Biblioteca completa (ex-NextUI), acabamento polido, temas prontos.",
+      "cuidado": "Não misturar com shadcn no mesmo projeto.",
+      "em_uso": false
+    },
+    {
+      "id": "heroui-pro",
+      "nome": "HeroUI Pro",
+      "url": "https://heroui.pro/docs/react/getting-started",
+      "categoria": "componentes",
+      "stack": [
+        "react",
+        "tailwind"
+      ],
+      "acesso": "pago",
+      "licenca": "proprietária",
+      "tags": [
+        "blocos",
+        "dashboard",
+        "landing",
+        "saas"
+      ],
+      "resumo": "Blocos e templates pagos sobre o HeroUI.",
+      "cuidado": "Pago: só com licença comprada.",
+      "em_uso": false
+    },
+    {
+      "id": "daisyui",
+      "nome": "daisyUI",
+      "url": "https://daisyui.com/",
+      "categoria": "componentes",
+      "stack": [
+        "tailwind",
+        "html",
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "MIT",
+      "tags": [
+        "base",
+        "design-system",
+        "temas",
+        "formulario",
+        "botao",
+        "navegacao"
+      ],
+      "resumo": "Plugin Tailwind com classes prontas; funciona sem React (HTML puro, Vue, Svelte).",
+      "cuidado": "",
+      "em_uso": false
+    },
+    {
+      "id": "kokonutui",
+      "nome": "Kokonut UI",
+      "url": "https://kokonutui.com/",
+      "categoria": "componentes",
+      "stack": [
+        "react",
+        "tailwind",
+        "motion"
+      ],
+      "acesso": "gratis+pro",
+      "licenca": "MIT; Pro proprietário",
+      "tags": [
+        "ai-chat",
+        "cards",
+        "input",
+        "micro-interacao"
+      ],
+      "resumo": "Componentes para apps de IA: chat, agentes, inputs e cards.",
+      "cuidado": "Templates Pro pagos.",
+      "em_uso": false
+    },
+    {
+      "id": "codedvisuals",
+      "nome": "Coded Visuals",
+      "url": "https://codedvisuals.com/docs",
+      "categoria": "componentes",
+      "stack": [
+        "react"
+      ],
+      "acesso": "conferir",
+      "licenca": "conferir",
+      "tags": [
+        "hero",
+        "bento",
+        "cards",
+        "grafico",
+        "dashboard",
+        "ilustracao"
+      ],
+      "resumo": "Visuais de interface prontos para ilustrar cards e heros (chat, calendário, gráficos, pagamentos). Tem docs para IA.",
+      "cuidado": "Licença não conferida.",
+      "em_uso": false
+    },
+    {
+      "id": "cult-ui",
+      "nome": "Cult UI",
+      "url": "https://www.cult-ui.com/",
+      "categoria": "componentes",
+      "stack": [
+        "react",
+        "tailwind",
+        "motion"
+      ],
+      "acesso": "gratis",
+      "licenca": "MIT",
+      "tags": [
+        "cards",
+        "botao",
+        "texto",
+        "ai-chat",
+        "micro-interacao",
+        "blocos"
+      ],
+      "resumo": "154 componentes animados sobre shadcn, todos grátis; padrões de AI SDK.",
+      "cuidado": "Blocos e Cult Pro à parte.",
+      "em_uso": false
+    },
+    {
+      "id": "skiper-ui",
+      "nome": "Skiper UI",
+      "url": "https://skiper-ui.com/",
+      "categoria": "comunidade",
+      "stack": [
+        "react",
+        "tailwind",
+        "motion"
+      ],
+      "acesso": "gratis+pro",
+      "licenca": "gratuitos livres; Premium US$ 129 único",
+      "tags": [
+        "micro-interacao",
+        "cards",
+        "texto",
+        "scroll",
+        "navegacao"
+      ],
+      "resumo": "Componentes autorais com animação caprichada.",
+      "cuidado": "106+ componentes Premium pagos; conferir quais são grátis.",
+      "em_uso": false
+    },
+    {
+      "id": "originkit",
+      "nome": "OriginKit",
+      "url": "https://www.originkit.dev/",
+      "categoria": "comunidade",
+      "stack": [
+        "react"
+      ],
+      "acesso": "conferir",
+      "licenca": "conferir",
+      "tags": [
+        "cards",
+        "micro-interacao"
+      ],
+      "resumo": "Coleção de componentes (página carrega por JS; não conferida).",
+      "cuidado": "Licença e preço não conferidos.",
+      "em_uso": false
+    },
+    {
+      "id": "freefrontend",
+      "nome": "FreeFrontend",
+      "url": "https://freefrontend.com/",
+      "categoria": "comunidade",
+      "stack": [
+        "html",
+        "css",
+        "js"
+      ],
+      "acesso": "gratis",
+      "licenca": "por item (demos do CodePen)",
+      "tags": [
+        "css",
+        "botao",
+        "cards",
+        "texto",
+        "background",
+        "menu",
+        "formulario"
+      ],
+      "resumo": "Milhares de demos em HTML/CSS/JS organizadas por tipo.",
+      "cuidado": "Cada demo tem autor e licença próprios; conferir no CodePen de origem.",
+      "em_uso": false
+    },
+    {
+      "id": "bencho",
+      "nome": "Bencho",
+      "url": "https://bencho.dev/",
+      "categoria": "comunidade",
+      "stack": [
+        "react"
+      ],
+      "acesso": "conferir",
+      "licenca": "conferir",
+      "tags": [
+        "micro-interacao",
+        "grafico",
+        "botao",
+        "cards"
+      ],
+      "resumo": "Micro-interações React para agentes: segurar para apagar, tooltip líquido, gráfico 3D, mapa de assentos.",
+      "cuidado": "Licença não conferida.",
+      "em_uso": false
+    },
+    {
+      "id": "aura-build",
+      "nome": "Aura",
+      "url": "https://www.aura.build/components",
+      "categoria": "comunidade",
+      "stack": [
+        "html",
+        "tailwind"
+      ],
+      "acesso": "freemium",
+      "licenca": "conferir",
+      "tags": [
+        "landing",
+        "hero",
+        "cards",
+        "blocos"
+      ],
+      "resumo": "Gerador de landing pages por IA com biblioteca de componentes da comunidade.",
+      "cuidado": "Plano pago para exportar à vontade.",
+      "em_uso": false
+    },
+    {
+      "id": "21st-dev",
+      "nome": "21st.dev",
+      "url": "https://21st.dev/",
+      "categoria": "comunidade",
+      "stack": [
+        "react",
+        "tailwind"
+      ],
+      "acesso": "freemium",
+      "licenca": "por componente",
+      "tags": [
+        "hero",
+        "cards",
+        "botao",
+        "texto",
+        "background",
+        "pricing",
+        "mcp"
+      ],
+      "resumo": "Registro gigante de componentes shadcn da comunidade, instalação por CLI e MCP (Magic) para gerar.",
+      "cuidado": "Cada componente tem autor e licença; MCP Magic tem limite grátis.",
+      "em_uso": false
+    },
+    {
+      "id": "shadcnblocks",
+      "nome": "shadcnblocks",
+      "url": "https://www.shadcnblocks.com/components",
+      "categoria": "comunidade",
+      "stack": [
+        "react",
+        "tailwind"
+      ],
+      "acesso": "gratis+pro",
+      "licenca": "conferir",
+      "tags": [
+        "blocos",
+        "hero",
+        "pricing",
+        "footer",
+        "landing"
+      ],
+      "resumo": "Seções prontas de landing page sobre shadcn.",
+      "cuidado": "Maioria dos blocos é paga.",
+      "em_uso": false
+    },
+    {
+      "id": "tailwind-plus",
+      "nome": "Tailwind Plus",
+      "url": "https://tailwindcss.com/plus",
+      "categoria": "componentes",
+      "stack": [
+        "react",
+        "vue",
+        "html",
+        "tailwind"
+      ],
+      "acesso": "pago",
+      "licenca": "proprietária",
+      "tags": [
+        "blocos",
+        "landing",
+        "dashboard",
+        "base"
+      ],
+      "resumo": "Componentes e templates oficiais do Tailwind.",
+      "cuidado": "Pago.",
+      "em_uso": false
+    },
+    {
+      "id": "shaders",
+      "nome": "Shaders",
+      "url": "https://shaders.com/docs/components",
+      "categoria": "shaders-3d",
+      "stack": [
+        "react",
+        "vue",
+        "js"
+      ],
+      "acesso": "gratis+pro",
+      "licenca": "gratuitos abertos; Pro US$ 10/mês",
+      "tags": [
+        "shader",
+        "background",
+        "hero",
+        "efeito"
+      ],
+      "resumo": "200+ componentes de shader (aurora, blob, ascii, desfoques, texturas).",
+      "cuidado": "1.000+ shaders e prompts de seção só no Pro.",
+      "em_uso": false
+    },
+    {
+      "id": "shaders-pro",
+      "nome": "Shaders Pro",
+      "url": "https://shaders.com/pro",
+      "categoria": "shaders-3d",
+      "stack": [
+        "react",
+        "vue",
+        "js"
+      ],
+      "acesso": "pago",
+      "licenca": "proprietária",
+      "tags": [
+        "shader",
+        "background",
+        "hero"
+      ],
+      "resumo": "Biblioteca paga do Shaders, com prompts de seção para o agente.",
+      "cuidado": "US$ 10/mês.",
+      "em_uso": false
+    },
+    {
+      "id": "tsparticles",
+      "nome": "tsParticles",
+      "url": "https://particles.js.org/",
+      "categoria": "shaders-3d",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "MIT",
+      "tags": [
+        "particulas",
+        "background",
+        "hero"
+      ],
+      "resumo": "Partículas e confete configuráveis, sucessor do particles.js.",
+      "cuidado": "Pesa no celular; limite a contagem.",
+      "em_uso": false
+    },
+    {
+      "id": "bklit",
+      "nome": "Bklit UI",
+      "url": "https://bklit.com/",
+      "categoria": "graficos",
+      "stack": [
+        "react"
+      ],
+      "acesso": "conferir",
+      "licenca": "conferir",
+      "tags": [
+        "grafico",
+        "dashboard"
+      ],
+      "resumo": "235 gráficos com acabamento de design, estúdio de gráficos e exportação em vídeo.",
+      "cuidado": "Licença não conferida; alternativa ao Recharts.",
+      "em_uso": false
+    },
+    {
+      "id": "recharts",
+      "nome": "Recharts",
+      "url": "https://recharts.org/",
+      "categoria": "graficos",
+      "stack": [
+        "react"
+      ],
+      "acesso": "gratis",
+      "licenca": "MIT",
+      "tags": [
+        "grafico",
+        "dashboard"
+      ],
+      "resumo": "Gráficos React; parte da stack padrão.",
+      "cuidado": "",
+      "em_uso": true
+    },
+    {
+      "id": "dribbble",
+      "nome": "Dribbble",
+      "url": "https://dribbble.com/",
+      "categoria": "referencia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "referência",
+      "tags": [
+        "inspiracao",
+        "landing",
+        "dashboard",
+        "mobile"
+      ],
+      "resumo": "Conceitos visuais de designers; ótimo para direção, nem sempre realista.",
+      "cuidado": "Muito conceito que não vira produto; confirme com sites reais.",
+      "em_uso": false
+    },
+    {
+      "id": "uxpeak",
+      "nome": "UX Peak (YouTube)",
+      "url": "https://www.youtube.com/@uxpeak",
+      "categoria": "referencia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "referência",
+      "tags": [
+        "inspiracao",
+        "video",
+        "processo"
+      ],
+      "resumo": "Vídeos sobre processo e decisões de UI/UX.",
+      "cuidado": "",
+      "em_uso": false
+    },
+    {
+      "id": "mobbin",
+      "nome": "Mobbin",
+      "url": "https://mobbin.com/discover/apps/ios/latest",
+      "categoria": "referencia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "freemium",
+      "licenca": "referência",
+      "tags": [
+        "inspiracao",
+        "mobile",
+        "fluxos",
+        "app"
+      ],
+      "resumo": "Telas e fluxos reais de apps (iOS, Android, web).",
+      "cuidado": "Acesso completo pago.",
+      "em_uso": false
+    },
+    {
+      "id": "webdesigninspiration",
+      "nome": "Web Design Inspiration",
+      "url": "https://webdesigninspiration.io/",
+      "categoria": "referencia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "referência",
+      "tags": [
+        "inspiracao",
+        "landing"
+      ],
+      "resumo": "Galeria de sites com bom design.",
+      "cuidado": "",
+      "em_uso": false
+    },
+    {
+      "id": "refero",
+      "nome": "Refero",
+      "url": "https://refero.design/",
+      "categoria": "referencia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "freemium",
+      "licenca": "referência",
+      "tags": [
+        "inspiracao",
+        "fluxos",
+        "dashboard",
+        "app",
+        "landing"
+      ],
+      "resumo": "Telas reais de produtos web pesquisáveis por padrão (onboarding, preços, tabelas).",
+      "cuidado": "Busca completa paga.",
+      "em_uso": false
+    },
+    {
+      "id": "onepagelove",
+      "nome": "One Page Love",
+      "url": "https://onepagelove.com/",
+      "categoria": "referencia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "referência",
+      "tags": [
+        "inspiracao",
+        "landing",
+        "portfolio"
+      ],
+      "resumo": "Sites de uma página só.",
+      "cuidado": "",
+      "em_uso": false
+    },
+    {
+      "id": "saaslandingpage",
+      "nome": "SaaS Landing Page",
+      "url": "https://saaslandingpage.com/",
+      "categoria": "referencia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "referência",
+      "tags": [
+        "inspiracao",
+        "landing",
+        "saas",
+        "pricing"
+      ],
+      "resumo": "Landing pages de SaaS reais, separadas por seção.",
+      "cuidado": "",
+      "em_uso": false
+    },
+    {
+      "id": "recent-design",
+      "nome": "Recent Design",
+      "url": "https://recent.design/",
+      "categoria": "referencia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "referência",
+      "tags": [
+        "inspiracao",
+        "landing",
+        "video",
+        "og-image",
+        "icones"
+      ],
+      "resumo": "Sites, vídeos de lançamento, imagens OG, ícones de app e skills recentes.",
+      "cuidado": "",
+      "em_uso": false
+    },
+    {
+      "id": "godly",
+      "nome": "Godly",
+      "url": "https://godly.website/",
+      "categoria": "referencia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "referência",
+      "tags": [
+        "inspiracao",
+        "landing",
+        "animacao"
+      ],
+      "resumo": "Sites premiados com vídeo do movimento.",
+      "cuidado": "",
+      "em_uso": false
+    },
+    {
+      "id": "getdesign-md",
+      "nome": "getdesign.md",
+      "url": "https://getdesign.md/design-md",
+      "categoria": "design-md",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "conferir",
+      "tags": [
+        "design-system",
+        "ia",
+        "tipografia",
+        "cores"
+      ],
+      "resumo": "Arquivos DESIGN.md prontos para dar à IA um sistema de design.",
+      "cuidado": "Inspirados em marcas reais: não copie a identidade de terceiros no cliente.",
+      "em_uso": false
+    },
+    {
+      "id": "refero-styles",
+      "nome": "Refero Styles",
+      "url": "https://styles.refero.design/",
+      "categoria": "design-md",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "freemium",
+      "licenca": "conferir",
+      "tags": [
+        "design-system",
+        "ia",
+        "tipografia",
+        "cores"
+      ],
+      "resumo": "Estilos extraídos de sites reais em formato para agente.",
+      "cuidado": "Mesmo cuidado com marca de terceiros.",
+      "em_uso": false
+    },
+    {
+      "id": "tasteskill",
+      "nome": "Taste Skill (design-taste-frontend)",
+      "url": "https://www.tasteskill.dev/docs#how-it-works",
+      "categoria": "skill-ia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "conferir (GitHub)",
+      "tags": [
+        "skill",
+        "ia",
+        "design-system",
+        "qualidade"
+      ],
+      "resumo": "Skill que dá gosto de design ao agente: seis passos, checagens e biblioteca de referência.",
+      "cuidado": "",
+      "em_uso": false
+    },
+    {
+      "id": "impeccable",
+      "nome": "Impeccable",
+      "url": "https://impeccable.style/",
+      "categoria": "skill-ia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "conferir",
+      "tags": [
+        "skill",
+        "ia",
+        "qualidade",
+        "critica",
+        "acessibilidade"
+      ],
+      "resumo": "Skill de crítica e polimento de interface; instalável no Claude Code.",
+      "cuidado": "",
+      "em_uso": true
+    },
+    {
+      "id": "reanimate",
+      "nome": "reanimate",
+      "url": "https://reanimate.niazmorshed.dev/",
+      "categoria": "skill-ia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "conferir (GitHub)",
+      "tags": [
+        "skill",
+        "ia",
+        "animacao",
+        "copiar-efeito"
+      ],
+      "resumo": "Skill do Claude Code: aponta uma animação de outro site e ela recria no seu código, comparando o movimento.",
+      "cuidado": "Recriar a ideia, não copiar a marca. Instalar: npx skills add NiazMorshed2007/reanimate -g.",
+      "em_uso": false
+    },
+    {
+      "id": "higgsfield",
+      "nome": "Higgsfield",
+      "url": "https://higgsfield.ai/",
+      "categoria": "geracao-ia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "pago",
+      "licenca": "proprietária",
+      "tags": [
+        "video",
+        "imagem",
+        "mcp"
+      ],
+      "resumo": "Vídeo e imagem por IA (tem MCP); bom para hero em vídeo.",
+      "cuidado": "Pago por crédito.",
+      "em_uso": false
+    },
+    {
+      "id": "designkit",
+      "nome": "DesignKit",
+      "url": "https://www.designkit.com/pt",
+      "categoria": "geracao-ia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "freemium",
+      "licenca": "proprietária",
+      "tags": [
+        "imagem",
+        "video",
+        "ecommerce",
+        "produto"
+      ],
+      "resumo": "Fotos de produto, vídeos de marketing e posts por IA.",
+      "cuidado": "Pro pago.",
+      "em_uso": false
+    },
+    {
+      "id": "buzzy",
+      "nome": "Buzzy",
+      "url": "https://www.buzzy.now/",
+      "categoria": "geracao-ia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "freemium",
+      "licenca": "proprietária",
+      "tags": [
+        "video",
+        "imagem",
+        "mcp",
+        "anuncio"
+      ],
+      "resumo": "Agregador de modelos de vídeo e imagem (Kling, Sora, Nano Banana) com MCP e skills.",
+      "cuidado": "Pago por crédito.",
+      "em_uso": false
+    },
+    {
+      "id": "v0",
+      "nome": "v0",
+      "url": "https://v0.app/",
+      "categoria": "geracao-ia",
+      "stack": [
+        "react",
+        "tailwind"
+      ],
+      "acesso": "freemium",
+      "licenca": "proprietária",
+      "tags": [
+        "landing",
+        "prototipo",
+        "ia"
+      ],
+      "resumo": "Gera telas React/shadcn a partir de texto; bom para rascunho rápido.",
+      "cuidado": "Resultado com cara de IA se não houver direção visual.",
+      "em_uso": false
+    },
+    {
+      "id": "clerk",
+      "nome": "Clerk",
+      "url": "https://clerk.com/",
+      "categoria": "servico",
+      "stack": [
+        "react",
+        "next",
+        "qualquer"
+      ],
+      "acesso": "freemium",
+      "licenca": "proprietária",
+      "tags": [
+        "auth",
+        "login",
+        "usuarios"
+      ],
+      "resumo": "Login e gestão de usuários prontos, com componentes.",
+      "cuidado": "Chaves só em variável de ambiente; custo sobe por usuário ativo.",
+      "em_uso": false
+    },
+    {
+      "id": "lucide",
+      "nome": "Lucide",
+      "url": "https://lucide.dev/",
+      "categoria": "componentes",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "ISC",
+      "tags": [
+        "icones"
+      ],
+      "resumo": "Ícones padrão da stack (lucide-react).",
+      "cuidado": "",
+      "em_uso": true
+    },
+    {
+      "id": "multiplewindow3d",
+      "nome": "multipleWindow3dScene",
+      "url": "https://github.com/bgstaal/multipleWindow3dScene",
+      "categoria": "experimento",
+      "stack": [
+        "js",
+        "threejs"
+      ],
+      "acesso": "gratis",
+      "licenca": "conferir (GitHub)",
+      "tags": [
+        "3d",
+        "experimento",
+        "janelas"
+      ],
+      "resumo": "Cena three.js que continua entre várias janelas do navegador, sincronizadas por localStorage.",
+      "cuidado": "Truque de demo; não é componente pronto.",
+      "em_uso": false
+    }
+  ],
+  "tipos": {
+    "institucional": [
+      "navegacao",
+      "hero",
+      "cards",
+      "rolagem",
+      "formulario"
+    ],
+    "landing": [
+      "hero",
+      "cards",
+      "depoimentos",
+      "precos",
+      "formulario"
+    ],
+    "saas": [
+      "navegacao",
+      "hero",
+      "cards",
+      "precos",
+      "login",
+      "dashboard"
+    ],
+    "dashboard": [
+      "navegacao",
+      "dashboard",
+      "graficos",
+      "formulario"
+    ],
+    "ecommerce": [
+      "navegacao",
+      "hero",
+      "cards",
+      "imagens",
+      "formulario",
+      "login"
+    ],
+    "portfolio": [
+      "hero",
+      "cards",
+      "imagens",
+      "transicao"
+    ],
+    "app-ia": [
+      "chat-ia",
+      "formulario",
+      "login"
+    ]
+  },
+  "entrevista": [
+    {
+      "id": "nome",
+      "pergunta": "Qual o nome do projeto ou da marca?",
+      "obrigatoria": true
+    },
+    {
+      "id": "tipo",
+      "pergunta": "Que tipo de projeto é? (%s)",
+      "obrigatoria": true,
+      "por_que": "Define as seções padrão."
+    },
+    {
+      "id": "objetivo",
+      "pergunta": "Qual a única coisa que o projeto precisa conseguir?",
+      "obrigatoria": true,
+      "exemplo": "Gerar pedidos de orçamento de empresas da região."
+    },
+    {
+      "id": "publico",
+      "pergunta": "Quem vai usar ou visitar? Seja específico.",
+      "obrigatoria": true,
+      "exemplo": "Donos de pequenas empresas de 5 a 50 funcionários."
+    },
+    {
+      "id": "acao",
+      "pergunta": "Qual ação o visitante deve fazer, e para onde ela leva?",
+      "obrigatoria": true,
+      "exemplo": "Botão 'Solicitar atendimento' que abre WhatsApp com mensagem pronta."
+    },
+    {
+      "id": "referencias",
+      "pergunta": "Quais 3 a 5 sites ou telas reais você gosta, e o que exatamente em cada um?",
+      "obrigatoria": true,
+      "por_que": "Sem referência, o resultado sai com cara de IA.",
+      "minimo": 3
+    },
+    {
+      "id": "tom",
+      "pergunta": "Que tom e sensação o projeto deve passar? Três palavras.",
+      "obrigatoria": true,
+      "exemplo": "formal, técnico, confiável"
+    },
+    {
+      "id": "stack",
+      "pergunta": "Qual tecnologia? (react, vue, html…) Já existe código?",
+      "obrigatoria": true
+    },
+    {
+      "id": "marca",
+      "pergunta": "Já existem logo, cores e fontes? Quais?",
+      "obrigatoria": false,
+      "por_que": "Sem marca, a etapa 2 define uma."
+    },
+    {
+      "id": "secoes",
+      "pergunta": "Quais seções ou telas precisa ter? (deixe vazio para usar o padrão do tipo)",
+      "obrigatoria": false
+    },
+    {
+      "id": "efeitos",
+      "pergunta": "Quanto movimento? calmo, moderado ou intenso.",
+      "obrigatoria": false,
+      "por_que": "Calmo tira shaders, 3D e partículas das sugestões."
+    },
+    {
+      "id": "aceita_pago",
+      "pergunta": "Pode usar componente ou template pago? (sim ou nao)",
+      "obrigatoria": true,
+      "por_que": "Sem isso, só entram itens grátis."
+    },
+    {
+      "id": "restricoes",
+      "pergunta": "O que não pode aparecer ou ser prometido?",
+      "obrigatoria": false,
+      "exemplo": "Números sem comprovação, depoimentos inventados."
+    },
+    {
+      "id": "servicos",
+      "pergunta": "Precisa de login, pagamento, formulário, blog ou painel?",
+      "obrigatoria": false
+    },
+    {
+      "id": "conteudo",
+      "pergunta": "Os textos e imagens já existem ou serão criados?",
+      "obrigatoria": false
+    }
   ]
 }
