@@ -21,6 +21,10 @@ Funciona com qualquer IA ou pessoa no terminal; não depende de outro sistema. R
 
 ## Vídeos e imagens geradas por IA
 
+**Código primeiro:** interface, ícones, texto, formas abstratas, luz, vidro, partículas e aberturas são feitos em código
+(CSS, SVG, shader, Three.js): ficam nítidos, leves e reagem a mouse e scroll. Vídeo ou imagem gerada só para o que código
+não faz bem: objetos 3D realistas, pessoas, lugares, produto filmado. Cada item diz em `por_que_video` por que não dá em código.
+
 Não precisam estar prontos para começar. Durante a entrevista e a produção:
 
 1. Cada lugar que vai ter mídia vira um item em `midia` no briefing: `id`, `secao`, `tipo` (video ou imagem),

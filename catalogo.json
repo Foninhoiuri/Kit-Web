@@ -1481,12 +1481,13 @@
       "id": "midia",
       "pergunta": "Vai ter vídeo ou imagem gerada por IA? Em quais seções, agora ou depois?",
       "obrigatoria": false,
-      "por_que": "Cada mídia vira um espaço marcado no código com o prompt pronto; gerar depois é só colar o prompt e entregar o arquivo."
+      "por_que": "Código primeiro; vídeo só para 3D realista ou pessoas. Cada mídia vira um espaço marcado no código com o prompt pronto."
     }
   ],
   "midia": {
     "campos": "id, secao, tipo (video|imagem), formato (ex.: 16:9, loop 8 s, sem áudio), prompt, gerador, arquivo, status (planejado|gerado|aplicado)",
     "marcador": "No código, cada espaço de mídia leva data-midia=\"<id>\" e um substituto leve (gradiente ou imagem estática) até o arquivo chegar.",
-    "prompt": "Prompt de vídeo em inglês: assunto, ambiente, movimento de câmera, luz, paleta, ritmo, duração, loop sem corte, proporção; sempre 'no text, no logos, no people faces' quando for fundo."
+    "prompt": "Prompt de vídeo em inglês: assunto, ambiente, movimento de câmera, luz, paleta, ritmo, duração, loop sem corte, proporção; sempre 'no text, no logos, no people faces' quando for fundo.",
+    "regra": "Código primeiro: interface, ícones, texto, formas abstratas, luz, vidro, partículas e aberturas são feitos em código (CSS, SVG, shader, Three.js), que fica nítido, leve e reage a mouse e scroll. Vídeo ou imagem gerada só para o que código não faz bem: objetos 3D realistas, pessoas, lugares e produto filmado. Cada item de mídia diz em 'por_que_video' por que não dá em código."
   }
 }

@@ -23,7 +23,7 @@ o que olhar primeiro, o que usar em cada seção e o que **não** pode ir para o
 - **Entrevista antes de sugerir:** um briefing do projeto; o kit pergunta o que falta (público, ação, referências,
   orçamento para itens pagos) e insiste quando há pouca referência.
 - **Guia por etapa:** das referências até a checagem de licença, em 7 passos, filtrado pelo briefing.
-- **Vídeos com prompt pronto:** cada espaço de vídeo ou imagem gerada por IA nasce marcado no código, com o prompt
+- **Código primeiro, vídeo quando precisa:** o que dá em código fica em código; pessoas e 3D realista viram vídeo. Cada espaço de vídeo ou imagem gerada por IA nasce marcado no código, com o prompt
   escrito no briefing; gerar depois é colar no gerador e entregar o arquivo.
 - **Atalho por seção:** hero, cards, fundo, rolagem, preços, dashboard, login…
 - **Licença visível:** grátis, grátis com parte Pro, freemium ou pago, mais a licença de cada item.
