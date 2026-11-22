@@ -3,6 +3,8 @@
 Uso (Python 3.9+, só biblioteca padrão; funciona em qualquer IA ou terminal):
   python kitweb.py briefing projeto.json [--trilha site|software]   cria o briefing da trilha
   python kitweb.py entrevista --briefing projeto.json              o que falta perguntar
+  python kitweb.py ux [--trilha site|software]                     fundamentos de UX/UI (o piso de todo projeto)
+  python kitweb.py recriar ID                                      componente pago: só referência, recriar limpo
   python kitweb.py guia --briefing projeto.json [--secao hero]     roteiro da trilha, ou atalhos de uma seção
   python kitweb.py buscar fundo animado [--stack vue] [--categoria componentes] [--gratis] [--n 8]
   python kitweb.py listar [--categoria referencia]
@@ -77,9 +79,20 @@ def ordenar(itens, pontos=None):
     return sorted(itens, key=lambda i: (-pontos.get(i["id"], 0), not i.get("em_uso"), ORDEM_ACESSO.get(i["acesso"], 9), i["nome"].casefold()))
 
 
+RECRIAVEIS = ("componentes", "comunidade", "animacao", "shaders-3d", "graficos", "experimento")
+
+
+def recriavel(i):
+    """Componente pago (ou com parte Pro): entra só como referência e é recriado limpo."""
+    return i["categoria"] in RECRIAVEIS and i["acesso"] in ("pago", "gratis+pro", "freemium")
+
+
 def linha(i):
     uso = " [em uso]" if i.get("em_uso") else ""
     aviso = "  ! " + i["cuidado"] if i.get("cuidado") else ""
+    if recriavel(i):
+        aviso += "\n  >> %s: só referência; recrie limpo com as skills: python kitweb.py recriar %s" % (
+            "Pago" if i["acesso"] == "pago" else "Parte paga", i["id"])
     return "- %s (%s)%s — %s | %s | %s\n  %s%s" % (i["nome"], i["id"], uso, i["acesso"], i["licenca"], ", ".join(i["stack"]), i["url"], ("\n  " + i["resumo"]) + aviso if i.get("resumo") else aviso)
 
 
@@ -244,10 +257,57 @@ def escolher_secao(d, itens, secao, n, calmo):
     return por_tags(base, d["secoes"][secao], n)
 
 
+def skills_da(etapa, trilha):
+    """Skills obrigatórias da etapa; 'nome@site' vale só na trilha site."""
+    return [s.split("@")[0] for s in etapa.get("skills", []) if "@" not in s or s.split("@")[1] == trilha]
+
+
+def sem_ux(d, b, trilha):
+    feitas = set(b.get("ux_aplicado") or {})
+    todas = dict.fromkeys(s for e in da_trilha(d["etapas"], trilha) for s in skills_da(e, trilha))
+    return [s for s in todas if s not in feitas]
+
+
+def cmd_recriar(a, d):
+    item = next((i for i in d["itens"] if i["id"] == a.id), None) if a.id else None
+    if a.id and not item:
+        sys.exit("Item '%s' não existe. Use buscar." % a.id)
+    r = d["recriar"]
+    if a.json:
+        return print(json.dumps({"item": item, **r}, ensure_ascii=False, indent=2))
+    if item:
+        print("# Recriar limpo a partir de %s (%s)\nReferência: %s\n" % (item["nome"], item["acesso"], item["url"]))
+    print(r["regra"] + "\n")
+    print("\n".join("%d. %s" % (n, p.replace("<id>", item["id"] if item else "<id>")) for n, p in enumerate(r["passos"], 1)))
+    print("\nSkills: " + ", ".join(r["skills"]))
+
+
+def fundamentos(d, trilha=None):
+    return [g for g in d["fundamentos"]["grupos"] if not trilha or trilha in g.get("trilhas", TRILHAS)]
+
+
+def mostrar_fundamentos(grupos):
+    for g in grupos:
+        print("### %s" % g["grupo"])
+        print("\n".join("- " + r for r in g["regras"]))
+
+
+def cmd_ux(a, d):
+    trilha = plano(a.trilha).strip() if a.trilha else None
+    grupos = fundamentos(d, trilha)
+    if a.json:
+        return print(json.dumps({"sobre": d["fundamentos"]["_sobre"], "grupos": grupos,
+                                 "fontes": [i for i in d["itens"] if i["categoria"] == "ux-base"]}, ensure_ascii=False, indent=2))
+    print("# Fundamentos de UX/UI%s\n%s\n" % (" (trilha %s)" % trilha if trilha else "", d["fundamentos"]["_sobre"]))
+    mostrar_fundamentos(grupos)
+    print("\nFontes e skills (categoria ux-base):\n" + "\n".join(linha(i) for i in ordenar([i for i in d["itens"] if i["categoria"] == "ux-base"])))
+
+
 def cmd_guia(a, d):
     b = ler_briefing(a.briefing)
     stack, gratis, secoes, calmo = contexto(a, d, b)
-    itens = filtrar(d["itens"], stack, None, gratis)
+    # pagos recriáveis ficam no guia como referência (marcados por linha()); o resto pago sai se não aceita pago
+    itens = [i for i in filtrar(d["itens"], stack) if not gratis or i["acesso"] in ("gratis", "gratis+pro") or recriavel(i)]
     if a.secao:
         secao = plano(a.secao)
         if secao not in d["secoes"]:
@@ -270,21 +330,25 @@ def cmd_guia(a, d):
             cands = [i for i in itens if i["categoria"] in etapa["categorias"]]
             e["itens"] = [i for i in ordenar(cands) if pedido and pontuar(i, pedido) > 0][: a.n]
         else:
-            e["itens"] = ordenar([i for i in itens if i["categoria"] in etapa["categorias"]])[: a.n]
+            e["itens"] = ordenar([i for i in itens if i["categoria"] in etapa["categorias"]])[: None if etapa.get("fundamentos") else a.n]
         if etapa["categorias"] == ["referencia"] and b:
             e["do_briefing"] = b.get("referencias") or []
+        if etapa.get("fundamentos"):
+            e["regras"] = fundamentos(d, trilha)
+        e["skills"] = skills_da(etapa, trilha)
         roteiro.append(e)
+    ux_falta = sem_ux(d, b, trilha) if b else []
     estudar = sem_estudo(b)
     site = trilha == "site"
     conceito_falta = sem_conceito(b, secoes) if b and site else []
     arte_falta = sem_direcao(b, por_secao=site) if b else []
     telas_falta = sem_telas(b) if b and not site else []
     if a.json:
-        return print(json.dumps({"pendentes": falta, "sem_estudo": estudar, "conceito": b.get("conceito"), "sem_conceito": conceito_falta, "direcao_arte": b.get("direcao_arte"), "sem_direcao_arte": arte_falta, "telas": b.get("telas"), "sem_telas": telas_falta, "trilha": trilha, "stack": stack, "so_gratis": gratis, "secoes": secoes, "roteiro": roteiro}, ensure_ascii=False, indent=2))
+        return print(json.dumps({"pendentes": falta, "sem_estudo": estudar, "conceito": b.get("conceito"), "sem_conceito": conceito_falta, "direcao_arte": b.get("direcao_arte"), "sem_direcao_arte": arte_falta, "telas": b.get("telas"), "sem_telas": telas_falta, "sem_skills_ux": ux_falta, "recriar": d["recriar"], "trilha": trilha, "stack": stack, "so_gratis": gratis, "secoes": secoes, "roteiro": roteiro}, ensure_ascii=False, indent=2))
     if b:
         obrig = [q for q in falta if q["obrigatoria"]]
         print("# %s — %s | trilha %s | stack %s | %s | seções: %s" % (b.get("nome") or "projeto sem nome", b.get("tipo") or "tipo ?", trilha, stack or "?",
-              "só grátis" if gratis else "pago liberado", ", ".join(secoes) or "?"))
+              "pagos só como referência (recriar limpo)" if gratis else "pago liberado; componente pago ainda se recria limpo", ", ".join(secoes) or "?"))
         if obrig:
             print("! Entreviste antes: %d pergunta(s) obrigatória(s) sem resposta (%s). Rode `entrevista --briefing`."
                   % (len(obrig), ", ".join(q["id"] for q in obrig)))
@@ -295,11 +359,20 @@ def cmd_guia(a, d):
             print("! Planeje a direção %s antes de construir: falta %s" % ("de arte" if site else "visual do sistema", "; ".join(arte_falta)))
         if telas_falta:
             print("! Planeje tarefas e telas antes de construir: falta %s" % "; ".join(telas_falta))
+        if ux_falta:
+            print("! Skills de UI/UX ainda não aplicadas (%d): %s. Aplique cada uma na sua etapa e grave em ux_aplicado.<skill> o que ela mudou; não entregue com pendência."
+                  % (len(ux_falta), ", ".join(ux_falta)))
         if estudar:
             print("! Estude antes de construir (pesa mais que Impeccable e Taste): %d referência(s) sem 'estudo': %s"
                   % (len(estudar), ", ".join(estudar)))
     for e in roteiro:
         print("\n## %s\n%s" % (e["titulo"], e["dica"]))
+        if e["skills"]:
+            feitas = set((b.get("ux_aplicado") or {}) if b else ())
+            print("Aplicar (obrigatório): " + ", ".join(s + (" [feito]" if s in feitas else "") for s in e["skills"]))
+        if e.get("regras"):
+            mostrar_fundamentos(e["regras"])
+            print("Para aprofundar e revisar:")
         if "do_briefing" in e:
             refs = e["do_briefing"]
             print("Do briefing (%d):" % len(refs))
@@ -354,6 +427,7 @@ def cmd_briefing(a, d):
     trilha = plano(a.trilha or "site").strip()
     modelo = {"trilha": trilha} | {q["id"]: ([] if q["id"] == "referencias" else "") for q in da_trilha(d["entrevista"], trilha)}
     modelo["referencias"] = [{"url": "", "olhar": "", "estudo": ""}]
+    modelo["ux_aplicado"] = {}
     if trilha == "site":
         modelo["conceito"] = {"metafora": "", "por_que": "", "opcoes": {"literais": [], "nao_literais": []}, "secoes": {}}
         modelo["direcao_arte"] = {"geral": {"mundo": "", "paleta": "", "materiais": "", "luz": "", "camera": "", "ritmo": "", "modelos": []},
@@ -509,6 +583,22 @@ def cmd_teste(a, d):
     assert len(sem_estudo(b)) == 3 and not sem_estudo({"referencias": [{"url": "x", "estudo": "hero com objeto central"}]})
     assert not contexto(argparse.Namespace(stack=None, gratis=False), d, {"aceita_pago": "Sim (uso próprio)"})[1]
     assert not any(INTENSOS & set(i["tags"]) for i in escolher_secao(d, d["itens"], "hero", 10, True))
+    for t in TRILHAS:
+        etapas_t = da_trilha(d["etapas"], t)
+        assert etapas_t[0].get("fundamentos"), "fundamentos têm que ser a 1ª etapa de " + t
+        assert any(e["titulo"].startswith("Checklist de UX") for e in etapas_t), "falta checklist em " + t
+        assert fundamentos(d, t) and all(g["regras"] for g in fundamentos(d, t))
+    assert not any(g["grupo"].startswith("Conversão") for g in fundamentos(d, "software"))
+    assert any(i["categoria"] == "ux-base" for i in d["itens"])
+    for t in TRILHAS:
+        falta = sem_ux(d, {}, t)
+        assert "ux-heuristics" in falta and "accessibility-review" in falta, t
+        assert not sem_ux(d, {"ux_aplicado": dict.fromkeys(falta, "ok")}, t)
+    assert "seo-audit" in sem_ux(d, {}, "site") and "seo-audit" not in sem_ux(d, {}, "software")
+    pago = next(i for i in d["itens"] if i["acesso"] == "pago" and i["categoria"] == "componentes")
+    assert recriavel(pago) and "recriar " + pago["id"] in linha(pago)
+    assert not any(recriavel(i) for i in d["itens"] if i["categoria"] in ("servico", "ux-base", "referencia"))
+    assert d["recriar"]["passos"] and d["recriar"]["skills"]
     print("ok: %d itens, %d categorias, %d seções" % (len(ids), len(d["categorias"]), len(d["secoes"])))
 
 
@@ -550,6 +640,12 @@ def main():
     en.add_argument("--briefing", help="sem arquivo, lista todas as perguntas")
     en.add_argument("--trilha", choices=TRILHAS)
     en.add_argument("--json", action="store_true")
+    ux = sub.add_parser("ux", help="fundamentos de UX/UI: o piso de todo projeto")
+    ux.add_argument("--trilha", choices=TRILHAS)
+    ux.add_argument("--json", action="store_true")
+    rc = sub.add_parser("recriar", help="recriar limpo um componente pago, usando-o só de referência")
+    rc.add_argument("id", nargs="?")
+    rc.add_argument("--json", action="store_true")
     sub.add_parser("categorias")
     sub.add_parser("secoes")
     ad = sub.add_parser("adicionar")

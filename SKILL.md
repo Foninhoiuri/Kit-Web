@@ -1,6 +1,6 @@
 ---
 name: kit-web
-description: "Guia e catálogo de bibliotecas de componentes, animação, shaders, referências de design, skills de design e serviços para projetos web (sites, landing pages, painéis, apps web). Use sempre que for criar ou melhorar um projeto web, escolher componentes ou efeitos, procurar referência visual, ou quando aparecer uma biblioteca ou site de design novo para guardar."
+description: "Fundamentos de UX/UI (princípios, leis, heurísticas, acessibilidade e checklists) como base de todo projeto, mais guia e catálogo de bibliotecas de componentes, animação, shaders, referências de design, skills de design e serviços para projetos web (sites, landing pages, painéis, apps web). Use sempre que for criar ou melhorar um projeto web, escolher componentes ou efeitos, procurar referência visual, ou quando aparecer uma biblioteca ou site de design novo para guardar."
 ---
 
 # Kit Web
@@ -8,12 +8,57 @@ description: "Guia e catálogo de bibliotecas de componentes, animação, shader
 Ferramenta autônoma: uma pasta com `kitweb.py` (Python 3.9+, só biblioteca padrão) e `catalogo.json`.
 Funciona com qualquer IA ou pessoa no terminal; não depende de outro sistema. Rode os comandos a partir desta pasta.
 
+## A base: fundamentos de UX/UI
+
+Todo projeto, site ou software, começa e termina pela mesma base, sem precisar ditar regra por regra:
+
+- **Primeira etapa das duas trilhas:** `python kitweb.py ux --trilha site|software` (ou a etapa 1 do `guia`) traz os
+  fundamentos: objetivo e tarefa, hierarquia, Gestalt, carga cognitiva, feedback, estados, navegação, formulários,
+  consistência, acessibilidade WCAG AA, texto, responsivo e desempenho, ética e, por trilha, conversão ou uso diário.
+  São o piso: nenhuma referência, skill ou efeito passa por cima deles. Ordem: **fundamentos (piso) > estudo das
+  referências (caráter) > Impeccable > Taste (refino)**.
+- **Skills de UX (categoria `ux-base`)**, instale uma vez:
+  - Claude Code: `/plugin marketplace add wondelai/skills`, depois `/plugin install ux-design@wondelai-skills` e
+    `/plugin install metaskills@wondelai-skills`. Outras IAs: `npx skills add wondelai/skills/<nome> --global`.
+  - uxuiprinciples: copie o `SKILL.md` de `vibe-coding-advisor`, `uxui-evaluator` e `interface-auditor` para a pasta de
+    skills (ou use o MCP grátis `@uxuiprinciples/mcp-server`). Rode o `vibe-coding-advisor` antes de gerar componentes.
+  - Laws of UX: só consulta (licença CC BY-NC-ND: não copie o texto).
+- **Penúltima etapa, Checklist de UX antes de entregar:** para cada página e componente, o checklist dele no
+  Checklist Design, item por item; depois `ux-heuristics` (severidade 0 a 4), `uxui-evaluator`, `design:accessibility-review`,
+  `design:design-critique` e, em site, `marketing:seo-audit`. Severidade 3 e 4 se corrige antes de entregar.
+- Skill não instalada? Os fundamentos do `catalogo.json` valem sozinhos; nunca pule a base por falta de skill.
+
+## Skills de UI/UX são obrigatórias, etapa por etapa
+
+Cada etapa do `guia` traz uma linha **Aplicar (obrigatório)** com as skills daquela etapa. Rode cada uma no que a etapa
+produziu e grave no briefing, em `ux_aplicado.<skill>`, o que ela mudou (uma frase basta). O guia lista no topo toda
+skill ainda não aplicada; **não entregue com pendência**. Sem a skill instalada, aplique o método dela pelos fundamentos e
+registre "sem a skill, aplicado pelos fundamentos".
+
+| Skill | Etapas | Onde instalar |
+| --- | --- | --- |
+| `vibe-coding-advisor`, `uxui-evaluator`, `interface-auditor` | fundamentos, base, checklist | uxuiprinciples/agent-skills |
+| `ux-heuristics`, `design-everyday-things`, `refactoring-ui`, `web-typography`, `microinteractions`, `top-design` | telas, direção, estados, efeitos, movimento, checklist | wondelai/skills, coleção `ux-design` |
+| `impeccable`, `design-taste-frontend` | direção | itens `impeccable` e `tasteskill` |
+| `ux-copy`, `accessibility-review`, `design-critique` | estados, acessibilidade, checklist | plugin `design` do Claude |
+| `seo-audit` (só site) | checklist | plugin `marketing` do Claude |
+
+## Componente pago: só referência, recriado limpo
+
+Biblioteca paga, ou a parte Pro de uma `gratis+pro`, **não entra no projeto**. O guia mostra esses itens marcados com
+`>>` e `python kitweb.py recriar <id>` dá o processo: especificar por observação da demo pública (capturas, medidas,
+tempos, estados), sem abrir nem copiar o código-fonte nem usar assets, nome ou texto do original; implementar só a partir
+da especificação, de preferência em outra sessão; aplicar as skills (`vibe-coding-advisor`, `refactoring-ui`,
+`web-typography`, `microinteractions`, `reanimate`, `impeccable`, `design-taste-frontend`, `accessibility-review`); comparar
+lado a lado; registrar como "recriado a partir de referência visual, código próprio".
+
 ## Duas trilhas
 
-- **site:** sites e páginas (institucional, landing, portfólio, e-commerce). Etapas: estudo, conceito, direção de arte por
-  seção, base, efeitos por seção, movimento, serviços e mídia, licença.
-- **software:** sistemas e apps (painéis, SaaS, sistemas internos, apps de IA). Etapas: estudo, tarefas e telas, direção
-  visual do sistema, base, estados e dados, movimento funcional, serviços, acessibilidade e uso diário, licença.
+- **site:** sites e páginas (institucional, landing, portfólio, e-commerce). Etapas: fundamentos de UX/UI, estudo, conceito,
+  direção de arte por seção, base, efeitos por seção, movimento, serviços e mídia, checklist de UX, licença.
+- **software:** sistemas e apps (painéis, SaaS, sistemas internos, apps de IA). Etapas: fundamentos de UX/UI, estudo, tarefas
+  e telas, direção visual do sistema, base, estados e dados, movimento funcional, serviços, acessibilidade e uso diário,
+  checklist de UX, licença.
 
 A trilha sai do `tipo` do briefing (ou de `trilha` no briefing, ou de `--trilha`). Os passos 5 e 6 abaixo são da trilha site;
 na trilha software, no lugar deles: **tarefas e telas** (`telas`: objetivo, dados, ações e estados de cada tela) e **direção
@@ -42,8 +87,9 @@ visual do sistema** (`direcao_arte.geral`: tokens, densidade, tipografia, ícone
    produzir) e, para cada seção, `fundo`, `elemento`, `passagem` (como chega e como vai para a próxima), `microinteracoes` e
    `pequenos_elementos`. Grave em `direcao_arte`. Modelos melhores: Blender ou Spline, ou bancos com licença clara (Poly Haven CC0).
    O guia avisa enquanto faltar o plano geral ou algum campo de seção.
-7. `python kitweb.py guia --briefing projeto.json` dá o roteiro da trilha já filtrado: stack, só grátis se
-   `aceita_pago` não for "sim", seções do tipo de projeto, sem shaders/3D se `efeitos` for "calmo".
+7. `python kitweb.py guia --briefing projeto.json` dá o roteiro da trilha já filtrado: stack, componentes pagos só como
+   referência para recriar (serviços pagos saem se `aceita_pago` não for "sim"), seções do tipo de projeto, sem shaders/3D
+   se `efeitos` for "calmo", e as skills de UI/UX que faltam aplicar.
    Se ainda faltar pergunta obrigatória, o guia avisa no topo; não comece a construir antes de responder.
 
 ## Vídeos e imagens geradas por IA
@@ -78,7 +124,8 @@ Não precisam estar prontos para começar. Durante a entrevista e a produção:
 2. Referência real antes de componente. Copie a ideia, nunca código, marca ou identidade de terceiros.
 3. Um efeito forte por tela. Anime só `transform`/`opacity`, respeite `prefers-reduced-motion`.
 4. **Licença e venda** (o ponto de atenção destas bibliotecas):
-   - `gratis+pro`: só a parte gratuita entra sem compra; o que estiver marcado Pro exige licença.
+   - `gratis+pro`: só a parte gratuita entra; o que estiver marcado Pro vira referência e é recriado limpo (`recriar`).
+   - `pago` (componente): nunca entra; recriado limpo a partir da demo pública.
    - `MIT + Commons Clause` (React Bits): pode usar no site ou app do cliente; não pode revender o componente
      (kit, template, biblioteca própria).
    - `comunidade` e `por componente`: cada item tem autor e licença próprios; confira na origem.

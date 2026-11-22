@@ -1,6 +1,7 @@
 {
   "_sobre": "Catálogo do Kit Web: bibliotecas, referências e ferramentas para projetos web. Fonte única; edite aqui ou pelo comando `adicionar`. Campos: acesso = gratis | gratis+pro | freemium | pago | conferir; licenca = texto curto (MIT, MIT + Commons Clause, por componente, proprietaria, conferir).",
   "categorias": {
+    "ux-base": "Base de UX/UI: princípios, leis, heurísticas, skills e checklists que valem para qualquer site ou software, desde a raiz.",
     "componentes": "Bibliotecas de componentes organizadas, com documentação e instalação.",
     "comunidade": "Coleções soltas de componentes e demos de vários autores; licença varia por item.",
     "animacao": "Motores e ferramentas de animação e transição.",
@@ -13,6 +14,150 @@
     "servico": "Serviços prontos para plugar no projeto (login, pagamento etc.).",
     "experimento": "Demos e truques técnicos para estudar.",
     "modelos-3d": "Modelos 3D, ambientes (HDRI) e texturas prontos ou ferramentas para modelar."
+  },
+  "fundamentos": {
+    "_sobre": "Piso de UX/UI de todo projeto, site ou software. Nenhuma referência, skill ou efeito passa por cima disto. Texto próprio; para aprofundar, veja os itens da categoria ux-base.",
+    "grupos": [
+      {
+        "grupo": "Objetivo e tarefa",
+        "regras": [
+          "Cada tela tem um objetivo principal e uma ação principal; o resto é secundário e parece secundário.",
+          "A tarefa mais frequente é a mais curta e a mais visível.",
+          "Corte o que não ajuda o objetivo: menos opções decidem mais rápido (lei de Hick).",
+          "Complexidade que não some fica com o sistema, não com a pessoa (lei de Tesler): padrões bons, preenchimento automático, valores sugeridos."
+        ]
+      },
+      {
+        "grupo": "Hierarquia visual",
+        "regras": [
+          "Hierarquia vem de tamanho, peso, cor e espaço, nesta ordem de força; não use só tamanho.",
+          "Um ponto focal por tela ou seção. Se tudo destaca, nada destaca (efeito Von Restorff vale para um item só).",
+          "Títulos dizem o que é a seção; leitura em F ou Z: o importante no topo e à esquerda.",
+          "Texto secundário com menos contraste, nunca menor que o legível."
+        ]
+      },
+      {
+        "grupo": "Agrupamento e layout (Gestalt)",
+        "regras": [
+          "Coisas relacionadas ficam próximas; mais espaço entre grupos do que dentro deles (proximidade).",
+          "Mesma função, mesma aparência (semelhança); região comum (card, fundo) agrupa.",
+          "Grade e escala de espaçamento fixas (ex.: 4/8 px); alinhamentos consistentes.",
+          "Largura de leitura de 45 a 75 caracteres por linha."
+        ]
+      },
+      {
+        "grupo": "Carga cognitiva e memória",
+        "regras": [
+          "Reconhecer é melhor que lembrar: opções visíveis, rótulos claros, histórico e sugestões.",
+          "Agrupe informação em blocos pequenos (lei de Miller); revele o avançado aos poucos (divulgação progressiva).",
+          "Siga as convenções que as pessoas já conhecem de outros sites e apps (lei de Jakob).",
+          "Não faça pensar: nomes óbvios, ícones com rótulo quando houver dúvida."
+        ]
+      },
+      {
+        "grupo": "Interação e feedback",
+        "regras": [
+          "Toda ação tem resposta visível em até 100 ms; operação longa mostra progresso.",
+          "Alvos de clique grandes e perto de onde a mão ou o cursor já está (lei de Fitts); toque com no mínimo 44 px.",
+          "Affordance e sinal claros: o que é clicável parece clicável; estados hover, foco, ativo e desativado diferentes.",
+          "Ação destrutiva pede confirmação ou permite desfazer; desfazer é melhor que confirmar."
+        ]
+      },
+      {
+        "grupo": "Estados",
+        "regras": [
+          "Toda tela e componente com dados tem: vazio, carregando, erro, sucesso e, se houver, sem permissão e parcial.",
+          "Estado vazio explica o que é e oferece a primeira ação.",
+          "Carregamento com esqueleto no lugar do conteúdo, não tela em branco.",
+          "Mensagem de erro diz o que houve, por quê e como resolver, perto de onde aconteceu."
+        ]
+      },
+      {
+        "grupo": "Navegação e arquitetura da informação",
+        "regras": [
+          "A pessoa sempre sabe onde está, de onde veio e para onde pode ir.",
+          "Menu com os nomes que o usuário usa, não os da empresa; poucos itens no primeiro nível.",
+          "Mesma navegação em todas as telas; o caminho de volta nunca some.",
+          "Busca quando houver muito conteúdo; filtros mostram quantos resultados restam."
+        ]
+      },
+      {
+        "grupo": "Formulários",
+        "regras": [
+          "Peça só o necessário; um campo por linha; rótulo sempre visível (placeholder não é rótulo).",
+          "Tipo certo de campo e de teclado; formato de exemplo junto do campo.",
+          "Validação ao sair do campo, com mensagem específica; nunca apague o que a pessoa digitou.",
+          "Botão principal diz o resultado (Criar conta), não Enviar."
+        ]
+      },
+      {
+        "grupo": "Consistência e padrões",
+        "regras": [
+          "Design system com tokens (cor com significado fixo, tipografia, espaçamento, raio, sombra).",
+          "Um componente para cada função; a mesma palavra para a mesma coisa em todo o produto.",
+          "Cor nunca é o único sinal de estado: junte ícone ou texto."
+        ]
+      },
+      {
+        "grupo": "Acessibilidade (WCAG 2.2 AA)",
+        "regras": [
+          "Contraste mínimo 4,5:1 para texto e 3:1 para texto grande e elementos de interface.",
+          "Tudo funciona pelo teclado, com foco visível e ordem lógica.",
+          "HTML semântico; imagem com texto alternativo; campo com rótulo associado.",
+          "Respeite prefers-reduced-motion e o tamanho de fonte do usuário; nada pisca mais de 3 vezes por segundo."
+        ]
+      },
+      {
+        "grupo": "Texto de interface",
+        "regras": [
+          "Frases curtas, na voz da marca, com a palavra mais importante primeiro.",
+          "Botões e links dizem o que fazem; nada de clique aqui.",
+          "Números, datas e moedas no formato do país do usuário."
+        ]
+      },
+      {
+        "grupo": "Responsivo e desempenho",
+        "regras": [
+          "Comece pelo celular; a hierarquia se mantém em todos os tamanhos.",
+          "Conteúdo principal em até 2,5 s (LCP), sem pulos de layout (CLS) e resposta ao toque rápida (INP).",
+          "Imagem no tamanho certo e em formato moderno; efeito pesado nunca atrasa o conteúdo."
+        ]
+      },
+      {
+        "grupo": "Confiança e ética",
+        "regras": [
+          "Nada de padrão enganoso: custo escondido, cancelamento difícil, caixa pré-marcada, urgência falsa.",
+          "Preço, prazo e condições claros antes do compromisso.",
+          "Prova social, contato e políticas fáceis de achar."
+        ],
+        "trilhas": [
+          "site",
+          "software"
+        ]
+      },
+      {
+        "grupo": "Conversão (site)",
+        "trilhas": [
+          "site"
+        ],
+        "regras": [
+          "Primeira dobra responde: o que é, para quem e qual o próximo passo.",
+          "Uma chamada principal repetida ao longo da página; as outras são secundárias.",
+          "Objeções respondidas antes do pedido: prova, garantia, perguntas frequentes."
+        ]
+      },
+      {
+        "grupo": "Uso diário (software)",
+        "trilhas": [
+          "software"
+        ],
+        "regras": [
+          "Densidade ajustada a quem usa o dia todo; atalhos de teclado nas ações frequentes.",
+          "Lembrar filtros, ordenação e o último lugar visitado.",
+          "Ação em lote para o que se repete; tabelas com ordenação, busca e colunas fixas."
+        ]
+      }
+    ]
   },
   "secoes": {
     "hero": [
@@ -102,6 +247,21 @@
   },
   "etapas": [
     {
+      "titulo": "Fundamentos de UX/UI (o piso de tudo, antes de qualquer outra etapa)",
+      "categorias": [
+        "ux-base"
+      ],
+      "trilhas": [
+        "site",
+        "software"
+      ],
+      "fundamentos": true,
+      "dica": "Leia os fundamentos abaixo e mantenha-os em todas as etapas: são o piso, nenhuma referência ou skill passa por cima deles. O estudo das referências define o caráter; Impeccable e Taste refinam; os fundamentos garantem que funciona. Instale as skills de UX da categoria ux-base e use o vibe-coding-advisor (uxuiprinciples) antes de gerar componentes.",
+      "skills": [
+        "vibe-coding-advisor"
+      ]
+    },
+    {
       "titulo": "Estudo das referências (pesa mais que qualquer skill)",
       "categorias": [
         "referencia"
@@ -128,7 +288,11 @@
       ],
       "categorias": [],
       "telas": true,
-      "dica": "Quem usa no dia a dia e quais tarefas faz mais. Liste as telas e o caminho entre elas; para cada tela grave em telas: objetivo, dados (o que mostra), acoes (o que a pessoa faz ali) e estados (vazio, carregando, erro, sucesso, sem permissão). A tarefa mais frequente tem que ser a mais rápida."
+      "dica": "Quem usa no dia a dia e quais tarefas faz mais. Liste as telas e o caminho entre elas; para cada tela grave em telas: objetivo, dados (o que mostra), acoes (o que a pessoa faz ali) e estados (vazio, carregando, erro, sucesso, sem permissão). A tarefa mais frequente tem que ser a mais rápida.",
+      "skills": [
+        "ux-heuristics",
+        "design-everyday-things"
+      ]
     },
     {
       "titulo": "Direção de arte (geral e por seção)",
@@ -141,6 +305,13 @@
       "direcao": true,
       "trilhas": [
         "site"
+      ],
+      "skills": [
+        "refactoring-ui",
+        "web-typography",
+        "top-design",
+        "impeccable",
+        "design-taste-frontend"
       ]
     },
     {
@@ -153,7 +324,13 @@
         "skill-ia"
       ],
       "direcao_sistema": true,
-      "dica": "Depois do estudo: tokens (cores com significado fixo, espaçamento, raio), densidade (informação por tela), tipografia, ícones, modo claro ou escuro. Siga o design system existente se houver. Grave em direcao_arte.geral. Impeccable e em seguida Taste refinam."
+      "dica": "Depois do estudo: tokens (cores com significado fixo, espaçamento, raio), densidade (informação por tela), tipografia, ícones, modo claro ou escuro. Siga o design system existente se houver. Grave em direcao_arte.geral. Impeccable e em seguida Taste refinam.",
+      "skills": [
+        "refactoring-ui",
+        "web-typography",
+        "impeccable",
+        "design-taste-frontend"
+      ]
     },
     {
       "titulo": "Base de componentes",
@@ -164,6 +341,10 @@
       "trilhas": [
         "site",
         "software"
+      ],
+      "skills": [
+        "vibe-coding-advisor",
+        "refactoring-ui"
       ]
     },
     {
@@ -178,6 +359,10 @@
       "por_secao": true,
       "trilhas": [
         "site"
+      ],
+      "skills": [
+        "top-design",
+        "microinteractions"
       ]
     },
     {
@@ -189,7 +374,12 @@
         "componentes",
         "graficos"
       ],
-      "dica": "Cada tela com todos os estados desenhados: vazio (com o que fazer), carregando (skeleton com a grade real), erro (o que houve e como resolver), sucesso e sem permissão. Use dados de exemplo realistas, nunca lorem ipsum; tabelas e gráficos com os volumes reais esperados."
+      "dica": "Cada tela com todos os estados desenhados: vazio (com o que fazer), carregando (skeleton com a grade real), erro (o que houve e como resolver), sucesso e sem permissão. Use dados de exemplo realistas, nunca lorem ipsum; tabelas e gráficos com os volumes reais esperados.",
+      "skills": [
+        "ux-heuristics",
+        "design-everyday-things",
+        "ux-copy"
+      ]
     },
     {
       "titulo": "Movimento",
@@ -200,6 +390,9 @@
       "trilhas": [
         "site",
         "software"
+      ],
+      "skills": [
+        "microinteractions"
       ]
     },
     {
@@ -221,7 +414,29 @@
         "software"
       ],
       "categorias": [],
-      "dica": "Teclado em tudo (foco visível, atalhos para a tarefa mais frequente), contraste, alvos de toque de 44 px, responsivo de verdade, textos claros nos erros. Teste a tarefa principal do começo ao fim como o usuário faria."
+      "dica": "Teclado em tudo (foco visível, atalhos para a tarefa mais frequente), contraste, alvos de toque de 44 px, responsivo de verdade, textos claros nos erros. Teste a tarefa principal do começo ao fim como o usuário faria.",
+      "skills": [
+        "accessibility-review"
+      ]
+    },
+    {
+      "titulo": "Checklist de UX antes de entregar",
+      "categorias": [
+        "ux-base"
+      ],
+      "trilhas": [
+        "site",
+        "software"
+      ],
+      "dica": "Para cada página e componente, abra o checklist correspondente no Checklist Design e confira item por item. Depois rode as revisões: ux-heuristics (severidade 0 a 4), uxui-evaluator, design:accessibility-review, design:design-critique e, em site, marketing:seo-audit. Corrija tudo de severidade 3 e 4 antes de entregar e anote o resto no projeto.",
+      "skills": [
+        "ux-heuristics",
+        "uxui-evaluator",
+        "interface-auditor",
+        "accessibility-review",
+        "design-critique",
+        "seo-audit@site"
+      ]
     },
     {
       "titulo": "Licença antes de entregar",
@@ -234,6 +449,122 @@
     }
   ],
   "itens": [
+    {
+      "id": "wondelai-ux-design",
+      "nome": "wondelai skills: coleção ux-design",
+      "url": "https://github.com/wondelai/skills",
+      "categoria": "ux-base",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "MIT",
+      "tags": [
+        "skill",
+        "ia",
+        "ux",
+        "heuristicas",
+        "tipografia",
+        "acessibilidade",
+        "design-system",
+        "microinteracao"
+      ],
+      "resumo": "Skills tiradas de livros de referência: ux-heuristics (Krug e Nielsen, severidade, dark patterns, WCAG), refactoring-ui (hierarquia, espaçamento, cor), web-typography, design-everyday-things (affordance, feedback, erros), microinteractions, top-design, lean-ux.",
+      "cuidado": "Instalar no Claude Code: /plugin marketplace add wondelai/skills e /plugin install ux-design@wondelai-skills. Outras IAs: npx skills add wondelai/skills/ux-heuristics --global (uma por skill).",
+      "em_uso": false,
+      "adicionado": "2026-11-22"
+    },
+    {
+      "id": "wondelai-jornadas",
+      "nome": "wondelai skills: jornadas create/improve website e app",
+      "url": "https://skills.wondel.ai/skills/create-website/",
+      "categoria": "ux-base",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "MIT",
+      "tags": [
+        "skill",
+        "ia",
+        "ux",
+        "processo",
+        "site",
+        "software"
+      ],
+      "resumo": "Jornadas guiadas que orquestram várias skills em ordem: create-website, create-app, improve-website, improve-app, conversion-optimization.",
+      "cuidado": "Use como checagem de processo junto com o roteiro do Kit Web, não no lugar dele. Instalar: /plugin install metaskills@wondelai-skills (Claude) ou npx skills add wondelai/skills/create-website --global.",
+      "em_uso": false,
+      "adicionado": "2026-11-22"
+    },
+    {
+      "id": "uxuiprinciples",
+      "nome": "UX/UI Principles: agent skills",
+      "url": "https://github.com/uxuiprinciples/agent-skills",
+      "categoria": "ux-base",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis+pro",
+      "licenca": "skills livres para usar e distribuir; biblioteca paga",
+      "tags": [
+        "skill",
+        "ia",
+        "ux",
+        "principios",
+        "antipadroes",
+        "ia-interface",
+        "fluxo"
+      ],
+      "resumo": "195 princípios de UX/UI com base em pesquisa, em 6 partes (fundamentos, princípios centrais, design system, padrões, interfaces de IA, excelência). Skills: vibe-coding-advisor (antes de gerar componente), uxui-evaluator e interface-auditor (depois), ai-interface-reviewer.",
+      "cuidado": "Grátis sem chave (inferência do modelo) e MCP grátis @uxuiprinciples/mcp-server. Códigos, citações e flow-checker exigem a biblioteca paga (US$ 59/ano) e a chave UXUI_API_KEY só em variável de ambiente.",
+      "em_uso": false,
+      "adicionado": "2026-11-22"
+    },
+    {
+      "id": "lawsofux",
+      "nome": "Laws of UX",
+      "url": "https://lawsofux.com/",
+      "categoria": "ux-base",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "CC BY-NC-ND 4.0",
+      "tags": [
+        "ux",
+        "principios",
+        "psicologia",
+        "leis"
+      ],
+      "resumo": "As leis de UX de Jon Yablonski (Hick, Fitts, Jakob, Miller, Tesler, Von Restorff, efeito estético-usabilidade...), cada uma com explicação e origem.",
+      "cuidado": "Consulta e base de raciocínio. A licença não permite copiar nem adaptar o texto: cite a lei pelo nome e escreva com as próprias palavras.",
+      "em_uso": false,
+      "adicionado": "2026-11-22"
+    },
+    {
+      "id": "checklist-design",
+      "nome": "Checklist Design",
+      "url": "https://www.checklist.design/",
+      "categoria": "ux-base",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "conferir",
+      "tags": [
+        "ux",
+        "checklist",
+        "componentes",
+        "paginas",
+        "fluxos",
+        "revisao"
+      ],
+      "resumo": "Checklists de boas práticas por página (login, preços, 404...), componente (botão, formulário, tabela...), fluxo e marca. Serve para conferir cada tela e não esquecer nada.",
+      "cuidado": "Use na hora de construir e na revisão final: abra o checklist da página ou componente e confira item por item.",
+      "em_uso": false,
+      "adicionado": "2026-11-22"
+    },
     {
       "id": "animejs",
       "nome": "Anime.js",
@@ -1495,6 +1826,155 @@
       "resumo": "Grande banco de modelos 3D baixáveis em glTF.",
       "cuidado": "Licença por modelo: CC-BY exige crédito; conferir antes de usar em cliente.",
       "em_uso": false
+    },
+    {
+      "id": "logo-design",
+      "nome": "logo-design (skill de logos)",
+      "url": "https://github.com/kaankiziltug/logo-design-skill",
+      "categoria": "skill-ia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "MIT",
+      "tags": [
+        "skill",
+        "ia",
+        "logo",
+        "marca",
+        "svg",
+        "favicon"
+      ],
+      "resumo": "Skill que cria, critica e refaz logos e identidade visual: briefing, conceitos, SVG editável, testes e kit de favicon e ícones; traz 1.432 logos de referência.",
+      "cuidado": "Parar no ponto de checagem e mostrar os conceitos antes do kit completo. No Jarvis é a skill jarvis-logo (cópia em Anexos/Skills/logo-design). Em outro ambiente: clonar o repositório.",
+      "em_uso": false,
+      "adicionado": "2026-11-22"
+    },
+    {
+      "id": "design-accessibility-review",
+      "nome": "design:accessibility-review",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/accessibility-review",
+      "categoria": "skill-ia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "Apache-2.0",
+      "tags": [
+        "skill",
+        "ia",
+        "acessibilidade",
+        "wcag"
+      ],
+      "resumo": "Auditoria de acessibilidade WCAG 2.1 AA: contraste, teclado, leitor de tela, alvos de toque.",
+      "cuidado": "Plugin design do Claude (knowledge-work-plugins). Roda depois do estudo das referências, como revisão.",
+      "em_uso": false,
+      "adicionado": "2026-11-22"
+    },
+    {
+      "id": "design-critique",
+      "nome": "design:design-critique",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/design-critique",
+      "categoria": "skill-ia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "Apache-2.0",
+      "tags": [
+        "skill",
+        "ia",
+        "critica",
+        "ux"
+      ],
+      "resumo": "Crítica estruturada de tela ou mock: usabilidade, hierarquia visual, consistência.",
+      "cuidado": "Plugin design do Claude (knowledge-work-plugins). Roda depois do estudo das referências, como revisão.",
+      "em_uso": false,
+      "adicionado": "2026-11-22"
+    },
+    {
+      "id": "design-design-system",
+      "nome": "design:design-system",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/design-system",
+      "categoria": "skill-ia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "Apache-2.0",
+      "tags": [
+        "skill",
+        "ia",
+        "design-system",
+        "tokens"
+      ],
+      "resumo": "Audita e documenta design system: tokens, componentes, padrões e lacunas.",
+      "cuidado": "Plugin design do Claude (knowledge-work-plugins). Roda depois do estudo das referências, como revisão.",
+      "em_uso": false,
+      "adicionado": "2026-11-22"
+    },
+    {
+      "id": "design-ux-copy",
+      "nome": "design:ux-copy",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/ux-copy",
+      "categoria": "skill-ia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "Apache-2.0",
+      "tags": [
+        "skill",
+        "ia",
+        "copy",
+        "microcopy"
+      ],
+      "resumo": "Textos de interface: botões, erros, estados vazios, onboarding, tom de voz.",
+      "cuidado": "Plugin design do Claude (knowledge-work-plugins). Roda depois do estudo das referências, como revisão.",
+      "em_uso": false,
+      "adicionado": "2026-11-22"
+    },
+    {
+      "id": "design-handoff",
+      "nome": "design:design-handoff",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/design-handoff",
+      "categoria": "skill-ia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "Apache-2.0",
+      "tags": [
+        "skill",
+        "ia",
+        "handoff",
+        "spec"
+      ],
+      "resumo": "Spec de entrega para dev: layout, tokens, estados, breakpoints, casos de borda.",
+      "cuidado": "Plugin design do Claude (knowledge-work-plugins). Roda depois do estudo das referências, como revisão.",
+      "em_uso": false,
+      "adicionado": "2026-11-22"
+    },
+    {
+      "id": "marketing-seo-audit",
+      "nome": "marketing:seo-audit",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/seo-audit",
+      "categoria": "skill-ia",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "Apache-2.0",
+      "tags": [
+        "skill",
+        "ia",
+        "seo",
+        "site"
+      ],
+      "resumo": "Auditoria de SEO: técnico, conteúdo, palavras-chave; etapa final de site de cliente.",
+      "cuidado": "Plugin marketing do Claude (knowledge-work-plugins). Roda depois do estudo das referências, como revisão.",
+      "em_uso": false,
+      "adicionado": "2026-11-22"
     }
   ],
   "tipos": {
@@ -1693,5 +2173,26 @@
     "dashboard": "software",
     "app-ia": "software",
     "sistema": "software"
+  },
+  "recriar": {
+    "regra": "Biblioteca ou componente pago (ou a parte Pro de um gratis+pro) não entra no projeto: serve só de referência visual. Recrie o mesmo resultado com código próprio, em sala limpa, usando a base de componentes do projeto e as skills de UI/UX.",
+    "passos": [
+      "Especificar por observação: abra a demo pública do componente, capture telas de cada estado e grave o movimento. Meça tamanhos, espaçamentos, cores, raios, sombras, tempos e curvas, e o comportamento com mouse, toque, teclado, rolagem e prefers-reduced-motion. Escreva a especificação em texto (recriar/<id>.md): estrutura, estados, medidas, animação, acessibilidade.",
+      "Não abrir nem copiar o código-fonte, não baixar arquivo pago, não usar asset, nome, marca ou texto do original. Página atrás de login ou compra: só o que é público.",
+      "Implementar só a partir da especificação (de preferência outra sessão ou agente que não viu a referência), com a base de componentes do projeto.",
+      "Aplicar as skills na implementação: vibe-coding-advisor antes de gerar, refactoring-ui e web-typography no visual, microinteractions e reanimate no movimento (reanimate compara o movimento com a referência), impeccable e design-taste-frontend no refino, accessibility-review no fim.",
+      "Comparar lado a lado com capturas e ajustar até ficar equivalente; onde der, ficar melhor em acessibilidade e desempenho.",
+      "Registrar no projeto: recriado a partir de referência visual de <nome> (<url>), código próprio, e em ux_aplicado as skills usadas."
+    ],
+    "skills": [
+      "vibe-coding-advisor",
+      "refactoring-ui",
+      "web-typography",
+      "microinteractions",
+      "reanimate",
+      "impeccable",
+      "design-taste-frontend",
+      "accessibility-review"
+    ]
   }
 }

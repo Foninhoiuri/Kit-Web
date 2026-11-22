@@ -84,29 +84,36 @@ O tipo de projeto escolhe a trilha. O catálogo é o mesmo para as duas.
 
 | Site (institucional, landing, portfólio, e-commerce) | Software (painel, SaaS, sistema interno, app de IA) |
 | --- | --- |
-| 1. Estudo das referências | 1. Estudo das referências |
-| 2. Conceito: opções literais e metafóricas da solução | 2. Tarefas e telas: objetivo, ações e estados de cada tela |
-| 3. Direção de arte, geral e por seção | 3. Direção visual do sistema: tokens, densidade, tipografia |
-| 4. Base de componentes | 4. Base de componentes |
-| 5. Efeitos por seção (3D quando fizer sentido) | 5. Estados e dados: vazio, carregando, erro, sucesso |
-| 6. Movimento | 6. Movimento funcional |
-| 7. Serviços e mídia | 7. Serviços |
-| 8. Licença | 8. Acessibilidade e uso diário |
-| | 9. Licença |
+| 1. Fundamentos de UX/UI | 1. Fundamentos de UX/UI |
+| 2. Estudo das referências | 2. Estudo das referências |
+| 3. Conceito: opções literais e metafóricas da solução | 3. Tarefas e telas: objetivo, ações e estados de cada tela |
+| 4. Direção de arte, geral e por seção | 4. Direção visual do sistema: tokens, densidade, tipografia |
+| 5. Base de componentes | 5. Base de componentes |
+| 6. Efeitos por seção (3D quando fizer sentido) | 6. Estados e dados: vazio, carregando, erro, sucesso |
+| 7. Movimento | 7. Movimento funcional |
+| 8. Serviços e mídia | 8. Serviços |
+| 9. Checklist de UX antes de entregar | 9. Acessibilidade e uso diário |
+| 10. Licença | 10. Checklist de UX antes de entregar |
+| | 11. Licença |
 
-O estudo das referências pesa mais que qualquer skill de design; Impeccable e Taste vêm depois e só refinam.
+Cada etapa traz as skills de UI/UX obrigatórias; o guia cobra as que faltam até serem registradas em `ux_aplicado` no
+briefing. Componente pago nunca entra: vira referência e é recriado limpo (`python kitweb.py recriar <id>`).
+
+Os fundamentos de UX/UI são o piso de tudo (`python kitweb.py ux`): ninguém passa por cima deles. Depois, o estudo das
+referências pesa mais que qualquer skill de design; Impeccable e Taste vêm depois e só refinam.
 
 ## O catálogo
 
 | Categoria | Itens | O que tem |
 | --- | ---: | --- |
+| `ux-base` | 5 | Skills de UX da wondelai (MIT), UX/UI Principles, Laws of UX, Checklist Design |
 | `componentes` | 16 | Bibliotecas organizadas (shadcn/ui, Magic UI, Aceternity, React Bits, HeroUI, daisyUI…) |
 | `comunidade` | 7 | Coleções soltas de vários autores (21st.dev, Skiper, FreeFrontend…) |
 | `referencia` | 10 | Inspiração real (Igloo Inc, Dribbble, Mobbin, Refero, Godly…) |
 | `geracao-ia` | 4 | Imagem, vídeo e telas por IA |
 | `animacao` | 4 | Anime.js, Motion, GSAP, Transitions.dev |
 | `shaders-3d` | 5 | Three.js, React Three Fiber, Shaders, partículas |
-| `skill-ia` | 3 | Taste Skill, Impeccable, reanimate |
+| `skill-ia` | 10 | Taste Skill, Impeccable, reanimate, logo-design, 5 skills do plugin design, seo-audit |
 | `graficos` | 2 | Recharts, Bklit |
 | `modelos-3d` | 4 | Blender, Spline, Poly Haven (CC0), Sketchfab |
 | `design-md` | 2 | Sistemas de design em texto para a IA |
@@ -130,7 +137,8 @@ sempre a do site oficial.
 ## Usando com uma IA
 
 Aponte o agente para o [`SKILL.md`](SKILL.md): ele explica quando usar o kit e as regras de escolha. No Claude Code,
-Codex ou similares, copie a pasta para o diretório de skills, ou peça à IA para rodar `python kitweb.py guia --json`.
+copie a pasta para `~/.claude/skills/kit-web`; no Codex, Cursor ou similares, o [`AGENTS.md`](AGENTS.md) aponta para o
+mesmo `SKILL.md`. Qualquer IA pode rodar `python kitweb.py ux --json` e `python kitweb.py guia --json`.
 
 ## Contribuindo com o catálogo
 
@@ -148,6 +156,7 @@ Categorias, seções e etapas do guia vivem no `catalogo.json`; ajuste lá, sem 
 ```text
 kit-web/
 ├── kitweb.py       # CLI (só biblioteca padrão)
-├── catalogo.json   # itens, categorias, seções e etapas do guia
+├── catalogo.json   # itens, categorias, fundamentos de UX, seções e etapas do guia
+├── AGENTS.md       # entrada para outras IAs
 └── SKILL.md        # instruções para agentes de IA
 ```
