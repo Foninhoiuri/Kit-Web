@@ -26,7 +26,11 @@ Funciona com qualquer IA ou pessoa no terminal; não depende de outro sistema. R
    como se fosse a solução. Mostre ao cliente com a leitura de cada uma e deixe ele escolher ou combinar. Exemplos do cliente são exemplos: capte a ideia.
    Grave em `conceito`: `metafora`, `por_que`, `opcoes` e `secoes` (o que cada seção deve fazer o visitante entender ou sentir
    dentro da metáfora). O guia avisa enquanto faltar a metáfora ou o papel de alguma seção.
-6. `python kitweb.py guia --briefing projeto.json` dá o roteiro em 7 etapas já filtrado: stack, só grátis se
+6. **Direção de arte, geral e por seção, antes de codar:** geral (mundo, paleta, materiais, luz, câmera, ritmo, modelos a
+   produzir) e, para cada seção, `fundo`, `elemento`, `passagem` (como chega e como vai para a próxima), `microinteracoes` e
+   `pequenos_elementos`. Grave em `direcao_arte`. Modelos melhores: Blender ou Spline, ou bancos com licença clara (Poly Haven CC0).
+   O guia avisa enquanto faltar o plano geral ou algum campo de seção.
+7. `python kitweb.py guia --briefing projeto.json` dá o roteiro em 7 etapas já filtrado: stack, só grátis se
    `aceita_pago` não for "sim", seções do tipo de projeto, sem shaders/3D se `efeitos` for "calmo".
    Se ainda faltar pergunta obrigatória, o guia avisa no topo; não comece a construir antes de responder.
 

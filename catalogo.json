@@ -11,7 +11,8 @@
     "skill-ia": "Skills e agentes que melhoram o design feito por IA.",
     "geracao-ia": "Geradores de imagem, vídeo e páginas por IA.",
     "servico": "Serviços prontos para plugar no projeto (login, pagamento etc.).",
-    "experimento": "Demos e truques técnicos para estudar."
+    "experimento": "Demos e truques técnicos para estudar.",
+    "modelos-3d": "Modelos 3D, ambientes (HDRI) e texturas prontos ou ferramentas para modelar."
   },
   "secoes": {
     "hero": [
@@ -114,12 +115,14 @@
       "dica": "Leia a identidade da empresa (propósito, visão, valores, origem do nome, jeito de atuar), não o que ela vende. Levante opções das duas linhas, sempre as duas (principalmente em empresa de serviço, cuja entrega não se vê): literais (o resultado mostrado como ele é, no mundo do cliente) e não literais (metáforas, ex.: 'força invisível que dá forma ao que estava solto'). Pelo menos 3 de cada. Nunca mostrar a ferramenta como se fosse a solução (ex.: 'servidores' ou 'IA'). Exemplos que o cliente der são exemplos: capte a ideia, não copie. Mostre as opções com a leitura de cada uma, o cliente escolhe uma ou duas e combina. Grave em conceito: metafora, por_que e secoes (para cada seção do site, o que ela deve fazer o visitante entender ou sentir dentro da metáfora). Esse mapa manda no que cada seção faz; as bibliotecas da etapa 5 só executam."
     },
     {
-      "titulo": "3. Direção visual",
+      "titulo": "3. Direção de arte (geral e por seção)",
       "categorias": [
         "design-md",
-        "skill-ia"
+        "skill-ia",
+        "modelos-3d"
       ],
-      "dica": "Depois do estudo, nunca antes: Impeccable e em seguida Taste refinam a direção. Elas ajustam o que o estudo mostrou, não substituem. Fixe tipografia, cores, espaçamento e tom num DESIGN.md (ou siga o design system existente)."
+      "dica": "Depois do estudo e do conceito, nunca antes. Geral: mundo, paleta, materiais, luz, câmera, ritmo e a lista de modelos a produzir. Por seção, planeje antes de codar: fundo, elemento (o modelo 3D ou visual e o papel dele no conceito), passagem (como chega da seção anterior e vai para a próxima), microinterações e pequenos elementos. Grave em direcao_arte. Impeccable e em seguida Taste refinam este plano; não o substituem. Modelos melhores vêm de modelagem própria (Blender ou Spline) e de bancos com licença clara.",
+      "direcao": true
     },
     {
       "titulo": "4. Base de componentes",
@@ -1344,6 +1347,84 @@
       ],
       "resumo": "Timelines precisas, ScrollTrigger, DrawSVG, MorphSVG e SplitText; padrão de sites premiados.",
       "cuidado": "Licença própria, não MIT: grátis, mas proíbe usar em ferramenta concorrente do Webflow.",
+      "em_uso": false
+    },
+    {
+      "id": "spline",
+      "nome": "Spline",
+      "url": "https://spline.design/",
+      "categoria": "modelos-3d",
+      "stack": [
+        "qualquer",
+        "react"
+      ],
+      "acesso": "freemium",
+      "licenca": "proprietária (o que você cria é seu; conferir plano)",
+      "tags": [
+        "3d",
+        "modelo",
+        "intro",
+        "hero",
+        "animacao"
+      ],
+      "resumo": "Modelagem e animação 3D no navegador, pensada para designers; exporta para React (react-spline) ou glTF.",
+      "cuidado": "Cena exportada pelo runtime da Spline pesa; para controle fino, exportar glTF e montar no Three.js/R3F.",
+      "em_uso": false
+    },
+    {
+      "id": "blender",
+      "nome": "Blender",
+      "url": "https://www.blender.org/",
+      "categoria": "modelos-3d",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "GPL (o que você cria é seu)",
+      "tags": [
+        "3d",
+        "modelo"
+      ],
+      "resumo": "Modelagem, materiais e animação completos; exportar glTF com Draco para a web.",
+      "cuidado": "Curva de aprendizado maior; manter poucos polígonos e texturas KTX2.",
+      "em_uso": false
+    },
+    {
+      "id": "polyhaven",
+      "nome": "Poly Haven",
+      "url": "https://polyhaven.com/",
+      "categoria": "modelos-3d",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "gratis",
+      "licenca": "CC0",
+      "tags": [
+        "3d",
+        "hdri",
+        "textura",
+        "modelo"
+      ],
+      "resumo": "HDRIs, texturas e modelos CC0: iluminação realista para vidro e metal.",
+      "cuidado": "Servir o HDRI do próprio site (não depender de CDN); usar resolução baixa (1k) na web.",
+      "em_uso": false
+    },
+    {
+      "id": "sketchfab",
+      "nome": "Sketchfab",
+      "url": "https://sketchfab.com/",
+      "categoria": "modelos-3d",
+      "stack": [
+        "qualquer"
+      ],
+      "acesso": "freemium",
+      "licenca": "por modelo (CC-BY, CC0 ou pago)",
+      "tags": [
+        "3d",
+        "modelo"
+      ],
+      "resumo": "Grande banco de modelos 3D baixáveis em glTF.",
+      "cuidado": "Licença por modelo: CC-BY exige crédito; conferir antes de usar em cliente.",
       "em_uso": false
     }
   ],

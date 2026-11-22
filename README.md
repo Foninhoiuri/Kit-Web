@@ -7,7 +7,7 @@ skills de IA e serviços: organizados, pesquisáveis e com o cuidado de licença
 
 ![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)
 ![Zero dependências](https://img.shields.io/badge/depend%C3%AAncias-zero-2ea44f)
-![Itens](https://img.shields.io/badge/cat%C3%A1logo-55%20itens-8957e5)
+![Itens](https://img.shields.io/badge/cat%C3%A1logo-59%20itens-8957e5)
 ![Feito para IA](https://img.shields.io/badge/feito%20para-humanos%20%2B%20IAs-f97316)
 
 </div>
@@ -84,7 +84,7 @@ Seção cards (tags: cards, bento, scroll) stack react:
 | --- | --- |
 | 1. Estudo das referências | Abrir, rolar e descrever cada referência antes de desenhar; pesa mais que qualquer skill |
 | 2. Conceito | Opções literais e não literais da solução, tiradas da identidade da empresa; a escolhida define o papel de cada seção |
-| 3. Direção visual | Depois do estudo: Impeccable e em seguida Taste refinam; tipografia, cores e tom num `DESIGN.md` |
+| 3. Direção de arte | Plano geral e por seção (fundo, elemento, passagem, microinterações); Impeccable e Taste refinam |
 | 4. Base de componentes | Uma base só, de preferência a que o projeto já usa |
 | 5. Efeitos por seção | Executam o papel de cada seção no conceito; um efeito forte por tela |
 | 6. Movimento | Só `transform` e `opacity`, respeitando `prefers-reduced-motion` |
@@ -103,6 +103,7 @@ Seção cards (tags: cards, bento, scroll) stack react:
 | `shaders-3d` | 5 | Three.js, React Three Fiber, Shaders, partículas |
 | `skill-ia` | 3 | Taste Skill, Impeccable, reanimate |
 | `graficos` | 2 | Recharts, Bklit |
+| `modelos-3d` | 4 | Blender, Spline, Poly Haven (CC0), Sketchfab |
 | `design-md` | 2 | Sistemas de design em texto para a IA |
 | `servico` · `experimento` | 2 | Clerk; demo de cena 3D em várias janelas |
 
