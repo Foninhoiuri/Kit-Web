@@ -7,7 +7,7 @@ skills de IA e serviços: organizados, pesquisáveis e com o cuidado de licença
 
 ![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)
 ![Zero dependências](https://img.shields.io/badge/depend%C3%AAncias-zero-2ea44f)
-![Itens](https://img.shields.io/badge/cat%C3%A1logo-59%20itens-8957e5)
+![Itens](https://img.shields.io/badge/cat%C3%A1logo-71%20itens-8957e5)
 ![Feito para IA](https://img.shields.io/badge/feito%20para-humanos%20%2B%20IAs-f97316)
 
 </div>
