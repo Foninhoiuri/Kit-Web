@@ -159,6 +159,12 @@ def pendentes(d, b):
     return sorted(out, key=lambda q: not q["obrigatoria"])
 
 
+def sem_estudo(b):
+    """Referências do briefing que ainda não foram estudadas (abertas, roladas e descritas em 'estudo')."""
+    return [r.get("url", "?") if isinstance(r, dict) else str(r) for r in (b.get("referencias") or [])
+            if not (isinstance(r, dict) and not vazio(r.get("estudo")))]
+
+
 def contexto(a, d, b):
     """Junta filtros da linha de comando com o briefing; a linha de comando vence."""
     stacks = {s for i in d["itens"] for s in i["stack"]} - {"qualquer"}
@@ -202,8 +208,9 @@ def cmd_guia(a, d):
         if etapa["categorias"] == ["referencia"] and b:
             e["do_briefing"] = b.get("referencias") or []
         roteiro.append(e)
+    estudar = sem_estudo(b)
     if a.json:
-        return print(json.dumps({"pendentes": falta, "stack": stack, "so_gratis": gratis, "secoes": secoes, "roteiro": roteiro}, ensure_ascii=False, indent=2))
+        return print(json.dumps({"pendentes": falta, "sem_estudo": estudar, "stack": stack, "so_gratis": gratis, "secoes": secoes, "roteiro": roteiro}, ensure_ascii=False, indent=2))
     if b:
         obrig = [q for q in falta if q["obrigatoria"]]
         print("# %s — %s | stack %s | %s | seções: %s" % (b.get("nome") or "projeto sem nome", b.get("tipo") or "tipo ?", stack or "?",
@@ -211,6 +218,9 @@ def cmd_guia(a, d):
         if obrig:
             print("! Entreviste antes: %d pergunta(s) obrigatória(s) sem resposta (%s). Rode `entrevista --briefing`."
                   % (len(obrig), ", ".join(q["id"] for q in obrig)))
+        if estudar:
+            print("! Estude antes de construir (etapa 1, pesa mais que Impeccable e Taste): %d referência(s) sem 'estudo': %s"
+                  % (len(estudar), ", ".join(estudar)))
     for e in roteiro:
         print("\n## %s\n%s" % (e["titulo"], e["dica"]))
         if "do_briefing" in e:
@@ -240,7 +250,7 @@ def cmd_briefing(a, d):
     if destino.exists():
         sys.exit("%s já existe; edite ou rode entrevista --briefing nele." % destino)
     modelo = {q["id"]: ([] if q["id"] == "referencias" else "") for q in d["entrevista"]}
-    modelo["referencias"] = [{"url": "", "olhar": ""}]
+    modelo["referencias"] = [{"url": "", "olhar": "", "estudo": ""}]
     destino.write_text(json.dumps(modelo, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("Briefing criado em %s. Agora: python kitweb.py entrevista --briefing %s" % (destino, destino))
 
@@ -371,6 +381,7 @@ def cmd_teste(a, d):
     stack, gratis, secoes, calmo = contexto(argparse.Namespace(stack=None, gratis=False), d, b)
     assert (stack, gratis, calmo) == ("react", True, True) and secoes == d["tipos"]["institucional"]
     assert not any(q["id"] == "referencias" for q in pendentes(d, b))
+    assert len(sem_estudo(b)) == 3 and not sem_estudo({"referencias": [{"url": "x", "estudo": "hero com objeto central"}]})
     assert not contexto(argparse.Namespace(stack=None, gratis=False), d, {"aceita_pago": "Sim (uso próprio)"})[1]
     assert not any(INTENSOS & set(i["tags"]) for i in escolher_secao(d, d["itens"], "hero", 10, True))
     print("ok: %d itens, %d categorias, %d seções" % (len(ids), len(d["categorias"]), len(d["secoes"])))

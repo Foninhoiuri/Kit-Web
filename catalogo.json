@@ -101,11 +101,11 @@
   },
   "etapas": [
     {
-      "titulo": "1. Referências reais",
+      "titulo": "1. Estudo das referências (pesa mais que qualquer skill)",
       "categorias": [
         "referencia"
       ],
-      "dica": "Junte 3 a 5 telas reais do mesmo tipo de projeto antes de escolher qualquer componente. Copie a ideia, nunca o código ou a marca."
+      "dica": "Antes de desenhar qualquer coisa: abra cada referência no navegador, espere carregar, role a página inteira e capture telas em vários pontos. Grave em referencias[].estudo: o que ocupa o centro do hero (produto, objeto, marca?), o que preenche e move a tela, como reage à rolagem e ao mouse, a ordem das seções e o que copiar como ideia. Copie a ideia, nunca o código ou a marca. Ordem de peso: este estudo > Impeccable > Taste. Sem estudo de todas as referências, não comece a construir."
     },
     {
       "titulo": "2. Direção visual",
@@ -113,7 +113,7 @@
         "design-md",
         "skill-ia"
       ],
-      "dica": "Fixe tipografia, cores, espaçamento e tom num DESIGN.md antes de codar. Rode uma skill de gosto (Taste, Impeccable) para fugir da cara de IA."
+      "dica": "Depois do estudo, nunca antes: Impeccable e em seguida Taste refinam a direção. Elas ajustam o que o estudo mostrou, não substituem. Fixe tipografia, cores, espaçamento e tom num DESIGN.md (ou siga o design system existente)."
     },
     {
       "titulo": "3. Base de componentes",
@@ -1072,7 +1072,7 @@
         "qualidade"
       ],
       "resumo": "Skill que dá gosto de design ao agente: seis passos, checagens e biblioteca de referência.",
-      "cuidado": "",
+      "cuidado": "Vem depois do estudo das referências e do Impeccable.",
       "em_uso": false
     },
     {
@@ -1093,7 +1093,7 @@
         "acessibilidade"
       ],
       "resumo": "Skill de crítica e polimento de interface; instalável no Claude Code.",
-      "cuidado": "",
+      "cuidado": "Vem depois do estudo das referências, nunca no lugar dele.",
       "em_uso": true
     },
     {

@@ -15,7 +15,12 @@ Funciona com qualquer IA ou pessoa no terminal; não depende de outro sistema. R
 3. `python kitweb.py entrevista --briefing projeto.json` lista o que falta, obrigatórias primeiro.
    Entreviste a pessoa **uma pergunta por vez**, oferecendo o que você achou como sugestão, e grave cada resposta no JSON.
    Com poucas referências (menos de 3, ou sem dizer o que olhar em cada uma), a entrevista insiste nelas e oferece onde buscar.
-4. `python kitweb.py guia --briefing projeto.json` dá o roteiro em 7 etapas já filtrado: stack, só grátis se
+4. **Estude cada referência antes de construir** (pesa mais que qualquer skill): abra no navegador, espere carregar,
+   role a página inteira, capture telas em vários pontos e grave em `referencias[].estudo` o que ocupa o centro do hero,
+   o que preenche e move a tela, como reage a rolagem e mouse, a ordem das seções e o que copiar como ideia.
+   Ordem de peso: **estudo das referências > Impeccable > Taste**. As skills refinam o que o estudo mostrou; não o substituem.
+   O guia avisa enquanto houver referência sem estudo.
+5. `python kitweb.py guia --briefing projeto.json` dá o roteiro em 7 etapas já filtrado: stack, só grátis se
    `aceita_pago` não for "sim", seções do tipo de projeto, sem shaders/3D se `efeitos` for "calmo".
    Se ainda faltar pergunta obrigatória, o guia avisa no topo; não comece a construir antes de responder.
 

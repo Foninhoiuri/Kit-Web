@@ -81,8 +81,8 @@ Seção cards (tags: cards, bento, scroll) stack react:
 
 | Etapa | Foco |
 | --- | --- |
-| 1. Referências reais | 3 a 5 telas reais do mesmo tipo de projeto antes de qualquer componente |
-| 2. Direção visual | Tipografia, cores e tom num `DESIGN.md`; skill de gosto para fugir da “cara de IA” |
+| 1. Estudo das referências | Abrir, rolar e descrever cada referência antes de desenhar; pesa mais que qualquer skill |
+| 2. Direção visual | Depois do estudo: Impeccable e em seguida Taste refinam; tipografia, cores e tom num `DESIGN.md` |
 | 3. Base de componentes | Uma base só, de preferência a que o projeto já usa |
 | 4. Efeitos por seção | Um efeito forte por tela; o resto calmo |
 | 5. Movimento | Só `transform` e `opacity`, respeitando `prefers-reduced-motion` |
