@@ -21,8 +21,9 @@ Funciona com qualquer IA ou pessoa no terminal; não depende de outro sistema. R
    Ordem de peso: **estudo das referências > Impeccable > Taste**. As skills refinam o que o estudo mostrou; não o substituem.
    O guia avisa enquanto houver referência sem estudo.
 5. **Conceito, antes de qualquer seção:** leia a identidade da empresa (propósito, visão, valores, nome, jeito de atuar),
-   não o que ela vende. Levante pelo menos 6 metáforas **não literais** do que ela entrega (nunca a ferramenta ou o produto),
-   mostre ao cliente com a leitura de cada uma e deixe ele escolher ou combinar. Exemplos do cliente são exemplos: capte a ideia.
+   não o que ela vende. Levante opções das **duas linhas, sempre** (principalmente em serviço, cuja entrega não se vê):
+   **literais** (o resultado como ele é, no mundo do cliente) e **não literais** (metáforas), pelo menos 3 de cada; nunca a ferramenta
+   como se fosse a solução. Mostre ao cliente com a leitura de cada uma e deixe ele escolher ou combinar. Exemplos do cliente são exemplos: capte a ideia.
    Grave em `conceito`: `metafora`, `por_que`, `opcoes` e `secoes` (o que cada seção deve fazer o visitante entender ou sentir
    dentro da metáfora). O guia avisa enquanto faltar a metáfora ou o papel de alguma seção.
 6. `python kitweb.py guia --briefing projeto.json` dá o roteiro em 7 etapas já filtrado: stack, só grátis se
