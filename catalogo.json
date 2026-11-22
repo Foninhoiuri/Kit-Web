@@ -1358,7 +1358,7 @@
         "qualquer",
         "react"
       ],
-      "acesso": "freemium",
+      "acesso": "pago",
       "licenca": "proprietária (o que você cria é seu; conferir plano)",
       "tags": [
         "3d",
@@ -1367,8 +1367,8 @@
         "hero",
         "animacao"
       ],
-      "resumo": "Modelagem e animação 3D no navegador, pensada para designers; exporta para React (react-spline) ou glTF.",
-      "cuidado": "Cena exportada pelo runtime da Spline pesa; para controle fino, exportar glTF e montar no Three.js/R3F.",
+      "resumo": "Modelagem e animação 3D no navegador, rápida e visual; opção para projetos pagos (o plano pago libera exportação e uso comercial sem marca). Exporta para React (react-spline) ou glTF.",
+      "cuidado": "Usar em projeto pago, com o custo do plano repassado. Runtime da Spline pesa; para controle fino, exportar glTF e montar no Three.js/R3F.",
       "em_uso": false
     },
     {
@@ -1385,9 +1385,9 @@
         "3d",
         "modelo"
       ],
-      "resumo": "Modelagem, materiais e animação completos; exportar glTF com Draco para a web.",
+      "resumo": "Ferramenta padrão de modelagem 3D do kit: modelagem, materiais e animação; exportar glTF com Draco para a web.",
       "cuidado": "Curva de aprendizado maior; manter poucos polígonos e texturas KTX2.",
-      "em_uso": false
+      "em_uso": true
     },
     {
       "id": "polyhaven",
