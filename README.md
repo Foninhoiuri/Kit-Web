@@ -22,7 +22,8 @@ o que olhar primeiro, o que usar em cada seção e o que **não** pode ir para o
 
 - **Entrevista antes de sugerir:** um briefing do projeto; o kit pergunta o que falta (público, ação, referências,
   orçamento para itens pagos) e insiste quando há pouca referência.
-- **Guia por etapa:** das referências até a checagem de licença, em 7 passos, filtrado pelo briefing.
+- **Conceito antes do visual:** uma metáfora da solução, tirada da identidade da empresa, que diz o que cada seção deve fazer.
+- **Guia por etapa:** das referências até a checagem de licença, em 8 passos, filtrado pelo briefing.
 - **Código primeiro, vídeo quando precisa:** o que dá em código fica em código; pessoas e 3D realista viram vídeo. Cada espaço de vídeo ou imagem gerada por IA nasce marcado no código, com o prompt
   escrito no briefing; gerar depois é colar no gerador e entregar o arquivo.
 - **Atalho por seção:** hero, cards, fundo, rolagem, preços, dashboard, login…
@@ -82,12 +83,13 @@ Seção cards (tags: cards, bento, scroll) stack react:
 | Etapa | Foco |
 | --- | --- |
 | 1. Estudo das referências | Abrir, rolar e descrever cada referência antes de desenhar; pesa mais que qualquer skill |
-| 2. Direção visual | Depois do estudo: Impeccable e em seguida Taste refinam; tipografia, cores e tom num `DESIGN.md` |
-| 3. Base de componentes | Uma base só, de preferência a que o projeto já usa |
-| 4. Efeitos por seção | Um efeito forte por tela; o resto calmo |
-| 5. Movimento | Só `transform` e `opacity`, respeitando `prefers-reduced-motion` |
-| 6. Serviços e mídia | Login, pagamento e imagens prontos; segredos só em variável de ambiente |
-| 7. Licença | Conferir cada item usado e registrar no projeto |
+| 2. Conceito | Metáfora não literal da solução, tirada da identidade da empresa; define o papel de cada seção |
+| 3. Direção visual | Depois do estudo: Impeccable e em seguida Taste refinam; tipografia, cores e tom num `DESIGN.md` |
+| 4. Base de componentes | Uma base só, de preferência a que o projeto já usa |
+| 5. Efeitos por seção | Executam o papel de cada seção no conceito; um efeito forte por tela |
+| 6. Movimento | Só `transform` e `opacity`, respeitando `prefers-reduced-motion` |
+| 7. Serviços e mídia | Login, pagamento e imagens prontos; segredos só em variável de ambiente |
+| 8. Licença | Conferir cada item usado e registrar no projeto |
 
 ## O catálogo
 

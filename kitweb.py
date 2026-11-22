@@ -165,6 +165,20 @@ def sem_estudo(b):
             if not (isinstance(r, dict) and not vazio(r.get("estudo")))]
 
 
+def sem_conceito(b, secoes):
+    """O que falta no conceito: a metáfora e o papel de cada seção dentro dela."""
+    c = b.get("conceito") or {}
+    if vazio(c.get("metafora")):
+        return ["metafora"]
+    mapa = {plano(k).strip(): v for k, v in (c.get("secoes") or {}).items()}
+    return [s for s in secoes if vazio(mapa.get(s))]
+
+
+def papel(b, secao):
+    mapa = {plano(k).strip(): v for k, v in ((b.get("conceito") or {}).get("secoes") or {}).items()}
+    return mapa.get(secao, "")
+
+
 def contexto(a, d, b):
     """Junta filtros da linha de comando com o briefing; a linha de comando vence."""
     stacks = {s for i in d["itens"] for s in i["stack"]} - {"qualquer"}
@@ -209,8 +223,9 @@ def cmd_guia(a, d):
             e["do_briefing"] = b.get("referencias") or []
         roteiro.append(e)
     estudar = sem_estudo(b)
+    conceito_falta = sem_conceito(b, secoes) if b else []
     if a.json:
-        return print(json.dumps({"pendentes": falta, "sem_estudo": estudar, "stack": stack, "so_gratis": gratis, "secoes": secoes, "roteiro": roteiro}, ensure_ascii=False, indent=2))
+        return print(json.dumps({"pendentes": falta, "sem_estudo": estudar, "conceito": b.get("conceito"), "sem_conceito": conceito_falta, "stack": stack, "so_gratis": gratis, "secoes": secoes, "roteiro": roteiro}, ensure_ascii=False, indent=2))
     if b:
         obrig = [q for q in falta if q["obrigatoria"]]
         print("# %s — %s | stack %s | %s | seções: %s" % (b.get("nome") or "projeto sem nome", b.get("tipo") or "tipo ?", stack or "?",
@@ -218,6 +233,9 @@ def cmd_guia(a, d):
         if obrig:
             print("! Entreviste antes: %d pergunta(s) obrigatória(s) sem resposta (%s). Rode `entrevista --briefing`."
                   % (len(obrig), ", ".join(q["id"] for q in obrig)))
+        if conceito_falta:
+            print("! Defina o conceito antes de construir (etapa 2): %s" % (
+                "falta a metáfora" if conceito_falta == ["metafora"] else "seções sem papel no conceito: " + ", ".join(conceito_falta)))
         if estudar:
             print("! Estude antes de construir (etapa 1, pesa mais que Impeccable e Taste): %d referência(s) sem 'estudo': %s"
                   % (len(estudar), ", ".join(estudar)))
@@ -229,11 +247,21 @@ def cmd_guia(a, d):
             for r in refs:
                 print("  * %s — %s" % (r.get("url"), r.get("olhar") or "o que olhar?") if isinstance(r, dict) else "  * %s" % r)
             print("Onde buscar mais:")
+        if e.get("conceito") and b:
+            c = b.get("conceito") or {}
+            print("Conceito: %s" % (c.get("metafora") or "(não definido)"))
+            if c.get("por_que"):
+                print("Por quê: %s" % c["por_que"])
+            for s in secoes:
+                print("  * %s: %s" % (s, papel(b, s) or "(sem papel definido)"))
         if "secoes" in e:
             if not e["secoes"]:
                 print("(sem seções: passe --briefing com tipo/secoes, ou use --secao)")
             for s, grupo in e["secoes"].items():
-                print("\n### %s\n%s" % (s, "\n".join(linha(i) for i in grupo) or "(nada no catálogo para esta seção)"))
+                print("\n### %s" % s)
+                if papel(b, s):
+                    print("Papel no conceito: %s" % papel(b, s))
+                print("\n".join(linha(i) for i in grupo) or "(nada no catálogo para esta seção)")
         elif e.get("so_se_pedido") and not e["itens"]:
             print("(nada no catálogo para: %s)" % b["servicos"] if b.get("servicos") else "(nada pedido em 'servicos' no briefing)")
         if e["itens"]:
@@ -251,6 +279,7 @@ def cmd_briefing(a, d):
         sys.exit("%s já existe; edite ou rode entrevista --briefing nele." % destino)
     modelo = {q["id"]: ([] if q["id"] == "referencias" else "") for q in d["entrevista"]}
     modelo["referencias"] = [{"url": "", "olhar": "", "estudo": ""}]
+    modelo["conceito"] = {"metafora": "", "por_que": "", "opcoes": [], "secoes": {}}
     destino.write_text(json.dumps(modelo, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("Briefing criado em %s. Agora: python kitweb.py entrevista --briefing %s" % (destino, destino))
 
@@ -381,6 +410,8 @@ def cmd_teste(a, d):
     stack, gratis, secoes, calmo = contexto(argparse.Namespace(stack=None, gratis=False), d, b)
     assert (stack, gratis, calmo) == ("react", True, True) and secoes == d["tipos"]["institucional"]
     assert not any(q["id"] == "referencias" for q in pendentes(d, b))
+    assert sem_conceito({}, ["hero"]) == ["metafora"]
+    assert sem_conceito({"conceito": {"metafora": "gravidade", "secoes": {"Hero": "o centro aparece"}}}, ["hero", "cards"]) == ["cards"]
     assert len(sem_estudo(b)) == 3 and not sem_estudo({"referencias": [{"url": "x", "estudo": "hero com objeto central"}]})
     assert not contexto(argparse.Namespace(stack=None, gratis=False), d, {"aceita_pago": "Sim (uso próprio)"})[1]
     assert not any(INTENSOS & set(i["tags"]) for i in escolher_secao(d, d["itens"], "hero", 10, True))

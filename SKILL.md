@@ -20,7 +20,12 @@ Funciona com qualquer IA ou pessoa no terminal; não depende de outro sistema. R
    o que preenche e move a tela, como reage a rolagem e mouse, a ordem das seções e o que copiar como ideia.
    Ordem de peso: **estudo das referências > Impeccable > Taste**. As skills refinam o que o estudo mostrou; não o substituem.
    O guia avisa enquanto houver referência sem estudo.
-5. `python kitweb.py guia --briefing projeto.json` dá o roteiro em 7 etapas já filtrado: stack, só grátis se
+5. **Conceito, antes de qualquer seção:** leia a identidade da empresa (propósito, visão, valores, nome, jeito de atuar),
+   não o que ela vende. Levante pelo menos 6 metáforas **não literais** do que ela entrega (nunca a ferramenta ou o produto),
+   mostre ao cliente com a leitura de cada uma e deixe ele escolher ou combinar. Exemplos do cliente são exemplos: capte a ideia.
+   Grave em `conceito`: `metafora`, `por_que`, `opcoes` e `secoes` (o que cada seção deve fazer o visitante entender ou sentir
+   dentro da metáfora). O guia avisa enquanto faltar a metáfora ou o papel de alguma seção.
+6. `python kitweb.py guia --briefing projeto.json` dá o roteiro em 7 etapas já filtrado: stack, só grátis se
    `aceita_pago` não for "sim", seções do tipo de projeto, sem shaders/3D se `efeitos` for "calmo".
    Se ainda faltar pergunta obrigatória, o guia avisa no topo; não comece a construir antes de responder.
 

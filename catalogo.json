@@ -108,7 +108,13 @@
       "dica": "Antes de desenhar qualquer coisa: abra cada referência no navegador, espere carregar, role a página inteira e capture telas em vários pontos. Grave em referencias[].estudo: o que ocupa o centro do hero (produto, objeto, marca?), o que preenche e move a tela, como reage à rolagem e ao mouse, a ordem das seções e o que copiar como ideia. Copie a ideia, nunca o código ou a marca. Ordem de peso: este estudo > Impeccable > Taste. Sem estudo de todas as referências, não comece a construir."
     },
     {
-      "titulo": "2. Direção visual",
+      "titulo": "2. Conceito: a metáfora da solução",
+      "categorias": [],
+      "conceito": true,
+      "dica": "Leia a identidade da empresa (propósito, visão, valores, origem do nome, jeito de atuar), não o que ela vende. Levante pelo menos 6 metáforas não literais do que ela entrega ao cliente: nada de mostrar a ferramenta, o produto ou o óbvio (ex.: não 'servidores' nem 'IA', e sim algo como 'força invisível que dá forma ao que estava solto'). Exemplos que o cliente der são exemplos: capte a ideia, não copie. Mostre as opções com a leitura de cada uma, o cliente escolhe uma ou duas e combina. Grave em conceito: metafora, por_que e secoes (para cada seção do site, o que ela deve fazer o visitante entender ou sentir dentro da metáfora). Esse mapa manda no que cada seção faz; as bibliotecas da etapa 5 só executam."
+    },
+    {
+      "titulo": "3. Direção visual",
       "categorias": [
         "design-md",
         "skill-ia"
@@ -116,14 +122,14 @@
       "dica": "Depois do estudo, nunca antes: Impeccable e em seguida Taste refinam a direção. Elas ajustam o que o estudo mostrou, não substituem. Fixe tipografia, cores, espaçamento e tom num DESIGN.md (ou siga o design system existente)."
     },
     {
-      "titulo": "3. Base de componentes",
+      "titulo": "4. Base de componentes",
       "categorias": [
         "componentes"
       ],
       "dica": "Uma base só (shadcn/ui no React, daisyUI no HTML puro). Prefira o que o projeto já usa (itens [em uso])."
     },
     {
-      "titulo": "4. Efeitos por seção",
+      "titulo": "5. Efeitos por seção",
       "categorias": [
         "componentes",
         "comunidade",
@@ -134,14 +140,14 @@
       "por_secao": true
     },
     {
-      "titulo": "5. Movimento",
+      "titulo": "6. Movimento",
       "categorias": [
         "animacao"
       ],
       "dica": "Anime só transform e opacity, respeite prefers-reduced-motion e reserve altura (sem pulo de layout)."
     },
     {
-      "titulo": "6. Serviços e mídia",
+      "titulo": "7. Serviços e mídia",
       "categorias": [
         "servico",
         "geracao-ia"
@@ -150,7 +156,7 @@
       "so_se_pedido": true
     },
     {
-      "titulo": "7. Licença antes de entregar",
+      "titulo": "8. Licença antes de entregar",
       "categorias": [],
       "dica": "Confira o campo licenca de cada item usado. 'gratis+pro': só o gratuito entra sem compra. 'MIT + Commons Clause': pode usar no site, não pode revender o componente. Comunidade: licença por item. Registre no projeto o que entrou e a licença."
     }
@@ -1407,6 +1413,12 @@
       "pergunta": "Qual a única coisa que o projeto precisa conseguir?",
       "obrigatoria": true,
       "exemplo": "Gerar pedidos de orçamento de empresas da região."
+    },
+    {
+      "id": "identidade",
+      "pergunta": "Qual é o propósito, a visão e os valores da empresa, e de onde vem o nome? (procure antes nos documentos dela)",
+      "obrigatoria": true,
+      "por_que": "A metáfora do conceito nasce da identidade, não do que a empresa vende."
     },
     {
       "id": "publico",
