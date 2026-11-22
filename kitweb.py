@@ -1,7 +1,9 @@
 """Kit Web: acha, no catálogo, bibliotecas, referências e ferramentas para projetos web, e guia a escolha por etapa e seção.
 
 Uso (Python 3.9+, só biblioteca padrão; funciona em qualquer IA ou terminal):
-  python kitweb.py guia [--stack react] [--secao hero]       roteiro do projeto, ou atalhos de uma seção
+  python kitweb.py briefing projeto.json [--trilha site|software]   cria o briefing da trilha
+  python kitweb.py entrevista --briefing projeto.json              o que falta perguntar
+  python kitweb.py guia --briefing projeto.json [--secao hero]     roteiro da trilha, ou atalhos de uma seção
   python kitweb.py buscar fundo animado [--stack vue] [--categoria componentes] [--gratis] [--n 8]
   python kitweb.py listar [--categoria referencia]
   python kitweb.py ver reactbits
@@ -11,7 +13,7 @@ Uso (Python 3.9+, só biblioteca padrão; funciona em qualquer IA ou terminal):
   python kitweb.py checar          confere se cada URL ainda responde
   python kitweb.py teste           autoteste do catálogo e da busca
 Qualquer comando de leitura aceita --json (saída para outra IA).
-Palavras: site, landing page, projeto web, componentes, biblioteca de UI, animação, referência de design, shader.
+Palavras: site, landing page, sistema, painel, app, software, projeto web, componentes, biblioteca de UI, animação, referência de design, shader.
 """
 import argparse
 import json
@@ -141,9 +143,25 @@ def como_lista(v):
     return [plano(x).strip() for x in (v if isinstance(v, list) else str(v or "").split(",")) if str(x).strip()]
 
 
-def pendentes(d, b):
+TRILHAS = ("site", "software")
+
+
+def trilha_de(d, b, pedida=None):
+    """Trilha do projeto: a pedida na linha de comando, a do briefing, a do tipo de projeto ou 'site'."""
+    for t in (pedida, b.get("trilha"), d.get("trilha_do_tipo", {}).get(plano(b.get("tipo", "")).strip())):
+        if t and plano(t).strip() in TRILHAS:
+            return plano(t).strip()
+    return "site"
+
+
+def da_trilha(lista, trilha):
+    return [x for x in lista if trilha in x.get("trilhas", TRILHAS)]
+
+
+def pendentes(d, b, trilha=None):
     out = []
-    for q in d["entrevista"]:
+    trilha = trilha or trilha_de(d, b)
+    for q in da_trilha(d["entrevista"], trilha):
         v = b.get(q["id"])
         if q["id"] == "referencias":
             minimo = q.get("minimo", 3)
@@ -177,10 +195,13 @@ def sem_conceito(b, secoes):
 CAMPOS_ARTE = ("fundo", "elemento", "passagem", "microinteracoes")
 
 
-def sem_direcao(b):
-    """O que falta na direção de arte: o plano geral e, por seção, fundo, elemento, passagem e microinterações."""
+def sem_direcao(b, por_secao=True):
+    """O que falta na direção de arte: o plano geral e, em site, fundo, elemento, passagem e microinterações de cada seção."""
     da = b.get("direcao_arte") or {}
-    falta = [] if not vazio(da.get("geral")) else ["geral"]
+    geral = da.get("geral")
+    falta = ["geral"] if vazio(geral) or (isinstance(geral, dict) and all(vazio(x) for x in geral.values())) else []
+    if not por_secao:
+        return falta
     secoes = da.get("secoes") or {}
     if not secoes:
         return falta + ["secoes"]
@@ -189,6 +210,18 @@ def sem_direcao(b):
         if buracos:
             falta.append("%s (%s)" % (nome, ", ".join(buracos)))
     return falta
+
+
+CAMPOS_TELA = ("objetivo", "acoes", "estados")
+
+
+def sem_telas(b):
+    """Software: telas planejadas com objetivo, ações e estados."""
+    telas = b.get("telas") or {}
+    if not telas:
+        return ["telas"]
+    return ["%s (%s)" % (n, ", ".join(c for c in CAMPOS_TELA if vazio((p or {}).get(c))))
+            for n, p in telas.items() if any(vazio((p or {}).get(c)) for c in CAMPOS_TELA)]
 
 
 def papel(b, secao):
@@ -224,9 +257,11 @@ def cmd_guia(a, d):
             return mostrar(achados, True)
         print("Seção %s (tags: %s)%s:" % (secao, ", ".join(d["secoes"][secao]), " stack " + stack if stack else ""))
         return mostrar(achados, False)
-    falta = pendentes(d, b) if b else []
+    trilha = trilha_de(d, b, getattr(a, "trilha", None))
+    falta = pendentes(d, b, trilha) if b else []
     roteiro = []
-    for etapa in d["etapas"]:
+    for n, etapa in enumerate(da_trilha(d["etapas"], trilha), 1):
+        etapa = {**etapa, "titulo": "%d. %s" % (n, etapa["titulo"])}
         e = {**etapa, "itens": []}
         if etapa.get("por_secao"):
             e["secoes"] = {s: escolher_secao(d, itens, s, 2, calmo) for s in secoes}
@@ -240,24 +275,28 @@ def cmd_guia(a, d):
             e["do_briefing"] = b.get("referencias") or []
         roteiro.append(e)
     estudar = sem_estudo(b)
-    conceito_falta = sem_conceito(b, secoes) if b else []
-    arte_falta = sem_direcao(b) if b else []
+    site = trilha == "site"
+    conceito_falta = sem_conceito(b, secoes) if b and site else []
+    arte_falta = sem_direcao(b, por_secao=site) if b else []
+    telas_falta = sem_telas(b) if b and not site else []
     if a.json:
-        return print(json.dumps({"pendentes": falta, "sem_estudo": estudar, "conceito": b.get("conceito"), "sem_conceito": conceito_falta, "direcao_arte": b.get("direcao_arte"), "sem_direcao_arte": arte_falta, "stack": stack, "so_gratis": gratis, "secoes": secoes, "roteiro": roteiro}, ensure_ascii=False, indent=2))
+        return print(json.dumps({"pendentes": falta, "sem_estudo": estudar, "conceito": b.get("conceito"), "sem_conceito": conceito_falta, "direcao_arte": b.get("direcao_arte"), "sem_direcao_arte": arte_falta, "telas": b.get("telas"), "sem_telas": telas_falta, "trilha": trilha, "stack": stack, "so_gratis": gratis, "secoes": secoes, "roteiro": roteiro}, ensure_ascii=False, indent=2))
     if b:
         obrig = [q for q in falta if q["obrigatoria"]]
-        print("# %s — %s | stack %s | %s | seções: %s" % (b.get("nome") or "projeto sem nome", b.get("tipo") or "tipo ?", stack or "?",
+        print("# %s — %s | trilha %s | stack %s | %s | seções: %s" % (b.get("nome") or "projeto sem nome", b.get("tipo") or "tipo ?", trilha, stack or "?",
               "só grátis" if gratis else "pago liberado", ", ".join(secoes) or "?"))
         if obrig:
             print("! Entreviste antes: %d pergunta(s) obrigatória(s) sem resposta (%s). Rode `entrevista --briefing`."
                   % (len(obrig), ", ".join(q["id"] for q in obrig)))
         if conceito_falta:
-            print("! Defina o conceito antes de construir (etapa 2): %s" % (
+            print("! Defina o conceito antes de construir: %s" % (
                 "falta a metáfora" if conceito_falta == ["metafora"] else "seções sem papel no conceito: " + ", ".join(conceito_falta)))
         if arte_falta:
-            print("! Planeje a direção de arte antes de construir (etapa 3): falta %s" % "; ".join(arte_falta))
+            print("! Planeje a direção %s antes de construir: falta %s" % ("de arte" if site else "visual do sistema", "; ".join(arte_falta)))
+        if telas_falta:
+            print("! Planeje tarefas e telas antes de construir: falta %s" % "; ".join(telas_falta))
         if estudar:
-            print("! Estude antes de construir (etapa 1, pesa mais que Impeccable e Taste): %d referência(s) sem 'estudo': %s"
+            print("! Estude antes de construir (pesa mais que Impeccable e Taste): %d referência(s) sem 'estudo': %s"
                   % (len(estudar), ", ".join(estudar)))
     for e in roteiro:
         print("\n## %s\n%s" % (e["titulo"], e["dica"]))
@@ -274,12 +313,17 @@ def cmd_guia(a, d):
                 print("Por quê: %s" % c["por_que"])
             for s in secoes:
                 print("  * %s: %s" % (s, papel(b, s) or "(sem papel definido)"))
-        if e.get("direcao") and b:
+        if e.get("telas") and b:
+            for nome, pt in (b.get("telas") or {}).items():
+                print("  ### %s" % nome)
+                for c, val in (pt or {}).items():
+                    print("    %s: %s" % (c, val if not isinstance(val, list) else "; ".join(map(str, val))))
+        if (e.get("direcao") or e.get("direcao_sistema")) and b:
             da = b.get("direcao_arte") or {}
             geral = da.get("geral") or {}
             for k, val in (geral.items() if isinstance(geral, dict) else [("geral", geral)]):
                 print("  %s: %s" % (k, val if not isinstance(val, list) else "; ".join(map(str, val))))
-            for nome, plano_s in (da.get("secoes") or {}).items():
+            for nome, plano_s in ((da.get("secoes") or {}).items() if e.get("direcao") else []):
                 print("  ### %s" % nome)
                 for c in CAMPOS_ARTE + tuple(k for k in (plano_s or {}) if k not in CAMPOS_ARTE):
                     if (plano_s or {}).get(c):
@@ -307,11 +351,16 @@ def cmd_briefing(a, d):
     destino = Path(a.arquivo)
     if destino.exists():
         sys.exit("%s já existe; edite ou rode entrevista --briefing nele." % destino)
-    modelo = {q["id"]: ([] if q["id"] == "referencias" else "") for q in d["entrevista"]}
+    trilha = plano(a.trilha or "site").strip()
+    modelo = {"trilha": trilha} | {q["id"]: ([] if q["id"] == "referencias" else "") for q in da_trilha(d["entrevista"], trilha)}
     modelo["referencias"] = [{"url": "", "olhar": "", "estudo": ""}]
-    modelo["conceito"] = {"metafora": "", "por_que": "", "opcoes": [], "secoes": {}}
-    modelo["direcao_arte"] = {"geral": {"mundo": "", "paleta": "", "materiais": "", "luz": "", "camera": "", "ritmo": "", "modelos": []},
-                              "secoes": {"Hero": {c: "" for c in CAMPOS_ARTE} | {"pequenos_elementos": ""}}}
+    if trilha == "site":
+        modelo["conceito"] = {"metafora": "", "por_que": "", "opcoes": {"literais": [], "nao_literais": []}, "secoes": {}}
+        modelo["direcao_arte"] = {"geral": {"mundo": "", "paleta": "", "materiais": "", "luz": "", "camera": "", "ritmo": "", "modelos": []},
+                                  "secoes": {"Hero": {c: "" for c in CAMPOS_ARTE} | {"pequenos_elementos": ""}}}
+    else:
+        modelo["telas"] = {"Tela principal": {"objetivo": "", "dados": "", "acoes": "", "estados": "vazio, carregando, erro, sucesso, sem permissão"}}
+        modelo["direcao_arte"] = {"geral": {"tokens": "", "densidade": "", "tipografia": "", "icones": "", "modo": ""}}
     destino.write_text(json.dumps(modelo, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("Briefing criado em %s. Agora: python kitweb.py entrevista --briefing %s" % (destino, destino))
 
@@ -352,7 +401,7 @@ def cmd_midia(a, d):
 
 def cmd_entrevista(a, d):
     b = ler_briefing(a.briefing)
-    falta = pendentes(d, b)
+    falta = pendentes(d, b, trilha_de(d, b, a.trilha))
     if a.json:
         return print(json.dumps(falta, ensure_ascii=False, indent=2))
     if not falta:
@@ -429,6 +478,17 @@ def cmd_teste(a, d):
         assert i["url"].startswith("http"), i["id"]
     for e in d["etapas"]:
         assert all(c in d["categorias"] for c in e["categorias"]), e["titulo"]
+        assert e.get("trilhas") and set(e["trilhas"]) <= set(TRILHAS), e["titulo"]
+    assert set(d["trilha_do_tipo"]) == set(d["tipos"]), "tipo sem trilha"
+    assert trilha_de(d, {"tipo": "dashboard"}) == "software" and trilha_de(d, {"tipo": "landing"}) == "site"
+    assert trilha_de(d, {"tipo": "landing", "trilha": "software"}) == "software"
+    assert not any(e.get("conceito") for e in da_trilha(d["etapas"], "software"))
+    assert not any(e.get("telas") for e in da_trilha(d["etapas"], "site"))
+    assert any(q["id"] == "usuarios" for q in pendentes(d, {"tipo": "sistema"}))
+    assert not any(q["id"] == "usuarios" for q in pendentes(d, {"tipo": "landing"}))
+    assert sem_telas({}) == ["telas"] and sem_telas({"telas": {"Chamados": {"objetivo": "a", "acoes": "b"}}}) == ["Chamados (estados)"]
+    assert sem_direcao({"direcao_arte": {"geral": {"tokens": "x"}}}, por_secao=False) == []
+    assert sem_direcao({"direcao_arte": {"geral": {"tokens": "", "modo": ""}}}, por_secao=False) == ["geral"]
     base = filtrar(d["itens"], "react")
     achados = [i for i in base if pontuar(i, termos("fundo background hero")) > 0]
     assert achados, "busca sem resultado"
@@ -436,7 +496,7 @@ def cmd_teste(a, d):
     assert por_tags(d["itens"], d["secoes"]["hero"], 5), "seção hero vazia"
     assert plano("Animação") == "animacao"
     assert all(s in d["secoes"] for t in d["tipos"].values() for s in t), "tipo com seção inexistente"
-    assert len(pendentes(d, {})) == len(d["entrevista"])
+    assert len(pendentes(d, {})) == len(da_trilha(d["entrevista"], "site"))
     b = {"tipo": "institucional", "stack": "React + Vite", "aceita_pago": "nao", "efeitos": "calmo",
          "referencias": [{"url": "https://a", "olhar": "x"}] * 3}
     stack, gratis, secoes, calmo = contexto(argparse.Namespace(stack=None, gratis=False), d, b)
@@ -477,8 +537,10 @@ def main():
     filtros(g := sub.add_parser("guia"), 4)
     g.add_argument("--secao")
     g.add_argument("--briefing", help="arquivo JSON do projeto (crie com `briefing`)")
+    g.add_argument("--trilha", choices=TRILHAS, help="site ou software (padrão: do briefing ou do tipo)")
     br = sub.add_parser("briefing")
     br.add_argument("arquivo")
+    br.add_argument("--trilha", choices=TRILHAS, default="site")
     md = sub.add_parser("midia")
     md.add_argument("--briefing", required=True)
     md.add_argument("--marcar", nargs=2, metavar=("ID", "STATUS"))
@@ -486,6 +548,7 @@ def main():
     md.add_argument("--json", action="store_true")
     en = sub.add_parser("entrevista")
     en.add_argument("--briefing", help="sem arquivo, lista todas as perguntas")
+    en.add_argument("--trilha", choices=TRILHAS)
     en.add_argument("--json", action="store_true")
     sub.add_parser("categorias")
     sub.add_parser("secoes")

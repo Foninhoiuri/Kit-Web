@@ -102,37 +102,72 @@
   },
   "etapas": [
     {
-      "titulo": "1. Estudo das referências (pesa mais que qualquer skill)",
+      "titulo": "Estudo das referências (pesa mais que qualquer skill)",
       "categorias": [
         "referencia"
       ],
-      "dica": "Antes de desenhar qualquer coisa: abra cada referência no navegador, espere carregar, role a página inteira e capture telas em vários pontos. Grave em referencias[].estudo: o que ocupa o centro do hero (produto, objeto, marca?), o que preenche e move a tela, como reage à rolagem e ao mouse, a ordem das seções e o que copiar como ideia. Copie a ideia, nunca o código ou a marca. Ordem de peso: este estudo > Impeccable > Taste. Sem estudo de todas as referências, não comece a construir."
+      "dica": "Antes de desenhar qualquer coisa: abra cada referência no navegador, espere carregar, role a página inteira e capture telas em vários pontos. Grave em referencias[].estudo: o que ocupa o centro do hero (produto, objeto, marca?), o que preenche e move a tela, como reage à rolagem e ao mouse, a ordem das seções e o que copiar como ideia. Copie a ideia, nunca o código ou a marca. Ordem de peso: este estudo > Impeccable > Taste. Sem estudo de todas as referências, não comece a construir.",
+      "trilhas": [
+        "site",
+        "software"
+      ]
     },
     {
-      "titulo": "2. Conceito: a metáfora da solução",
+      "titulo": "Conceito: a metáfora da solução",
       "categorias": [],
       "conceito": true,
-      "dica": "Leia a identidade da empresa (propósito, visão, valores, origem do nome, jeito de atuar), não o que ela vende. Levante opções das duas linhas, sempre as duas (principalmente em empresa de serviço, cuja entrega não se vê): literais (o resultado mostrado como ele é, no mundo do cliente) e não literais (metáforas, ex.: 'força invisível que dá forma ao que estava solto'). Pelo menos 3 de cada. Nunca mostrar a ferramenta como se fosse a solução (ex.: 'servidores' ou 'IA'). Exemplos que o cliente der são exemplos: capte a ideia, não copie. Mostre as opções com a leitura de cada uma, o cliente escolhe uma ou duas e combina. Grave em conceito: metafora, por_que e secoes (para cada seção do site, o que ela deve fazer o visitante entender ou sentir dentro da metáfora). Esse mapa manda no que cada seção faz; as bibliotecas da etapa 5 só executam."
+      "dica": "Leia a identidade da empresa (propósito, visão, valores, origem do nome, jeito de atuar), não o que ela vende. Levante opções das duas linhas, sempre as duas (principalmente em empresa de serviço, cuja entrega não se vê): literais (o resultado mostrado como ele é, no mundo do cliente) e não literais (metáforas, ex.: 'força invisível que dá forma ao que estava solto'). Pelo menos 3 de cada. Nunca mostrar a ferramenta como se fosse a solução (ex.: 'servidores' ou 'IA'). Exemplos que o cliente der são exemplos: capte a ideia, não copie. Mostre as opções com a leitura de cada uma, o cliente escolhe uma ou duas e combina. Grave em conceito: metafora, por_que e secoes (para cada seção do site, o que ela deve fazer o visitante entender ou sentir dentro da metáfora). Esse mapa manda no que cada seção faz; as bibliotecas da etapa de efeitos por seção só executam.",
+      "trilhas": [
+        "site"
+      ]
     },
     {
-      "titulo": "3. Direção de arte (geral e por seção)",
+      "titulo": "Tarefas e telas",
+      "trilhas": [
+        "software"
+      ],
+      "categorias": [],
+      "telas": true,
+      "dica": "Quem usa no dia a dia e quais tarefas faz mais. Liste as telas e o caminho entre elas; para cada tela grave em telas: objetivo, dados (o que mostra), acoes (o que a pessoa faz ali) e estados (vazio, carregando, erro, sucesso, sem permissão). A tarefa mais frequente tem que ser a mais rápida."
+    },
+    {
+      "titulo": "Direção de arte (geral e por seção)",
       "categorias": [
         "design-md",
         "skill-ia",
         "modelos-3d"
       ],
       "dica": "Depois do estudo e do conceito, nunca antes. Geral: mundo, paleta, materiais, luz, câmera, ritmo e a lista de modelos a produzir. Por seção, planeje antes de codar: fundo, elemento (o modelo 3D ou visual e o papel dele no conceito), passagem (como chega da seção anterior e vai para a próxima), microinterações e pequenos elementos. Grave em direcao_arte. Impeccable e em seguida Taste refinam este plano; não o substituem. Modelos melhores vêm de modelagem própria (Blender ou Spline) e de bancos com licença clara.",
-      "direcao": true
+      "direcao": true,
+      "trilhas": [
+        "site"
+      ]
     },
     {
-      "titulo": "4. Base de componentes",
+      "titulo": "Direção visual do sistema",
+      "trilhas": [
+        "software"
+      ],
+      "categorias": [
+        "design-md",
+        "skill-ia"
+      ],
+      "direcao_sistema": true,
+      "dica": "Depois do estudo: tokens (cores com significado fixo, espaçamento, raio), densidade (informação por tela), tipografia, ícones, modo claro ou escuro. Siga o design system existente se houver. Grave em direcao_arte.geral. Impeccable e em seguida Taste refinam."
+    },
+    {
+      "titulo": "Base de componentes",
       "categorias": [
         "componentes"
       ],
-      "dica": "Uma base só (shadcn/ui no React, daisyUI no HTML puro). Prefira o que o projeto já usa (itens [em uso])."
+      "dica": "Uma base só (shadcn/ui no React, daisyUI no HTML puro). Prefira o que o projeto já usa (itens [em uso]).",
+      "trilhas": [
+        "site",
+        "software"
+      ]
     },
     {
-      "titulo": "5. Efeitos por seção",
+      "titulo": "Efeitos por seção",
       "categorias": [
         "componentes",
         "comunidade",
@@ -140,28 +175,62 @@
         "graficos"
       ],
       "dica": "Executam o papel de cada seção no conceito. Elementos 3D atravessam a página: ou um mesmo objeto se mantém do início ao fim, ou toda seção tem o seu e eles passam de uma para a outra. Cada seção tem fundo, elementos, microinterações e pequenos detalhes próprios. Um efeito forte por tela; o resto calmo.",
-      "por_secao": true
+      "por_secao": true,
+      "trilhas": [
+        "site"
+      ]
     },
     {
-      "titulo": "6. Movimento",
+      "titulo": "Estados e dados",
+      "trilhas": [
+        "software"
+      ],
+      "categorias": [
+        "componentes",
+        "graficos"
+      ],
+      "dica": "Cada tela com todos os estados desenhados: vazio (com o que fazer), carregando (skeleton com a grade real), erro (o que houve e como resolver), sucesso e sem permissão. Use dados de exemplo realistas, nunca lorem ipsum; tabelas e gráficos com os volumes reais esperados."
+    },
+    {
+      "titulo": "Movimento",
       "categorias": [
         "animacao"
       ],
-      "dica": "Anime só transform e opacity, respeite prefers-reduced-motion e reserve altura (sem pulo de layout)."
+      "dica": "Anime só transform e opacity, respeite prefers-reduced-motion e reserve altura (sem pulo de layout). Em software, movimento é funcional: confirmar ação, mostrar carregamento e mudança de estado; nada que atrase a tarefa.",
+      "trilhas": [
+        "site",
+        "software"
+      ]
     },
     {
-      "titulo": "7. Serviços e mídia",
+      "titulo": "Serviços e mídia",
       "categorias": [
         "servico",
         "geracao-ia"
       ],
       "dica": "Login, pagamento e imagens por serviço pronto; segredos só em variável de ambiente. Só entra o que o briefing pedir em 'servicos'.",
-      "so_se_pedido": true
+      "so_se_pedido": true,
+      "trilhas": [
+        "site",
+        "software"
+      ]
     },
     {
-      "titulo": "8. Licença antes de entregar",
+      "titulo": "Acessibilidade e uso diário",
+      "trilhas": [
+        "software"
+      ],
       "categorias": [],
-      "dica": "Confira o campo licenca de cada item usado. 'gratis+pro': só o gratuito entra sem compra. 'MIT + Commons Clause': pode usar no site, não pode revender o componente. Comunidade: licença por item. Registre no projeto o que entrou e a licença."
+      "dica": "Teclado em tudo (foco visível, atalhos para a tarefa mais frequente), contraste, alvos de toque de 44 px, responsivo de verdade, textos claros nos erros. Teste a tarefa principal do começo ao fim como o usuário faria."
+    },
+    {
+      "titulo": "Licença antes de entregar",
+      "categorias": [],
+      "dica": "Confira o campo licenca de cada item usado. 'gratis+pro': só o gratuito entra sem compra. 'MIT + Commons Clause': pode usar no site, não pode revender o componente. Comunidade: licença por item. Registre no projeto o que entrou e a licença.",
+      "trilhas": [
+        "site",
+        "software"
+      ]
     }
   ],
   "itens": [
@@ -1385,9 +1454,9 @@
         "3d",
         "modelo"
       ],
-      "resumo": "Ferramenta padrão de modelagem 3D do kit: modelagem, materiais e animação; exportar glTF com Draco para a web.",
+      "resumo": "Padrão do kit para modelagem 3D, só quando o projeto tiver 3D (o dia a dia é com componentes React): modelagem, materiais e animação; exportar glTF com Draco.",
       "cuidado": "Curva de aprendizado maior; manter poucos polígonos e texturas KTX2.",
-      "em_uso": true
+      "em_uso": false
     },
     {
       "id": "polyhaven",
@@ -1475,6 +1544,12 @@
       "chat-ia",
       "formulario",
       "login"
+    ],
+    "sistema": [
+      "navegacao",
+      "dashboard",
+      "formulario",
+      "login"
     ]
   },
   "entrevista": [
@@ -1496,22 +1571,41 @@
       "exemplo": "Gerar pedidos de orçamento de empresas da região."
     },
     {
+      "id": "usuarios",
+      "pergunta": "Quem usa o sistema no dia a dia e quais as 3 tarefas que mais faz?",
+      "obrigatoria": true,
+      "trilhas": [
+        "software"
+      ],
+      "por_que": "As telas e a ordem delas saem das tarefas mais frequentes.",
+      "exemplo": "Atendente: abrir chamado, responder cliente, fechar chamado."
+    },
+    {
       "id": "identidade",
       "pergunta": "Qual é o propósito, a visão e os valores da empresa, e de onde vem o nome? (procure antes nos documentos dela)",
       "obrigatoria": true,
-      "por_que": "A metáfora do conceito nasce da identidade, não do que a empresa vende."
+      "por_que": "A metáfora do conceito nasce da identidade, não do que a empresa vende.",
+      "trilhas": [
+        "site"
+      ]
     },
     {
       "id": "publico",
       "pergunta": "Quem vai usar ou visitar? Seja específico.",
       "obrigatoria": true,
-      "exemplo": "Donos de pequenas empresas de 5 a 50 funcionários."
+      "exemplo": "Donos de pequenas empresas de 5 a 50 funcionários.",
+      "trilhas": [
+        "site"
+      ]
     },
     {
       "id": "acao",
       "pergunta": "Qual ação o visitante deve fazer, e para onde ela leva?",
       "obrigatoria": true,
-      "exemplo": "Botão 'Solicitar atendimento' que abre WhatsApp com mensagem pronta."
+      "exemplo": "Botão 'Solicitar atendimento' que abre WhatsApp com mensagem pronta.",
+      "trilhas": [
+        "site"
+      ]
     },
     {
       "id": "referencias",
@@ -1546,7 +1640,10 @@
       "id": "efeitos",
       "pergunta": "Quanto movimento? calmo, moderado ou intenso.",
       "obrigatoria": false,
-      "por_que": "Calmo tira shaders, 3D e partículas das sugestões."
+      "por_que": "Calmo tira shaders, 3D e partículas das sugestões.",
+      "trilhas": [
+        "site"
+      ]
     },
     {
       "id": "aceita_pago",
@@ -1582,5 +1679,19 @@
     "marcador": "No código, cada espaço de mídia leva data-midia=\"<id>\" e um substituto leve (gradiente ou imagem estática) até o arquivo chegar.",
     "prompt": "Prompt de vídeo em inglês: assunto, ambiente, movimento de câmera, luz, paleta, ritmo, duração, loop sem corte, proporção; sempre 'no text, no logos, no people faces' quando for fundo.",
     "regra": "Código primeiro: interface, ícones, texto, formas abstratas, luz, vidro, partículas e aberturas são feitos em código (CSS, SVG, shader, Three.js), que fica nítido, leve e reage a mouse e scroll. Vídeo ou imagem gerada só para o que código não faz bem: objetos 3D realistas, pessoas, lugares e produto filmado. Cada item de mídia diz em 'por_que_video' por que não dá em código."
+  },
+  "trilhas": {
+    "site": "Sites e páginas: institucional, landing, portfólio, e-commerce. Conceito, direção de arte por seção, efeitos e 3D.",
+    "software": "Sistemas e apps: painéis, SaaS, sistemas internos, apps de IA. Tarefas, telas, estados, componentes e uso diário."
+  },
+  "trilha_do_tipo": {
+    "institucional": "site",
+    "landing": "site",
+    "portfolio": "site",
+    "ecommerce": "site",
+    "saas": "software",
+    "dashboard": "software",
+    "app-ia": "software",
+    "sistema": "software"
   }
 }

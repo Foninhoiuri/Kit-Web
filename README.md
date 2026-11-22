@@ -23,7 +23,7 @@ o que olhar primeiro, o que usar em cada seção e o que **não** pode ir para o
 - **Entrevista antes de sugerir:** um briefing do projeto; o kit pergunta o que falta (público, ação, referências,
   orçamento para itens pagos) e insiste quando há pouca referência.
 - **Conceito antes do visual:** opções literais e metafóricas da solução, tirada da identidade da empresa, que diz o que cada seção deve fazer.
-- **Guia por etapa:** das referências até a checagem de licença, em 8 passos, filtrado pelo briefing.
+- **Guia por etapa:** das referências até a checagem de licença, em duas trilhas (site e software), filtrado pelo briefing.
 - **Código primeiro, vídeo quando precisa:** o que dá em código fica em código; pessoas e 3D realista viram vídeo. Cada espaço de vídeo ou imagem gerada por IA nasce marcado no código, com o prompt
   escrito no briefing; gerar depois é colar no gerador e entregar o arquivo.
 - **Atalho por seção:** hero, cards, fundo, rolagem, preços, dashboard, login…
@@ -36,7 +36,7 @@ o que olhar primeiro, o que usar em cada seção e o que **não** pode ir para o
 ```bash
 git clone <url-do-repositorio> kit-web
 cd kit-web
-python kitweb.py briefing meu-site.json          # cria o briefing em branco
+python kitweb.py briefing meu-site.json          # cria o briefing (use --trilha software para sistemas)
 python kitweb.py entrevista --briefing meu-site.json  # o que falta responder
 python kitweb.py guia --briefing meu-site.json        # roteiro sob medida
 ```
@@ -78,18 +78,23 @@ Seção cards (tags: cards, bento, scroll) stack react:
   ! 106+ componentes Premium pagos; conferir quais são grátis.
 ```
 
-## O roteiro
+## O roteiro: duas trilhas
 
-| Etapa | Foco |
+O tipo de projeto escolhe a trilha. O catálogo é o mesmo para as duas.
+
+| Site (institucional, landing, portfólio, e-commerce) | Software (painel, SaaS, sistema interno, app de IA) |
 | --- | --- |
-| 1. Estudo das referências | Abrir, rolar e descrever cada referência antes de desenhar; pesa mais que qualquer skill |
-| 2. Conceito | Opções literais e não literais da solução, tiradas da identidade da empresa; a escolhida define o papel de cada seção |
-| 3. Direção de arte | Plano geral e por seção (fundo, elemento, passagem, microinterações); Impeccable e Taste refinam |
-| 4. Base de componentes | Uma base só, de preferência a que o projeto já usa |
-| 5. Efeitos por seção | Executam o papel de cada seção no conceito; um efeito forte por tela |
-| 6. Movimento | Só `transform` e `opacity`, respeitando `prefers-reduced-motion` |
-| 7. Serviços e mídia | Login, pagamento e imagens prontos; segredos só em variável de ambiente |
-| 8. Licença | Conferir cada item usado e registrar no projeto |
+| 1. Estudo das referências | 1. Estudo das referências |
+| 2. Conceito: opções literais e metafóricas da solução | 2. Tarefas e telas: objetivo, ações e estados de cada tela |
+| 3. Direção de arte, geral e por seção | 3. Direção visual do sistema: tokens, densidade, tipografia |
+| 4. Base de componentes | 4. Base de componentes |
+| 5. Efeitos por seção (3D quando fizer sentido) | 5. Estados e dados: vazio, carregando, erro, sucesso |
+| 6. Movimento | 6. Movimento funcional |
+| 7. Serviços e mídia | 7. Serviços |
+| 8. Licença | 8. Acessibilidade e uso diário |
+| | 9. Licença |
+
+O estudo das referências pesa mais que qualquer skill de design; Impeccable e Taste vêm depois e só refinam.
 
 ## O catálogo
 
