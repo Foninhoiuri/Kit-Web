@@ -50,7 +50,7 @@ roteiro genérico.
 | --- | --- |
 | `briefing arquivo.json` | Cria o briefing do projeto em branco |
 | `entrevista --briefing arquivo.json` | Perguntas que faltam, obrigatórias primeiro |
-| `guia --briefing arquivo.json` | Roteiro sob medida: stack, seções do tipo, só grátis se não houver orçamento |
+| `guia --briefing arquivo.json` | Roteiro sob medida: todas as bibliotecas da stack por etapa (`--n` limita), todas as seções do briefing, só grátis se não houver orçamento |
 | `midia --briefing arquivo.json` | Vídeos e imagens planejados, com prompts prontos e geradores |
 | `midia --briefing … --marcar <id> gerado --arquivo …` | Registra o arquivo gerado para a IA aplicar no código |
 | `guia [--stack react]` | Roteiro genérico, sem briefing |

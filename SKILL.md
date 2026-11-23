@@ -86,10 +86,13 @@ visual do sistema** (`direcao_arte.geral`: tokens, densidade, tipografia, ícone
 6. **Direção de arte, geral e por seção, antes de codar:** geral (mundo, paleta, materiais, luz, câmera, ritmo, modelos a
    produzir) e, para cada seção, `fundo`, `elemento`, `passagem` (como chega e como vai para a próxima), `microinteracoes` e
    `pequenos_elementos`. Grave em `direcao_arte`. Modelos melhores: Blender ou Spline, ou bancos com licença clara (Poly Haven CC0).
-   O guia avisa enquanto faltar o plano geral ou algum campo de seção.
+   O guia avisa enquanto faltar qualquer campo do plano geral, algum campo de seção ou o plano de alguma seção do
+   briefing, e mostra na etapa os estudos das referências: a direção sai deles, não do gosto da IA.
 7. `python kitweb.py guia --briefing projeto.json` dá o roteiro da trilha já filtrado: stack, componentes pagos só como
    referência para recriar (serviços pagos saem se `aceita_pago` não for "sim"), seções do tipo de projeto, sem shaders/3D
-   se `efeitos` for "calmo", e as skills de UI/UX que faltam aplicar.
+   se `efeitos` for "calmo", e as skills de UI/UX que faltam aplicar. Cada etapa lista **todas** as bibliotecas do
+   catálogo que servem na stack (limite só com `--n`); toda seção do briefing aparece, mesmo de nome livre ("Sobre",
+   "Rodapé"), com até 5 opções. Biblioteca sem framework (js, css, html) serve em qualquer stack; `next` inclui as de React.
    Se ainda faltar pergunta obrigatória, o guia avisa no topo; não comece a construir antes de responder.
 
 ## Vídeos e imagens geradas por IA
