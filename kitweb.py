@@ -48,12 +48,22 @@ def termos(texto):
     return [t for t in re.findall(r"[a-z0-9+.-]+", plano(texto)) if len(t) >= 2]
 
 
+FRAMEWORKS = {"react", "vue", "svelte", "next", "nuxt"}
+BASE_DO_FRAMEWORK = {"next": "react", "nuxt": "vue"}
+
+
+def serve_na_stack(item, stack):
+    """Serve se cita a stack (ou a base dela), se é 'qualquer' ou se não depende de framework (js, css, html)."""
+    proprias = set(item["stack"])
+    return bool(proprias & {stack, BASE_DO_FRAMEWORK.get(stack, stack), "qualquer"}) or not proprias & FRAMEWORKS
+
+
 def filtrar(itens, stack=None, categoria=None, gratis=False):
     out = []
     for i in itens:
         if categoria and i["categoria"] != categoria:
             continue
-        if stack and stack not in i["stack"] and "qualquer" not in i["stack"]:
+        if stack and not serve_na_stack(i, stack):
             continue
         if gratis and i["acesso"] not in ("gratis", "gratis+pro"):
             continue
@@ -178,9 +188,10 @@ def pendentes(d, b, trilha=None):
         v = b.get(q["id"])
         if q["id"] == "referencias":
             minimo = q.get("minimo", 3)
-            if len(v or []) < minimo:
-                out.append({**q, "situacao": "tem %d de %d" % (len(v or []), minimo)})
-            elif any(isinstance(r, dict) and vazio(r.get("olhar")) for r in v):
+            v = referencias(b)
+            if len(v) < minimo:
+                out.append({**q, "situacao": "tem %d de %d" % (len(v), minimo)})
+            elif any(vazio(r.get("olhar")) for r in v):
                 out.append({**q, "situacao": "falta dizer o que olhar em cada uma"})
         elif vazio(v):
             out.append({**q, "situacao": "sem resposta"})
@@ -190,10 +201,15 @@ def pendentes(d, b, trilha=None):
     return sorted(out, key=lambda q: not q["obrigatoria"])
 
 
+def referencias(b):
+    """Referências do briefing como dicionários, só as que têm URL (texto solto vira {'url': texto})."""
+    refs = [r if isinstance(r, dict) else {"url": str(r)} for r in (b.get("referencias") or [])]
+    return [r for r in refs if not vazio(r.get("url"))]
+
+
 def sem_estudo(b):
     """Referências do briefing que ainda não foram estudadas (abertas, roladas e descritas em 'estudo')."""
-    return [r.get("url", "?") if isinstance(r, dict) else str(r) for r in (b.get("referencias") or [])
-            if not (isinstance(r, dict) and not vazio(r.get("estudo")))]
+    return [r["url"] for r in referencias(b) if vazio(r.get("estudo"))]
 
 
 def sem_conceito(b, secoes):
@@ -205,24 +221,34 @@ def sem_conceito(b, secoes):
     return [s for s in secoes if vazio(mapa.get(s))]
 
 
-CAMPOS_ARTE = ("fundo", "elemento", "passagem", "microinteracoes")
+CAMPOS_ARTE = ("fundo", "elemento", "passagem", "microinteracoes", "pequenos_elementos")
+GERAL_ARTE = {"site": ("mundo", "paleta", "materiais", "luz", "camera", "ritmo"),
+              "software": ("tokens", "densidade", "tipografia", "icones", "modo")}
 
 
-def sem_direcao(b, por_secao=True):
-    """O que falta na direção de arte: o plano geral e, em site, fundo, elemento, passagem e microinterações de cada seção."""
+def sem_direcao(b, por_secao=True, secoes=()):
+    """O que falta na direção de arte: cada campo do plano geral e, em site, o plano de cada seção do briefing
+    (fundo, elemento, passagem, microinterações e pequenos elementos)."""
     da = b.get("direcao_arte") or {}
     geral = da.get("geral")
-    falta = ["geral"] if vazio(geral) or (isinstance(geral, dict) and all(vazio(x) for x in geral.values())) else []
+    falta = []
+    if vazio(geral) or (isinstance(geral, dict) and all(vazio(x) for x in geral.values())):
+        falta.append("geral")
+    elif isinstance(geral, dict):
+        buracos = [c for c in GERAL_ARTE["site" if por_secao else "software"] if vazio(geral.get(c))]
+        if buracos:
+            falta.append("geral (%s)" % ", ".join(buracos))
     if not por_secao:
         return falta
-    secoes = da.get("secoes") or {}
-    if not secoes:
+    planos = da.get("secoes") or {}
+    if not planos:
         return falta + ["secoes"]
-    for nome, plano_s in secoes.items():
+    for nome, plano_s in planos.items():
         buracos = [c for c in CAMPOS_ARTE if vazio((plano_s or {}).get(c))]
         if buracos:
             falta.append("%s (%s)" % (nome, ", ".join(buracos)))
-    return falta
+    planejadas = {plano(k).strip() for k in planos}
+    return falta + ["%s (sem plano)" % s for s in secoes if s not in planejadas]
 
 
 CAMPOS_TELA = ("objetivo", "acoes", "estados")
@@ -245,16 +271,20 @@ def papel(b, secao):
 def contexto(a, d, b):
     """Junta filtros da linha de comando com o briefing; a linha de comando vence."""
     stacks = {s for i in d["itens"] for s in i["stack"]} - {"qualquer"}
-    stack = a.stack or next((t for t in termos(b.get("stack", "")) if t in stacks), None)
+    stack = a.stack or next((t for t in (x.split(".")[0] for x in termos(b.get("stack", ""))) if t in stacks), None)
     gratis = a.gratis or (bool(b) and not plano(b.get("aceita_pago", "")).strip().startswith("sim"))
     secoes = como_lista(b.get("secoes")) or d["tipos"].get(plano(b.get("tipo", "")).strip(), [])
     calmo = plano(b.get("efeitos", "")).startswith("calm")
-    return stack, gratis, [s for s in secoes if s in d["secoes"]], calmo
+    return stack, gratis, list(dict.fromkeys(secoes)), calmo
 
 
 def escolher_secao(d, itens, secao, n, calmo):
+    """Componentes para a seção: pelas tags do atalho do catálogo ou, em seção de nome livre, pela busca do nome."""
     base = [i for i in itens if i["categoria"] not in NAO_COMPONENTE and not (calmo and INTENSOS & set(i["tags"]))]
-    return por_tags(base, d["secoes"][secao], n)
+    if secao in d["secoes"]:
+        return por_tags(base, d["secoes"][secao], n)
+    pontos = {i["id"]: pontuar(i, termos(secao)) for i in base}
+    return [i for i in ordenar(base, pontos) if pontos[i["id"]] > 0][:n]
 
 
 def skills_da(etapa, trilha):
@@ -303,6 +333,9 @@ def cmd_ux(a, d):
     print("\nFontes e skills (categoria ux-base):\n" + "\n".join(linha(i) for i in ordenar([i for i in d["itens"] if i["categoria"] == "ux-base"])))
 
 
+POR_SECAO = 5  # opções por seção no roteiro; as etapas mostram tudo do catálogo, salvo --n
+
+
 def cmd_guia(a, d):
     b = ler_briefing(a.briefing)
     stack, gratis, secoes, calmo = contexto(a, d, b)
@@ -312,7 +345,7 @@ def cmd_guia(a, d):
         secao = plano(a.secao)
         if secao not in d["secoes"]:
             sys.exit("Seção desconhecida. Opções: " + ", ".join(d["secoes"]))
-        achados = escolher_secao(d, itens, secao, a.n, calmo)
+        achados = escolher_secao(d, itens, secao, a.n or 8, calmo)
         if a.json:
             return mostrar(achados, True)
         print("Seção %s (tags: %s)%s:" % (secao, ", ".join(d["secoes"][secao]), " stack " + stack if stack else ""))
@@ -324,15 +357,17 @@ def cmd_guia(a, d):
         etapa = {**etapa, "titulo": "%d. %s" % (n, etapa["titulo"])}
         e = {**etapa, "itens": []}
         if etapa.get("por_secao"):
-            e["secoes"] = {s: escolher_secao(d, itens, s, 2, calmo) for s in secoes}
+            e["secoes"] = {s: escolher_secao(d, itens, s, a.n or POR_SECAO, calmo) for s in secoes}
         elif etapa.get("so_se_pedido"):
             pedido = termos(" ".join(como_lista(b.get("servicos"))))
             cands = [i for i in itens if i["categoria"] in etapa["categorias"]]
             e["itens"] = [i for i in ordenar(cands) if pedido and pontuar(i, pedido) > 0][: a.n]
         else:
-            e["itens"] = ordenar([i for i in itens if i["categoria"] in etapa["categorias"]])[: None if etapa.get("fundamentos") else a.n]
+            e["itens"] = ordenar([i for i in itens if i["categoria"] in etapa["categorias"]])[: a.n]
         if etapa["categorias"] == ["referencia"] and b:
-            e["do_briefing"] = b.get("referencias") or []
+            e["do_briefing"] = referencias(b)
+        if (etapa.get("direcao") or etapa.get("direcao_sistema")) and b:
+            e["estudos"] = [r for r in referencias(b) if not vazio(r.get("estudo"))]
         if etapa.get("fundamentos"):
             e["regras"] = fundamentos(d, trilha)
         e["skills"] = skills_da(etapa, trilha)
@@ -341,7 +376,7 @@ def cmd_guia(a, d):
     estudar = sem_estudo(b)
     site = trilha == "site"
     conceito_falta = sem_conceito(b, secoes) if b and site else []
-    arte_falta = sem_direcao(b, por_secao=site) if b else []
+    arte_falta = sem_direcao(b, por_secao=site, secoes=secoes) if b else []
     telas_falta = sem_telas(b) if b and not site else []
     if a.json:
         return print(json.dumps({"pendentes": falta, "sem_estudo": estudar, "conceito": b.get("conceito"), "sem_conceito": conceito_falta, "direcao_arte": b.get("direcao_arte"), "sem_direcao_arte": arte_falta, "telas": b.get("telas"), "sem_telas": telas_falta, "sem_skills_ux": ux_falta, "recriar": d["recriar"], "trilha": trilha, "stack": stack, "so_gratis": gratis, "secoes": secoes, "roteiro": roteiro}, ensure_ascii=False, indent=2))
@@ -377,7 +412,7 @@ def cmd_guia(a, d):
             refs = e["do_briefing"]
             print("Do briefing (%d):" % len(refs))
             for r in refs:
-                print("  * %s — %s" % (r.get("url"), r.get("olhar") or "o que olhar?") if isinstance(r, dict) else "  * %s" % r)
+                print("  * %s — %s\n    estudo: %s" % (r["url"], r.get("olhar") or "o que olhar?", r.get("estudo") or "(falta estudar)"))
             print("Onde buscar mais:")
         if e.get("conceito") and b:
             c = b.get("conceito") or {}
@@ -392,6 +427,9 @@ def cmd_guia(a, d):
                 for c, val in (pt or {}).items():
                     print("    %s: %s" % (c, val if not isinstance(val, list) else "; ".join(map(str, val))))
         if (e.get("direcao") or e.get("direcao_sistema")) and b:
+            print("Tire a direção dos estudos das referências (%d de %d estudadas):" % (len(e["estudos"]), len(referencias(b))))
+            for r in e["estudos"]:
+                print("  * %s — %s" % (r["url"], r["estudo"]))
             da = b.get("direcao_arte") or {}
             geral = da.get("geral") or {}
             for k, val in (geral.items() if isinstance(geral, dict) else [("geral", geral)]):
@@ -408,7 +446,7 @@ def cmd_guia(a, d):
                 print("\n### %s" % s)
                 if papel(b, s):
                     print("Papel no conceito: %s" % papel(b, s))
-                print("\n".join(linha(i) for i in grupo) or "(nada no catálogo para esta seção)")
+                print("\n".join(linha(i) for i in grupo) or "(sem atalho no catálogo para esta seção; tente `buscar` com outro termo)")
         elif e.get("so_se_pedido") and not e["itens"]:
             print("(nada no catálogo para: %s)" % b["servicos"] if b.get("servicos") else "(nada pedido em 'servicos' no briefing)")
         if e["itens"]:
@@ -561,12 +599,15 @@ def cmd_teste(a, d):
     assert any(q["id"] == "usuarios" for q in pendentes(d, {"tipo": "sistema"}))
     assert not any(q["id"] == "usuarios" for q in pendentes(d, {"tipo": "landing"}))
     assert sem_telas({}) == ["telas"] and sem_telas({"telas": {"Chamados": {"objetivo": "a", "acoes": "b"}}}) == ["Chamados (estados)"]
-    assert sem_direcao({"direcao_arte": {"geral": {"tokens": "x"}}}, por_secao=False) == []
+    assert sem_direcao({"direcao_arte": {"geral": dict.fromkeys(GERAL_ARTE["software"], "x")}}, por_secao=False) == []
+    assert sem_direcao({"direcao_arte": {"geral": {"tokens": "x"}}}, por_secao=False) == ["geral (densidade, tipografia, icones, modo)"]
     assert sem_direcao({"direcao_arte": {"geral": {"tokens": "", "modo": ""}}}, por_secao=False) == ["geral"]
     base = filtrar(d["itens"], "react")
     achados = [i for i in base if pontuar(i, termos("fundo background hero")) > 0]
     assert achados, "busca sem resultado"
-    assert all("react" in i["stack"] or "qualquer" in i["stack"] for i in base)
+    assert all(serve_na_stack(i, "react") for i in base) and not any("vue" in i["stack"] and "react" not in i["stack"] for i in base)
+    assert serve_na_stack({"stack": ["js", "threejs"]}, "react") and serve_na_stack({"stack": ["react"]}, "next")
+    assert not serve_na_stack({"stack": ["vue", "nuxt"]}, "react")
     assert por_tags(d["itens"], d["secoes"]["hero"], 5), "seção hero vazia"
     assert plano("Animação") == "animacao"
     assert all(s in d["secoes"] for t in d["tipos"].values() for s in t), "tipo com seção inexistente"
@@ -577,7 +618,18 @@ def cmd_teste(a, d):
     assert (stack, gratis, calmo) == ("react", True, True) and secoes == d["tipos"]["institucional"]
     assert not any(q["id"] == "referencias" for q in pendentes(d, b))
     assert sem_direcao({}) == ["geral", "secoes"]
-    assert sem_direcao({"direcao_arte": {"geral": {"paleta": "x"}, "secoes": {"Hero": {"fundo": "a", "elemento": "b", "passagem": "c"}}}}) == ["Hero (microinteracoes)"]
+    geral = dict.fromkeys(GERAL_ARTE["site"], "x")
+    hero = dict.fromkeys(CAMPOS_ARTE, "x")
+    assert sem_direcao({"direcao_arte": {"geral": {"paleta": "x"}, "secoes": {"Hero": {"fundo": "a", "elemento": "b", "passagem": "c"}}}}) == [
+        "geral (mundo, materiais, luz, camera, ritmo)", "Hero (microinteracoes, pequenos_elementos)"]
+    assert sem_direcao({"direcao_arte": {"geral": geral, "secoes": {"Hero": hero}}}, secoes=["hero", "sobre"]) == ["sobre (sem plano)"]
+    assert sem_direcao({"direcao_arte": {"geral": geral, "secoes": {"Hero": hero, "Sobre": hero}}}, secoes=["hero", "sobre"]) == []
+    livre = contexto(argparse.Namespace(stack=None, gratis=False), d, {"secoes": "Hero, Sobre nós, Rodapé", "stack": "Next.js"})
+    assert livre[0] == "next" and livre[2] == ["hero", "sobre nos", "rodape"], "seção livre do briefing não pode sumir"
+    assert escolher_secao(d, d["itens"], "hero", 5, False)
+    assert len(pendentes(d, {"referencias": [{"url": "", "olhar": "", "estudo": ""}]})) == len(da_trilha(d["entrevista"], "site"))
+    assert any(q["id"] == "referencias" for q in pendentes(d, {"referencias": ["https://a", "https://b", "https://c"]})), "texto solto não diz o que olhar"
+    assert sem_estudo({"referencias": [{"url": ""}, "https://a"]}) == ["https://a"]
     assert sem_conceito({}, ["hero"]) == ["metafora"]
     assert sem_conceito({"conceito": {"metafora": "gravidade", "secoes": {"Hero": "o centro aparece"}}}, ["hero", "cards"]) == ["cards"]
     assert len(sem_estudo(b)) == 3 and not sem_estudo({"referencias": [{"url": "x", "estudo": "hero com objeto central"}]})
@@ -624,7 +676,7 @@ def main():
     v = sub.add_parser("ver")
     v.add_argument("id")
     v.add_argument("--json", action="store_true")
-    filtros(g := sub.add_parser("guia"), 4)
+    filtros(g := sub.add_parser("guia"), None)
     g.add_argument("--secao")
     g.add_argument("--briefing", help="arquivo JSON do projeto (crie com `briefing`)")
     g.add_argument("--trilha", choices=TRILHAS, help="site ou software (padrão: do briefing ou do tipo)")
