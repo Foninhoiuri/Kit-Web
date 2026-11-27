@@ -1025,8 +1025,8 @@
         "tailwind",
         "css"
       ],
-      "acesso": "gratis",
-      "licenca": "MIT + Commons Clause",
+      "acesso": "gratis+pro",
+      "licenca": "MIT + Commons Clause (grátis); Pro US$ 129 a 349 único",
       "tags": [
         "background",
         "texto",
@@ -1040,7 +1040,7 @@
         "glass"
       ],
       "resumo": "Fundos elegantes, efeitos de texto e cursor, versões em CSS e Tailwind. Tem GlassSurface (vidro com refração).",
-      "cuidado": "Pode usar no site do cliente; não pode vender os componentes em si (kit, template, biblioteca).",
+      "cuidado": "Grátis: pode usar no site do cliente; não pode vender os componentes em si (kit, template, biblioteca). React Bits Pro (componentes, blocos, templates) é pago.",
       "em_uso": false
     },
     {
@@ -1077,7 +1077,7 @@
         "tailwind"
       ],
       "acesso": "gratis+pro",
-      "licenca": "gratuitos abertos; Pro US$ 79 único",
+      "licenca": "gratuitos abertos; Pro Solo US$ 79 / Team US$ 249 único",
       "tags": [
         "ai-chat",
         "blocos",
@@ -1199,7 +1199,7 @@
         "micro-interacao"
       ],
       "resumo": "Componentes para apps de IA: chat, agentes, inputs e cards.",
-      "cuidado": "Templates Pro pagos.",
+      "cuidado": "Pro (150+ componentes) e templates (US$ 49 a 59 cada) pagos em kokonutui.pro.",
       "em_uso": false
     },
     {
@@ -1210,8 +1210,8 @@
       "stack": [
         "react"
       ],
-      "acesso": "conferir",
-      "licenca": "conferir",
+      "acesso": "pago",
+      "licenca": "proprietária; Solo US$ 99 / Team US$ 299 único (promo até 1/12: 59 / 239)",
       "tags": [
         "hero",
         "bento",
@@ -1221,7 +1221,7 @@
         "ilustracao"
       ],
       "resumo": "Visuais de interface prontos para ilustrar cards e heros (chat, calendário, gráficos, pagamentos). Tem docs para IA.",
-      "cuidado": "Licença não conferida.",
+      "cuidado": "Pago: só referência, recrie limpo. Instalação exige compra e login.",
       "em_uso": false
     },
     {
@@ -1259,7 +1259,7 @@
         "motion"
       ],
       "acesso": "gratis+pro",
-      "licenca": "gratuitos livres; Premium US$ 129 único",
+      "licenca": "gratuitos com atribuição ao Skiper UI; Premium US$ 129 único",
       "tags": [
         "micro-interacao",
         "cards",
@@ -1268,7 +1268,7 @@
         "navegacao"
       ],
       "resumo": "Componentes autorais com animação caprichada.",
-      "cuidado": "106+ componentes Premium pagos; conferir quais são grátis.",
+      "cuidado": "Plano grátis exige atribuição. O site não mostra por item o que é Premium (106+ pagos).",
       "em_uso": false
     },
     {
@@ -1279,14 +1279,14 @@
       "stack": [
         "react"
       ],
-      "acesso": "conferir",
-      "licenca": "conferir",
+      "acesso": "freemium",
+      "licenca": "proprietária: uso comercial sem atribuição; proibido redistribuir em kits ou templates",
       "tags": [
         "cards",
         "micro-interacao"
       ],
-      "resumo": "Coleção de componentes (página carrega por JS; não conferida).",
-      "cuidado": "Licença e preço não conferidos.",
+      "resumo": "813 componentes, 92 seções e itens funcionais em React; navegar é grátis, copiar exige conta.",
+      "cuidado": "Grátis: 3 componentes e 3 seções por dia, sem templates. Pro US$ 79/ano, Ultimate US$ 99/ano.",
       "em_uso": false
     },
     {
@@ -1322,8 +1322,8 @@
       "stack": [
         "react"
       ],
-      "acesso": "conferir",
-      "licenca": "conferir",
+      "acesso": "gratis+pro",
+      "licenca": "grátis MIT (43 blocos); Pro € 99/ano (148 blocos, sem revenda)",
       "tags": [
         "micro-interacao",
         "grafico",
@@ -1331,7 +1331,7 @@
         "cards"
       ],
       "resumo": "Micro-interações React para agentes: segurar para apagar, tooltip líquido, gráfico 3D, mapa de assentos.",
-      "cuidado": "Licença não conferida.",
+      "cuidado": "148 dos 191 blocos são Pro. Tem também 182 sons de UI.",
       "em_uso": false
     },
     {
@@ -1344,7 +1344,7 @@
         "tailwind"
       ],
       "acesso": "freemium",
-      "licenca": "conferir",
+      "licenca": "Free só uso pessoal; uso comercial exige plano (Pro US$ 250/ano)",
       "tags": [
         "landing",
         "hero",
@@ -1352,7 +1352,7 @@
         "blocos"
       ],
       "resumo": "Gerador de landing pages por IA com biblioteca de componentes da comunidade.",
-      "cuidado": "Plano pago para exportar à vontade.",
+      "cuidado": "Free é só para uso pessoal (2 páginas por projeto): projeto de cliente exige plano pago.",
       "em_uso": false
     },
     {
@@ -1398,7 +1398,7 @@
         "landing"
       ],
       "resumo": "Seções prontas de landing page sobre shadcn.",
-      "cuidado": "Maioria dos blocos é paga.",
+      "cuidado": "Maioria dos blocos é paga: Pro US$ 149 vitalício libera 3.334+ de 3.503 blocos (grátis estimados em ~170).",
       "em_uso": false
     },
     {
@@ -1421,7 +1421,7 @@
         "base"
       ],
       "resumo": "Componentes e templates oficiais do Tailwind.",
-      "cuidado": "Pago.",
+      "cuidado": "Pago: US$ 149 por pacote ou US$ 299 tudo, único (preço de 2025; o site pede login).",
       "em_uso": false
     },
     {
@@ -1495,14 +1495,14 @@
       "stack": [
         "react"
       ],
-      "acesso": "conferir",
-      "licenca": "conferir",
+      "acesso": "gratis",
+      "licenca": "MIT",
       "tags": [
         "grafico",
         "dashboard"
       ],
       "resumo": "235 gráficos com acabamento de design, estúdio de gráficos e exportação em vídeo.",
-      "cuidado": "Licença não conferida; alternativa ao Recharts.",
+      "cuidado": "Sem plano pago visto no site; alternativa ao Recharts.",
       "em_uso": false
     },
     {
