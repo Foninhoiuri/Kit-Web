@@ -245,6 +245,282 @@
       "shader"
     ]
   },
+  "sinonimos": {
+    "_sobre": "Tags e seções em português expandidas para os nomes do inventário (em inglês). Usado por guia, buscar e componente.",
+    "hero": [
+      "hero",
+      "heroes"
+    ],
+    "background": [
+      "background",
+      "backdrop",
+      "fundo",
+      "aurora",
+      "gradient",
+      "dots",
+      "noise",
+      "beams"
+    ],
+    "fundo": [
+      "fundo",
+      "background",
+      "backdrop",
+      "aurora",
+      "gradient"
+    ],
+    "texto": [
+      "texto",
+      "text",
+      "typewriter",
+      "typing",
+      "tipografia",
+      "word",
+      "letter",
+      "split",
+      "scramble"
+    ],
+    "micro-interacao": [
+      "micro",
+      "hover",
+      "magnetic",
+      "ripple",
+      "tilt",
+      "toggle",
+      "interacao"
+    ],
+    "cards": [
+      "card",
+      "cards",
+      "bento"
+    ],
+    "bento": [
+      "bento"
+    ],
+    "scroll": [
+      "scroll",
+      "rolagem",
+      "parallax",
+      "sticky",
+      "reveal"
+    ],
+    "navegacao": [
+      "navegacao",
+      "navbar",
+      "nav",
+      "menu",
+      "dock",
+      "sidebar",
+      "header",
+      "tabs"
+    ],
+    "menu": [
+      "menu",
+      "dropdown"
+    ],
+    "dock": [
+      "dock"
+    ],
+    "botao": [
+      "botao",
+      "button",
+      "buttons",
+      "botoes"
+    ],
+    "botoes": [
+      "botao",
+      "button",
+      "botoes"
+    ],
+    "formulario": [
+      "formulario",
+      "form",
+      "input",
+      "select",
+      "checkbox",
+      "field"
+    ],
+    "input": [
+      "input",
+      "field",
+      "textarea"
+    ],
+    "auth": [
+      "auth",
+      "login",
+      "signup",
+      "sign",
+      "password",
+      "otp"
+    ],
+    "login": [
+      "login",
+      "signin",
+      "signup",
+      "auth"
+    ],
+    "dashboard": [
+      "dashboard",
+      "admin",
+      "stats",
+      "metric",
+      "kpi",
+      "table"
+    ],
+    "grafico": [
+      "grafico",
+      "chart",
+      "charts",
+      "graph"
+    ],
+    "graficos": [
+      "grafico",
+      "chart",
+      "charts"
+    ],
+    "tabela": [
+      "tabela",
+      "table",
+      "data"
+    ],
+    "pricing": [
+      "pricing",
+      "preco",
+      "price"
+    ],
+    "precos": [
+      "pricing",
+      "preco",
+      "price"
+    ],
+    "depoimentos": [
+      "depoimento",
+      "testimonial",
+      "review"
+    ],
+    "marquee": [
+      "marquee",
+      "ticker",
+      "infinite",
+      "logos"
+    ],
+    "transicao": [
+      "transicao",
+      "transition",
+      "morph",
+      "flip"
+    ],
+    "chat-ia": [
+      "chat",
+      "prompt",
+      "ai",
+      "ia",
+      "agent",
+      "message"
+    ],
+    "ai-chat": [
+      "chat",
+      "prompt",
+      "ai",
+      "agent",
+      "message"
+    ],
+    "imagem": [
+      "imagem",
+      "image",
+      "gallery",
+      "galeria",
+      "carousel",
+      "photo"
+    ],
+    "imagens": [
+      "imagem",
+      "image",
+      "gallery",
+      "carousel"
+    ],
+    "video": [
+      "video",
+      "player",
+      "media"
+    ],
+    "icones": [
+      "icone",
+      "icon",
+      "icons"
+    ],
+    "vidro": [
+      "vidro",
+      "glass",
+      "liquid",
+      "frost",
+      "blur"
+    ],
+    "glass": [
+      "glass",
+      "liquid",
+      "frost"
+    ],
+    "intro": [
+      "intro",
+      "preloader",
+      "loader",
+      "loading",
+      "splash"
+    ],
+    "svg": [
+      "svg",
+      "path",
+      "draw",
+      "morph"
+    ],
+    "3d": [
+      "3d",
+      "globe",
+      "globo",
+      "three",
+      "canvas"
+    ],
+    "shader": [
+      "shader",
+      "shaders",
+      "webgl",
+      "dither",
+      "noise"
+    ],
+    "particulas": [
+      "particula",
+      "particle",
+      "sparkles",
+      "stars",
+      "confetti",
+      "meteor"
+    ],
+    "rodape": [
+      "rodape",
+      "footer"
+    ],
+    "sobre": [
+      "sobre",
+      "about",
+      "team"
+    ],
+    "contato": [
+      "contato",
+      "contact"
+    ],
+    "faq": [
+      "faq",
+      "accordion"
+    ],
+    "cta": [
+      "cta"
+    ],
+    "features": [
+      "feature",
+      "features",
+      "recursos"
+    ]
+  },
   "etapas": [
     {
       "titulo": "Fundamentos de UX/UI (o piso de tudo, antes de qualquer outra etapa)",

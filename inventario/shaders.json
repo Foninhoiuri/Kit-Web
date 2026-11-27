@@ -1,4 +1,6 @@
 {
+ "id": "shaders",
+ "situacao": "completo",
  "fontes": [
   "https://shaders.com/docs/components (lido completo, 114k caracteres)"
  ],
@@ -851,6 +853,5 @@
   "Navegar e gratis; exportar codigo e instalar por MCP exigem Pro (docs: shaders.com/docs/guide/mcp)"
  ],
  "observacoes": "Interactive: o texto cortou o item entre o 15o e SmokeFlow (a pagina indicava 16); pode haver 1 item nao identificado. A pagina de docs nao marca itens individuais como pro; o Pro e uma biblioteca separada.",
- "id": "shaders",
  "conferido_em": "2026-11-27"
 }

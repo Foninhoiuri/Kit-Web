@@ -1,4 +1,6 @@
 {
+ "id": "lucide",
+ "situacao": "completo por categoria",
  "fontes": [
   "https://lucide.dev/",
   "https://lucide.dev/icons/",
@@ -198,6 +200,5 @@
   "Licenca aberta, SVG"
  ],
  "observacoes": "Total 2140 vem do campo de busca do site. README do GitHub ainda diz 1600+, desatualizado. Tudo gratis.",
- "id": "lucide",
  "conferido_em": "2026-11-27"
 }

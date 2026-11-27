@@ -1,4 +1,6 @@
 {
+ "id": "codedvisuals",
+ "situacao": "completo",
  "fontes": [
   "https://codedvisuals.com/llms.txt",
   "https://codedvisuals.com/sitemap.xml",
@@ -736,7 +738,6 @@
  ],
  "acesso_visto": "Produto pago, pagamento único com acesso vitalício. Solo US$59 (de US$99, Black Friday 40% até 1/12) para 1 pessoa; Team US$239 (de US$299) até 10 pessoas. Projetos ilimitados, updates vitalícios, pagamento via Polar. Instalação exige compra e login.",
  "observacoes": "Lista completa de 139 composições (llms.txt = sitemap). Os nomes dentro de cada categoria são genéricos (ex.: Sections/Hero); as 1270+ variações não são listadas individualmente. Não vi o conteúdo interno (código) por exigir login.",
- "id": "codedvisuals",
  "conferido_em": "2026-11-27",
  "total": 139
 }

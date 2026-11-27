@@ -1,5 +1,6 @@
 {
  "id": "shadcn-io",
+ "situacao": "parcial: blocks e charts só por categoria",
  "fontes": [
   "https://www.shadcn.io/llms.txt"
  ],

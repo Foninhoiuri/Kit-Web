@@ -1,5 +1,6 @@
 {
  "id": "tailwind-plus",
+ "situacao": "parcial: snapshot 2025 (site pede login)",
  "fontes": [
   "https://web.archive.org/web/2025/https://tailwindcss.com/plus/ui-blocks",
   "https://web.archive.org/web/2025/https://tailwindcss.com/plus/templates",

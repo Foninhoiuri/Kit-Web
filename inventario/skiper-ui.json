@@ -1,4 +1,6 @@
 {
+ "id": "skiper-ui",
+ "situacao": "completo",
  "fontes": [
   "https://skiper-ui.com/sitemap.xml",
   "https://skiper-ui.com/v1/skiper1 (barra lateral com todos os componentes)",
@@ -504,7 +506,6 @@
  ],
  "acesso_visto": "Pricing: Free (com atribuição ao Skiper UI), Premium US$129 pagamento único (todos os componentes premium, 106+, atualizações vitalícias), Exclusive US$549 (inclui Figma e templates, \"coming soon\"). Docs: free grátis em projetos pessoais/comerciais com atribuição; Pro sem atribuição.",
  "observacoes": "Lista de 106 nomes confirmada pela barra lateral (o item 93 não existe; 105-107 marcados New). O site não mostra por item qual é grátis ou Pro (pro=null); a página mostra \"Pro Login Required\" no preview. Agrupamento por palavra-chave no nome, aproximado.",
- "id": "skiper-ui",
  "conferido_em": "2026-11-27",
  "total": 106
 }

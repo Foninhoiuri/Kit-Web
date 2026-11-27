@@ -1,4 +1,6 @@
 {
+ "id": "kokonutui",
+ "situacao": "grátis completo; Pro parcial",
  "fontes": [
   "https://kokonutui.com/llms.txt",
   "https://kokonutui.com/r/registry.json",
@@ -901,7 +903,6 @@
  ],
  "acesso_visto": "Componentes gratuitos e open source (shadcn registry). Pro/Templates pagos em kokonutui.pro; templates $49-$59 cada (preço no site); preço do pacote Pro não visto.",
  "observacoes": "Lista dos componentes gratuitos completa (llms.txt + registry). Pro: só os ~48 itens da vitrine foram vistos; o catálogo Pro tem 150+ e o restante não é listado no site gratuito.",
- "id": "kokonutui",
  "conferido_em": "2026-11-27",
  "total": 160
 }

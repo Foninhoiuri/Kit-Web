@@ -1,5 +1,6 @@
 {
  "id": "hextaui",
+ "situacao": "completo",
  "fontes": [
   "https://hextaui.com/llms.txt",
   "https://hextaui.com/r/registry.json"

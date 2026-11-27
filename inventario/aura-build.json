@@ -1,4 +1,6 @@
 {
+ "id": "aura-build",
+ "situacao": "parcial: categorias e exemplos",
  "fontes": [
   "https://www.aura.build/components (renderizado no navegador)",
   "https://www.aura.build/llms.txt",
@@ -196,7 +198,6 @@
  ],
  "acesso_visto": "Navegar e copiar itens Free é grátis. Pro (planos pagos) libera componentes/templates Pro, uso comercial e export Figma: Pro US$12,50/mês no anual (US$250/ano), Max US$25/mês (US$500/ano), Ultra US$50/mês (US$1.000/ano); 3 dias de trial com 20 prompts (exige cartão). Free: uso pessoal apenas, 2 páginas por projeto. Créditos: 200 por US$50.",
  "observacoes": "Parcial por natureza: 2.831 itens da comunidade; a lista pública é carregada sob demanda e o sitemap traz só 1.000 de /component. O total (2.831) e contagens por categoria vêm dos contadores do site (buscas por tag, sobrepostas). Itens listados são apenas amostra dos mais populares. O campo total (2831) é o contador do site; os itens gravados em grupos são só categorias e amostra.",
- "id": "aura-build",
  "conferido_em": "2026-11-27",
  "total": 2831
 }

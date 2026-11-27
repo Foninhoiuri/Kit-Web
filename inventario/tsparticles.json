@@ -1,5 +1,6 @@
 {
  "id": "tsparticles",
+ "situacao": "completo",
  "fontes": [
   "https://particles.js.org/docs/",
   "https://raw.githubusercontent.com/tsparticles/tsparticles/main/README.md"

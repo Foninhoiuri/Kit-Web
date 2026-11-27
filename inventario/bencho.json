@@ -1,4 +1,6 @@
 {
+ "id": "bencho",
+ "situacao": "completo",
  "fontes": [
   "https://bencho.dev/llms.txt",
   "https://bencho.dev/r/registry.json",
@@ -1015,7 +1017,6 @@
  ],
  "acesso_visto": "Free: 43 blocos com código completo, licença MIT (bencho.dev/license). Pro: 148 blocos (\"included with Bencho Pro\", uso livre, sem revenda), EUR 99 por ano, inclui todos os sons, Bench ilimitado, código-fonte completo, MCP e conteúdo futuro. Também plano \"Forever, pay once\" (preço não visto).",
  "observacoes": "Lista completa dos 191 blocos (llms.txt) com status Free/Pro lido da página de cada bloco. Agrupamento pelo tipo de interação que o próprio site usa na home; não há categorias temáticas oficiais além disso.",
- "id": "bencho",
  "conferido_em": "2026-11-27",
  "total": 191
 }

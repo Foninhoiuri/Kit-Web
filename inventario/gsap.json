@@ -1,5 +1,6 @@
 {
  "id": "gsap",
+ "situacao": "completo",
  "fontes": [
   "https://gsap.com/docs/v3/Plugins/",
   "https://gsap.com/pricing/"

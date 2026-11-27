@@ -1,5 +1,6 @@
 {
  "id": "shadcn-ui",
+ "situacao": "completo (blocks: só os do repo)",
  "fontes": [
   "https://ui.shadcn.com/llms.txt",
   "https://ui.shadcn.com/charts",

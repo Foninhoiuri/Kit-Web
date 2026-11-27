@@ -1,4 +1,6 @@
 {
+ "id": "shadcnblocks",
+ "situacao": "completo por categoria",
  "fontes": [
   "https://www.shadcnblocks.com/components",
   "https://www.shadcnblocks.com/blocks",
@@ -1034,6 +1036,5 @@
   "Licenca comercial, instalacao via CLI, codigo TS + Tailwind, tokens claro/escuro"
  ],
  "observacoes": "O site mostra so totais por categoria; NAO mostra quantos sao gratis vs pro por categoria. Pelo preco, Pro da 3334+ de 3503 blocos, sugerindo ~170 blocos gratis (inferencia, nao confirmado). Total = blocos + componentes.",
- "id": "shadcnblocks",
  "conferido_em": "2026-11-27"
 }

@@ -1,5 +1,6 @@
 {
  "id": "motion",
+ "situacao": "completo",
  "fontes": [
   "https://motion.dev/docs",
   "https://motion.dev/llms.txt"

@@ -1,4 +1,6 @@
 {
+ "id": "shaders-pro",
+ "situacao": "sem dados: página fora do ar",
  "fontes": [
   "https://shaders.com/pro"
  ],
@@ -10,6 +12,5 @@
   "Secao de precos em shaders.com/pro#pricing"
  ],
  "observacoes": "PARCIAL: a pagina respondeu lista de shaders temporariamente indisponivel em duas tentativas; sem nomes, precos ou planos. Tentar de novo depois.",
- "id": "shaders-pro",
  "conferido_em": "2026-11-27"
 }

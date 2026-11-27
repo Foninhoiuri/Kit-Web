@@ -1,4 +1,6 @@
 {
+ "id": "freefrontend",
+ "situacao": "completo por categoria",
  "fontes": [
   "https://freefrontend.com/sitemap.xml",
   "https://freefrontend.com/ (home)",
@@ -3750,6 +3752,5 @@
   "Demos com codigo HTML/CSS/JS prontos, gratis"
  ],
  "observacoes": "Total = soma dos numeros 'N+' no titulo de cada categoria (arredondados para baixo, podem se sobrepor entre categorias). Sitemap tem 1192 URLs: 923 categorias e 269 paginas de exemplo recentes. Sem marcacao pro: tudo gratis.",
- "id": "freefrontend",
  "conferido_em": "2026-11-27"
 }

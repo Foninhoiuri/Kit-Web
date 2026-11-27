@@ -1,5 +1,6 @@
 {
  "id": "heroui",
+ "situacao": "completo",
  "fontes": [
   "https://heroui.com/llms.txt",
   "https://heroui.com/react/llms.txt",

@@ -1,5 +1,6 @@
 {
  "id": "inspira-ui",
+ "situacao": "completo",
  "fontes": [
   "https://v2.inspira-ui.com/docs/en/components",
   "https://github.com/unovue/inspira-ui (árvore content/en/2.components)"

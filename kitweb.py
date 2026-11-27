@@ -8,7 +8,9 @@ Uso (Python 3.9+, só biblioteca padrão; funciona em qualquer IA ou terminal):
   python kitweb.py guia --briefing projeto.json [--secao hero]     roteiro da trilha, ou atalhos de uma seção
   python kitweb.py buscar fundo animado [--stack vue] [--categoria componentes] [--gratis] [--n 8]
   python kitweb.py listar [--categoria referencia]
-  python kitweb.py ver reactbits
+  python kitweb.py ver reactbits                                   ficha e tudo o que a biblioteca tem dentro
+  python kitweb.py componente marquee [--gratis] [--stack react]   acha a peça (componente, bloco, efeito) em todas as bibliotecas
+  python kitweb.py inventario [--md]                               o que já foi levantado; --md regenera INVENTARIO.md
   python kitweb.py categorias | secoes
   python kitweb.py adicionar --id x --nome X --url https://... --categoria componentes [--stack react,tailwind]
                    [--acesso gratis] [--licenca MIT] [--tags hero,cards] [--resumo "..."] [--cuidado "..."]
@@ -28,6 +30,7 @@ from datetime import date
 from pathlib import Path
 
 CATALOGO = Path(__file__).resolve().parent / "catalogo.json"
+INVENTARIO = CATALOGO.parent / "inventario"
 ACESSOS = {"gratis", "gratis+pro", "freemium", "pago", "conferir"}
 ORDEM_ACESSO = {"gratis": 0, "gratis+pro": 1, "freemium": 2, "conferir": 3, "pago": 4}
 
@@ -90,6 +93,7 @@ def ordenar(itens, pontos=None):
 
 
 RECRIAVEIS = ("componentes", "comunidade", "animacao", "shaders-3d", "graficos", "experimento")
+COM_INVENTARIO = ("componentes", "comunidade", "animacao", "shaders-3d", "graficos")  # bibliotecas: têm inventario/<id>.json
 
 
 def recriavel(i):
@@ -103,7 +107,62 @@ def linha(i):
     if recriavel(i):
         aviso += "\n  >> %s: só referência; recrie limpo com as skills: python kitweb.py recriar %s" % (
             "Pago" if i["acesso"] == "pago" else "Parte paga", i["id"])
-    return "- %s (%s)%s — %s | %s | %s\n  %s%s" % (i["nome"], i["id"], uso, i["acesso"], i["licenca"], ", ".join(i["stack"]), i["url"], ("\n  " + i["resumo"]) + aviso if i.get("resumo") else aviso)
+    tem = "\n  Dentro: " + "; ".join(i["dentro"]) if i.get("dentro") else ""
+    return "- %s (%s)%s — %s | %s | %s\n  %s%s%s" % (i["nome"], i["id"], uso, i["acesso"], i["licenca"], ", ".join(i["stack"]), i["url"], ("\n  " + i["resumo"]) + aviso if i.get("resumo") else aviso, tem)
+
+
+# ---------- inventário: o que cada biblioteca tem por dentro (inventario/<id>.json) ----------
+
+_INV = {}
+
+
+def inventario(id_):
+    """Inventário da biblioteca (grupos de componentes, blocos, efeitos), ou None se ainda não foi levantado."""
+    if id_ not in _INV:
+        f = INVENTARIO / (id_ + ".json")
+        _INV[id_] = json.loads(f.read_text(encoding="utf-8")) if f.exists() else None
+    return _INV[id_]
+
+
+_PECAS = {}
+
+
+def pecas(id_):
+    """Peças de dentro da biblioteca, com os termos já calculados: (termos do nome, termos do grupo, grupo, peça)."""
+    if id_ not in _PECAS:
+        inv = inventario(id_) or {}
+        _PECAS[id_] = [(termos(x.get("nome", "")), termos(g.get("nome", "")), g.get("nome", ""), x)
+                       for g in inv.get("grupos", []) for x in g.get("itens", [])]
+    return _PECAS[id_]
+
+
+def nome_peca(x):
+    return x.get("nome", "") + (" [Pro]" if x.get("pro") is True else " [?]" if "pro" in x and x["pro"] is None else "")
+
+
+def raizes(d, palavras):
+    """Raízes de busca; cada tag do catálogo se expande pelos sinônimos (o inventário tem nomes em inglês)."""
+    sin = d.get("sinonimos", {})
+    return list(dict.fromkeys(t[:6] for p in palavras for s in sin.get(plano(p), [p]) for t in termos(s)))
+
+
+def casa(ts, rz):
+    return sum(any(p.startswith(r) for p in ts) for r in rz)
+
+
+def achar_pecas(id_, rz, n=6, forte=()):
+    """Peças da biblioteca que casam com as raízes: nome vale o dobro do grupo, raiz forte (o nome da seção)
+    vale o triplo; grátis antes de Pro."""
+    def pt(ts):
+        return casa(ts, rz) + 2 * casa(ts, forte)
+    achadas = [(2 * pt(tn) + pt(tg), g, x) for tn, tg, g, x in pecas(id_)]
+    achadas = [a for a in achadas if a[0]]
+    achadas.sort(key=lambda a: (-a[0], a[2].get("pro") is True))
+    return achadas[:n]
+
+
+def com_dentro(itens, rz, n=6, forte=()):
+    return [{**i, "dentro": [nome_peca(x) for _, _, x in achar_pecas(i["id"], rz, n, forte)]} for i in itens]
 
 
 def mostrar(itens, como_json):
@@ -117,10 +176,88 @@ def mostrar(itens, como_json):
 
 def cmd_buscar(a, d):
     busca = termos(" ".join(a.termos))
+    rz = raizes(d, busca)
     base = filtrar(d["itens"], a.stack, a.categoria, a.gratis)
-    pontos = {i["id"]: pontuar(i, busca) for i in base}
+    # o que a biblioteca tem por dentro também conta (até 3 pontos), para "marquee" achar quem tem marquee
+    pontos = {i["id"]: pontuar(i, busca) + min(3, len(achar_pecas(i["id"], rz, 3))) for i in base}
     achados = [i for i in ordenar(base, pontos) if pontos[i["id"]] > 0][: a.n]
-    mostrar(achados, a.json)
+    mostrar(com_dentro(achados, rz), a.json)
+
+
+def cmd_componente(a, d):
+    """Busca nas peças de dentro de todas as bibliotecas (componentes, blocos, efeitos, plugins)."""
+    rz = raizes(d, termos(" ".join(a.termos)))
+    libs = {i["id"]: i for i in filtrar(d["itens"], a.stack, a.categoria, a.gratis)}
+    achados = []
+    for id_, lib in libs.items():
+        for ponto, grupo, x in achar_pecas(id_, rz, 999):
+            if a.gratis and x.get("pro") is True:
+                continue
+            achados.append({"peca": x.get("nome"), "pro": x.get("pro"), "obs": x.get("obs", ""), "grupo": grupo,
+                            "biblioteca": id_, "nome_biblioteca": lib["nome"], "acesso": lib["acesso"],
+                            "url": lib["url"], "_p": ponto})
+    achados.sort(key=lambda x: (-x["_p"], x["pro"] is True, ORDEM_ACESSO.get(x["acesso"], 9), x["peca"].casefold()))
+    achados = [{k: v for k, v in x.items() if k != "_p"} for x in achados[: a.n]]
+    if a.json:
+        return print(json.dumps(achados, ensure_ascii=False, indent=2))
+    if not achados:
+        return print("Nenhuma peça com esse nome nos inventários. Tente em inglês (o nome original) ou rode `buscar`.")
+    for x in achados:
+        print("- %s%s — %s (%s, %s) · %s%s" % (x["peca"], " [Pro]" if x["pro"] is True else "", x["nome_biblioteca"], x["biblioteca"],
+              x["acesso"], x["grupo"], "\n  " + x["obs"] if x["obs"] else ""))
+    print("\nFicha completa da biblioteca: python kitweb.py ver <id>. Peça [Pro] ou de biblioteca paga: só referência (recriar).")
+
+
+def cmd_inventario(a, d):
+    """Resumo do que já foi levantado; --md regenera o INVENTARIO.md a partir dos JSONs."""
+    libs = [i for i in d["itens"] if i["categoria"] in COM_INVENTARIO]
+    linhas = []
+    for i in libs:
+        inv = inventario(i["id"]) or {}
+        linhas.append({"id": i["id"], "nome": i["nome"], "categoria": i["categoria"], "acesso": i["acesso"],
+                       "total": inv.get("total"), "situacao": inv.get("situacao", "sem inventário"),
+                       "conferido_em": inv.get("conferido_em")})
+    if a.md:
+        return escrever_md(d, libs)
+    if a.json:
+        return print(json.dumps(linhas, ensure_ascii=False, indent=2))
+    for x in linhas:
+        print("%-16s %-12s %7s  %-11s %s" % (x["id"], x["categoria"], x["total"] if x["total"] is not None else "-", x["conferido_em"] or "-", x["situacao"]))
+    falta = [x["id"] for x in linhas if x["situacao"] == "sem inventário"]
+    print("\n%d bibliotecas, %d sem inventário%s" % (len(linhas), len(falta), ": " + ", ".join(falta) if falta else ""))
+
+
+def escrever_md(d, libs):
+    nomes = d["categorias"]
+    md = ["# Inventário das bibliotecas", "",
+          "O que cada biblioteca do catálogo tem por dentro, levantado nos próprios sites (llms.txt, registry, sitemap, docs ou repositório).",
+          "Gerado por `python kitweb.py inventario --md` a partir de `inventario/<id>.json`; edite os JSONs, não este arquivo.",
+          "`[Pro]` = pago; `[?]` = o site não diz se é grátis ou pago.", "",
+          "| Biblioteca | Categoria | Acesso | Itens | Situação | Conferido |", "| --- | --- | --- | ---: | --- | --- |"]
+    corpo = []
+    for cat in COM_INVENTARIO:
+        grupo = [i for i in libs if i["categoria"] == cat]
+        if grupo:
+            corpo += ["## %s" % nomes.get(cat, cat).split(" (")[0], ""]
+        for i in grupo:
+            inv = inventario(i["id"]) or {}
+            md.append("| [%s](#%s) | %s | %s | %s | %s | %s |" % (i["nome"], i["id"], cat, i["acesso"], inv.get("total", "-"),
+                      inv.get("situacao", "sem inventário"), inv.get("conferido_em", "-")))
+            corpo += ['<a id="%s"></a>' % i["id"], "### %s (`%s`)" % (i["nome"], i["id"]), "",
+                      "%s · acesso: %s · %s itens" % (i["url"], i["acesso"], inv.get("total", "?")), ""]
+            if inv.get("acesso_visto"):
+                corpo += ["**Preço/licença no site:** " + inv["acesso_visto"], ""]
+            for g in inv.get("grupos", []):
+                pec = [nome_peca(x) + (" (%s)" % x["obs"] if x.get("obs") else "") for x in g.get("itens", [])]
+                corpo.append("- **%s** (%d): %s" % (g.get("nome"), len(pec), "; ".join(pec)))
+            if inv.get("tambem_tem"):
+                corpo += ["", "**Também tem:** " + "; ".join(map(str, inv["tambem_tem"]))]
+            if inv.get("observacoes"):
+                corpo += ["", "**Limites do levantamento:** " + inv["observacoes"]]
+            corpo.append("")
+    destino = CATALOGO.parent / "INVENTARIO.md"
+    destino.write_text("\n".join(md + [""] + corpo), encoding="utf-8")
+    print("%s gerado (%d bibliotecas)." % (destino.name, len(libs)))
 
 
 def cmd_listar(a, d):
@@ -137,7 +274,24 @@ def cmd_ver(a, d):
     item = next((i for i in d["itens"] if i["id"] == a.id), None)
     if not item:
         sys.exit("Item '%s' não existe. Use buscar." % a.id)
-    print(json.dumps(item, ensure_ascii=False, indent=2) if a.json else linha(item))
+    inv = inventario(item["id"])
+    if a.json:
+        return print(json.dumps({**item, "inventario": inv}, ensure_ascii=False, indent=2))
+    print(linha(item))
+    if not inv:
+        if item["categoria"] in COM_INVENTARIO:
+            print("\n(sem inventário: ainda não se sabe o que tem dentro; levante e grave em inventario/%s.json)" % item["id"])
+        return
+    print("\n# O que tem dentro: %s itens (%s, conferido em %s)" % (inv.get("total", "?"), inv.get("situacao", "?"), inv.get("conferido_em", "?")))
+    if inv.get("acesso_visto"):
+        print("Preço/licença no site: " + inv["acesso_visto"])
+    for g in inv.get("grupos", []):
+        pec = [nome_peca(x) + (" (%s)" % x["obs"] if x.get("obs") else "") for x in g.get("itens", [])]
+        print("\n## %s (%d)\n%s" % (g.get("nome"), len(pec), "; ".join(pec)))
+    if inv.get("tambem_tem"):
+        print("\nTambém tem: " + "; ".join(map(str, inv["tambem_tem"])))
+    if inv.get("observacoes"):
+        print("Limites do levantamento: " + inv["observacoes"])
 
 
 def por_tags(itens, tags, n):
@@ -281,10 +435,15 @@ def contexto(a, d, b):
 def escolher_secao(d, itens, secao, n, calmo):
     """Componentes para a seção: pelas tags do atalho do catálogo ou, em seção de nome livre, pela busca do nome."""
     base = [i for i in itens if i["categoria"] not in NAO_COMPONENTE and not (calmo and INTENSOS & set(i["tags"]))]
+    tags = d["secoes"].get(secao) or [secao]
+    rz, forte = raizes(d, tags), raizes(d, [secao])
+    # o que tem dentro da biblioteca pesa junto com as tags: quem tem blocos de preço sobe na seção preços
+    dentro = {i["id"]: min(5, len(achar_pecas(i["id"], forte, 5))) * 2 + min(3, len(achar_pecas(i["id"], rz, 3))) for i in base}
     if secao in d["secoes"]:
-        return por_tags(base, d["secoes"][secao], n)
-    pontos = {i["id"]: pontuar(i, termos(secao)) for i in base}
-    return [i for i in ordenar(base, pontos) if pontos[i["id"]] > 0][:n]
+        pontos = {i["id"]: 3 * len(set(i["tags"]) & set(tags)) + dentro[i["id"]] for i in base}
+    else:
+        pontos = {i["id"]: pontuar(i, termos(secao)) + dentro[i["id"]] for i in base}
+    return com_dentro([i for i in ordenar(base, pontos) if pontos[i["id"]] > 0][:n], rz, forte=forte)
 
 
 def skills_da(etapa, trilha):
@@ -560,6 +719,9 @@ def cmd_adicionar(a, d):
     d["itens"].append(item)
     salvar(d)
     print("Adicionado:\n" + linha(item))
+    if a.categoria in COM_INVENTARIO and not inventario(a.id):
+        print("! Falta o inventário: levante no site o que a biblioteca tem e grave inventario/%s.json "
+              "(formato no SKILL.md); depois `inventario --md` e `teste`." % a.id)
 
 
 def responde(url):
@@ -651,7 +813,19 @@ def cmd_teste(a, d):
     assert recriavel(pago) and "recriar " + pago["id"] in linha(pago)
     assert not any(recriavel(i) for i in d["itens"] if i["categoria"] in ("servico", "ux-base", "referencia"))
     assert d["recriar"]["passos"] and d["recriar"]["skills"]
-    print("ok: %d itens, %d categorias, %d seções" % (len(ids), len(d["categorias"]), len(d["secoes"])))
+    libs = [i["id"] for i in d["itens"] if i["categoria"] in COM_INVENTARIO]
+    sem = [x for x in libs if not inventario(x)]
+    assert not sem, "biblioteca sem inventario/<id>.json: " + ", ".join(sem)
+    for x in libs:
+        inv = inventario(x)
+        assert inv["id"] == x and isinstance(inv.get("grupos"), list) and inv.get("situacao"), x
+        assert all(isinstance(p.get("nome"), str) for g in inv["grupos"] for p in g.get("itens", [])), x
+    assert "pricin" in raizes(d, ["precos"]) and "testim" in raizes(d, ["depoimentos"])
+    assert achar_pecas("magicui", raizes(d, ["marquee"])), "inventário não acha o Marquee do Magic UI"
+    precos = escolher_secao(d, filtrar(d["itens"], "react"), "precos", 5, False)
+    assert any("Pricing" in p for i in precos for p in i["dentro"]), "seção preços sem peça de pricing"
+    assert nome_peca({"nome": "A", "pro": True}) == "A [Pro]" and nome_peca({"nome": "A", "pro": None}) == "A [?]"
+    print("ok: %d itens, %d categorias, %d seções, %d inventários" % (len(ids), len(d["categorias"]), len(d["secoes"]), len(libs)))
 
 
 def main():
@@ -676,6 +850,11 @@ def main():
     v = sub.add_parser("ver")
     v.add_argument("id")
     v.add_argument("--json", action="store_true")
+    filtros(cp := sub.add_parser("componente", help="busca pelo nome das peças de dentro das bibliotecas"), 20)
+    cp.add_argument("termos", nargs="+")
+    iv = sub.add_parser("inventario", help="o que já foi levantado de cada biblioteca")
+    iv.add_argument("--md", action="store_true", help="regenera o INVENTARIO.md")
+    iv.add_argument("--json", action="store_true")
     filtros(g := sub.add_parser("guia"), None)
     g.add_argument("--secao")
     g.add_argument("--briefing", help="arquivo JSON do projeto (crie com `briefing`)")

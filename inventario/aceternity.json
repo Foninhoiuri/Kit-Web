@@ -1,5 +1,6 @@
 {
  "id": "aceternity",
+ "situacao": "completo",
  "fontes": [
   "https://ui.aceternity.com/llms.txt",
   "https://ui.aceternity.com/components"

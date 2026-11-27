@@ -1,4 +1,6 @@
 {
+ "id": "21st-dev",
+ "situacao": "completo por categoria",
  "fontes": [
   "https://21st.dev/llms.txt (visao geral)",
   "https://21st.dev/community/components"
@@ -379,6 +381,5 @@
   "Registro instalavel estilo shadcn"
  ],
  "observacoes": "Total e a soma das tags (um componente pode estar em varias; unicos sao menos). A listagem lida nao indica pro/gratis.",
- "id": "21st-dev",
  "conferido_em": "2026-11-27"
 }

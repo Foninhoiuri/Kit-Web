@@ -1,4 +1,6 @@
 {
+ "id": "originkit",
+ "situacao": "completo",
  "fontes": [
   "https://www.originkit.dev/sitemap.xml",
   "https://www.originkit.dev/components, /sections, /functional, /category/* (dados embutidos no HTML)",
@@ -4984,7 +4986,6 @@
  ],
  "acesso_visto": "Navegar e pré-visualizar é grátis; copiar exige conta. Free US$0: 3 componentes e 3 seções por dia, 0 templates. Pro US$79/ano (de US$144): 25/dia, 5 templates/dia, biblioteca completa. Ultimate US$99/ano (de US$209): sem limite (uso justo). Licença: uso comercial ilimitado, sem atribuição; proibido redistribuir em templates, kits, Figma ou bibliotecas sem parceria.",
  "observacoes": "Total: 813 componentes (inclui variações numeradas, ex. 02/03; 766 bases), 92 seções, 58 itens da aba Functional (novos). Nomes e categorias lidos dos dados da própria página. O site não marca por item o que é Pro (pro=null); o limite é por cópias/dia, não por item. Templates não listados.",
- "id": "originkit",
  "conferido_em": "2026-11-27",
  "total": 963
 }

@@ -1,5 +1,6 @@
 {
  "id": "threejs",
+ "situacao": "parcial: principais classes",
  "fontes": [
   "https://threejs.org/",
   "https://raw.githubusercontent.com/mrdoob/three.js/dev/docs/llms.txt",

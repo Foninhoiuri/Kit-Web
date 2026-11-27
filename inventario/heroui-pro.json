@@ -1,5 +1,6 @@
 {
  "id": "heroui-pro",
+ "situacao": "parcial: templates podem faltar",
  "fontes": [
   "https://heroui.pro/llms.txt",
   "https://heroui.pro/docs/react/llms.txt",

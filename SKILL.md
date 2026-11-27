@@ -111,12 +111,32 @@ Não precisam estar prontos para começar. Durante a entrevista e a produção:
 4. `python kitweb.py midia --briefing projeto.json --marcar <id> gerado --arquivo public/midia/<id>.mp4`; a IA troca o
    marcador `data-midia` pelo arquivo e marca `aplicado`.
 
+## O que cada biblioteca tem por dentro (inventário)
+
+Cada biblioteca (categorias componentes, comunidade, animacao, shaders-3d, graficos) tem `inventario/<id>.json` com a lista
+real do que ela oferece: componentes, blocos, efeitos, plugins, por grupo, com `[Pro]` no que é pago. Resumo legível em
+`INVENTARIO.md`. **Antes de escolher ou gerar um componente, olhe o inventário: não invente nome de componente.**
+
+- `python kitweb.py ver <id>`: ficha mais tudo o que a biblioteca tem dentro.
+- `python kitweb.py componente marquee [--stack react] [--gratis]`: acha a peça pelo nome em todas as bibliotecas
+  (nomes originais, em inglês; as seções em português são traduzidas pela tabela `sinonimos` do catálogo).
+- `guia` e `buscar` mostram, em cada biblioteca, a linha **Dentro:** com as peças que servem àquela seção ou busca, e
+  quem tem peças da seção sobe na lista. Use essas peças pelo nome; peça `[Pro]` só como referência (`recriar`).
+- `python kitweb.py inventario` mostra o que foi levantado, quando e se está completo ou parcial; `--md` regenera o
+  `INVENTARIO.md` depois de editar os JSONs.
+- Biblioteca nova: levante no site (ordem: `/llms.txt`, registry shadcn `/r/registry.json`, `/sitemap.xml`, barra lateral
+  dos docs, repositório) e grave o JSON. Formato: `{"id", "situacao", "fontes": [], "total", "grupos": [{"nome", "itens":
+  [{"nome", "pro": true|false|null, "obs"}]}], "tambem_tem": [], "acesso_visto", "observacoes", "conferido_em"}`.
+  O `teste` falha se faltar inventário de alguma biblioteca.
+- Situação "parcial" (Three.js, R3F, Tailwind Plus, Aura...) quer dizer que pode haver mais do que está listado: confira no site.
+
 ## Quando usar
 
 - **Começo de qualquer projeto web:** o fluxo acima. Sem briefing, `python kitweb.py guia --stack react` dá o roteiro genérico.
 - **Escolher uma seção:** `python kitweb.py guia --secao hero --stack react` (veja `secoes`).
 - **Procurar algo:** `python kitweb.py buscar fundo animado --stack react --gratis`.
-- **Detalhe de um item:** `python kitweb.py ver reactbits`.
+- **Achar um componente específico:** `python kitweb.py componente pricing --stack react`.
+- **Detalhe de um item e tudo o que ele tem:** `python kitweb.py ver reactbits`.
 - **Achou biblioteca, referência ou ferramenta nova:** guarde na hora com `adicionar` (ela recusa duplicado).
   Confira acesso e licença no site antes; se não conferiu, deixe `conferir`.
 - Para outra IA consumir: acrescente `--json`.

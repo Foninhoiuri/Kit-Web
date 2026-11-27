@@ -1,5 +1,6 @@
 {
  "id": "r3f",
+ "situacao": "parcial: R3F + drei principais",
  "fontes": [
   "https://r3f.docs.pmnd.rs/llms.txt",
   "https://r3f.docs.pmnd.rs/api/hooks",

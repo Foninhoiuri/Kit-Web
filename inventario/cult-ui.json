@@ -1,5 +1,6 @@
 {
  "id": "cult-ui",
+ "situacao": "completo",
  "fontes": [
   "https://www.cult-ui.com/llms.txt",
   "https://www.cult-ui.com/docs/components"
