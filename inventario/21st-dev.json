@@ -1,0 +1,385 @@
+{
+ "id": "21st-dev",
+ "situacao": "completo por categoria",
+ "fontes": [
+  "https://21st.dev/llms.txt (visao geral)",
+  "https://21st.dev/community/components"
+ ],
+ "total": 24476,
+ "grupos": [
+  {
+   "nome": "Marketing Blocks",
+   "itens": [
+    {
+     "nome": "Announcements",
+     "obs": "71 itens"
+    },
+    {
+     "nome": "Backgrounds",
+     "obs": "365 itens"
+    },
+    {
+     "nome": "Borders",
+     "obs": "111 itens"
+    },
+    {
+     "nome": "Calls to Action",
+     "obs": "501 itens"
+    },
+    {
+     "nome": "Clients",
+     "obs": "17 itens"
+    },
+    {
+     "nome": "Comparisons",
+     "obs": "31 itens"
+    },
+    {
+     "nome": "Docks",
+     "obs": "49 itens"
+    },
+    {
+     "nome": "FAQs",
+     "obs": "191 itens"
+    },
+    {
+     "nome": "Features",
+     "obs": "318 itens"
+    },
+    {
+     "nome": "Footers",
+     "obs": "65 itens"
+    },
+    {
+     "nome": "Galleries",
+     "obs": "272 itens"
+    },
+    {
+     "nome": "Heroes",
+     "obs": "1152 itens"
+    },
+    {
+     "nome": "Hooks",
+     "obs": "51 itens"
+    },
+    {
+     "nome": "Images",
+     "obs": "428 itens"
+    },
+    {
+     "nome": "Maps",
+     "obs": "51 itens"
+    },
+    {
+     "nome": "Marquees",
+     "obs": "113 itens"
+    },
+    {
+     "nome": "Navigation Menus",
+     "obs": "477 itens"
+    },
+    {
+     "nome": "Pricing Sections",
+     "obs": "216 itens"
+    },
+    {
+     "nome": "Scroll Areas",
+     "obs": "293 itens"
+    },
+    {
+     "nome": "Stats & KPIs",
+     "obs": "153 itens"
+    },
+    {
+     "nome": "Steppers",
+     "obs": "124 itens"
+    },
+    {
+     "nome": "Team Sections",
+     "obs": "119 itens"
+    },
+    {
+     "nome": "Testimonials",
+     "obs": "161 itens"
+    },
+    {
+     "nome": "Texts",
+     "obs": "663 itens"
+    },
+    {
+     "nome": "Timelines",
+     "obs": "74 itens"
+    },
+    {
+     "nome": "Videos",
+     "obs": "162 itens"
+    },
+    {
+     "nome": "ASCII Art",
+     "obs": "novo, sem contagem"
+    },
+    {
+     "nome": "Gradients",
+     "obs": "novo, sem contagem"
+    },
+    {
+     "nome": "Shaders",
+     "obs": "novo, sem contagem"
+    }
+   ]
+  },
+  {
+   "nome": "UI Components",
+   "itens": [
+    {
+     "nome": "Accordions",
+     "obs": "234 itens"
+    },
+    {
+     "nome": "AI Chats",
+     "obs": "248 itens"
+    },
+    {
+     "nome": "Alerts",
+     "obs": "240 itens"
+    },
+    {
+     "nome": "Avatars",
+     "obs": "597 itens"
+    },
+    {
+     "nome": "Badges",
+     "obs": "605 itens"
+    },
+    {
+     "nome": "Buttons",
+     "obs": "2043 itens"
+    },
+    {
+     "nome": "Calendars",
+     "obs": "239 itens"
+    },
+    {
+     "nome": "Cards",
+     "obs": "1780 itens"
+    },
+    {
+     "nome": "Carousels",
+     "obs": "239 itens"
+    },
+    {
+     "nome": "Charts & Data Viz",
+     "obs": "246 itens"
+    },
+    {
+     "nome": "Checkboxes",
+     "obs": "238 itens"
+    },
+    {
+     "nome": "Cursors",
+     "obs": "152 itens"
+    },
+    {
+     "nome": "Dashboards",
+     "obs": "400 itens"
+    },
+    {
+     "nome": "Date Pickers",
+     "obs": "250 itens"
+    },
+    {
+     "nome": "Dialogs / Modals",
+     "obs": "328 itens"
+    },
+    {
+     "nome": "Dropdowns",
+     "obs": "506 itens"
+    },
+    {
+     "nome": "Empty States",
+     "obs": "77 itens"
+    },
+    {
+     "nome": "File Trees",
+     "obs": "61 itens"
+    },
+    {
+     "nome": "File Uploads",
+     "obs": "154 itens"
+    },
+    {
+     "nome": "Forms",
+     "obs": "1522 itens"
+    },
+    {
+     "nome": "Globes",
+     "obs": "41 itens"
+    },
+    {
+     "nome": "Grids & Bento",
+     "obs": "620 itens"
+    },
+    {
+     "nome": "Icons",
+     "obs": "851 itens"
+    },
+    {
+     "nome": "Inputs",
+     "obs": "949 itens"
+    },
+    {
+     "nome": "Links",
+     "obs": "354 itens"
+    },
+    {
+     "nome": "Lists",
+     "obs": "349 itens"
+    },
+    {
+     "nome": "Menus",
+     "obs": "287 itens"
+    },
+    {
+     "nome": "Notifications",
+     "obs": "247 itens"
+    },
+    {
+     "nome": "Numbers",
+     "obs": "54 itens"
+    },
+    {
+     "nome": "Onboarding",
+     "obs": "53 itens"
+    },
+    {
+     "nome": "Paginations",
+     "obs": "130 itens"
+    },
+    {
+     "nome": "Popovers",
+     "obs": "179 itens"
+    },
+    {
+     "nome": "Profiles",
+     "obs": "270 itens"
+    },
+    {
+     "nome": "Progress",
+     "obs": "375 itens"
+    },
+    {
+     "nome": "Radio Groups",
+     "obs": "152 itens"
+    },
+    {
+     "nome": "Search Bars",
+     "obs": "218 itens"
+    },
+    {
+     "nome": "Selects",
+     "obs": "316 itens"
+    },
+    {
+     "nome": "Sidebars",
+     "obs": "95 itens"
+    },
+    {
+     "nome": "Sign Ins",
+     "obs": "103 itens"
+    },
+    {
+     "nome": "Sign ups",
+     "obs": "58 itens"
+    },
+    {
+     "nome": "Sliders",
+     "obs": "217 itens"
+    },
+    {
+     "nome": "Spinner Loaders",
+     "obs": "480 itens"
+    },
+    {
+     "nome": "Tables",
+     "obs": "313 itens"
+    },
+    {
+     "nome": "Tabs",
+     "obs": "239 itens"
+    },
+    {
+     "nome": "Tags",
+     "obs": "74 itens"
+    },
+    {
+     "nome": "Text Areas",
+     "obs": "187 itens"
+    },
+    {
+     "nome": "Toasts",
+     "obs": "79 itens"
+    },
+    {
+     "nome": "Toggles",
+     "obs": "532 itens"
+    },
+    {
+     "nome": "Tooltips",
+     "obs": "267 itens"
+    }
+   ]
+  },
+  {
+   "nome": "Destaques populares (uso)",
+   "itens": [
+    {
+     "nome": "Scroll media expansion hero",
+     "obs": "11.3k"
+    },
+    {
+     "nome": "Container Scroll Animation",
+     "obs": "10.8k"
+    },
+    {
+     "nome": "Spline Scene",
+     "obs": "9.9k"
+    },
+    {
+     "nome": "Spotlight Card",
+     "obs": "9.6k"
+    },
+    {
+     "nome": "Radial Orbital Timeline",
+     "obs": "7.8k"
+    },
+    {
+     "nome": "Liquid Glass Button",
+     "obs": "7.2k"
+    },
+    {
+     "nome": "Scroll Morph Hero",
+     "obs": "6.8k"
+    },
+    {
+     "nome": "Parallax Scrolling",
+     "obs": "6.2k"
+    },
+    {
+     "nome": "Animated hero",
+     "obs": "6.2k"
+    },
+    {
+     "nome": "Motion Footer",
+     "obs": "6.2k"
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Abas Popular / Latest / Featured / Weekly Best",
+  "Bibliotecas da comunidade citadas: Aceternity UI, Magic UI, ReUI, Kokonut UI, Origin UI, Motion Primitives, HextaUI",
+  "Registro instalavel estilo shadcn"
+ ],
+ "observacoes": "Total e a soma das tags (um componente pode estar em varias; unicos sao menos). A listagem lida nao indica pro/gratis.",
+ "conferido_em": "2026-11-27"
+}

@@ -1,0 +1,1815 @@
+{
+ "id": "threejs",
+ "situacao": "parcial: principais classes",
+ "fontes": [
+  "https://threejs.org/",
+  "https://raw.githubusercontent.com/mrdoob/three.js/dev/docs/llms.txt",
+  "https://api.github.com/repos/mrdoob/three.js/git/trees/dev (listagem de src/ e examples/jsm/)"
+ ],
+ "total": 336,
+ "grupos": [
+  {
+   "nome": "Geometrias",
+   "itens": [
+    {
+     "nome": "BoxGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CapsuleGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CircleGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ConeGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CylinderGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DodecahedronGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "EdgesGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ExtrudeGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "IcosahedronGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LatheGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "OctahedronGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PlaneGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PolyhedronGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RingGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ShapeGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SphereGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TetrahedronGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TorusGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TorusKnotGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TubeGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "WireframeGeometry",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Geometrias (addons)",
+   "itens": [
+    {
+     "nome": "BoxLineGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ConvexGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DecalGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LoftGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ParametricGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RoundedBoxGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TeapotGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TextGeometry",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Materiais",
+   "itens": [
+    {
+     "nome": "LineBasicMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LineDashedMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshBasicMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshDepthMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshDistanceMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshLambertMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshMatcapMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshNormalMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshPhongMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshPhysicalMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshStandardMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshToonMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PointsMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RawShaderMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ShaderMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ShadowMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SpriteMaterial",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Luzes e sombras",
+   "itens": [
+    {
+     "nome": "AmbientLight",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DirectionalLight",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "HemisphereLight",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LightProbe",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PointLight",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RectAreaLight",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SpotLight",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DirectionalLightShadow",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PointLightShadow",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SpotLightShadow",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SunLight (addon)",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CSM (sombras em cascata)",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Câmeras",
+   "itens": [
+    {
+     "nome": "PerspectiveCamera",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "OrthographicCamera",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ArrayCamera",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CubeCamera",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "StereoCamera",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Objetos",
+   "itens": [
+    {
+     "nome": "Mesh",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "InstancedMesh",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "BatchedMesh",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Group",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LOD",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Line",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LineLoop",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LineSegments",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Points",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sprite",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Bone",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Skeleton",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SkinnedMesh",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ClippingGroup",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Objetos (addons)",
+   "itens": [
+    {
+     "nome": "Sky",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Water",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Water2",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Reflector",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Refractor",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Lensflare",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MarchingCubes",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "GroundedSkybox",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "GaussianSplat",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ShadowMesh",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Texturas",
+   "itens": [
+    {
+     "nome": "Texture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CanvasTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CompressedTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CompressedArrayTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CompressedCubeTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CubeTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Data3DTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DataArrayTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DataTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DepthTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FramebufferTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "VideoTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "VideoFrameTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "HTMLTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ExternalTexture",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Renderers e cenas",
+   "itens": [
+    {
+     "nome": "WebGLRenderer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "WebGPURenderer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "WebGLRenderTarget",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "WebGLCubeRenderTarget",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "WebGL3DRenderTarget",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "WebGLArrayRenderTarget",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Scene",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Fog",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FogExp2",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Núcleo",
+   "itens": [
+    {
+     "nome": "Object3D",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "BufferGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "BufferAttribute",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "InstancedBufferAttribute",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "InstancedBufferGeometry",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "InterleavedBuffer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Raycaster",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Clock",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Timer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Layers",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Uniform",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "UniformsGroup",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "EventDispatcher",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RenderTarget",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Matemática",
+   "itens": [
+    {
+     "nome": "Vector2",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Vector3",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Vector4",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Matrix3",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Matrix4",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Quaternion",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Euler",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Color",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Box2",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Box3",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sphere",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Plane",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Ray",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Frustum",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Line3",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Triangle",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Spherical",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Cylindrical",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MathUtils",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SphericalHarmonics3",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Curvas e formas",
+   "itens": [
+    {
+     "nome": "Curve",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CurvePath",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Path",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Shape",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ShapePath",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ArcCurve",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CatmullRomCurve3",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CubicBezierCurve",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CubicBezierCurve3",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "EllipseCurve",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LineCurve",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LineCurve3",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "QuadraticBezierCurve",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "QuadraticBezierCurve3",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SplineCurve",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "NURBSCurve",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "NURBSSurface",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Animação",
+   "itens": [
+    {
+     "nome": "AnimationMixer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AnimationClip",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AnimationAction",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AnimationObjectGroup",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "KeyframeTrack",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PropertyBinding",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CCDIKSolver",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AnimationClipCreator",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Áudio",
+   "itens": [
+    {
+     "nome": "Audio",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AudioListener",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AudioAnalyser",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PositionalAudio",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AudioLoader",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Helpers",
+   "itens": [
+    {
+     "nome": "ArrowHelper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AxesHelper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Box3Helper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "BoxHelper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CameraHelper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DirectionalLightHelper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "GridHelper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "HemisphereLightHelper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PlaneHelper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PointLightHelper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PolarGridHelper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SkeletonHelper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SpotLightHelper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RectAreaLightHelper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "VertexNormalsHelper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ViewHelper",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Loaders (núcleo)",
+   "itens": [
+    {
+     "nome": "TextureLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CubeTextureLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ImageLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ImageBitmapLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FileLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ObjectLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MaterialLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "BufferGeometryLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DataTextureLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CompressedTextureLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AnimationLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LoadingManager",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Cache",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Loaders (addons)",
+   "itens": [
+    {
+     "nome": "GLTFLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DRACOLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "KTX2Loader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FBXLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "OBJLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MTLLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ColladaLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "STLLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PLYLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SVGLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FontLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TTFLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RGBELoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "HDRLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "EXRLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "UltraHDRLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "USDZLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "USDLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "VRMLLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "3DMLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "3MFLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AMFLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "BVHLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LDrawLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PCDLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TGALoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TIFFLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "VOXLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "XYZLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LUTCubeLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SPZLoader",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Controles",
+   "itens": [
+    {
+     "nome": "OrbitControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MapControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TrackballControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ArcballControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FlyControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FirstPersonControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PointerLockControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DragControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TransformControls",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Pós-processamento (EffectComposer)",
+   "itens": [
+    {
+     "nome": "EffectComposer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RenderPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ShaderPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "OutputPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "UnrealBloomPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "BloomPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "BokehPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FilmPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "GlitchPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "HalftonePass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DotScreenPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "OutlinePass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SAOPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SSAOPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "GTAOPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SSRPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SSAARenderPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TAARenderPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SMAAPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FXAAPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AfterimagePass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LUTPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RenderPixelatedPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RenderTransitionPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MaskPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ClearPass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SavePass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TexturePass",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CubeTexturePass",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Pós-processamento WebGPU/TSL (nós)",
+   "itens": [
+    {
+     "nome": "BloomNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DepthOfFieldNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "GTAONode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SSAONode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SSGINode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SSRNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SSSNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MotionBlur",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "GaussianBlurNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "GodraysNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LensflareNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "OutlineNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FXAANode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SMAANode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TRAANode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TAAUNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FilmNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DotScreenNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RGBShiftNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ChromaticAberrationNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PixelationPassNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sepia",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CRT",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TransitionNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SharpenNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DenoiseNode",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "radialBlur",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "boxBlur",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "hashBlur",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Efeitos e utilitários",
+   "itens": [
+    {
+     "nome": "AnaglyphEffect",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AsciiEffect",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "OutlineEffect",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ParallaxBarrierEffect",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "StereoEffect",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CurveModifier",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SimplifyModifier",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TessellateModifier",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "EdgeSplitModifier",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "BufferGeometryUtils",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SkeletonUtils",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SceneUtils",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "GPUComputationRenderer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Line2 / LineMaterial (linhas grossas)",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Exportadores",
+   "itens": [
+    {
+     "nome": "GLTFExporter",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "OBJExporter",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PLYExporter",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "STLExporter",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "USDZExporter",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DRACOExporter",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "EXRExporter",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "KTX2Exporter",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Física, XR e interação",
+   "itens": [
+    {
+     "nome": "RapierPhysics",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "JoltPhysics",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AmmoPhysics",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "VRButton",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ARButton",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "XRButton",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "XRControllerModelFactory",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "XRHandModelFactory",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "XRPlanes",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "HTMLMesh",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "InteractiveGroup",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SelectionBox",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "TSL (Three.js Shading Language) e NodeMaterial para WebGPU",
+  "Guias: Creating a Scene, Fundamentals, Responsive Design, Animation System, Loading 3D Models, Scene Graph, Shadows",
+  "Centenas de exemplos oficiais (examples/)",
+  "Docs com llms.txt / llms-full.txt no repositório"
+ ],
+ "observacoes": "Nomes vêm da listagem real de arquivos do repositório (src/ e examples/jsm/) na branch dev, não da barra lateral do site. É uma seleção: 52 shaders de pós-processamento, ~20 nós TSL, loaders raros e helpers menores foram resumidos ou omitidos. NodeMaterial/TSL (src/materials/nodes) não foi listado classe a classe. Tudo grátis (MIT).",
+ "conferido_em": "2026-11-27"
+}

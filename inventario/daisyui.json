@@ -1,0 +1,473 @@
+{
+ "id": "daisyui",
+ "situacao": "componentes completos; loja não lida",
+ "fontes": [
+  "https://daisyui.com/llms.txt",
+  "https://daisyui.com/",
+  "https://daisyui.com/components/"
+ ],
+ "total": 103,
+ "grupos": [
+  {
+   "nome": "Ações",
+   "itens": [
+    {
+     "nome": "Button",
+     "pro": false
+    },
+    {
+     "nome": "Dropdown",
+     "pro": false
+    },
+    {
+     "nome": "FAB",
+     "pro": false
+    },
+    {
+     "nome": "Modal",
+     "pro": false
+    },
+    {
+     "nome": "Swap",
+     "pro": false
+    },
+    {
+     "nome": "Theme controller",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Exibição de dados",
+   "itens": [
+    {
+     "nome": "Accordion",
+     "pro": false
+    },
+    {
+     "nome": "Avatar",
+     "pro": false
+    },
+    {
+     "nome": "Aura",
+     "pro": false
+    },
+    {
+     "nome": "Badge",
+     "pro": false
+    },
+    {
+     "nome": "Card",
+     "pro": false
+    },
+    {
+     "nome": "Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Chat",
+     "pro": false
+    },
+    {
+     "nome": "Collapse",
+     "pro": false
+    },
+    {
+     "nome": "Countdown",
+     "pro": false
+    },
+    {
+     "nome": "Diff",
+     "pro": false
+    },
+    {
+     "nome": "Hover 3D",
+     "pro": false
+    },
+    {
+     "nome": "Hover gallery",
+     "pro": false
+    },
+    {
+     "nome": "Kbd",
+     "pro": false
+    },
+    {
+     "nome": "List",
+     "pro": false
+    },
+    {
+     "nome": "Stat",
+     "pro": false
+    },
+    {
+     "nome": "Status",
+     "pro": false
+    },
+    {
+     "nome": "Table",
+     "pro": false
+    },
+    {
+     "nome": "Text rotate",
+     "pro": false
+    },
+    {
+     "nome": "Timeline",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Navegação",
+   "itens": [
+    {
+     "nome": "Breadcrumbs",
+     "pro": false
+    },
+    {
+     "nome": "Dock",
+     "pro": false
+    },
+    {
+     "nome": "Link",
+     "pro": false
+    },
+    {
+     "nome": "Megamenu",
+     "pro": false
+    },
+    {
+     "nome": "Menu",
+     "pro": false
+    },
+    {
+     "nome": "Navbar",
+     "pro": false
+    },
+    {
+     "nome": "Pagination",
+     "pro": false
+    },
+    {
+     "nome": "Steps",
+     "pro": false
+    },
+    {
+     "nome": "Tab",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Feedback",
+   "itens": [
+    {
+     "nome": "Alert",
+     "pro": false
+    },
+    {
+     "nome": "Loading",
+     "pro": false
+    },
+    {
+     "nome": "Progress",
+     "pro": false
+    },
+    {
+     "nome": "Radial progress",
+     "pro": false
+    },
+    {
+     "nome": "Skeleton",
+     "pro": false
+    },
+    {
+     "nome": "Toast",
+     "pro": false
+    },
+    {
+     "nome": "Tooltip",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Entrada de dados",
+   "itens": [
+    {
+     "nome": "Calendar",
+     "pro": false
+    },
+    {
+     "nome": "Checkbox",
+     "pro": false
+    },
+    {
+     "nome": "Fieldset",
+     "pro": false
+    },
+    {
+     "nome": "File input",
+     "pro": false
+    },
+    {
+     "nome": "Filter",
+     "pro": false
+    },
+    {
+     "nome": "Label",
+     "pro": false
+    },
+    {
+     "nome": "Radio",
+     "pro": false
+    },
+    {
+     "nome": "Range",
+     "pro": false
+    },
+    {
+     "nome": "Rating",
+     "pro": false
+    },
+    {
+     "nome": "Select",
+     "pro": false
+    },
+    {
+     "nome": "Input",
+     "pro": false
+    },
+    {
+     "nome": "Textarea",
+     "pro": false
+    },
+    {
+     "nome": "Toggle",
+     "pro": false
+    },
+    {
+     "nome": "Validator",
+     "pro": false
+    },
+    {
+     "nome": "OTP",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Layout",
+   "itens": [
+    {
+     "nome": "Divider",
+     "pro": false
+    },
+    {
+     "nome": "Drawer",
+     "pro": false
+    },
+    {
+     "nome": "Footer",
+     "pro": false
+    },
+    {
+     "nome": "Hero",
+     "pro": false
+    },
+    {
+     "nome": "Indicator",
+     "pro": false
+    },
+    {
+     "nome": "Join",
+     "pro": false
+    },
+    {
+     "nome": "Mask",
+     "pro": false
+    },
+    {
+     "nome": "Stack",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Mockups",
+   "itens": [
+    {
+     "nome": "Browser mockup",
+     "pro": false
+    },
+    {
+     "nome": "Code mockup",
+     "pro": false
+    },
+    {
+     "nome": "Phone mockup",
+     "pro": false
+    },
+    {
+     "nome": "Window mockup",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Temas embutidos",
+   "itens": [
+    {
+     "nome": "light",
+     "pro": false
+    },
+    {
+     "nome": "dark",
+     "pro": false
+    },
+    {
+     "nome": "cupcake",
+     "pro": false
+    },
+    {
+     "nome": "bumblebee",
+     "pro": false
+    },
+    {
+     "nome": "emerald",
+     "pro": false
+    },
+    {
+     "nome": "corporate",
+     "pro": false
+    },
+    {
+     "nome": "synthwave",
+     "pro": false
+    },
+    {
+     "nome": "retro",
+     "pro": false
+    },
+    {
+     "nome": "cyberpunk",
+     "pro": false
+    },
+    {
+     "nome": "valentine",
+     "pro": false
+    },
+    {
+     "nome": "halloween",
+     "pro": false
+    },
+    {
+     "nome": "garden",
+     "pro": false
+    },
+    {
+     "nome": "forest",
+     "pro": false
+    },
+    {
+     "nome": "aqua",
+     "pro": false
+    },
+    {
+     "nome": "lofi",
+     "pro": false
+    },
+    {
+     "nome": "pastel",
+     "pro": false
+    },
+    {
+     "nome": "fantasy",
+     "pro": false
+    },
+    {
+     "nome": "wireframe",
+     "pro": false
+    },
+    {
+     "nome": "black",
+     "pro": false
+    },
+    {
+     "nome": "luxury",
+     "pro": false
+    },
+    {
+     "nome": "dracula",
+     "pro": false
+    },
+    {
+     "nome": "cmyk",
+     "pro": false
+    },
+    {
+     "nome": "autumn",
+     "pro": false
+    },
+    {
+     "nome": "business",
+     "pro": false
+    },
+    {
+     "nome": "acid",
+     "pro": false
+    },
+    {
+     "nome": "lemonade",
+     "pro": false
+    },
+    {
+     "nome": "night",
+     "pro": false
+    },
+    {
+     "nome": "coffee",
+     "pro": false
+    },
+    {
+     "nome": "winter",
+     "pro": false
+    },
+    {
+     "nome": "dim",
+     "pro": false
+    },
+    {
+     "nome": "nord",
+     "pro": false
+    },
+    {
+     "nome": "sunset",
+     "pro": false
+    },
+    {
+     "nome": "caramellatte",
+     "pro": false
+    },
+    {
+     "nome": "abyss",
+     "pro": false
+    },
+    {
+     "nome": "silk",
+     "pro": false
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Plugin Tailwind v4, CSS puro sem JS",
+  "Gerador de tema e tema customizado",
+  "Servidor MCP oficial e Skills (npx skills add saadeghi/daisyui)",
+  "Menu aponta Templates, Charts e Figma Library para /store (provavelmente pagos, não verificado)",
+  "Playground, blog, docs em ~30 idiomas"
+ ],
+ "observacoes": "Componentes e temas completos (llms.txt + home). A página de templates/loja não pôde ser lida (404 em /templates/), então templates e itens pagos NÃO foram levantados.",
+ "conferido_em": "2026-11-27"
+}

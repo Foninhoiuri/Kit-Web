@@ -1,0 +1,204 @@
+{
+ "id": "lucide",
+ "situacao": "completo por categoria",
+ "fontes": [
+  "https://lucide.dev/",
+  "https://lucide.dev/icons/",
+  "https://github.com/lucide-icons/lucide"
+ ],
+ "total": 2140,
+ "grupos": [
+  {
+   "nome": "Categorias de icones (45; um icone pode estar em varias, soma 3.952)",
+   "itens": [
+    {
+     "nome": "Accessibility",
+     "obs": "36 itens"
+    },
+    {
+     "nome": "Accounts & access",
+     "obs": "122 itens"
+    },
+    {
+     "nome": "AI",
+     "obs": "20 itens"
+    },
+    {
+     "nome": "Animals",
+     "obs": "26 itens"
+    },
+    {
+     "nome": "Arrows",
+     "obs": "214 itens"
+    },
+    {
+     "nome": "Buildings",
+     "obs": "40 itens"
+    },
+    {
+     "nome": "Charts",
+     "obs": "46 itens"
+    },
+    {
+     "nome": "Communication",
+     "obs": "89 itens"
+    },
+    {
+     "nome": "Connectivity",
+     "obs": "72 itens"
+    },
+    {
+     "nome": "Cursors",
+     "obs": "37 itens"
+    },
+    {
+     "nome": "Design",
+     "obs": "193 itens"
+    },
+    {
+     "nome": "Coding & development",
+     "obs": "274 itens"
+    },
+    {
+     "nome": "Devices",
+     "obs": "190 itens"
+    },
+    {
+     "nome": "Education",
+     "obs": "31 itens"
+    },
+    {
+     "nome": "Emoji",
+     "obs": "38 itens"
+    },
+    {
+     "nome": "File icons",
+     "obs": "175 itens"
+    },
+    {
+     "nome": "Finance",
+     "obs": "75 itens"
+    },
+    {
+     "nome": "Food & beverage",
+     "obs": "87 itens"
+    },
+    {
+     "nome": "Gaming",
+     "obs": "130 itens"
+    },
+    {
+     "nome": "Home",
+     "obs": "80 itens"
+    },
+    {
+     "nome": "Layout",
+     "obs": "205 itens"
+    },
+    {
+     "nome": "Letters & digits",
+     "obs": "103 itens"
+    },
+    {
+     "nome": "Logistics",
+     "obs": "27 itens"
+    },
+    {
+     "nome": "Mail",
+     "obs": "31 itens"
+    },
+    {
+     "nome": "Mathematics",
+     "obs": "83 itens"
+    },
+    {
+     "nome": "Medical",
+     "obs": "50 itens"
+    },
+    {
+     "nome": "Multimedia",
+     "obs": "155 itens"
+    },
+    {
+     "nome": "Nature",
+     "obs": "29 itens"
+    },
+    {
+     "nome": "Navigation & places",
+     "obs": "105 itens"
+    },
+    {
+     "nome": "Notifications",
+     "obs": "55 itens"
+    },
+    {
+     "nome": "People",
+     "obs": "21 itens"
+    },
+    {
+     "nome": "Photography",
+     "obs": "81 itens"
+    },
+    {
+     "nome": "Science",
+     "obs": "52 itens"
+    },
+    {
+     "nome": "Security",
+     "obs": "71 itens"
+    },
+    {
+     "nome": "Shapes",
+     "obs": "62 itens"
+    },
+    {
+     "nome": "Shopping",
+     "obs": "57 itens"
+    },
+    {
+     "nome": "Social",
+     "obs": "128 itens"
+    },
+    {
+     "nome": "Sports",
+     "obs": "26 itens"
+    },
+    {
+     "nome": "Sustainability",
+     "obs": "24 itens"
+    },
+    {
+     "nome": "Text formatting",
+     "obs": "277 itens"
+    },
+    {
+     "nome": "Time & calendar",
+     "obs": "75 itens"
+    },
+    {
+     "nome": "Tools",
+     "obs": "59 itens"
+    },
+    {
+     "nome": "Transportation",
+     "obs": "73 itens"
+    },
+    {
+     "nome": "Travel",
+     "obs": "83 itens"
+    },
+    {
+     "nome": "Weather",
+     "obs": "45 itens"
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Pacotes: lucide (JS), lucide-react, @lucide/vue, @lucide/svelte, lucide-solid, lucide-preact, lucide-react-native, @lucide/angular, @lucide/astro, lucide-static",
+  "Pasta lab no repositorio (icones da comunidade, nao descrita)",
+  "Licenca aberta, SVG"
+ ],
+ "observacoes": "Total 2140 vem do campo de busca do site. README do GitHub ainda diz 1600+, desatualizado. Tudo gratis.",
+ "conferido_em": "2026-11-27"
+}

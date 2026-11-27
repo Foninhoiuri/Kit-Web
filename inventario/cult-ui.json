@@ -1,0 +1,615 @@
+{
+ "id": "cult-ui",
+ "situacao": "completo",
+ "fontes": [
+  "https://www.cult-ui.com/llms.txt",
+  "https://www.cult-ui.com/docs/components"
+ ],
+ "total": 134,
+ "grupos": [
+  {
+   "nome": "IA",
+   "itens": [
+    {
+     "nome": "Agent Suggest Card Stack",
+     "pro": false
+    },
+    {
+     "nome": "AI Blob Warp",
+     "pro": false
+    },
+    {
+     "nome": "AI Instructions",
+     "pro": false
+    },
+    {
+     "nome": "Prompt Composer",
+     "pro": false
+    },
+    {
+     "nome": "Prompt Library",
+     "pro": false
+    },
+    {
+     "nome": "Fluid AI Workloads",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "App e workspace",
+   "itens": [
+    {
+     "nome": "Analytics Chart",
+     "pro": false
+    },
+    {
+     "nome": "Collab Avatar",
+     "pro": false
+    },
+    {
+     "nome": "Collab Toolbar",
+     "pro": false
+    },
+    {
+     "nome": "Kanban Board",
+     "pro": false
+    },
+    {
+     "nome": "Sortable List",
+     "pro": false
+    },
+    {
+     "nome": "Side Panel",
+     "pro": false
+    },
+    {
+     "nome": "Floating Panel",
+     "pro": false
+    },
+    {
+     "nome": "Toolbar Expandable",
+     "pro": false
+    },
+    {
+     "nome": "Dock",
+     "pro": false
+    },
+    {
+     "nome": "Lightboard",
+     "pro": false
+    },
+    {
+     "nome": "Timer",
+     "pro": false
+    },
+    {
+     "nome": "Rolling Number",
+     "pro": false
+    },
+    {
+     "nome": "Color Picker",
+     "pro": false
+    },
+    {
+     "nome": "Code Block",
+     "pro": false
+    },
+    {
+     "nome": "Copy Button",
+     "pro": false
+    },
+    {
+     "nome": "File Icons",
+     "pro": false
+    },
+    {
+     "nome": "Dynamic Island",
+     "pro": false
+    },
+    {
+     "nome": "Terminal Animation",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Formulários e controles",
+   "itens": [
+    {
+     "nome": "Border Beam Input",
+     "pro": false
+    },
+    {
+     "nome": "Choice Poll",
+     "pro": false
+    },
+    {
+     "nome": "Feature Poll",
+     "pro": false
+    },
+    {
+     "nome": "Poll Widget",
+     "pro": false
+    },
+    {
+     "nome": "Vote Tally",
+     "pro": false
+    },
+    {
+     "nome": "Feature Voting",
+     "pro": false
+    },
+    {
+     "nome": "Halo Field",
+     "pro": false
+    },
+    {
+     "nome": "Halo Input",
+     "pro": false
+    },
+    {
+     "nome": "Halo Select",
+     "pro": false
+    },
+    {
+     "nome": "Halo Switch",
+     "pro": false
+    },
+    {
+     "nome": "Halo Toggle Group",
+     "pro": false
+    },
+    {
+     "nome": "Halo Segmented",
+     "pro": false
+    },
+    {
+     "nome": "Halo Search",
+     "pro": false
+    },
+    {
+     "nome": "Halo Dropzone",
+     "pro": false
+    },
+    {
+     "nome": "Popover Form",
+     "pro": false
+    },
+    {
+     "nome": "Wizard Expandable",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Feedback e status",
+   "itens": [
+    {
+     "nome": "Halo Notification",
+     "pro": false
+    },
+    {
+     "nome": "Halo Progress",
+     "pro": false
+    },
+    {
+     "nome": "Halo Toast",
+     "pro": false
+    },
+    {
+     "nome": "Loading Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Security Checkpoint",
+     "pro": false
+    },
+    {
+     "nome": "Merging Bubbles",
+     "pro": false
+    },
+    {
+     "nome": "Speech Bubble",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Navegação e overlays",
+   "itens": [
+    {
+     "nome": "Direction Aware Tabs",
+     "pro": false
+    },
+    {
+     "nome": "Halo Tabs",
+     "pro": false
+    },
+    {
+     "nome": "Popover",
+     "pro": false
+    },
+    {
+     "nome": "Family Drawer",
+     "pro": false
+    },
+    {
+     "nome": "Expandable",
+     "pro": false
+    },
+    {
+     "nome": "Expandable Screen",
+     "pro": false
+    },
+    {
+     "nome": "Morph Surface",
+     "pro": false
+    },
+    {
+     "nome": "Intro Disclosure",
+     "pro": false
+    },
+    {
+     "nome": "Onboarding",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Botões",
+   "itens": [
+    {
+     "nome": "Background Animate Button",
+     "pro": false
+    },
+    {
+     "nome": "Border Beam Button",
+     "pro": false
+    },
+    {
+     "nome": "Cosmic Button",
+     "pro": false
+    },
+    {
+     "nome": "Family Button",
+     "pro": false
+    },
+    {
+     "nome": "Gradient Button Group",
+     "pro": false
+    },
+    {
+     "nome": "Halo Button",
+     "pro": false
+    },
+    {
+     "nome": "Metal Button",
+     "pro": false
+    },
+    {
+     "nome": "Neumorph Button",
+     "pro": false
+    },
+    {
+     "nome": "Neumorph Eyebrow",
+     "pro": false
+    },
+    {
+     "nome": "Organic Button",
+     "pro": false
+    },
+    {
+     "nome": "Texture Button",
+     "pro": false
+    },
+    {
+     "nome": "Halo Badge",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Cards",
+   "itens": [
+    {
+     "nome": "Border Beam Card",
+     "pro": false
+    },
+    {
+     "nome": "Cutout Card",
+     "pro": false
+    },
+    {
+     "nome": "Folded Card",
+     "pro": false
+    },
+    {
+     "nome": "Halo Card",
+     "pro": false
+    },
+    {
+     "nome": "Minimal Card",
+     "pro": false
+    },
+    {
+     "nome": "Organic Card",
+     "pro": false
+    },
+    {
+     "nome": "Organic Card Small",
+     "pro": false
+    },
+    {
+     "nome": "Shadow Card",
+     "pro": false
+    },
+    {
+     "nome": "Shift Card",
+     "pro": false
+    },
+    {
+     "nome": "Texture Card",
+     "pro": false
+    },
+    {
+     "nome": "Illustration Card Grid",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Landing pages",
+   "itens": [
+    {
+     "nome": "Feature Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Feature Sticky Section",
+     "pro": false
+    },
+    {
+     "nome": "Marketing Feature Code",
+     "pro": false
+    },
+    {
+     "nome": "Marketing Hero Analytics",
+     "pro": false
+    },
+    {
+     "nome": "Hero Color Panels",
+     "pro": false
+    },
+    {
+     "nome": "Hero Dithering",
+     "pro": false
+    },
+    {
+     "nome": "Hero Heatmap",
+     "pro": false
+    },
+    {
+     "nome": "Hero Liquid Metal",
+     "pro": false
+    },
+    {
+     "nome": "Hero Static Radial Gradient",
+     "pro": false
+    },
+    {
+     "nome": "Logo Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Tweet Grid",
+     "pro": false
+    },
+    {
+     "nome": "3D Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Gradient Heading",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Ilustrações",
+   "itens": [
+    {
+     "nome": "Gateway Endpoint Illustration",
+     "pro": false
+    },
+    {
+     "nome": "Gateway Route Illustration",
+     "pro": false
+    },
+    {
+     "nome": "Gateway SVG Illustration",
+     "pro": false
+    },
+    {
+     "nome": "Illustration Comment Bubble",
+     "pro": false
+    },
+    {
+     "nome": "Illustration Cursor",
+     "pro": false
+    },
+    {
+     "nome": "Illustration Fluid Rendering",
+     "pro": false
+    },
+    {
+     "nome": "Illustration Globe Vercel",
+     "pro": false
+    },
+    {
+     "nome": "Illustration Graph",
+     "pro": false
+    },
+    {
+     "nome": "Tabs Illustration Vercel",
+     "pro": false
+    },
+    {
+     "nome": "Globe (COBE)",
+     "pro": false
+    },
+    {
+     "nome": "SVG Bands",
+     "pro": false
+    },
+    {
+     "nome": "SVG Shapes",
+     "pro": false
+    },
+    {
+     "nome": "SVG Shapes Animated",
+     "pro": false
+    },
+    {
+     "nome": "Squiggle Arrow",
+     "pro": false
+    },
+    {
+     "nome": "Circuit Board",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Mídia e mockups",
+   "itens": [
+    {
+     "nome": "Apple iPhone 17 Pro Max",
+     "pro": false
+    },
+    {
+     "nome": "Apple Keyboard",
+     "pro": false
+    },
+    {
+     "nome": "Apple Pro Display XDR",
+     "pro": false
+    },
+    {
+     "nome": "Apple Watch Ultra",
+     "pro": false
+    },
+    {
+     "nome": "Mac Screen",
+     "pro": false
+    },
+    {
+     "nome": "Browser Window",
+     "pro": false
+    },
+    {
+     "nome": "Hover Video Player",
+     "pro": false
+    },
+    {
+     "nome": "YouTube Video Player",
+     "pro": false
+    },
+    {
+     "nome": "Background Media",
+     "pro": false
+    },
+    {
+     "nome": "Text GIF",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Fundos e efeitos",
+   "itens": [
+    {
+     "nome": "Fractal Dot Grid",
+     "pro": false
+    },
+    {
+     "nome": "Background Image Texture",
+     "pro": false
+    },
+    {
+     "nome": "Canvas Fractal Grid",
+     "pro": false
+    },
+    {
+     "nome": "Distorted Glass",
+     "pro": false
+    },
+    {
+     "nome": "Dither Image",
+     "pro": false
+    },
+    {
+     "nome": "Edge Blur",
+     "pro": false
+    },
+    {
+     "nome": "Fluted Glass",
+     "pro": false
+    },
+    {
+     "nome": "Grid Beam",
+     "pro": false
+    },
+    {
+     "nome": "Shader Lens Blur",
+     "pro": false
+    },
+    {
+     "nome": "Stripe Background Guides",
+     "pro": false
+    },
+    {
+     "nome": "Texture Overlay",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Tipografia",
+   "itens": [
+    {
+     "nome": "Pixel Heading",
+     "pro": false
+    },
+    {
+     "nome": "Pixel Heading (Word)",
+     "pro": false
+    },
+    {
+     "nome": "Pixel Paragraph",
+     "pro": false
+    },
+    {
+     "nome": "Pixel Paragraph Inverse",
+     "pro": false
+    },
+    {
+     "nome": "Text Animate",
+     "pro": false
+    },
+    {
+     "nome": "Typewriter",
+     "pro": false
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "CLI shadcn (@cult-ui/<nome>)",
+  "MCP Server",
+  "Theming, instalação Next.js/Vite",
+  "AI SDK Agents (pago, site externo: 150+ blocos, compra única)"
+ ],
+ "observacoes": "134 componentes do llms.txt. As 13 categorias do site existem, mas a atribuição de cada componente a um grupo é minha (aproximada; usei 11 grupos). Nada marcado Pro nos componentes; o pacote pago AI SDK Agents é externo (aisdkagents.com) e não foi listado.",
+ "conferido_em": "2026-11-27"
+}

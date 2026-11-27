@@ -1,0 +1,674 @@
+{
+ "id": "hextaui",
+ "situacao": "completo",
+ "fontes": [
+  "https://hextaui.com/llms.txt",
+  "https://hextaui.com/r/registry.json"
+ ],
+ "total": 145,
+ "grupos": [
+  {
+   "nome": "Botões e toggles",
+   "itens": [
+    {
+     "nome": "Button",
+     "pro": false
+    },
+    {
+     "nome": "Button group",
+     "pro": false
+    },
+    {
+     "nome": "Toggle",
+     "pro": false
+    },
+    {
+     "nome": "Toggle group",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Chat / IA",
+   "itens": [
+    {
+     "nome": "Attachment",
+     "pro": false
+    },
+    {
+     "nome": "Bubble",
+     "pro": false
+    },
+    {
+     "nome": "Marker",
+     "pro": false
+    },
+    {
+     "nome": "Message",
+     "pro": false
+    },
+    {
+     "nome": "Message scroller",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Exibição de dados",
+   "itens": [
+    {
+     "nome": "Avatar",
+     "pro": false
+    },
+    {
+     "nome": "Badge",
+     "pro": false
+    },
+    {
+     "nome": "Card",
+     "pro": false
+    },
+    {
+     "nome": "Chart",
+     "pro": false
+    },
+    {
+     "nome": "Data table",
+     "pro": false
+    },
+    {
+     "nome": "Item",
+     "pro": false
+    },
+    {
+     "nome": "Kbd",
+     "pro": false
+    },
+    {
+     "nome": "Number flow",
+     "pro": false
+    },
+    {
+     "nome": "Table",
+     "pro": false
+    },
+    {
+     "nome": "Tree",
+     "pro": false
+    },
+    {
+     "nome": "Timeline",
+     "pro": false,
+     "obs": "extra (ui-sdk)"
+    },
+    {
+     "nome": "Tree",
+     "pro": false,
+     "obs": "extra (ui-sdk)"
+    }
+   ]
+  },
+  {
+   "nome": "Feedback e carregamento",
+   "itens": [
+    {
+     "nome": "Alert",
+     "pro": false
+    },
+    {
+     "nome": "Empty",
+     "pro": false
+    },
+    {
+     "nome": "Progress",
+     "pro": false
+    },
+    {
+     "nome": "Skeleton",
+     "pro": false
+    },
+    {
+     "nome": "Spinner",
+     "pro": false
+    },
+    {
+     "nome": "Toast",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Formulários",
+   "itens": [
+    {
+     "nome": "Calendar",
+     "pro": false
+    },
+    {
+     "nome": "Checkbox",
+     "pro": false
+    },
+    {
+     "nome": "Combobox",
+     "pro": false
+    },
+    {
+     "nome": "Date picker",
+     "pro": false
+    },
+    {
+     "nome": "Field",
+     "pro": false
+    },
+    {
+     "nome": "Input",
+     "pro": false
+    },
+    {
+     "nome": "Input group",
+     "pro": false
+    },
+    {
+     "nome": "Input OTP",
+     "pro": false
+    },
+    {
+     "nome": "Label",
+     "pro": false
+    },
+    {
+     "nome": "Native select",
+     "pro": false
+    },
+    {
+     "nome": "Questionnaire",
+     "pro": false
+    },
+    {
+     "nome": "Radio group",
+     "pro": false
+    },
+    {
+     "nome": "Select",
+     "pro": false
+    },
+    {
+     "nome": "Slider",
+     "pro": false
+    },
+    {
+     "nome": "Switch",
+     "pro": false
+    },
+    {
+     "nome": "Textarea",
+     "pro": false
+    },
+    {
+     "nome": "Color picker",
+     "pro": false,
+     "obs": "extra (ui-sdk)"
+    },
+    {
+     "nome": "Date input",
+     "pro": false,
+     "obs": "extra (ui-sdk)"
+    },
+    {
+     "nome": "Date picker",
+     "pro": false,
+     "obs": "extra (ui-sdk)"
+    },
+    {
+     "nome": "File input",
+     "pro": false,
+     "obs": "extra (ui-sdk)"
+    },
+    {
+     "nome": "Number input",
+     "pro": false,
+     "obs": "extra (ui-sdk)"
+    },
+    {
+     "nome": "Password input",
+     "pro": false,
+     "obs": "extra (ui-sdk)"
+    },
+    {
+     "nome": "Rating",
+     "pro": false,
+     "obs": "extra (ui-sdk)"
+    },
+    {
+     "nome": "Segmented control",
+     "pro": false,
+     "obs": "extra (ui-sdk)"
+    },
+    {
+     "nome": "Time input",
+     "pro": false,
+     "obs": "extra (ui-sdk)"
+    },
+    {
+     "nome": "Token input",
+     "pro": false,
+     "obs": "extra (ui-sdk)"
+    }
+   ]
+  },
+  {
+   "nome": "Layout",
+   "itens": [
+    {
+     "nome": "Accordion",
+     "pro": false
+    },
+    {
+     "nome": "Aspect ratio",
+     "pro": false
+    },
+    {
+     "nome": "Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Collapsible",
+     "pro": false
+    },
+    {
+     "nome": "Resizable",
+     "pro": false
+    },
+    {
+     "nome": "Safe area",
+     "pro": false
+    },
+    {
+     "nome": "Scroll area",
+     "pro": false
+    },
+    {
+     "nome": "Separator",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Mídia",
+   "itens": [
+    {
+     "nome": "Image cropper",
+     "pro": false,
+     "obs": "extra (ui-sdk)"
+    },
+    {
+     "nome": "Video player",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Navegação",
+   "itens": [
+    {
+     "nome": "Breadcrumb",
+     "pro": false
+    },
+    {
+     "nome": "Navigation menu",
+     "pro": false
+    },
+    {
+     "nome": "Pagination",
+     "pro": false
+    },
+    {
+     "nome": "Sidebar",
+     "pro": false
+    },
+    {
+     "nome": "Tabs",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Overlays e menus",
+   "itens": [
+    {
+     "nome": "Alert dialog",
+     "pro": false
+    },
+    {
+     "nome": "Command",
+     "pro": false
+    },
+    {
+     "nome": "Context menu",
+     "pro": false
+    },
+    {
+     "nome": "Dialog",
+     "pro": false
+    },
+    {
+     "nome": "Drawer",
+     "pro": false
+    },
+    {
+     "nome": "Dropdown menu",
+     "pro": false
+    },
+    {
+     "nome": "Hover card",
+     "pro": false
+    },
+    {
+     "nome": "Menubar",
+     "pro": false
+    },
+    {
+     "nome": "Popover",
+     "pro": false
+    },
+    {
+     "nome": "Sheet",
+     "pro": false
+    },
+    {
+     "nome": "Tooltip",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Hooks",
+   "itens": [
+    {
+     "nome": "useAutosize",
+     "pro": false
+    },
+    {
+     "nome": "useButtonFeedback",
+     "pro": false
+    },
+    {
+     "nome": "useComposedRef",
+     "pro": false
+    },
+    {
+     "nome": "useDelayedLoading",
+     "pro": false
+    },
+    {
+     "nome": "useHeldKeys",
+     "pro": false
+    },
+    {
+     "nome": "useInvalidShake",
+     "pro": false
+    },
+    {
+     "nome": "useMergedRef",
+     "pro": false
+    },
+    {
+     "nome": "usePagination",
+     "pro": false
+    },
+    {
+     "nome": "useToday",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Utilitários",
+   "itens": [
+    {
+     "nome": "Hotkey",
+     "pro": false
+    },
+    {
+     "nome": "Motion",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro (e-commerce, admin, chat/IA, configurações)",
+   "itens": [
+    {
+     "nome": "Address Form",
+     "pro": true
+    },
+    {
+     "nome": "Agent Todos",
+     "pro": true
+    },
+    {
+     "nome": "API keys",
+     "pro": true
+    },
+    {
+     "nome": "Appearance",
+     "pro": true
+    },
+    {
+     "nome": "Artifact",
+     "pro": true
+    },
+    {
+     "nome": "Billing",
+     "pro": true
+    },
+    {
+     "nome": "Cart",
+     "pro": true
+    },
+    {
+     "nome": "Chat Sidebar",
+     "pro": true
+    },
+    {
+     "nome": "Chat Thread",
+     "pro": true
+    },
+    {
+     "nome": "Checkout",
+     "pro": true
+    },
+    {
+     "nome": "Code Block",
+     "pro": true
+    },
+    {
+     "nome": "Commerce Dashboard",
+     "pro": true
+    },
+    {
+     "nome": "Diff Review",
+     "pro": true
+    },
+    {
+     "nome": "Discount Builder",
+     "pro": true
+    },
+    {
+     "nome": "HextaAI",
+     "pro": true
+    },
+    {
+     "nome": "Image Studio",
+     "pro": true
+    },
+    {
+     "nome": "Integrations",
+     "pro": true
+    },
+    {
+     "nome": "Inventory",
+     "pro": true
+    },
+    {
+     "nome": "Markdown",
+     "pro": true
+    },
+    {
+     "nome": "Memory",
+     "pro": true
+    },
+    {
+     "nome": "Model Compare",
+     "pro": true
+    },
+    {
+     "nome": "Models",
+     "pro": true
+    },
+    {
+     "nome": "Notifications",
+     "pro": true
+    },
+    {
+     "nome": "Order Detail",
+     "pro": true
+    },
+    {
+     "nome": "Order Status",
+     "pro": true
+    },
+    {
+     "nome": "Order Summary",
+     "pro": true
+    },
+    {
+     "nome": "Orders Table",
+     "pro": true
+    },
+    {
+     "nome": "Payment",
+     "pro": true
+    },
+    {
+     "nome": "Price",
+     "pro": true
+    },
+    {
+     "nome": "Product Card",
+     "pro": true
+    },
+    {
+     "nome": "Product Editor",
+     "pro": true
+    },
+    {
+     "nome": "Product Filters",
+     "pro": true
+    },
+    {
+     "nome": "Product Gallery",
+     "pro": true
+    },
+    {
+     "nome": "Product Search",
+     "pro": true
+    },
+    {
+     "nome": "Profile",
+     "pro": true
+    },
+    {
+     "nome": "Prompt Input",
+     "pro": false,
+     "obs": "bloco gratuito"
+    },
+    {
+     "nome": "Prompt Library",
+     "pro": true
+    },
+    {
+     "nome": "Refund",
+     "pro": true
+    },
+    {
+     "nome": "Reviews",
+     "pro": true
+    },
+    {
+     "nome": "Sales Overview",
+     "pro": true
+    },
+    {
+     "nome": "Save Bar",
+     "pro": true
+    },
+    {
+     "nome": "Security",
+     "pro": true
+    },
+    {
+     "nome": "Settings",
+     "pro": true
+    },
+    {
+     "nome": "Shipping Methods",
+     "pro": true
+    },
+    {
+     "nome": "Stack Trace",
+     "pro": true
+    },
+    {
+     "nome": "Storefront",
+     "pro": true
+    },
+    {
+     "nome": "Streaming",
+     "pro": true
+    },
+    {
+     "nome": "Subagents",
+     "pro": true
+    },
+    {
+     "nome": "Team",
+     "pro": true
+    },
+    {
+     "nome": "Test Results",
+     "pro": true
+    },
+    {
+     "nome": "Thinking",
+     "pro": true
+    },
+    {
+     "nome": "Tool Calls",
+     "pro": true
+    },
+    {
+     "nome": "Variant Picker",
+     "pro": true
+    },
+    {
+     "nome": "Voice Mode",
+     "pro": true
+    },
+    {
+     "nome": "Workflow",
+     "pro": true
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "CLI shadcn: npx shadcn@latest add https://hextaui.com/r/<nome>.json (all.json instala tudo)",
+  "Servidor MCP e docs em Markdown",
+  "Tema próprio (Theme), Base UI + Tailwind v4",
+  "Ferramentas grátis: editor de tema, Testimonial Wall Builder, Page Builder",
+  "HextaUI Pro: pagamento único Solo US$49 / Team US$149 (promo Black Friday; normal 79/249)"
+ ],
+ "observacoes": "Lista completa do registro. Date picker e Tree aparecem duas vezes no registro (versão base e versão ui-sdk). O site diz 65 componentes; o registro tem 79 itens ui incluindo extras ui-sdk. Blocos Pro: o site diz 55; a lista do llms.txt tem 55 (inclui Prompt Input, que é grátis).",
+ "conferido_em": "2026-11-27"
+}

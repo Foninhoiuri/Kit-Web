@@ -1,0 +1,415 @@
+{
+ "id": "magicui",
+ "situacao": "grátis completo; blocos Pro não listados",
+ "fontes": [
+  "https://magicui.design/llms.txt",
+  "https://magicui.design/docs/components"
+ ],
+ "total": 85,
+ "grupos": [
+  {
+   "nome": "Fundos e padrões",
+   "itens": [
+    {
+     "nome": "Animated Grid Pattern",
+     "pro": false
+    },
+    {
+     "nome": "Dot Pattern",
+     "pro": false
+    },
+    {
+     "nome": "Flickering Grid",
+     "pro": false
+    },
+    {
+     "nome": "Grid Pattern",
+     "pro": false
+    },
+    {
+     "nome": "Hexagon Pattern",
+     "pro": false
+    },
+    {
+     "nome": "Interactive Grid Pattern",
+     "pro": false
+    },
+    {
+     "nome": "Noise Texture",
+     "pro": false
+    },
+    {
+     "nome": "Retro Grid",
+     "pro": false
+    },
+    {
+     "nome": "Striped Pattern",
+     "pro": false
+    },
+    {
+     "nome": "Warp Background",
+     "pro": false
+    },
+    {
+     "nome": "Light Rays",
+     "pro": false
+    },
+    {
+     "nome": "Dither",
+     "pro": false
+    },
+    {
+     "nome": "Particles",
+     "pro": false
+    },
+    {
+     "nome": "Floating 3D Particles",
+     "pro": false
+    },
+    {
+     "nome": "Meteors",
+     "pro": false
+    },
+    {
+     "nome": "Ripple",
+     "pro": false
+    },
+    {
+     "nome": "Backlight",
+     "pro": false
+    },
+    {
+     "nome": "Aurora Text",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Texto",
+   "itens": [
+    {
+     "nome": "Animated Gradient Text",
+     "pro": false
+    },
+    {
+     "nome": "Animated Shiny Text",
+     "pro": false
+    },
+    {
+     "nome": "Comic Text",
+     "pro": false
+    },
+    {
+     "nome": "Dia Text Reveal",
+     "pro": false
+    },
+    {
+     "nome": "Hyper Text",
+     "pro": false
+    },
+    {
+     "nome": "Kinetic Text",
+     "pro": false
+    },
+    {
+     "nome": "Line Shadow Text",
+     "pro": false
+    },
+    {
+     "nome": "Morphing Text",
+     "pro": false
+    },
+    {
+     "nome": "Sparkles Text",
+     "pro": false
+    },
+    {
+     "nome": "Spinning Text",
+     "pro": false
+    },
+    {
+     "nome": "Text 3D Flip",
+     "pro": false
+    },
+    {
+     "nome": "Text Animate",
+     "pro": false
+    },
+    {
+     "nome": "Text Reveal",
+     "pro": false
+    },
+    {
+     "nome": "Typing Animation",
+     "pro": false
+    },
+    {
+     "nome": "Video Text",
+     "pro": false
+    },
+    {
+     "nome": "Word Rotate",
+     "pro": false
+    },
+    {
+     "nome": "Highlighter",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Botões",
+   "itens": [
+    {
+     "nome": "interactive-hover-button",
+     "pro": false
+    },
+    {
+     "nome": "Pulsating Button",
+     "pro": false
+    },
+    {
+     "nome": "Rainbow Button",
+     "pro": false
+    },
+    {
+     "nome": "Ripple Button",
+     "pro": false
+    },
+    {
+     "nome": "Shimmer Button",
+     "pro": false
+    },
+    {
+     "nome": "Shiny Button",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Cards e bordas",
+   "itens": [
+    {
+     "nome": "Bento Grid",
+     "pro": false
+    },
+    {
+     "nome": "Magic Card",
+     "pro": false
+    },
+    {
+     "nome": "Neon Gradient Card",
+     "pro": false
+    },
+    {
+     "nome": "Border Beam",
+     "pro": false
+    },
+    {
+     "nome": "Shine Border",
+     "pro": false
+    },
+    {
+     "nome": "Code Comparison",
+     "pro": false
+    },
+    {
+     "nome": "Lens",
+     "pro": false
+    },
+    {
+     "nome": "Glare Hover",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Mockups de dispositivo",
+   "itens": [
+    {
+     "nome": "Android",
+     "pro": false
+    },
+    {
+     "nome": "iPhone",
+     "pro": false
+    },
+    {
+     "nome": "Safari",
+     "pro": false
+    },
+    {
+     "nome": "Terminal",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Animação e rolagem",
+   "itens": [
+    {
+     "nome": "Animated Beam",
+     "pro": false
+    },
+    {
+     "nome": "Animated List",
+     "pro": false
+    },
+    {
+     "nome": "Animated Circular Progress Bar",
+     "pro": false
+    },
+    {
+     "nome": "Blur Fade",
+     "pro": false
+    },
+    {
+     "nome": "Marquee",
+     "pro": false
+    },
+    {
+     "nome": "Number Ticker",
+     "pro": false
+    },
+    {
+     "nome": "Orbiting Circles",
+     "pro": false
+    },
+    {
+     "nome": "Scroll Based Velocity",
+     "pro": false
+    },
+    {
+     "nome": "Scroll Progress",
+     "pro": false
+    },
+    {
+     "nome": "Progressive Blur",
+     "pro": false
+    },
+    {
+     "nome": "Confetti",
+     "pro": false
+    },
+    {
+     "nome": "Cool Mode",
+     "pro": false
+    },
+    {
+     "nome": "Glyph Matrix",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Navegação e utilitários",
+   "itens": [
+    {
+     "nome": "Dock",
+     "pro": false
+    },
+    {
+     "nome": "File Tree",
+     "pro": false
+    },
+    {
+     "nome": "Theme Toggler",
+     "pro": false
+    },
+    {
+     "nome": "Hero Video Dialog",
+     "pro": false
+    },
+    {
+     "nome": "Avatar Circles",
+     "pro": false
+    },
+    {
+     "nome": "Pixel Image",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Cursor",
+   "itens": [
+    {
+     "nome": "Pointer",
+     "pro": false
+    },
+    {
+     "nome": "smooth-cursor",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "3D e mapas",
+   "itens": [
+    {
+     "nome": "Globe",
+     "pro": false
+    },
+    {
+     "nome": "Dotted Map",
+     "pro": false
+    },
+    {
+     "nome": "Icon Cloud",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Social",
+   "itens": [
+    {
+     "nome": "Client Tweet Card",
+     "pro": false
+    },
+    {
+     "nome": "Tweet Card",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Templates Pro",
+   "itens": [
+    {
+     "nome": "CodeForge",
+     "pro": true
+    },
+    {
+     "nome": "AI Agent",
+     "pro": true
+    },
+    {
+     "nome": "Dev Tool",
+     "pro": true
+    },
+    {
+     "nome": "Mobile",
+     "pro": true
+    },
+    {
+     "nome": "SaaS",
+     "pro": true
+    },
+    {
+     "nome": "Startup",
+     "pro": true
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "CLI (registro shadcn)",
+  "Magic UI Pro (50+ blocos e templates, site separado)",
+  "Templates marcados New: Story, Changelog, Blog",
+  "~200 demos de exemplo no llms.txt",
+  "MCP / llms.txt"
+ ],
+ "observacoes": "79 componentes do llms.txt, agrupados por mim. Nenhum componente é Pro; templates Pro (CodeForge, AI Agent, Dev Tool, Mobile, SaaS, Startup) vêm da barra lateral. Não li o site Pro, então os blocos Pro individuais não estão listados.",
+ "conferido_em": "2026-11-27"
+}

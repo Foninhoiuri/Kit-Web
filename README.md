@@ -56,7 +56,9 @@ roteiro genérico.
 | `guia [--stack react]` | Roteiro genérico, sem briefing |
 | `guia --secao hero` | Opções para uma seção específica (veja `secoes`) |
 | `buscar fundo animado --gratis` | Busca livre, com filtros `--stack`, `--categoria`, `--gratis`, `--n` |
-| `ver reactbits` | Ficha completa de um item |
+| `ver reactbits` | Ficha completa de um item e tudo o que a biblioteca tem dentro |
+| `componente marquee --gratis` | Acha a peça (componente, bloco, efeito) pelo nome em todas as bibliotecas |
+| `inventario [--md]` | O que já foi levantado de cada biblioteca; `--md` regenera o `INVENTARIO.md` |
 | `listar [--categoria referencia]` | Catálogo inteiro, agrupado |
 | `categorias` · `secoes` | O que existe para filtrar |
 | `adicionar --id … --nome … --url … --categoria …` | Guarda um item novo (recusa duplicado) |
@@ -119,6 +121,13 @@ referências pesa mais que qualquer skill de design; Impeccable e Taste vêm dep
 | `design-md` | 2 | Sistemas de design em texto para a IA |
 | `servico` · `experimento` | 2 | Clerk; demo de cena 3D em várias janelas |
 
+### O que tem dentro de cada biblioteca
+
+As 34 bibliotecas têm inventário em [`INVENTARIO.md`](INVENTARIO.md), com um `inventario/<id>.json` por biblioteca.
+O inventário lista cada componente, bloco, efeito ou plugin pelo nome, em grupos, com `[Pro]` no que é pago. Foi
+levantado nos próprios sites em 2026-11-27. O `guia` e o `buscar` usam esse inventário para mostrar, em cada biblioteca,
+as peças que servem à seção.
+
 ## Licença e venda: leia antes de entregar
 
 | Marcação | Significa |
@@ -156,7 +165,9 @@ Categorias, seções e etapas do guia vivem no `catalogo.json`; ajuste lá, sem 
 ```text
 kit-web/
 ├── kitweb.py       # CLI (só biblioteca padrão)
-├── catalogo.json   # itens, categorias, fundamentos de UX, seções e etapas do guia
+├── catalogo.json   # itens, categorias, fundamentos de UX, seções, sinônimos e etapas do guia
+├── inventario/     # o que cada biblioteca tem dentro, um JSON por id
+├── INVENTARIO.md   # o mesmo inventário em texto (gerado por `inventario --md`)
 ├── AGENTS.md       # entrada para outras IAs
 └── SKILL.md        # instruções para agentes de IA
 ```

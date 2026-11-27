@@ -1,0 +1,716 @@
+{
+ "id": "shadcn-ui",
+ "situacao": "completo (blocks: só os do repo)",
+ "fontes": [
+  "https://ui.shadcn.com/llms.txt",
+  "https://ui.shadcn.com/charts",
+  "https://api.github.com/repos/shadcn-ui/ui/contents/apps/v4/registry/new-york-v4/blocks",
+  "https://api.github.com/repos/shadcn-ui/ui/contents/apps/v4/registry/new-york-v4/charts"
+ ],
+ "total": 156,
+ "grupos": [
+  {
+   "nome": "Formulários e entrada",
+   "itens": [
+    {
+     "nome": "Field",
+     "pro": false
+    },
+    {
+     "nome": "Button",
+     "pro": false
+    },
+    {
+     "nome": "Button Group",
+     "pro": false
+    },
+    {
+     "nome": "Input",
+     "pro": false
+    },
+    {
+     "nome": "Input Group",
+     "pro": false
+    },
+    {
+     "nome": "Input OTP",
+     "pro": false
+    },
+    {
+     "nome": "Textarea",
+     "pro": false
+    },
+    {
+     "nome": "Checkbox",
+     "pro": false
+    },
+    {
+     "nome": "Radio Group",
+     "pro": false
+    },
+    {
+     "nome": "Select",
+     "pro": false
+    },
+    {
+     "nome": "Native Select",
+     "pro": false
+    },
+    {
+     "nome": "Switch",
+     "pro": false
+    },
+    {
+     "nome": "Slider",
+     "pro": false
+    },
+    {
+     "nome": "Calendar",
+     "pro": false
+    },
+    {
+     "nome": "Date Picker",
+     "pro": false
+    },
+    {
+     "nome": "Combobox",
+     "pro": false
+    },
+    {
+     "nome": "Label",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Layout e navegação",
+   "itens": [
+    {
+     "nome": "Accordion",
+     "pro": false
+    },
+    {
+     "nome": "Breadcrumb",
+     "pro": false
+    },
+    {
+     "nome": "Navigation Menu",
+     "pro": false
+    },
+    {
+     "nome": "Sidebar",
+     "pro": false
+    },
+    {
+     "nome": "Tabs",
+     "pro": false
+    },
+    {
+     "nome": "Separator",
+     "pro": false
+    },
+    {
+     "nome": "Scroll Area",
+     "pro": false
+    },
+    {
+     "nome": "Resizable",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Overlays e diálogos",
+   "itens": [
+    {
+     "nome": "Dialog",
+     "pro": false
+    },
+    {
+     "nome": "Alert Dialog",
+     "pro": false
+    },
+    {
+     "nome": "Sheet",
+     "pro": false
+    },
+    {
+     "nome": "Drawer",
+     "pro": false
+    },
+    {
+     "nome": "Popover",
+     "pro": false
+    },
+    {
+     "nome": "Tooltip",
+     "pro": false
+    },
+    {
+     "nome": "Hover Card",
+     "pro": false
+    },
+    {
+     "nome": "Context Menu",
+     "pro": false
+    },
+    {
+     "nome": "Dropdown Menu",
+     "pro": false
+    },
+    {
+     "nome": "Menubar",
+     "pro": false
+    },
+    {
+     "nome": "Command",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Feedback e status",
+   "itens": [
+    {
+     "nome": "Alert",
+     "pro": false
+    },
+    {
+     "nome": "Toast",
+     "pro": false
+    },
+    {
+     "nome": "Sonner",
+     "pro": false
+    },
+    {
+     "nome": "Progress",
+     "pro": false
+    },
+    {
+     "nome": "Spinner",
+     "pro": false
+    },
+    {
+     "nome": "Skeleton",
+     "pro": false
+    },
+    {
+     "nome": "Badge",
+     "pro": false
+    },
+    {
+     "nome": "Empty",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Exibição e mídia",
+   "itens": [
+    {
+     "nome": "Avatar",
+     "pro": false
+    },
+    {
+     "nome": "Card",
+     "pro": false
+    },
+    {
+     "nome": "Table",
+     "pro": false
+    },
+    {
+     "nome": "Data Table",
+     "pro": false
+    },
+    {
+     "nome": "Chart",
+     "pro": false
+    },
+    {
+     "nome": "Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Aspect Ratio",
+     "pro": false
+    },
+    {
+     "nome": "Typography",
+     "pro": false
+    },
+    {
+     "nome": "Item",
+     "pro": false
+    },
+    {
+     "nome": "Kbd",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Outros",
+   "itens": [
+    {
+     "nome": "Collapsible",
+     "pro": false
+    },
+    {
+     "nome": "Toggle",
+     "pro": false
+    },
+    {
+     "nome": "Toggle Group",
+     "pro": false
+    },
+    {
+     "nome": "Pagination",
+     "pro": false
+    },
+    {
+     "nome": "Direction",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Blocks (diretórios do repo new-york-v4)",
+   "itens": [
+    {
+     "nome": "dashboard-01",
+     "pro": false
+    },
+    {
+     "nome": "login-01",
+     "pro": false
+    },
+    {
+     "nome": "login-02",
+     "pro": false
+    },
+    {
+     "nome": "login-03",
+     "pro": false
+    },
+    {
+     "nome": "login-04",
+     "pro": false
+    },
+    {
+     "nome": "login-05",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-01",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-02",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-03",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-04",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-05",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-06",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-07",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-08",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-09",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-10",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-11",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-12",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-13",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-14",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-15",
+     "pro": false
+    },
+    {
+     "nome": "sidebar-16",
+     "pro": false
+    },
+    {
+     "nome": "signup-01",
+     "pro": false
+    },
+    {
+     "nome": "signup-02",
+     "pro": false
+    },
+    {
+     "nome": "signup-03",
+     "pro": false
+    },
+    {
+     "nome": "signup-04",
+     "pro": false
+    },
+    {
+     "nome": "signup-05",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Gráficos: Area",
+   "itens": [
+    {
+     "nome": "chart-area-axes",
+     "pro": false
+    },
+    {
+     "nome": "chart-area-default",
+     "pro": false
+    },
+    {
+     "nome": "chart-area-gradient",
+     "pro": false
+    },
+    {
+     "nome": "chart-area-icons",
+     "pro": false
+    },
+    {
+     "nome": "chart-area-interactive",
+     "pro": false
+    },
+    {
+     "nome": "chart-area-legend",
+     "pro": false
+    },
+    {
+     "nome": "chart-area-linear",
+     "pro": false
+    },
+    {
+     "nome": "chart-area-stacked-expand",
+     "pro": false
+    },
+    {
+     "nome": "chart-area-stacked",
+     "pro": false
+    },
+    {
+     "nome": "chart-area-step",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Gráficos: Bar",
+   "itens": [
+    {
+     "nome": "chart-bar-active",
+     "pro": false
+    },
+    {
+     "nome": "chart-bar-default",
+     "pro": false
+    },
+    {
+     "nome": "chart-bar-horizontal",
+     "pro": false
+    },
+    {
+     "nome": "chart-bar-interactive",
+     "pro": false
+    },
+    {
+     "nome": "chart-bar-label-custom",
+     "pro": false
+    },
+    {
+     "nome": "chart-bar-label",
+     "pro": false
+    },
+    {
+     "nome": "chart-bar-mixed",
+     "pro": false
+    },
+    {
+     "nome": "chart-bar-multiple",
+     "pro": false
+    },
+    {
+     "nome": "chart-bar-negative",
+     "pro": false
+    },
+    {
+     "nome": "chart-bar-stacked",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Gráficos: Line",
+   "itens": [
+    {
+     "nome": "chart-line-default",
+     "pro": false
+    },
+    {
+     "nome": "chart-line-dots-colors",
+     "pro": false
+    },
+    {
+     "nome": "chart-line-dots-custom",
+     "pro": false
+    },
+    {
+     "nome": "chart-line-dots",
+     "pro": false
+    },
+    {
+     "nome": "chart-line-interactive",
+     "pro": false
+    },
+    {
+     "nome": "chart-line-label-custom",
+     "pro": false
+    },
+    {
+     "nome": "chart-line-label",
+     "pro": false
+    },
+    {
+     "nome": "chart-line-linear",
+     "pro": false
+    },
+    {
+     "nome": "chart-line-multiple",
+     "pro": false
+    },
+    {
+     "nome": "chart-line-step",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Gráficos: Pie",
+   "itens": [
+    {
+     "nome": "chart-pie-donut-active",
+     "pro": false
+    },
+    {
+     "nome": "chart-pie-donut-text",
+     "pro": false
+    },
+    {
+     "nome": "chart-pie-donut",
+     "pro": false
+    },
+    {
+     "nome": "chart-pie-interactive",
+     "pro": false
+    },
+    {
+     "nome": "chart-pie-label-custom",
+     "pro": false
+    },
+    {
+     "nome": "chart-pie-label-list",
+     "pro": false
+    },
+    {
+     "nome": "chart-pie-label",
+     "pro": false
+    },
+    {
+     "nome": "chart-pie-legend",
+     "pro": false
+    },
+    {
+     "nome": "chart-pie-separator-none",
+     "pro": false
+    },
+    {
+     "nome": "chart-pie-simple",
+     "pro": false
+    },
+    {
+     "nome": "chart-pie-stacked",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Gráficos: Radar",
+   "itens": [
+    {
+     "nome": "chart-radar-default",
+     "pro": false
+    },
+    {
+     "nome": "chart-radar-dots",
+     "pro": false
+    },
+    {
+     "nome": "chart-radar-grid-circle-fill",
+     "pro": false
+    },
+    {
+     "nome": "chart-radar-grid-circle-no-lines",
+     "pro": false
+    },
+    {
+     "nome": "chart-radar-grid-circle",
+     "pro": false
+    },
+    {
+     "nome": "chart-radar-grid-custom",
+     "pro": false
+    },
+    {
+     "nome": "chart-radar-grid-fill",
+     "pro": false
+    },
+    {
+     "nome": "chart-radar-grid-none",
+     "pro": false
+    },
+    {
+     "nome": "chart-radar-icons",
+     "pro": false
+    },
+    {
+     "nome": "chart-radar-label-custom",
+     "pro": false
+    },
+    {
+     "nome": "chart-radar-legend",
+     "pro": false
+    },
+    {
+     "nome": "chart-radar-lines-only",
+     "pro": false
+    },
+    {
+     "nome": "chart-radar-multiple",
+     "pro": false
+    },
+    {
+     "nome": "chart-radar-radius",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Gráficos: Radial",
+   "itens": [
+    {
+     "nome": "chart-radial-grid",
+     "pro": false
+    },
+    {
+     "nome": "chart-radial-label",
+     "pro": false
+    },
+    {
+     "nome": "chart-radial-shape",
+     "pro": false
+    },
+    {
+     "nome": "chart-radial-simple",
+     "pro": false
+    },
+    {
+     "nome": "chart-radial-stacked",
+     "pro": false
+    },
+    {
+     "nome": "chart-radial-text",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Gráficos: Tooltip",
+   "itens": [
+    {
+     "nome": "chart-tooltip-advanced",
+     "pro": false
+    },
+    {
+     "nome": "chart-tooltip-default",
+     "pro": false
+    },
+    {
+     "nome": "chart-tooltip-formatter",
+     "pro": false
+    },
+    {
+     "nome": "chart-tooltip-icons",
+     "pro": false
+    },
+    {
+     "nome": "chart-tooltip-indicator-line",
+     "pro": false
+    },
+    {
+     "nome": "chart-tooltip-indicator-none",
+     "pro": false
+    },
+    {
+     "nome": "chart-tooltip-label-custom",
+     "pro": false
+    },
+    {
+     "nome": "chart-tooltip-label-formatter",
+     "pro": false
+    },
+    {
+     "nome": "chart-tooltip-label-none",
+     "pro": false
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "CLI (shadcn add) e registros de terceiros (@namespace)",
+  "Temas e cores",
+  "Instalação para Next.js, Vite, React Router, TanStack, Astro, Laravel, Remix, Gatsby",
+  "MCP server do shadcn",
+  "Guias de Form, Data Table, Typography, Markdown, AI SDK"
+ ],
+ "observacoes": "llms.txt lista 59 componentes. Blocks e charts vêm do repositório GitHub (27 diretórios de blocks: dashboard-01, login 01-05, sidebar 01-16, signup 01-05; 71 arquivos de charts em 7 categorias). Tudo gratuito, nada marcado Pro. Não confirmei se a página /blocks mostra mais itens do que o repo.",
+ "conferido_em": "2026-11-27"
+}

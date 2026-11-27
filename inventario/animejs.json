@@ -1,0 +1,747 @@
+{
+ "id": "animejs",
+ "situacao": "completo",
+ "fontes": [
+  "https://animejs.com/",
+  "https://animejs.com/llms.txt",
+  "https://animejs.com/documentation"
+ ],
+ "total": 131,
+ "grupos": [
+  {
+   "nome": "Núcleo de animação",
+   "itens": [
+    {
+     "nome": "animate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "createTimer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "createTimeline",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "createAnimatable",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "createScope",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "engine",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Timeline (métodos)",
+   "itens": [
+    {
+     "nome": "add",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "set",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "sync",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "label",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "remove",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "call",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "init",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Controles de reprodução (Timer/Animation/Timeline)",
+   "itens": [
+    {
+     "nome": "play",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "reverse",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "pause",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "restart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "alternate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "resume",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "complete",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "reset",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "cancel",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "revert",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "seek",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "stretch",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "refresh",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "then",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Parâmetros de animação",
+   "itens": [
+    {
+     "nome": "to",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "from",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "delay",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "duration",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ease",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "composition",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "modifier",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "loop",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "loopDelay",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "alternate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "reversed",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "autoplay",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "frameRate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "playbackRate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "playbackEase",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "persist",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "keyframes (por valor",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "duração ou porcentagem)",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Callbacks",
+   "itens": [
+    {
+     "nome": "onBegin",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onComplete",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onBeforeUpdate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onUpdate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onRender",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onLoop",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onPause",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Scroll (onScroll)",
+   "itens": [
+    {
+     "nome": "onScroll",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "link",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onEnter",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onEnterForward",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onEnterBackward",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onLeave",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onLeaveForward",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onLeaveBackward",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onSyncComplete",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onResize",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Draggable",
+   "itens": [
+    {
+     "nome": "createDraggable",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "createSpring",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "snap",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "container",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "releaseEase",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onGrab",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onDrag",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onRelease",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onSnap",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "onSettle",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "setX",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "setY",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "animateInView",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "scrollInView",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "SVG",
+   "itens": [
+    {
+     "nome": "morphTo",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "createDrawable",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "createMotionPath",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Texto",
+   "itens": [
+    {
+     "nome": "splitText (lines/words/chars",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "addEffect)",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "scrambleText (chars",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "revealRate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "settleRate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "cursor",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "perturbation",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "seed)",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Layout",
+   "itens": [
+    {
+     "nome": "Layout (record/animate/update; animação de mudança de layout)",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "enterFrom",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "leaveTo",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "swapAt",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Utils",
+   "itens": [
+    {
+     "nome": "stagger (grid",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "from",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "axis",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "jitter",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "total)",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "$",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "get",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "set",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "remove",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "cleanInlineStyles",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "sync",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "keepTime",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "random",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "createSeededRandom",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "randomPick",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "shuffle",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "round",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "clamp",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "snap",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "wrap",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "mapRange",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "lerp",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "damp",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "roundPad",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "padStart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "padEnd",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "degToRad",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "radToDeg",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Easings",
+   "itens": [
+    {
+     "nome": "built-in eases (in/out/inOut)",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "cubicBezier",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "linear",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "steps",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "irregular",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "spring (createSpring)",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "WAAPI",
+   "itens": [
+    {
+     "nome": "waapi.animate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "convertEase",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Adapters",
+   "itens": [
+    {
+     "nome": "Three.js (propriedades de objeto",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "transformações estendidas",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "materiais e uniforms",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "instanced meshes)",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Easings editor visual (animejs.com/easings)",
+  "Learn (tutoriais) e Examples no CodePen",
+  "Versões 4.0.0, 3.2.2, 2.1.0",
+  "Peso modular: ~24,5 KB total (Timer 5,6; Animation 5,2; Draggable 6,4; Scroll 4,3; WAAPI 3,5)",
+  "Uso com React documentado",
+  "Nada pago identificado"
+ ],
+ "observacoes": "Lista vinda da barra lateral da documentação; nomes exatos de funções do Layout e de alguns métodos podem precisar de conferência. Total conta métodos e parâmetros listados, não só módulos.",
+ "conferido_em": "2026-11-27"
+}

@@ -1,0 +1,337 @@
+{
+ "id": "gsap",
+ "situacao": "completo",
+ "fontes": [
+  "https://gsap.com/docs/v3/Plugins/",
+  "https://gsap.com/pricing/"
+ ],
+ "total": 55,
+ "grupos": [
+  {
+   "nome": "Núcleo",
+   "itens": [
+    {
+     "nome": "gsap.to/from/fromTo/set",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "gsap.timeline",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "gsap.matchMedia",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "gsap.context",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Eases nativas (power1-4",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "back",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "bounce",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "circ",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "elastic",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "expo",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "sine",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "steps)",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Utilitários (gsap.utils)",
+   "itens": [
+    {
+     "nome": "checkPrefix",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "clamp",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "distribute",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "getUnit",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "interpolate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "mapRange",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "normalize",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "pipe",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "random",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "selector",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "shuffle",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "snap",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "splitColor",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "toArray",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "unitize",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "wrap",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "wrapYoyo",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Easing",
+   "itens": [
+    {
+     "nome": "CustomEase",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "EasePack (RoughEase",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SlowMo",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ExpoScaleEase)",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CustomWiggle",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CustomBounce",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Rolagem",
+   "itens": [
+    {
+     "nome": "ScrollTrigger",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ScrollToPlugin",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ScrollSmoother",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Texto",
+   "itens": [
+    {
+     "nome": "SplitText",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ScrambleTextPlugin",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TextPlugin",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "SVG",
+   "itens": [
+    {
+     "nome": "DrawSVGPlugin",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MorphSVGPlugin",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MotionPathPlugin",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MotionPathHelper",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "UI e interação",
+   "itens": [
+    {
+     "nome": "Flip",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Draggable",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "InertiaPlugin",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Observer",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Física e outros",
+   "itens": [
+    {
+     "nome": "Physics2DPlugin",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PhysicsPropsPlugin",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "GSDevTools",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "EaselPlugin",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PixiPlugin",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "React",
+   "itens": [
+    {
+     "nome": "useGSAP()",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Todos os plugins grátis: a página de preços diz que GSAP é 100% gratuito (apoio da Webflow); nenhum Club pago mencionado",
+  "Skills/MCP/exemplos não verificados"
+ ],
+ "observacoes": "Plugins vêm da página oficial /docs/v3/Plugins; descrições resumidas pelo leitor. Páginas individuais não abertas. gsap.matchMedia e gsap.context são APIs do núcleo citadas de conhecimento prévio, não lidas nas fontes. Nenhum item marcado pro porque o site diz que tudo é grátis.",
+ "conferido_em": "2026-11-27"
+}

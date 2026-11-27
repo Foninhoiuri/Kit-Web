@@ -1,0 +1,923 @@
+{
+ "id": "tsparticles",
+ "situacao": "completo",
+ "fontes": [
+  "https://particles.js.org/docs/",
+  "https://raw.githubusercontent.com/tsparticles/tsparticles/main/README.md"
+ ],
+ "total": 167,
+ "grupos": [
+  {
+   "nome": "Presets (20)",
+   "itens": [
+    {
+     "nome": "Ambient",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Big Circles",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Bubbles",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Confetti",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Confetti Cannon",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Confetti Explosions",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Confetti Falling",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Confetti Parade",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Party",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Fire",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Firefly",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Fireworks",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Hyperspace",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Fountain",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Links",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sea Anemone",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Snow",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Squares",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Stars",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Triangles",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Bundles e pacotes core",
+   "itens": [
+    {
+     "nome": "@tsparticles/engine",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "@tsparticles/basic",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "@tsparticles/slim",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "@tsparticles/confetti",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "@tsparticles/fireworks",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "@tsparticles/particles",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "tsparticles (full)",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "@tsparticles/all",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "@tsparticles/pjs (compat. particles.js)",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Wrappers de framework",
+   "itens": [
+    {
+     "nome": "angular",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "astro",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ember",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "inferno",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "jquery",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "preact",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "qwik",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "nextjs",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "react",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "riot",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "solid",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "svelte",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "nuxt2",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "nuxt3",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "nuxt4",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "vue2",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "vue3",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "webcomponents",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "wordpress",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Formas",
+   "itens": [
+    {
+     "nome": "Circle",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Cards",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Emoji",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Heart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Image",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Polygon",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Square",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Star",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Line",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Text",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Arrow",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Cog",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Infinity",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Matrix",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Path",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Rounded Polygon",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Rounded Rect",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Spiral",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Squircle",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Interações externas",
+   "itens": [
+    {
+     "nome": "Attract",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Bounce",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Bubble",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Connect",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Grab",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Parallax",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Pause",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Push",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Remove",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Repulse",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Slow",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Trail",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Particle",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Pop",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Light",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Interações entre partículas",
+   "itens": [
+    {
+     "nome": "Attract",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Collisions",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Links",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Repulse",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Updaters",
+   "itens": [
+    {
+     "nome": "Color",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Opacity",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Out Modes",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Size",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Life",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Roll",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Rotate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Tilt",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Wobble",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Stroke Color",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Destroy",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Twinkle",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Gradient",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Orbit",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Plugins",
+   "itens": [
+    {
+     "nome": "Move",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Emitters",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Motion",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Interactivity",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sounds",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Absorbers",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Background Mask",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Blend",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Canvas Mask",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Infection",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Manual Particles",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Poisson Disc",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Polygon Mask",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Responsive",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Themes",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Trail",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Zoom",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Plugins de cor",
+   "itens": [
+    {
+     "nome": "Hex",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "HSL",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RGB",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "HSV",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "HWB",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Lab",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Lch",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Named",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Oklab",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Oklch",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Plugins de easing",
+   "itens": [
+    {
+     "nome": "Quad",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Back",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Bounce",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Circ",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Cubic",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Elastic",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Expo",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Gaussian",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Linear",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Quart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Quint",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sigmoid",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sine",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Smoothstep",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Formas de emissor",
+   "itens": [
+    {
+     "nome": "Square",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Circle",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Canvas",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Path",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Polygon",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Exportação",
+   "itens": [
+    {
+     "nome": "Export Image",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Export JSON",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Export Video",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Paths (movimento)",
+   "itens": [
+    {
+     "nome": "Branches",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Brownian",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Curl Noise",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Curves",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Fractal Noise",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Grid",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Levy",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Perlin Noise",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Polygon",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Random",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Simplex Noise",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Spiral",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SVG",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Zig Zag",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Efeitos",
+   "itens": [
+    {
+     "nome": "Bubble",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Particles",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Shadow",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Trail",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Versão 4.6.0",
+  "Elementor via Premium Addons (não oficial)",
+  "Configs prontas (tsParticles Configs), bibliotecas Perlin/Simplex noise"
+ ],
+ "observacoes": "Itens vêm do grafo de dependências do README/docs (v4.6.0). Alguns nomes se repetem entre grupos (Trail, Repulse, Spiral) por serem tipos diferentes. Opções do JSON de configuração não foram inventariadas. Tudo grátis (open source).",
+ "conferido_em": "2026-11-27"
+}

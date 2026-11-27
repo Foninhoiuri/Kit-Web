@@ -1,0 +1,662 @@
+{
+ "id": "heroui-pro",
+ "situacao": "parcial: templates podem faltar",
+ "fontes": [
+  "https://heroui.pro/llms.txt",
+  "https://heroui.pro/docs/react/llms.txt",
+  "https://heroui.pro/sitemap.xml",
+  "https://heroui.pro/docs/react/releases/beta-1",
+  "https://heroui.pro/docs/react/releases/beta-10"
+ ],
+ "total": 133,
+ "grupos": [
+  {
+   "nome": "IA e chat",
+   "itens": [
+    {
+     "nome": "Approval Card",
+     "pro": true
+    },
+    {
+     "nome": "Chain Of Thought",
+     "pro": true
+    },
+    {
+     "nome": "Chat Attachment",
+     "pro": true
+    },
+    {
+     "nome": "Chat Conversation",
+     "pro": true
+    },
+    {
+     "nome": "Chat List View",
+     "pro": true
+    },
+    {
+     "nome": "Chat Loader",
+     "pro": true
+    },
+    {
+     "nome": "Chat Message Actions",
+     "pro": true
+    },
+    {
+     "nome": "Chat Message",
+     "pro": true
+    },
+    {
+     "nome": "Chat Source",
+     "pro": true
+    },
+    {
+     "nome": "Chat Tool",
+     "pro": true
+    },
+    {
+     "nome": "Code Block",
+     "pro": true
+    },
+    {
+     "nome": "Loader",
+     "pro": true
+    },
+    {
+     "nome": "Markdown",
+     "pro": true
+    },
+    {
+     "nome": "Model Selector",
+     "pro": true
+    },
+    {
+     "nome": "Prompt Input",
+     "pro": true
+    },
+    {
+     "nome": "Prompt Suggestion",
+     "pro": true
+    },
+    {
+     "nome": "Reasoning",
+     "pro": true
+    },
+    {
+     "nome": "Text Shimmer",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Gráficos",
+   "itens": [
+    {
+     "nome": "Area Chart",
+     "pro": true
+    },
+    {
+     "nome": "Bar Chart",
+     "pro": true
+    },
+    {
+     "nome": "Chart Tooltip",
+     "pro": true
+    },
+    {
+     "nome": "Composed Chart",
+     "pro": true
+    },
+    {
+     "nome": "Line Chart",
+     "pro": true
+    },
+    {
+     "nome": "Pie Chart",
+     "pro": true
+    },
+    {
+     "nome": "Radar Chart",
+     "pro": true
+    },
+    {
+     "nome": "Radial Chart",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Dados e dashboard",
+   "itens": [
+    {
+     "nome": "Action Bar",
+     "pro": true
+    },
+    {
+     "nome": "Agenda",
+     "pro": true
+    },
+    {
+     "nome": "Carousel",
+     "pro": true
+    },
+    {
+     "nome": "Data Grid",
+     "pro": true
+    },
+    {
+     "nome": "Empty State",
+     "pro": true
+    },
+    {
+     "nome": "File Tree",
+     "pro": true
+    },
+    {
+     "nome": "Floating TOC",
+     "pro": true
+    },
+    {
+     "nome": "Holo Card",
+     "pro": true
+    },
+    {
+     "nome": "Hover Card",
+     "pro": true
+    },
+    {
+     "nome": "Item Card Group",
+     "pro": true
+    },
+    {
+     "nome": "Item Card",
+     "pro": true
+    },
+    {
+     "nome": "Kanban",
+     "pro": true
+    },
+    {
+     "nome": "KPI Group",
+     "pro": true
+    },
+    {
+     "nome": "KPI",
+     "pro": true
+    },
+    {
+     "nome": "List View",
+     "pro": true
+    },
+    {
+     "nome": "Map",
+     "pro": true
+    },
+    {
+     "nome": "Timeline",
+     "pro": true
+    },
+    {
+     "nome": "Widget",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Interação",
+   "itens": [
+    {
+     "nome": "Emoji Reaction Button",
+     "pro": true
+    },
+    {
+     "nome": "Number Value",
+     "pro": true
+    },
+    {
+     "nome": "Pressable Feedback",
+     "pro": true
+    },
+    {
+     "nome": "Rating",
+     "pro": true
+    },
+    {
+     "nome": "Trend Chip",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Formulários e inputs",
+   "itens": [
+    {
+     "nome": "Cell Color Picker",
+     "pro": true
+    },
+    {
+     "nome": "Cell Select",
+     "pro": true
+    },
+    {
+     "nome": "Cell Slider",
+     "pro": true
+    },
+    {
+     "nome": "Cell Switch",
+     "pro": true
+    },
+    {
+     "nome": "Checkbox Button Group",
+     "pro": true
+    },
+    {
+     "nome": "Drop Zone",
+     "pro": true
+    },
+    {
+     "nome": "Inline Select",
+     "pro": true
+    },
+    {
+     "nome": "Native Select",
+     "pro": true
+    },
+    {
+     "nome": "Number Stepper",
+     "pro": true
+    },
+    {
+     "nome": "Radio Button Group",
+     "pro": true
+    },
+    {
+     "nome": "Rich Text Editor",
+     "pro": true
+    },
+    {
+     "nome": "Resizable",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Navegação e layout",
+   "itens": [
+    {
+     "nome": "AppLayout",
+     "pro": true
+    },
+    {
+     "nome": "Command",
+     "pro": true
+    },
+    {
+     "nome": "Context Menu",
+     "pro": true
+    },
+    {
+     "nome": "Navbar",
+     "pro": true
+    },
+    {
+     "nome": "Segment",
+     "pro": true
+    },
+    {
+     "nome": "Sidebar",
+     "pro": true
+    },
+    {
+     "nome": "Stepper",
+     "pro": true
+    },
+    {
+     "nome": "Emoji Picker",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "React Native Pro (componentes mobile)",
+   "itens": [
+    {
+     "nome": "Agenda",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Area Chart",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Autocomplete",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Badge",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Bar Chart",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Calendar",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Carousel",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Combo Box",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Composed Chart",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Date Field",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Date Picker",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Date Range Picker",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Date Time Picker",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Empty State",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Fab",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Flip Card",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Line Chart",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Live Chart",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Morph Button",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Morph Tabs",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Number Field",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Number Pad",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Number Stepper",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Number Value",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Phone Number Field",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Pie Chart",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Progress Bar",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Progress Button",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Progress Circle",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Radar Chart",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Radial Chart",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Radio Button Group",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Range Calendar",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Rating",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Segment",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Slide Button",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Social Auth Button",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Split View",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Stacked Meter",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Stepper",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Swipeable Row",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Swipeable Tabs",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Table",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Time Picker",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Timeline",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Toggle Button",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Toggle Button Group",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Trend Chip",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Wheel Date Time Picker",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Wheel Picker",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Wheel Picker Group",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Wheel Time Picker",
+     "pro": true,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Widget",
+     "pro": true,
+     "obs": "nativo/mobile"
+    }
+   ]
+  },
+  {
+   "nome": "Templates React Pro",
+   "itens": [
+    {
+     "nome": "Dashboard",
+     "pro": true,
+     "obs": "Analytics com pedidos, tracker, configurações, ajuda"
+    },
+    {
+     "nome": "Mail",
+     "pro": true,
+     "obs": "Cliente de e-mail com pastas, threads, compose"
+    },
+    {
+     "nome": "Chat",
+     "pro": true,
+     "obs": "Interface de chat IA com conversas, biblioteca, exploração"
+    },
+    {
+     "nome": "Finances",
+     "pro": true,
+     "obs": "Dashboard financeiro: portfólio, gastos, transações"
+    },
+    {
+     "nome": "CRM",
+     "pro": true,
+     "obs": "Workspace de vendas multi-página, tema Mouve (beta.10)"
+    }
+   ]
+  },
+  {
+   "nome": "Templates Native Pro",
+   "itens": [
+    {
+     "nome": "Crypto Wallet",
+     "pro": true
+    },
+    {
+     "nome": "Fitness App (Stride)",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Temas Pro",
+   "itens": [
+    {
+     "nome": "Mouve (React)",
+     "pro": true
+    },
+    {
+     "nome": "Glass",
+     "pro": true
+    },
+    {
+     "nome": "Brutalism (Native)",
+     "pro": true
+    },
+    {
+     "nome": "Glass (Native)",
+     "pro": true
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "HeroUI Agents (agentes hospedados com UI generativa, API)",
+  "Design Systems (construtor de marca/tema) e plugin Figma sync",
+  "Servidor MCP autenticado, CLI heroui-pro, Agent Skills",
+  "HeroUI Chat"
+ ],
+ "observacoes": "Componentes React e Native vêm do llms.txt/sitemap (produto ainda em beta). Preço/licença não levantados. Os 4 templates React vêm das notas do beta.1 e o CRM do beta.10; a página /templates carrega dinamicamente e não foi visível. Temas Pro: Mouve e Glass citados nas notas; podem existir outros.",
+ "conferido_em": "2026-11-27"
+}

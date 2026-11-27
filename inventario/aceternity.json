@@ -1,0 +1,1447 @@
+{
+ "id": "aceternity",
+ "situacao": "completo",
+ "fontes": [
+  "https://ui.aceternity.com/llms.txt",
+  "https://ui.aceternity.com/components"
+ ],
+ "total": 317,
+ "grupos": [
+  {
+   "nome": "Navegação",
+   "itens": [
+    {
+     "nome": "Gooey Input",
+     "pro": false
+    },
+    {
+     "nome": "Notch",
+     "pro": false
+    },
+    {
+     "nome": "Resizable Navbar",
+     "pro": false
+    },
+    {
+     "nome": "Floating Dock",
+     "pro": false
+    },
+    {
+     "nome": "Floating Navbar",
+     "pro": false
+    },
+    {
+     "nome": "Navbar Menu",
+     "pro": false
+    },
+    {
+     "nome": "Sidebar",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Hero e rolagem",
+   "itens": [
+    {
+     "nome": "3D Marquee",
+     "pro": false
+    },
+    {
+     "nome": "Animated Tabs",
+     "pro": false
+    },
+    {
+     "nome": "Container Scroll Animation",
+     "pro": false
+    },
+    {
+     "nome": "Fey.com Macbook Scroll",
+     "pro": false
+    },
+    {
+     "nome": "GitHub Globe",
+     "pro": false
+    },
+    {
+     "nome": "Hero Highlight",
+     "pro": false
+    },
+    {
+     "nome": "Hero Parallax",
+     "pro": false
+    },
+    {
+     "nome": "Parallax Hero Images",
+     "pro": false
+    },
+    {
+     "nome": "Sticky Banner",
+     "pro": false
+    },
+    {
+     "nome": "Lamp Section Header",
+     "pro": false
+    },
+    {
+     "nome": "Google Gemini Effect",
+     "pro": false
+    },
+    {
+     "nome": "Parallax Grid Scroll",
+     "pro": false
+    },
+    {
+     "nome": "Sticky Scroll Reveal",
+     "pro": false
+    },
+    {
+     "nome": "Tracing Beam",
+     "pro": false
+    },
+    {
+     "nome": "Timeline",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Texto",
+   "itens": [
+    {
+     "nome": "Colourful Text",
+     "pro": false
+    },
+    {
+     "nome": "Container Text Flip",
+     "pro": false
+    },
+    {
+     "nome": "Flip Words",
+     "pro": false
+    },
+    {
+     "nome": "Layout Text Flip",
+     "pro": false
+    },
+    {
+     "nome": "Squiggly Text",
+     "pro": false
+    },
+    {
+     "nome": "Text Flipping Board",
+     "pro": false
+    },
+    {
+     "nome": "Text Generate Effect",
+     "pro": false
+    },
+    {
+     "nome": "Text Reveal Card",
+     "pro": false
+    },
+    {
+     "nome": "Typewriter Effect",
+     "pro": false
+    },
+    {
+     "nome": "Canvas Text",
+     "pro": false
+    },
+    {
+     "nome": "Encrypted Text",
+     "pro": false
+    },
+    {
+     "nome": "Link Preview",
+     "pro": false
+    },
+    {
+     "nome": "Pointer Highlight",
+     "pro": false
+    },
+    {
+     "nome": "Text Hover Effect",
+     "pro": false
+    },
+    {
+     "nome": "Cover",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Fundos e efeitos",
+   "itens": [
+    {
+     "nome": "Background Lines",
+     "pro": false
+    },
+    {
+     "nome": "Sparkles",
+     "pro": false
+    },
+    {
+     "nome": "Spotlight",
+     "pro": false
+    },
+    {
+     "nome": "Spotlight New",
+     "pro": false
+    },
+    {
+     "nome": "Glowing Background Stars Card",
+     "pro": false
+    },
+    {
+     "nome": "Aurora Background",
+     "pro": false
+    },
+    {
+     "nome": "Background Beams",
+     "pro": false
+    },
+    {
+     "nome": "Background Beams With Collision",
+     "pro": false
+    },
+    {
+     "nome": "Background Boxes",
+     "pro": false
+    },
+    {
+     "nome": "Background Cubes Grid",
+     "pro": false
+    },
+    {
+     "nome": "Background Gradient",
+     "pro": false
+    },
+    {
+     "nome": "Background Gradient Animation",
+     "pro": false
+    },
+    {
+     "nome": "Background Ripple Effect",
+     "pro": false
+    },
+    {
+     "nome": "Canvas Reveal Effect",
+     "pro": false
+    },
+    {
+     "nome": "Cloud Shader",
+     "pro": false
+    },
+    {
+     "nome": "Dither Shader",
+     "pro": false
+    },
+    {
+     "nome": "Dotted Glow Background",
+     "pro": false
+    },
+    {
+     "nome": "Grid and Dot Backgrounds",
+     "pro": false
+    },
+    {
+     "nome": "Meteor Effect",
+     "pro": false
+    },
+    {
+     "nome": "Noise Background",
+     "pro": false
+    },
+    {
+     "nome": "Shooting Stars and Stars Background",
+     "pro": false
+    },
+    {
+     "nome": "Vortex Background",
+     "pro": false
+    },
+    {
+     "nome": "Wavy Background",
+     "pro": false
+    },
+    {
+     "nome": "Webcam Pixel Grid",
+     "pro": false
+    },
+    {
+     "nome": "Pixelated Canvas",
+     "pro": false
+    },
+    {
+     "nome": "Liquid Glass",
+     "pro": false
+    },
+    {
+     "nome": "Scales",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Cards",
+   "itens": [
+    {
+     "nome": "Focus Cards",
+     "pro": false
+    },
+    {
+     "nome": "Lens",
+     "pro": false
+    },
+    {
+     "nome": "Glare Card",
+     "pro": false
+    },
+    {
+     "nome": "3D Card Effect",
+     "pro": false
+    },
+    {
+     "nome": "3D Animated Pin",
+     "pro": false
+    },
+    {
+     "nome": "Apple Cards Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Bento Grid",
+     "pro": false
+    },
+    {
+     "nome": "Card Spotlight",
+     "pro": false
+    },
+    {
+     "nome": "Card Stack",
+     "pro": false
+    },
+    {
+     "nome": "Cards",
+     "pro": false
+    },
+    {
+     "nome": "Comet Card",
+     "pro": false
+    },
+    {
+     "nome": "Draggable Card",
+     "pro": false
+    },
+    {
+     "nome": "Evervault Card",
+     "pro": false
+    },
+    {
+     "nome": "Expandable Cards",
+     "pro": false
+    },
+    {
+     "nome": "Wobble Card",
+     "pro": false
+    },
+    {
+     "nome": "Direction Aware Hover",
+     "pro": false
+    },
+    {
+     "nome": "Hover Effect",
+     "pro": false
+    },
+    {
+     "nome": "Hover Border Gradient",
+     "pro": false
+    },
+    {
+     "nome": "Glowing Effect",
+     "pro": false
+    },
+    {
+     "nome": "Chromatic Image",
+     "pro": false
+    },
+    {
+     "nome": "Compare",
+     "pro": false
+    },
+    {
+     "nome": "Layout Grid",
+     "pro": false
+    },
+    {
+     "nome": "Tooltip Card",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Interação, carrosséis e tooltips",
+   "itens": [
+    {
+     "nome": "Animated Testimonials",
+     "pro": false
+    },
+    {
+     "nome": "Animated Tooltip",
+     "pro": false
+    },
+    {
+     "nome": "Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Following Pointer",
+     "pro": false
+    },
+    {
+     "nome": "Images Badge",
+     "pro": false
+    },
+    {
+     "nome": "Images Slider",
+     "pro": false
+    },
+    {
+     "nome": "Infinite Moving Cards",
+     "pro": false
+    },
+    {
+     "nome": "Magnetic Button",
+     "pro": false
+    },
+    {
+     "nome": "Moving Border",
+     "pro": false
+    },
+    {
+     "nome": "Stateful Button",
+     "pro": false
+    },
+    {
+     "nome": "SVG Mask Effect",
+     "pro": false
+    },
+    {
+     "nome": "Animated Modal",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Formulários, loaders e outros",
+   "itens": [
+    {
+     "nome": "File Upload",
+     "pro": false
+    },
+    {
+     "nome": "Signup Form",
+     "pro": false
+    },
+    {
+     "nome": "Placeholders And Vanish Input",
+     "pro": false
+    },
+    {
+     "nome": "Loaders",
+     "pro": false
+    },
+    {
+     "nome": "Multi Step Loader",
+     "pro": false
+    },
+    {
+     "nome": "Image Generation Loader",
+     "pro": false
+    },
+    {
+     "nome": "Code Block",
+     "pro": false
+    },
+    {
+     "nome": "Terminal",
+     "pro": false
+    },
+    {
+     "nome": "Keyboard",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "3D e mapas",
+   "itens": [
+    {
+     "nome": "3D Globe",
+     "pro": false
+    },
+    {
+     "nome": "World Map",
+     "pro": false
+    },
+    {
+     "nome": "ASCII Art",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Backgrounds",
+   "itens": [
+    {
+     "nome": "Background Dots",
+     "pro": true
+    },
+    {
+     "nome": "Background Dots Masked",
+     "pro": true
+    },
+    {
+     "nome": "Background Dots Masked Vertical",
+     "pro": true
+    },
+    {
+     "nome": "Background Grid with Dots",
+     "pro": true
+    },
+    {
+     "nome": "Background Grid with Dots and Animations",
+     "pro": true
+    },
+    {
+     "nome": "Background Lines",
+     "pro": true
+    },
+    {
+     "nome": "Background Noise Grid",
+     "pro": true
+    },
+    {
+     "nome": "Background With Full Video",
+     "pro": true
+    },
+    {
+     "nome": "Background With Shooting Stars",
+     "pro": true
+    },
+    {
+     "nome": "Background With Skewed Lines",
+     "pro": true
+    },
+    {
+     "nome": "Background With Skewed Rectangles",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Bento Grids",
+   "itens": [
+    {
+     "nome": "Bento Grid Illustrations",
+     "pro": true
+    },
+    {
+     "nome": "Bento Grid With Skeletons",
+     "pro": true
+    },
+    {
+     "nome": "Feature Grid With Illustrations And Bento",
+     "pro": true
+    },
+    {
+     "nome": "Masonry Bento Grid With Images",
+     "pro": true
+    },
+    {
+     "nome": "Symmetric Bento Grid",
+     "pro": true
+    },
+    {
+     "nome": "Three Column Bento Grid",
+     "pro": true
+    },
+    {
+     "nome": "Three Columns With Images",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Blog",
+   "itens": [
+    {
+     "nome": "Blog Content Centered",
+     "pro": true
+    },
+    {
+     "nome": "Blog Content With TOC",
+     "pro": true
+    },
+    {
+     "nome": "Blog With Categories",
+     "pro": true
+    },
+    {
+     "nome": "Blog With Search",
+     "pro": true
+    },
+    {
+     "nome": "Blog With Search Magazine",
+     "pro": true
+    },
+    {
+     "nome": "Simple Blog With Grid",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Cards",
+   "itens": [
+    {
+     "nome": "Background Overlay Card",
+     "pro": true
+    },
+    {
+     "nome": "Content Card",
+     "pro": true
+    },
+    {
+     "nome": "Expandable Card On Click",
+     "pro": true
+    },
+    {
+     "nome": "Feature Block Animated Card",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Contato",
+   "itens": [
+    {
+     "nome": "Contact Form Grid With Details",
+     "pro": true
+    },
+    {
+     "nome": "Contact Section With Shader",
+     "pro": true
+    },
+    {
+     "nome": "Contact With Dither Image",
+     "pro": true
+    },
+    {
+     "nome": "Simple Centered Contact Form",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: CTA",
+   "itens": [
+    {
+     "nome": "CTA Centered Masonry Gallery",
+     "pro": true
+    },
+    {
+     "nome": "CTA With Background Noise",
+     "pro": true
+    },
+    {
+     "nome": "CTA With Centered Text",
+     "pro": true
+    },
+    {
+     "nome": "CTA With Dashed Grid Lines",
+     "pro": true
+    },
+    {
+     "nome": "CTA With Masonry Images",
+     "pro": true
+    },
+    {
+     "nome": "CTA With Right Gradient And Animation",
+     "pro": true
+    },
+    {
+     "nome": "Simple CTA With Images",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Empty States",
+   "itens": [
+    {
+     "nome": "Empty State Vertical Grid",
+     "pro": true
+    },
+    {
+     "nome": "Empty State With Cards",
+     "pro": true
+    },
+    {
+     "nome": "Empty State With Draggable Cards",
+     "pro": true
+    },
+    {
+     "nome": "Empty State With Pictures",
+     "pro": true
+    },
+    {
+     "nome": "Empty State With Stacked Cards",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: FAQs",
+   "itens": [
+    {
+     "nome": "FAQs With Dashed Lines",
+     "pro": true
+    },
+    {
+     "nome": "FAQs With Grid",
+     "pro": true
+    },
+    {
+     "nome": "Frequently Asked Questions Accordion",
+     "pro": true
+    },
+    {
+     "nome": "Simple FAQs With Background",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Features",
+   "itens": [
+    {
+     "nome": "Dither Features",
+     "pro": true
+    },
+    {
+     "nome": "Feature Grid With Minimal Illustrations",
+     "pro": true
+    },
+    {
+     "nome": "Feature Grid With Motion And Tabs",
+     "pro": true
+    },
+    {
+     "nome": "Feature Section Bento Skeletons",
+     "pro": true
+    },
+    {
+     "nome": "Feature Section With Centered Skeleton",
+     "pro": true
+    },
+    {
+     "nome": "Feature Section With Horizontal Skeletons",
+     "pro": true
+    },
+    {
+     "nome": "Feature Section With Terminal",
+     "pro": true
+    },
+    {
+     "nome": "Feature Section With Vertical Grids",
+     "pro": true
+    },
+    {
+     "nome": "Feature With Inline Icons",
+     "pro": true
+    },
+    {
+     "nome": "Features Bento Grid With Skeletons",
+     "pro": true
+    },
+    {
+     "nome": "Features Grid With Large Skeletons",
+     "pro": true
+    },
+    {
+     "nome": "Features Section With Card Gradient",
+     "pro": true
+    },
+    {
+     "nome": "Features Section With Hover Effects",
+     "pro": true
+    },
+    {
+     "nome": "Features Section With Skeletons",
+     "pro": true
+    },
+    {
+     "nome": "Features With Accordion And Image",
+     "pro": true
+    },
+    {
+     "nome": "Features With Hover And Text Animation",
+     "pro": true
+    },
+    {
+     "nome": "Features With Isometric Blocks",
+     "pro": true
+    },
+    {
+     "nome": "Features With Square Edges",
+     "pro": true
+    },
+    {
+     "nome": "Features With Stacked Isometric Boxes",
+     "pro": true
+    },
+    {
+     "nome": "Features With Sticky Scroll",
+     "pro": true
+    },
+    {
+     "nome": "Multi Illustration Bento",
+     "pro": true
+    },
+    {
+     "nome": "Multi Level Features With Illustrations",
+     "pro": true
+    },
+    {
+     "nome": "Multicolored Features",
+     "pro": true
+    },
+    {
+     "nome": "Three Column Features With Image",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Footers",
+   "itens": [
+    {
+     "nome": "Centered Footer With Logo",
+     "pro": true
+    },
+    {
+     "nome": "Footer With Big Text",
+     "pro": true
+    },
+    {
+     "nome": "Footer With Grid",
+     "pro": true
+    },
+    {
+     "nome": "Simple Footer With Four Grids",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Hero",
+   "itens": [
+    {
+     "nome": "Centered Around Testimonials",
+     "pro": true
+    },
+    {
+     "nome": "Full Background Image With Text",
+     "pro": true
+    },
+    {
+     "nome": "Hero Section With Beams and Grid",
+     "pro": true
+    },
+    {
+     "nome": "Hero Section With Dither Background",
+     "pro": true
+    },
+    {
+     "nome": "Hero Section With Flickering Lights",
+     "pro": true
+    },
+    {
+     "nome": "Hero Section With Hub",
+     "pro": true
+    },
+    {
+     "nome": "Hero Section With Images Grid and Navbar",
+     "pro": true
+    },
+    {
+     "nome": "Hero Section With Infinite Scroll Cards",
+     "pro": true
+    },
+    {
+     "nome": "Hero Section With Mesh Gradient",
+     "pro": true
+    },
+    {
+     "nome": "Hero Section With Mousemove",
+     "pro": true
+    },
+    {
+     "nome": "Hero Section With Multi Color Background",
+     "pro": true
+    },
+    {
+     "nome": "Hero Section With Noise Background",
+     "pro": true
+    },
+    {
+     "nome": "Hero Section With Shadow and Scales",
+     "pro": true
+    },
+    {
+     "nome": "Hero Section With Tabs",
+     "pro": true
+    },
+    {
+     "nome": "Hero With Background And Navbar",
+     "pro": true
+    },
+    {
+     "nome": "Hero With Centered Image",
+     "pro": true
+    },
+    {
+     "nome": "Hero With Chat Input",
+     "pro": true
+    },
+    {
+     "nome": "Hero With Dither Shader",
+     "pro": true
+    },
+    {
+     "nome": "Hero With Fluid Gradient And Planner",
+     "pro": true
+    },
+    {
+     "nome": "Hero With Framed Image And Logos",
+     "pro": true
+    },
+    {
+     "nome": "Hero With Generated Prompt",
+     "pro": true
+    },
+    {
+     "nome": "Hero With Image and Scales",
+     "pro": true
+    },
+    {
+     "nome": "Hero With Logo Ticker And Workspace",
+     "pro": true
+    },
+    {
+     "nome": "Minimal Hero Section With Parallax Images",
+     "pro": true
+    },
+    {
+     "nome": "Minimal Hero With Huge Interactions",
+     "pro": true
+    },
+    {
+     "nome": "Modern Hero With Gradients",
+     "pro": true
+    },
+    {
+     "nome": "Morphing Hero Section",
+     "pro": true
+    },
+    {
+     "nome": "Playful Hero Section",
+     "pro": true
+    },
+    {
+     "nome": "Two Column With Image",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Ilustrações",
+   "itens": [
+    {
+     "nome": "Animated Beam Path Illustration",
+     "pro": true
+    },
+    {
+     "nome": "Box Illustration",
+     "pro": true
+    },
+    {
+     "nome": "Chat Conversation",
+     "pro": true
+    },
+    {
+     "nome": "Collaborative Cursors",
+     "pro": true
+    },
+    {
+     "nome": "Draggable Cards",
+     "pro": true
+    },
+    {
+     "nome": "Dynamic Island",
+     "pro": true
+    },
+    {
+     "nome": "Flipping Images With Bar",
+     "pro": true
+    },
+    {
+     "nome": "Folder With Files",
+     "pro": true
+    },
+    {
+     "nome": "Inline Icon Illustration",
+     "pro": true
+    },
+    {
+     "nome": "iPad Illustration",
+     "pro": true
+    },
+    {
+     "nome": "iPhone Illustration",
+     "pro": true
+    },
+    {
+     "nome": "Isometric Box",
+     "pro": true
+    },
+    {
+     "nome": "Keyboard Illustration",
+     "pro": true
+    },
+    {
+     "nome": "MacBook Illustration",
+     "pro": true
+    },
+    {
+     "nome": "MacBook Illustration With Icons",
+     "pro": true
+    },
+    {
+     "nome": "Meeting Illustration",
+     "pro": true
+    },
+    {
+     "nome": "Rotating Tabs With Text",
+     "pro": true
+    },
+    {
+     "nome": "Slider Illustration",
+     "pro": true
+    },
+    {
+     "nome": "Testimonials Hover Illustration",
+     "pro": true
+    },
+    {
+     "nome": "Text Highlight Illustration",
+     "pro": true
+    },
+    {
+     "nome": "Uptime Status Illustration",
+     "pro": true
+    },
+    {
+     "nome": "World Map Illustration",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Login e Signup",
+   "itens": [
+    {
+     "nome": "Login Form With Gradient",
+     "pro": true
+    },
+    {
+     "nome": "Login Signup Minimal",
+     "pro": true
+    },
+    {
+     "nome": "Login With Socials And Email",
+     "pro": true
+    },
+    {
+     "nome": "Premium Auth Split",
+     "pro": true
+    },
+    {
+     "nome": "Registration Form With Images",
+     "pro": true
+    },
+    {
+     "nome": "Signup With Guide Lines",
+     "pro": true
+    },
+    {
+     "nome": "Simple Login With Grid Lines",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Logos",
+   "itens": [
+    {
+     "nome": "Logo Cloud Marquee",
+     "pro": true
+    },
+    {
+     "nome": "Logo Cloud Multiple Rows",
+     "pro": true
+    },
+    {
+     "nome": "Logo Cloud With Blur Animation",
+     "pro": true
+    },
+    {
+     "nome": "Logo Cloud With Swap Animation",
+     "pro": true
+    },
+    {
+     "nome": "Logos With Blur Flip",
+     "pro": true
+    },
+    {
+     "nome": "Single Row Logo Cloud",
+     "pro": true
+    },
+    {
+     "nome": "Spotlight Logo Cloud",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Navbars",
+   "itens": [
+    {
+     "nome": "Navbar Classic",
+     "pro": true
+    },
+    {
+     "nome": "Navbar Dark Shadow",
+     "pro": true
+    },
+    {
+     "nome": "Navbar Mega",
+     "pro": true
+    },
+    {
+     "nome": "Navbar Pill",
+     "pro": true
+    },
+    {
+     "nome": "Navbar Underline",
+     "pro": true
+    },
+    {
+     "nome": "Navbar With Children",
+     "pro": true
+    },
+    {
+     "nome": "Simple Navbar With Hover Effects",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Preços",
+   "itens": [
+    {
+     "nome": "Pricing Minimal",
+     "pro": true
+    },
+    {
+     "nome": "Pricing Page With Featured And Enterprise",
+     "pro": true
+    },
+    {
+     "nome": "Pricing With Header and Icons",
+     "pro": true
+    },
+    {
+     "nome": "Pricing With Icons",
+     "pro": true
+    },
+    {
+     "nome": "Pricing With Switch",
+     "pro": true
+    },
+    {
+     "nome": "Pricing With Switch And Add On",
+     "pro": true
+    },
+    {
+     "nome": "Simple Pricing With Three Tiers",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Shaders",
+   "itens": [
+    {
+     "nome": "Dot Distortion Shader",
+     "pro": true
+    },
+    {
+     "nome": "Lines Gradient Shader",
+     "pro": true
+    },
+    {
+     "nome": "Ribbon Gradient Shader",
+     "pro": true
+    },
+    {
+     "nome": "Spotlight Shader",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Sidebars",
+   "itens": [
+    {
+     "nome": "Collapsible Sidebar",
+     "pro": true
+    },
+    {
+     "nome": "Grouped Sidebar",
+     "pro": true
+    },
+    {
+     "nome": "Simple Sidebar With Hover",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Stats",
+   "itens": [
+    {
+     "nome": "Stats For Changelog",
+     "pro": true
+    },
+    {
+     "nome": "Stats With Gradient",
+     "pro": true
+    },
+    {
+     "nome": "Stats With Grid Background",
+     "pro": true
+    },
+    {
+     "nome": "Stats With Number Ticker",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Time",
+   "itens": [
+    {
+     "nome": "About Us Section With Cards",
+     "pro": true
+    },
+    {
+     "nome": "Team Section With Light Background",
+     "pro": true
+    },
+    {
+     "nome": "Team Section With Scales",
+     "pro": true
+    },
+    {
+     "nome": "Team Section With Small Avatars",
+     "pro": true
+    },
+    {
+     "nome": "Team Section With Timeline Cards",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Depoimentos",
+   "itens": [
+    {
+     "nome": "Testimonials Background With Drag",
+     "pro": true
+    },
+    {
+     "nome": "Testimonials Grid With Centered Carousel",
+     "pro": true
+    },
+    {
+     "nome": "Testimonials Marquee Grid",
+     "pro": true
+    },
+    {
+     "nome": "Testimonials Marquee Grid Boxed",
+     "pro": true
+    },
+    {
+     "nome": "Testimonials Masonry Grid",
+     "pro": true
+    },
+    {
+     "nome": "Testimonials Photo Carousel",
+     "pro": true
+    },
+    {
+     "nome": "Testimonials Photo Carousel Tall",
+     "pro": true
+    },
+    {
+     "nome": "Testimonials With Carousel",
+     "pro": true
+    },
+    {
+     "nome": "Testimonials With Centered Highlight",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Blocos Pro: Animações de texto",
+   "itens": [
+    {
+     "nome": "Text Animation Blur Fade In",
+     "pro": true
+    },
+    {
+     "nome": "Text Animation Flipping Words",
+     "pro": true
+    },
+    {
+     "nome": "Text Animation Typewriter Effect",
+     "pro": true
+    },
+    {
+     "nome": "Text Generate Typewriter",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Templates",
+   "itens": [
+    {
+     "nome": "Agenforce Marketing Template",
+     "pro": false
+    },
+    {
+     "nome": "Agenlabs Agency Template",
+     "pro": false
+    },
+    {
+     "nome": "AI SaaS Template",
+     "pro": false
+    },
+    {
+     "nome": "Cryptgen Marketing Template",
+     "pro": false
+    },
+    {
+     "nome": "Design & Development Studio Template",
+     "pro": false
+    },
+    {
+     "nome": "DevPro Portfolio Template",
+     "pro": false
+    },
+    {
+     "nome": "Foxtrot Marketing Template",
+     "pro": false
+    },
+    {
+     "nome": "Minimal Portfolio Template",
+     "pro": false
+    },
+    {
+     "nome": "Minimalist Portfolio Template",
+     "pro": false
+    },
+    {
+     "nome": "Nodus Agent Template",
+     "pro": false
+    },
+    {
+     "nome": "Playful Marketing Template",
+     "pro": false
+    },
+    {
+     "nome": "Proactiv Marketing Template",
+     "pro": false
+    },
+    {
+     "nome": "Productized Agency Template",
+     "pro": false
+    },
+    {
+     "nome": "Schedule Marketing Template",
+     "pro": false
+    },
+    {
+     "nome": "Sidefolio Portfolio Template",
+     "pro": false
+    },
+    {
+     "nome": "Simplistic SaaS Template",
+     "pro": false
+    },
+    {
+     "nome": "Startup Landing Page Template",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Páginas",
+   "itens": [
+    {
+     "nome": "AI Visibility Landing Page",
+     "pro": false
+    },
+    {
+     "nome": "Product Landing Page",
+     "pro": false
+    },
+    {
+     "nome": "Inference Landing Page",
+     "pro": false
+    },
+    {
+     "nome": "Meeting Notes Landing Page",
+     "pro": false
+    },
+    {
+     "nome": "SaaS Landing Page",
+     "pro": false
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "CLI",
+  "Plano 'all-access' (inclui blocos Pro, 17 templates e 5 páginas)",
+  "Blog com guias",
+  "Instalação Next.js + Tailwind"
+ ],
+ "observacoes": "Componentes gratuitos agrupados por mim (o site os lista em rótulos que se sobrepõem). Blocos Pro: o site os marca como 'Included with all-access'; nomes vêm do llms.txt. Templates e páginas: o site não indica claramente se são Pro (provavelmente all-access, não confirmado), marcados pro=false. O site diz 'N+' por categoria Pro (ex.: 28+ heroes), então pode haver mais blocos que os listados.",
+ "conferido_em": "2026-11-27"
+}

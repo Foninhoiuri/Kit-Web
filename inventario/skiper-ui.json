@@ -1,0 +1,511 @@
+{
+ "id": "skiper-ui",
+ "situacao": "completo",
+ "fontes": [
+  "https://skiper-ui.com/sitemap.xml",
+  "https://skiper-ui.com/v1/skiper1 (barra lateral com todos os componentes)",
+  "https://skiper-ui.com/pricing",
+  "https://skiper-ui.com/components"
+ ],
+ "grupos": [
+  {
+   "nome": "Preloaders e loaders",
+   "itens": [
+    {
+     "nome": "07 Nike preloader",
+     "pro": null
+    },
+    {
+     "nome": "08 Words preloader",
+     "pro": null
+    },
+    {
+     "nome": "09 Stairs preloader",
+     "pro": null
+    },
+    {
+     "nome": "10 Double stairs preloader",
+     "pro": null
+    },
+    {
+     "nome": "11 Pixel preloader",
+     "pro": null
+    },
+    {
+     "nome": "15 Box loading preloader",
+     "pro": null
+    }
+   ]
+  },
+  {
+   "nome": "Carrosséis e galerias",
+   "itens": [
+    {
+     "nome": "16 Card stack scroll",
+     "pro": null
+    },
+    {
+     "nome": "17 Card stack with gsap and rotate",
+     "pro": null
+    },
+    {
+     "nome": "47 Perspective carousel",
+     "pro": null
+    },
+    {
+     "nome": "48 Card swipe carousel",
+     "pro": null
+    },
+    {
+     "nome": "49 Inverted perspective carousel",
+     "pro": null
+    },
+    {
+     "nome": "50 Creative carousel 001",
+     "pro": null
+    },
+    {
+     "nome": "51 Creative carousel 002",
+     "pro": null
+    },
+    {
+     "nome": "54 Shadcn clipPath Carousal",
+     "pro": null
+    },
+    {
+     "nome": "77 Apple carousel",
+     "pro": null
+    },
+    {
+     "nome": "78 Dia Browser's Carousal",
+     "pro": null
+    },
+    {
+     "nome": "79 Team showcase scroll",
+     "pro": null
+    },
+    {
+     "nome": "80 Projects Showcase",
+     "pro": null
+    }
+   ]
+  },
+  {
+   "nome": "Inputs de IA",
+   "itens": [
+    {
+     "nome": "81 AI Input 001",
+     "pro": null
+    },
+    {
+     "nome": "82 AI Input 002",
+     "pro": null
+    },
+    {
+     "nome": "83 AI Input 003",
+     "pro": null
+    },
+    {
+     "nome": "84 AI Input 004",
+     "pro": null
+    },
+    {
+     "nome": "85 AI Input 005",
+     "pro": null
+    },
+    {
+     "nome": "86 Apple Ai gradient",
+     "pro": null
+    }
+   ]
+  },
+  {
+   "nome": "Inputs e formulários",
+   "itens": [
+    {
+     "nome": "37 Animated number",
+     "pro": null
+    },
+    {
+     "nome": "56 Devouring details sign in",
+     "pro": null
+    },
+    {
+     "nome": "68 Animated number input",
+     "pro": null
+    },
+    {
+     "nome": "69 Skiper Number flow",
+     "pro": null
+    },
+    {
+     "nome": "105 Auto Scale input",
+     "pro": null
+    },
+    {
+     "nome": "106 Smooth caret input",
+     "pro": null
+    }
+   ]
+  },
+  {
+   "nome": "Navegação e menus",
+   "itens": [
+    {
+     "nome": "13 Nike menu",
+     "pro": null
+    },
+    {
+     "nome": "38 Apple Navbar V001",
+     "pro": null
+    },
+    {
+     "nome": "46 Nextjs gooey menu",
+     "pro": null
+    },
+    {
+     "nome": "57 Vercel navigation bar",
+     "pro": null
+    },
+    {
+     "nome": "58 Text roll navigation",
+     "pro": null
+    },
+    {
+     "nome": "60 Side Scroll Navigation",
+     "pro": null
+    },
+    {
+     "nome": "65 Breakpoint indicator",
+     "pro": null
+    },
+    {
+     "nome": "75 Apple Navbar V002",
+     "pro": null
+    },
+    {
+     "nome": "92 Vercel Command Search",
+     "pro": null
+    },
+    {
+     "nome": "96 Expandable tabs navigation",
+     "pro": null
+    },
+    {
+     "nome": "98 Vertical tooltip menu",
+     "pro": null
+    }
+   ]
+  },
+  {
+   "nome": "Texto e tipografia",
+   "itens": [
+    {
+     "nome": "27 Rolling text",
+     "pro": null
+    },
+    {
+     "nome": "28 3D perspective text",
+     "pro": null
+    },
+    {
+     "nome": "31 Text Scroll animation",
+     "pro": null
+    },
+    {
+     "nome": "32 Scroll images reveal 001",
+     "pro": null
+    },
+    {
+     "nome": "33 Scroll images reveal 002",
+     "pro": null
+    },
+    {
+     "nome": "34 Scroll images reveal 003",
+     "pro": null
+    },
+    {
+     "nome": "44 Vercel scroll with blur",
+     "pro": null
+    },
+    {
+     "nome": "70 Text reveal box",
+     "pro": null
+    },
+    {
+     "nome": "72 Horizontal Text reveal",
+     "pro": null
+    },
+    {
+     "nome": "87 Scroll with fade effect",
+     "pro": null
+    },
+    {
+     "nome": "88 3D Rolling Text on scroll",
+     "pro": null
+    },
+    {
+     "nome": "89 Scroll progress 001",
+     "pro": null
+    },
+    {
+     "nome": "94 Scroll progress 002",
+     "pro": null
+    },
+    {
+     "nome": "95 Scroll progress 003",
+     "pro": null
+    },
+    {
+     "nome": "104 Scroll reveal grid cards",
+     "pro": null
+    }
+   ]
+  },
+  {
+   "nome": "Scroll e parallax",
+   "itens": [
+    {
+     "nome": "01 Anime js scrollbar",
+     "pro": null
+    },
+    {
+     "nome": "05 Things drag and scroll",
+     "pro": null
+    },
+    {
+     "nome": "19 Svg follow scroll",
+     "pro": null
+    },
+    {
+     "nome": "29 Siena parallax",
+     "pro": null
+    },
+    {
+     "nome": "30 Oliver parallax",
+     "pro": null
+    },
+    {
+     "nome": "41 Progressive Blur",
+     "pro": null
+    },
+    {
+     "nome": "55 Parallax Image",
+     "pro": null
+    }
+   ]
+  },
+  {
+   "nome": "Cursor e hover",
+   "itens": [
+    {
+     "nome": "06 Hover members",
+     "pro": null
+    },
+    {
+     "nome": "18 Image cursor trail",
+     "pro": null
+    },
+    {
+     "nome": "35 Hover expand",
+     "pro": null
+    },
+    {
+     "nome": "43 Vercel Tooltip",
+     "pro": null
+    },
+    {
+     "nome": "52 ExpandOnHover",
+     "pro": null
+    },
+    {
+     "nome": "53 ExpandOnHover vertical",
+     "pro": null
+    },
+    {
+     "nome": "59 Drawing cursor effect",
+     "pro": null
+    },
+    {
+     "nome": "61 Mouse follow animations",
+     "pro": null
+    },
+    {
+     "nome": "90 Gradient hover cards",
+     "pro": null
+    },
+    {
+     "nome": "100 Draggable snap button",
+     "pro": null
+    },
+    {
+     "nome": "101 Custom tooltip",
+     "pro": null
+    }
+   ]
+  },
+  {
+   "nome": "Botões e toggles",
+   "itens": [
+    {
+     "nome": "03 Apple play button",
+     "pro": null
+    },
+    {
+     "nome": "04 Theme toggle buttons",
+     "pro": null
+    },
+    {
+     "nome": "25 Music toggle btn",
+     "pro": null
+    },
+    {
+     "nome": "26 Theme toggle btn",
+     "pro": null
+    },
+    {
+     "nome": "45 Family Receive button",
+     "pro": null
+    }
+   ]
+  },
+  {
+   "nome": "Vídeo e mídia",
+   "itens": [
+    {
+     "nome": "67 Video player 001",
+     "pro": null
+    },
+    {
+     "nome": "91 video player 002",
+     "pro": null
+    },
+    {
+     "nome": "97 video player 003",
+     "pro": null
+    }
+   ]
+  },
+  {
+   "nome": "Cards e widgets",
+   "itens": [
+    {
+     "nome": "02 Dynamic island",
+     "pro": null
+    },
+    {
+     "nome": "20 UniSwap Country Dialog",
+     "pro": null
+    },
+    {
+     "nome": "21 Family wallet",
+     "pro": null
+    },
+    {
+     "nome": "22 Aave token swap",
+     "pro": null
+    },
+    {
+     "nome": "23 Minimal Card Expand",
+     "pro": null
+    },
+    {
+     "nome": "74 Timeline calendar",
+     "pro": null
+    },
+    {
+     "nome": "102 Debug Pannel",
+     "pro": null
+    },
+    {
+     "nome": "103 Bouncy accordion",
+     "pro": null
+    },
+    {
+     "nome": "107 Knockout bracket",
+     "pro": null
+    }
+   ]
+  },
+  {
+   "nome": "Efeitos visuais e simulações",
+   "itens": [
+    {
+     "nome": "12 Vercel Liquid simulation",
+     "pro": null
+    },
+    {
+     "nome": "14 Ascii Simulation",
+     "pro": null
+    },
+    {
+     "nome": "36 Interactive3d Hero",
+     "pro": null
+    },
+    {
+     "nome": "39 Canvas crowd",
+     "pro": null
+    },
+    {
+     "nome": "40 CssLink",
+     "pro": null
+    },
+    {
+     "nome": "42 Animated icons 001",
+     "pro": null
+    },
+    {
+     "nome": "62 Loop animation hook",
+     "pro": null
+    },
+    {
+     "nome": "63 Apple squicircle effect",
+     "pro": null
+    },
+    {
+     "nome": "64 Gooey Effect",
+     "pro": null
+    },
+    {
+     "nome": "66 SVG clip path mask",
+     "pro": null
+    },
+    {
+     "nome": "71 Image reveal",
+     "pro": null
+    },
+    {
+     "nome": "73 Infinite canvas",
+     "pro": null
+    },
+    {
+     "nome": "99 Animated icons 002",
+     "pro": null
+    }
+   ]
+  },
+  {
+   "nome": "Outros",
+   "itens": [
+    {
+     "nome": "24 Tik tik color list",
+     "pro": null
+    },
+    {
+     "nome": "76 Apple Feature Block",
+     "pro": null
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Instalação: pnpm dlx shadcn add @skiper-ui/... ; Pro CLI para os pagos",
+  "Request de componentes e \"skiper pro badge\" no plano pago",
+  "Figma file e templates de sites completos (plano Exclusive, marcados \"Coming Soon\")",
+  "Cada componente tem página /v1/skiperN com preview, dependências e tipo de interação"
+ ],
+ "acesso_visto": "Pricing: Free (com atribuição ao Skiper UI), Premium US$129 pagamento único (todos os componentes premium, 106+, atualizações vitalícias), Exclusive US$549 (inclui Figma e templates, \"coming soon\"). Docs: free grátis em projetos pessoais/comerciais com atribuição; Pro sem atribuição.",
+ "observacoes": "Lista de 106 nomes confirmada pela barra lateral (o item 93 não existe; 105-107 marcados New). O site não mostra por item qual é grátis ou Pro (pro=null); a página mostra \"Pro Login Required\" no preview. Agrupamento por palavra-chave no nome, aproximado.",
+ "conferido_em": "2026-11-27",
+ "total": 106
+}

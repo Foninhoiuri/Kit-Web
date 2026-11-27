@@ -1,0 +1,743 @@
+{
+ "id": "codedvisuals",
+ "situacao": "completo",
+ "fontes": [
+  "https://codedvisuals.com/llms.txt",
+  "https://codedvisuals.com/sitemap.xml",
+  "https://codedvisuals.com/pricing"
+ ],
+ "grupos": [
+  {
+   "nome": "Activity",
+   "itens": [
+    {
+     "nome": "Feed",
+     "pro": true
+    },
+    {
+     "nome": "Timeline",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Ai",
+   "itens": [
+    {
+     "nome": "Agent Flow",
+     "pro": true
+    },
+    {
+     "nome": "Model Picker",
+     "pro": true
+    },
+    {
+     "nome": "Neural Net",
+     "pro": true
+    },
+    {
+     "nome": "Presence",
+     "pro": true
+    },
+    {
+     "nome": "Prompt Box",
+     "pro": true
+    },
+    {
+     "nome": "Retrieval",
+     "pro": true
+    },
+    {
+     "nome": "Thinking",
+     "pro": true
+    },
+    {
+     "nome": "Tools",
+     "pro": true
+    },
+    {
+     "nome": "Voice",
+     "pro": true
+    },
+    {
+     "nome": "Writer",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Api",
+   "itens": [
+    {
+     "nome": "Logs",
+     "pro": true
+    },
+    {
+     "nome": "Rate Limit",
+     "pro": true
+    },
+    {
+     "nome": "Request",
+     "pro": true
+    },
+    {
+     "nome": "Webhook",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Automations",
+   "itens": [
+    {
+     "nome": "Workflow Builder",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Avatars",
+   "itens": [
+    {
+     "nome": "Grid",
+     "pro": true
+    },
+    {
+     "nome": "Stack",
+     "pro": true
+    },
+    {
+     "nome": "Profile Card",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Branding",
+   "itens": [
+    {
+     "nome": "Spotlight",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Browser",
+   "itens": [
+    {
+     "nome": "Loading",
+     "pro": true
+    },
+    {
+     "nome": "Simple",
+     "pro": true
+    },
+    {
+     "nome": "Tabs",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Calendar",
+   "itens": [
+    {
+     "nome": "Date Picker",
+     "pro": true
+    },
+    {
+     "nome": "Event List",
+     "pro": true
+    },
+    {
+     "nome": "Month View",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Charts",
+   "itens": [
+    {
+     "nome": "Bar",
+     "pro": true
+    },
+    {
+     "nome": "Block Stack",
+     "pro": true
+    },
+    {
+     "nome": "Donut",
+     "pro": true
+    },
+    {
+     "nome": "Funnel",
+     "pro": true
+    },
+    {
+     "nome": "Gauge",
+     "pro": true
+    },
+    {
+     "nome": "Heatmap",
+     "pro": true
+    },
+    {
+     "nome": "Line",
+     "pro": true
+    },
+    {
+     "nome": "Sparkline",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Chat",
+   "itens": [
+    {
+     "nome": "Ai Chat",
+     "pro": true
+    },
+    {
+     "nome": "Bubbles",
+     "pro": true
+    },
+    {
+     "nome": "Thread",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Code",
+   "itens": [
+    {
+     "nome": "Editor",
+     "pro": true
+    },
+    {
+     "nome": "Snippet",
+     "pro": true
+    },
+    {
+     "nome": "Terminal",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Connections",
+   "itens": [
+    {
+     "nome": "Converge",
+     "pro": true
+    },
+    {
+     "nome": "Flow",
+     "pro": true
+    },
+    {
+     "nome": "Layer Stack",
+     "pro": true
+    },
+    {
+     "nome": "Pipeline",
+     "pro": true
+    },
+    {
+     "nome": "Sync",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Dashboard",
+   "itens": [
+    {
+     "nome": "Mini Panel",
+     "pro": true
+    },
+    {
+     "nome": "Widget Grid",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Data",
+   "itens": [
+    {
+     "nome": "Filters",
+     "pro": true
+    },
+    {
+     "nome": "Import",
+     "pro": true
+    },
+    {
+     "nome": "Query",
+     "pro": true
+    },
+    {
+     "nome": "Table",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Devices",
+   "itens": [
+    {
+     "nome": "Laptop",
+     "pro": true
+    },
+    {
+     "nome": "Phone",
+     "pro": true
+    },
+    {
+     "nome": "Tablet",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Email",
+   "itens": [
+    {
+     "nome": "Compose",
+     "pro": true
+    },
+    {
+     "nome": "Inbox",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Files",
+   "itens": [
+    {
+     "nome": "Explorer",
+     "pro": true
+    },
+    {
+     "nome": "Simple",
+     "pro": true
+    },
+    {
+     "nome": "Stacked",
+     "pro": true
+    },
+    {
+     "nome": "Upload",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Geo",
+   "itens": [
+    {
+     "nome": "Edge Network",
+     "pro": true
+    },
+    {
+     "nome": "Geofence",
+     "pro": true
+    },
+    {
+     "nome": "Globe",
+     "pro": true
+    },
+    {
+     "nome": "Pin Drop",
+     "pro": true
+    },
+    {
+     "nome": "World Map",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Git",
+   "itens": [
+    {
+     "nome": "Branch Graph",
+     "pro": true
+    },
+    {
+     "nome": "Diff",
+     "pro": true
+    },
+    {
+     "nome": "Pull Request",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Hero",
+   "itens": [
+    {
+     "nome": "Agent Hub",
+     "pro": true
+    },
+    {
+     "nome": "Browser Agent",
+     "pro": true
+    },
+    {
+     "nome": "Platform Stack",
+     "pro": true
+    },
+    {
+     "nome": "Scaling Core",
+     "pro": true
+    },
+    {
+     "nome": "Security Gateway",
+     "pro": true
+    },
+    {
+     "nome": "Software Factory",
+     "pro": true
+    },
+    {
+     "nome": "Workflow Automation",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Images",
+   "itens": [
+    {
+     "nome": "Carousel",
+     "pro": true
+    },
+    {
+     "nome": "Gallery",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Integrations",
+   "itens": [
+    {
+     "nome": "Hub",
+     "pro": true
+    },
+    {
+     "nome": "Logo Orbit",
+     "pro": true
+    },
+    {
+     "nome": "Logo Marquee",
+     "pro": true
+    },
+    {
+     "nome": "Logo Reel",
+     "pro": true
+    },
+    {
+     "nome": "Plugin Slot",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Keyboard",
+   "itens": [
+    {
+     "nome": "Half",
+     "pro": true
+    },
+    {
+     "nome": "Isometric Keys",
+     "pro": true
+    },
+    {
+     "nome": "Shortcut",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Media",
+   "itens": [
+    {
+     "nome": "Audio Waveform",
+     "pro": true
+    },
+    {
+     "nome": "Video Player",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Metrics",
+   "itens": [
+    {
+     "nome": "Comparison",
+     "pro": true
+    },
+    {
+     "nome": "Stat Card",
+     "pro": true
+    },
+    {
+     "nome": "Trend",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Notifications",
+   "itens": [
+    {
+     "nome": "Bell",
+     "pro": true
+    },
+    {
+     "nome": "List",
+     "pro": true
+    },
+    {
+     "nome": "Toast",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Payments",
+   "itens": [
+    {
+     "nome": "Checkout",
+     "pro": true
+    },
+    {
+     "nome": "Credit Card",
+     "pro": true
+    },
+    {
+     "nome": "Usage Meter",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Search",
+   "itens": [
+    {
+     "nome": "Command Palette",
+     "pro": true
+    },
+    {
+     "nome": "Results",
+     "pro": true
+    },
+    {
+     "nome": "Semantic",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Sections",
+   "itens": [
+    {
+     "nome": "Auth",
+     "pro": true
+    },
+    {
+     "nome": "Backgrounds",
+     "pro": true
+    },
+    {
+     "nome": "Bento",
+     "pro": true
+    },
+    {
+     "nome": "Blog",
+     "pro": true
+    },
+    {
+     "nome": "Blog Post",
+     "pro": true
+    },
+    {
+     "nome": "Comments",
+     "pro": true
+    },
+    {
+     "nome": "Components",
+     "pro": true
+    },
+    {
+     "nome": "Contact",
+     "pro": true
+    },
+    {
+     "nome": "Cta",
+     "pro": true
+    },
+    {
+     "nome": "Error",
+     "pro": true
+    },
+    {
+     "nome": "Faq",
+     "pro": true
+    },
+    {
+     "nome": "Features",
+     "pro": true
+    },
+    {
+     "nome": "Footers",
+     "pro": true
+    },
+    {
+     "nome": "Headers",
+     "pro": true
+    },
+    {
+     "nome": "Hero",
+     "pro": true
+    },
+    {
+     "nome": "Location",
+     "pro": true
+    },
+    {
+     "nome": "Logos",
+     "pro": true
+    },
+    {
+     "nome": "Newsletter",
+     "pro": true
+    },
+    {
+     "nome": "Pricing",
+     "pro": true
+    },
+    {
+     "nome": "Process",
+     "pro": true
+    },
+    {
+     "nome": "Prose",
+     "pro": true
+    },
+    {
+     "nome": "Stats",
+     "pro": true
+    },
+    {
+     "nome": "Team",
+     "pro": true
+    },
+    {
+     "nome": "Testimonials",
+     "pro": true
+    },
+    {
+     "nome": "Timeline",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Security",
+   "itens": [
+    {
+     "nome": "Fingerprint",
+     "pro": true
+    },
+    {
+     "nome": "Lock",
+     "pro": true
+    },
+    {
+     "nome": "Shield",
+     "pro": true
+    },
+    {
+     "nome": "Two Factor",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "States",
+   "itens": [
+    {
+     "nome": "Empty",
+     "pro": true
+    },
+    {
+     "nome": "Error",
+     "pro": true
+    },
+    {
+     "nome": "Maintenance",
+     "pro": true
+    },
+    {
+     "nome": "Not Found",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Status",
+   "itens": [
+    {
+     "nome": "Health Check",
+     "pro": true
+    },
+    {
+     "nome": "Resource Monitor",
+     "pro": true
+    },
+    {
+     "nome": "Uptime Bar",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Tasks",
+   "itens": [
+    {
+     "nome": "Checklist",
+     "pro": true
+    },
+    {
+     "nome": "Kanban",
+     "pro": true
+    },
+    {
+     "nome": "Sort Lanes",
+     "pro": true
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Cada visual tem variações: o site diz \"139 visuals e 1270+ variações\"",
+  "Skill de IA (AI Skills package) e suporte ao shadcn MCP",
+  "Instalação por registry shadcn privado com token pessoal, ou copiar/colar",
+  "Buildkit for Astro (desconto para quem compra)",
+  "Changelog (biblioteca atualizada em 16/11/2026)"
+ ],
+ "acesso_visto": "Produto pago, pagamento único com acesso vitalício. Solo US$59 (de US$99, Black Friday 40% até 1/12) para 1 pessoa; Team US$239 (de US$299) até 10 pessoas. Projetos ilimitados, updates vitalícios, pagamento via Polar. Instalação exige compra e login.",
+ "observacoes": "Lista completa de 139 composições (llms.txt = sitemap). Os nomes dentro de cada categoria são genéricos (ex.: Sections/Hero); as 1270+ variações não são listadas individualmente. Não vi o conteúdo interno (código) por exigir login.",
+ "conferido_em": "2026-11-27",
+ "total": 139
+}

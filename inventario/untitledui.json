@@ -1,0 +1,537 @@
+{
+ "id": "untitledui",
+ "situacao": "completo",
+ "fontes": [
+  "https://www.untitledui.com/llms.txt",
+  "https://www.untitledui.com/sitemap.xml"
+ ],
+ "total": 113,
+ "grupos": [
+  {
+   "nome": "Componentes base (React)",
+   "itens": [
+    {
+     "nome": "Avatars",
+     "pro": false
+    },
+    {
+     "nome": "Badge groups",
+     "pro": false
+    },
+    {
+     "nome": "Badges",
+     "pro": false
+    },
+    {
+     "nome": "Button groups",
+     "pro": false
+    },
+    {
+     "nome": "Buttons",
+     "pro": false
+    },
+    {
+     "nome": "Checkboxes",
+     "pro": false
+    },
+    {
+     "nome": "Context menus",
+     "pro": false
+    },
+    {
+     "nome": "Credit cards",
+     "pro": false
+    },
+    {
+     "nome": "Dropdowns",
+     "pro": false
+    },
+    {
+     "nome": "Featured icons",
+     "pro": false
+    },
+    {
+     "nome": "Illustrations",
+     "pro": false
+    },
+    {
+     "nome": "Inputs",
+     "pro": false
+    },
+    {
+     "nome": "Mobile app store buttons",
+     "pro": false
+    },
+    {
+     "nome": "Progress indicators",
+     "pro": false
+    },
+    {
+     "nome": "QR codes",
+     "pro": false
+    },
+    {
+     "nome": "Radio buttons",
+     "pro": false
+    },
+    {
+     "nome": "Radio groups",
+     "pro": true
+    },
+    {
+     "nome": "Rating badge and stars",
+     "pro": false
+    },
+    {
+     "nome": "Select",
+     "pro": false
+    },
+    {
+     "nome": "Multi-select",
+     "pro": false
+    },
+    {
+     "nome": "Sliders",
+     "pro": false
+    },
+    {
+     "nome": "Social buttons",
+     "pro": false
+    },
+    {
+     "nome": "Tags",
+     "pro": false
+    },
+    {
+     "nome": "Text editors",
+     "pro": true
+    },
+    {
+     "nome": "Textarea",
+     "pro": false
+    },
+    {
+     "nome": "Toggles",
+     "pro": false
+    },
+    {
+     "nome": "Tooltips",
+     "pro": false
+    },
+    {
+     "nome": "Utility buttons",
+     "pro": false
+    },
+    {
+     "nome": "Verification code inputs",
+     "pro": false
+    },
+    {
+     "nome": "Video players",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Componentes de aplicação (UI de app)",
+   "itens": [
+    {
+     "nome": "Activity feeds",
+     "pro": true
+    },
+    {
+     "nome": "Activity gauges",
+     "pro": false
+    },
+    {
+     "nome": "Alerts",
+     "pro": true
+    },
+    {
+     "nome": "Breadcrumbs",
+     "pro": true
+    },
+    {
+     "nome": "Calendars",
+     "pro": true
+    },
+    {
+     "nome": "Card headers",
+     "pro": true
+    },
+    {
+     "nome": "Carousels",
+     "pro": false
+    },
+    {
+     "nome": "Code snippets",
+     "pro": true
+    },
+    {
+     "nome": "Color pickers",
+     "pro": true
+    },
+    {
+     "nome": "Command menus",
+     "pro": true
+    },
+    {
+     "nome": "Content dividers",
+     "pro": true
+    },
+    {
+     "nome": "Date pickers",
+     "pro": false
+    },
+    {
+     "nome": "Empty states",
+     "pro": true
+    },
+    {
+     "nome": "File uploaders",
+     "pro": false
+    },
+    {
+     "nome": "Filter bars",
+     "pro": true
+    },
+    {
+     "nome": "Gradient pickers",
+     "pro": true
+    },
+    {
+     "nome": "Header navigations",
+     "pro": false
+    },
+    {
+     "nome": "Image pickers",
+     "pro": true
+    },
+    {
+     "nome": "Inline CTAs",
+     "pro": true
+    },
+    {
+     "nome": "Line & bar charts",
+     "pro": false
+    },
+    {
+     "nome": "Loading indicators",
+     "pro": false
+    },
+    {
+     "nome": "Messaging",
+     "pro": true
+    },
+    {
+     "nome": "Metrics",
+     "pro": true
+    },
+    {
+     "nome": "Modals",
+     "pro": true
+    },
+    {
+     "nome": "Notifications",
+     "pro": true
+    },
+    {
+     "nome": "Page headers",
+     "pro": true
+    },
+    {
+     "nome": "Paginations",
+     "pro": false
+    },
+    {
+     "nome": "Pie charts",
+     "pro": false
+    },
+    {
+     "nome": "Progress steps",
+     "pro": true
+    },
+    {
+     "nome": "Radar charts",
+     "pro": false
+    },
+    {
+     "nome": "Section footers",
+     "pro": true
+    },
+    {
+     "nome": "Section headers",
+     "pro": true
+    },
+    {
+     "nome": "Sidebar navigations",
+     "pro": false
+    },
+    {
+     "nome": "Drawers",
+     "pro": true
+    },
+    {
+     "nome": "Tables",
+     "pro": false
+    },
+    {
+     "nome": "Tabs",
+     "pro": false
+    },
+    {
+     "nome": "Tree views",
+     "pro": true
+    }
+   ]
+  },
+  {
+   "nome": "Seções de marketing (landing pages)",
+   "itens": [
+    {
+     "nome": "Banners",
+     "pro": true,
+     "obs": "~20 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Blog sections",
+     "pro": true,
+     "obs": "~24 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Careers sections",
+     "pro": true,
+     "obs": "~12 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Contact sections",
+     "pro": true,
+     "obs": "~36 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Content & rich text sections",
+     "pro": true,
+     "obs": "~22 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "CTA sections",
+     "pro": true,
+     "obs": "~30 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "FAQ sections",
+     "pro": true,
+     "obs": "~16 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Features sections",
+     "pro": true,
+     "obs": "~46 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Footers",
+     "pro": true,
+     "obs": "~40 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Header navigations",
+     "pro": true,
+     "obs": "~20 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Hero header sections",
+     "pro": true,
+     "obs": "~44 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Header sections",
+     "pro": true,
+     "obs": "~74 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Metrics sections",
+     "pro": true,
+     "obs": "~16 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Newsletter CTA sections",
+     "pro": true,
+     "obs": "~16 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Pricing sections",
+     "pro": true,
+     "obs": "~22 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Social proof sections",
+     "pro": true,
+     "obs": "~12 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Team sections",
+     "pro": true,
+     "obs": "~14 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Testimonial sections",
+     "pro": true,
+     "obs": "~26 variações (páginas no sitemap)"
+    }
+   ]
+  },
+  {
+   "nome": "Páginas e exemplos prontos",
+   "itens": [
+    {
+     "nome": "Dashboards 01",
+     "pro": true,
+     "obs": "~19 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Dashboards 02",
+     "pro": true,
+     "obs": "~19 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Settings pages 01",
+     "pro": true,
+     "obs": "~21 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Settings pages 02",
+     "pro": true,
+     "obs": "~21 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Informational pages 01",
+     "pro": true,
+     "obs": "~19 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Informational pages 02",
+     "pro": true,
+     "obs": "~19 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Log in pages",
+     "pro": true,
+     "obs": "~16 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Sign up pages",
+     "pro": true,
+     "obs": "~21 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Verification pages",
+     "pro": true,
+     "obs": "~3 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Forgot password pages",
+     "pro": true,
+     "obs": "~5 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "404 sections",
+     "pro": true,
+     "obs": "~14 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Email templates",
+     "pro": true,
+     "obs": "~10 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "About pages",
+     "pro": true,
+     "obs": "~10 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Blog posts",
+     "pro": true,
+     "obs": "~10 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Blogs",
+     "pro": true,
+     "obs": "~10 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Contact pages",
+     "pro": true,
+     "obs": "~10 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "FAQ pages",
+     "pro": true,
+     "obs": "~10 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Landing pages",
+     "pro": true,
+     "obs": "~20 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Legal pages",
+     "pro": true,
+     "obs": "~5 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Pricing pages",
+     "pro": true,
+     "obs": "~10 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "Team pages",
+     "pro": true,
+     "obs": "~10 variações (páginas no sitemap)"
+    },
+    {
+     "nome": "404 pages",
+     "pro": true,
+     "obs": "~10 variações (páginas no sitemap)"
+    }
+   ]
+  },
+  {
+   "nome": "Recursos",
+   "itens": [
+    {
+     "nome": "Figma files",
+     "pro": false
+    },
+    {
+     "nome": "Icons",
+     "pro": true
+    },
+    {
+     "nome": "File icons",
+     "pro": false
+    },
+    {
+     "nome": "Flag icons",
+     "pro": false
+    },
+    {
+     "nome": "Avatars",
+     "pro": false
+    },
+    {
+     "nome": "Logos",
+     "pro": false
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "CLI: npx untitledui@latest add <componente>",
+  "Servidor MCP (busca semântica de componentes e templates)",
+  "React Aria + Tailwind v4; integrações Next, Vite, TanStack, v0, Bolt, Replit, Lovable",
+  "Figma UI kit (10.000+ componentes) e ícones (1.100+ grátis, 4.600+ PRO)",
+  "React PRO a partir de US$349 pagamento único"
+ ],
+ "observacoes": "Itens são categorias (cada página traz muitas variações). Contagem de variações é aproximada, vinda do sitemap. Marcação PRO conforme llms.txt. Dashboards/Settings/Informational 01 e 02 são páginas distintas.",
+ "conferido_em": "2026-11-27"
+}
