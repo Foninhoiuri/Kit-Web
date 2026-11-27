@@ -10,7 +10,7 @@ Gerado por `python kitweb.py inventario --md` a partir de `inventario/<id>.json`
 | [shadcn.io](#shadcn-io) | componentes | gratis+pro | 670 | parcial: blocks e charts só por categoria | 2026-11-27 |
 | [Aceternity UI](#aceternity) | componentes | gratis+pro | 317 | completo | 2026-11-27 |
 | [Magic UI](#magicui) | componentes | gratis+pro | 85 | grátis completo; blocos Pro não listados | 2026-11-27 |
-| [React Bits](#reactbits) | componentes | gratis | 237 | grátis completo; Pro só contagens | 2026-11-27 |
+| [React Bits](#reactbits) | componentes | gratis+pro | 237 | grátis completo; Pro só contagens | 2026-11-27 |
 | [Inspira UI](#inspira-ui) | componentes | gratis | 155 | completo | 2026-11-27 |
 | [HextaUI](#hextaui) | componentes | gratis+pro | 145 | completo | 2026-11-27 |
 | [Untitled UI React](#untitledui) | componentes | gratis+pro | 113 | completo | 2026-11-27 |
@@ -18,14 +18,14 @@ Gerado por `python kitweb.py inventario --md` a partir de `inventario/<id>.json`
 | [HeroUI Pro](#heroui-pro) | componentes | pago | 133 | parcial: templates podem faltar | 2026-11-27 |
 | [daisyUI](#daisyui) | componentes | gratis | 103 | componentes completos; loja não lida | 2026-11-27 |
 | [Kokonut UI](#kokonutui) | componentes | gratis+pro | 160 | grátis completo; Pro parcial | 2026-11-27 |
-| [Coded Visuals](#codedvisuals) | componentes | conferir | 139 | completo | 2026-11-27 |
+| [Coded Visuals](#codedvisuals) | componentes | pago | 139 | completo | 2026-11-27 |
 | [Cult UI](#cult-ui) | componentes | gratis | 134 | completo | 2026-11-27 |
 | [Tailwind Plus](#tailwind-plus) | componentes | pago | 107 | parcial: snapshot 2025 (site pede login) | 2026-11-27 |
 | [Lucide](#lucide) | componentes | gratis | 2140 | completo por categoria | 2026-11-27 |
 | [Skiper UI](#skiper-ui) | comunidade | gratis+pro | 106 | completo | 2026-11-27 |
-| [OriginKit](#originkit) | comunidade | conferir | 963 | completo | 2026-11-27 |
+| [OriginKit](#originkit) | comunidade | freemium | 963 | completo | 2026-11-27 |
 | [FreeFrontend](#freefrontend) | comunidade | gratis | 15343 | completo por categoria | 2026-11-27 |
-| [Bencho](#bencho) | comunidade | conferir | 191 | completo | 2026-11-27 |
+| [Bencho](#bencho) | comunidade | gratis+pro | 191 | completo | 2026-11-27 |
 | [Aura](#aura-build) | comunidade | freemium | 2831 | parcial: categorias e exemplos | 2026-11-27 |
 | [21st.dev](#21st-dev) | comunidade | freemium | 24476 | completo por categoria | 2026-11-27 |
 | [shadcnblocks](#shadcnblocks) | comunidade | gratis+pro | 5744 | completo por categoria | 2026-11-27 |
@@ -38,7 +38,7 @@ Gerado por `python kitweb.py inventario --md` a partir de `inventario/<id>.json`
 | [tsParticles](#tsparticles) | shaders-3d | gratis | 167 | completo | 2026-11-27 |
 | [Three.js](#threejs) | shaders-3d | gratis | 336 | parcial: principais classes | 2026-11-27 |
 | [React Three Fiber](#r3f) | shaders-3d | gratis | 219 | parcial: R3F + drei principais | 2026-11-27 |
-| [Bklit UI](#bklit) | graficos | conferir | 51 | completo | 2026-11-27 |
+| [Bklit UI](#bklit) | graficos | gratis | 51 | completo | 2026-11-27 |
 | [Recharts](#recharts) | graficos | gratis | 103 | quase completo | 2026-11-27 |
 
 ## Bibliotecas de componentes organizadas, com documentação e instalação.
@@ -153,7 +153,7 @@ https://magicui.design/docs/components · acesso: gratis+pro · 85 itens
 <a id="reactbits"></a>
 ### React Bits (`reactbits`)
 
-https://reactbits.dev/get-started/introduction · acesso: gratis · 237 itens
+https://reactbits.dev/get-started/introduction · acesso: gratis+pro · 237 itens
 
 - **Animações de texto** (33): ASCII Text; Blur Text; Circular Text; Count Up; Curved Loop; Decrypted Text; Depth Text; Echo Text; Falling Text; Fold Text; Fuzzy Text; Glitch Text; Gradient Text; Masked Heading; Particle Text; Rotating Text; Scrambled Text; Scroll Float; Scroll Reveal; Scroll Velocity; Shiny Text; Shuffle; Split Flap Text; Split Text; Stroke Text; Tech Text; Text Cursor; Text Loop; Text Pressure; Text Type; True Focus; Variable Proximity; Warp Text
 - **Animações e cursores** (39): Animated Content; Blob Cursor; Click Spark; Crosshair; Crystalized Ball; Cubes; Cursor Grid; Dither Veil; Elastic Mesh; Electric Border; Electric Logo; Fade Content; Ghost Cursor; Glare Hover; Glow Cursor; Gradual Blur; Halftone Reveal; Image Trail; Laser Flow; Logo Loop; Magnet; Meta Balls; Metallic Paint; Neon Logo; Noise; Orbit Images; Pixel Swap; Pixel Trail; Pixel Transition; Ribbons; Ripple Distortion; Scroll Expand; Shape Blur; Splash Cursor; Star Border; Sticker Peel; Strands; Swarm Cursor; Target Cursor
@@ -318,7 +318,7 @@ https://kokonutui.com/ · acesso: gratis+pro · 160 itens
 <a id="codedvisuals"></a>
 ### Coded Visuals (`codedvisuals`)
 
-https://codedvisuals.com/docs · acesso: conferir · 139 itens
+https://codedvisuals.com/docs · acesso: pago · 139 itens
 
 **Preço/licença no site:** Produto pago, pagamento único com acesso vitalício. Solo US$59 (de US$99, Black Friday 40% até 1/12) para 1 pessoa; Team US$239 (de US$299) até 10 pessoas. Projetos ilimitados, updates vitalícios, pagamento via Polar. Instalação exige compra e login.
 
@@ -441,7 +441,7 @@ https://skiper-ui.com/ · acesso: gratis+pro · 106 itens
 <a id="originkit"></a>
 ### OriginKit (`originkit`)
 
-https://www.originkit.dev/ · acesso: conferir · 963 itens
+https://www.originkit.dev/ · acesso: freemium · 963 itens
 
 **Preço/licença no site:** Navegar e pré-visualizar é grátis; copiar exige conta. Free US$0: 3 componentes e 3 seções por dia, 0 templates. Pro US$79/ano (de US$144): 25/dia, 5 templates/dia, biblioteca completa. Ultimate US$99/ano (de US$209): sem limite (uso justo). Licença: uso comercial ilimitado, sem atribuição; proibido redistribuir em templates, kits, Figma ou bibliotecas sem parceria.
 
@@ -502,7 +502,7 @@ https://freefrontend.com/ · acesso: gratis · 15343 itens
 <a id="bencho"></a>
 ### Bencho (`bencho`)
 
-https://bencho.dev/ · acesso: conferir · 191 itens
+https://bencho.dev/ · acesso: gratis+pro · 191 itens
 
 **Preço/licença no site:** Free: 43 blocos com código completo, licença MIT (bencho.dev/license). Pro: 148 blocos ("included with Bencho Pro", uso livre, sem revenda), EUR 99 por ano, inclui todos os sons, Bench ilimitado, código-fonte completo, MCP e conteúdo futuro. Também plano "Forever, pay once" (preço não visto).
 
@@ -754,7 +754,7 @@ https://r3f.docs.pmnd.rs/ · acesso: gratis · 219 itens
 <a id="bklit"></a>
 ### Bklit UI (`bklit`)
 
-https://bklit.com/ · acesso: conferir · 51 itens
+https://bklit.com/ · acesso: gratis · 51 itens
 
 - **Gráficos** (22): Area Chart; Bar Chart; Line Chart; Composed Chart; Scatter Chart; Candlestick Chart; Live Line Chart; Profit/Loss Line; Particle Line; Pie Chart; Radar Chart; Ring Chart; Radial Chart; Gauge; Heatmap Chart; Choropleth Map; Funnel Chart; Sankey Diagram; Sunburst Chart; Sparkline; Native charts (React Native; beta)
 - **Utilitários de gráfico** (20): Grid; Chart Background; Patterns; Reference Area; Projection Line; Band; Weekends; Deadline; Trend Line; Brush; X Axis; Y Axis; Chart Crosshair; Chart Tooltip; Chart Legend; Markers; Chart Gradients; Bar Depth; Chart Stat Flow; Shimmering Text
