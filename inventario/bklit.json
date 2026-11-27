@@ -1,0 +1,295 @@
+{
+ "id": "bklit",
+ "fontes": [
+  "https://bklit.com/",
+  "https://bklit.com/docs/components",
+  "https://bklit.com/r/registry.json"
+ ],
+ "total": 51,
+ "grupos": [
+  {
+   "nome": "Gráficos",
+   "itens": [
+    {
+     "nome": "Area Chart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Bar Chart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Line Chart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Composed Chart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Scatter Chart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Candlestick Chart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Live Line Chart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Profit/Loss Line",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Particle Line",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Pie Chart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Radar Chart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Ring Chart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Radial Chart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Gauge",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Heatmap Chart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Choropleth Map",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Funnel Chart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sankey Diagram",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sunburst Chart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sparkline",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Native charts (React Native",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "beta)",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Utilitários de gráfico",
+   "itens": [
+    {
+     "nome": "Grid",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Chart Background",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Patterns",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Reference Area",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Projection Line",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Band",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Weekends",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Deadline",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Trend Line",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Brush",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "X Axis",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Y Axis",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Chart Crosshair",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Chart Tooltip",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Chart Legend",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Markers",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Chart Gradients",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Bar Depth",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Chart Stat Flow",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Shimmering Text",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Infraestrutura",
+   "itens": [
+    {
+     "nome": "Chart Context (useChart)",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Chart Parent Size",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Chart Animation",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Chart Series Layer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "chart-utils",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "utils",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Blocos prontos",
+   "itens": [
+    {
+     "nome": "stat-card-area-01",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "stat-card-line-01",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "stat-card-choropleth-01",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "21 exemplos (um por gráfico principal) no registry",
+  "Registro estilo shadcn (registry.json) para instalar componentes",
+  "Theming, Custom Indicator, hook useChart, Skills, llms.txt",
+  "Guia de migração do visx",
+  "Repositório com licença MIT; o site não mostra preço nem nível pago"
+ ],
+ "observacoes": "Registry com 71 itens (45 components, 21 examples, 3 blocks, 2 libs). Gráficos: 20 nos docs mais Native (beta). Nenhuma indicação de plano pago (repo MIT), então pro=false; a página /pricing deu 404.",
+ "conferido_em": "2026-11-27"
+}

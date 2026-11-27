@@ -1,0 +1,907 @@
+{
+ "fontes": [
+  "https://kokonutui.com/llms.txt",
+  "https://kokonutui.com/r/registry.json",
+  "https://kokonutui.com/docs/pro.md",
+  "https://kokonutui.com/docs/templates.md"
+ ],
+ "grupos": [
+  {
+   "nome": "IA / Chat e agentes",
+   "itens": [
+    {
+     "nome": "AI Input Selector",
+     "pro": false,
+     "obs": "AI chat input with a model menu, a separate Effort control, file chips you can drop or paste, a / command menu"
+    },
+    {
+     "nome": "AI Input Search",
+     "pro": false,
+     "obs": "AI composer with a Tools menu (browse, investigate, draft, run code, reason), a model picker and a live trace "
+    },
+    {
+     "nome": "AI State Loading",
+     "pro": false,
+     "obs": "Agent progress as a list of steps with a live log, elapsed time and a summary when done."
+    },
+    {
+     "nome": "AI Text Loading",
+     "pro": false,
+     "obs": "AI thinking text with a soft wave through the letters and words that swap letter by letter."
+    },
+    {
+     "nome": "AI Voice",
+     "pro": false,
+     "obs": "Voice input with a scrolling waveform, then a take you can play back, discard or send."
+    },
+    {
+     "nome": "AI Tool Approval",
+     "pro": false,
+     "obs": "Approve or deny an agent's tool calls. Destructive calls need a press and hold, and decided calls fold into a "
+    },
+    {
+     "nome": "AI Tool Calls",
+     "pro": false,
+     "obs": "Tool calls inside a chat reply. Each call streams in as one row with a live timer, then they fold into a singl"
+    },
+    {
+     "nome": "AI Checkout",
+     "pro": false,
+     "obs": "An order the assistant puts together, paid without leaving the chat. The button fills while the charge runs, t"
+    },
+    {
+     "nome": "AI Connect",
+     "pro": false,
+     "obs": "A tool call that stops because an app is not connected. Connect it right in the message, and the call picks up"
+    },
+    {
+     "nome": "AI Send",
+     "pro": false,
+     "obs": "An email the assistant drafted, editable in place. Send starts a short countdown you can undo before anything "
+    },
+    {
+     "nome": "AI Schedule",
+     "pro": false,
+     "obs": "Meeting times the assistant found, each with a strip of both calendars so you can see why it is free. Booking "
+    },
+    {
+     "nome": "AI Attachment",
+     "pro": false,
+     "obs": "A file dropped into the chat uploads, then the assistant reads it page by page. Page citations in the answer l"
+    },
+    {
+     "nome": "AI Code Run",
+     "pro": false,
+     "obs": "The assistant runs a short Python script in the reply. A marker steps down the lines, the output prints, and t"
+    },
+    {
+     "nome": "AI Order Status",
+     "pro": false,
+     "obs": "A live delivery card in the reply. The courier moves along the route while the ETA counts down, and the route "
+    },
+    {
+     "nome": "AI Handoff",
+     "pro": false,
+     "obs": "The assistant hands the chat to a person, with what they will see so you don't repeat yourself. The queue coun"
+    },
+    {
+     "nome": "AI Context Meter",
+     "pro": false,
+     "obs": "How full the context window is, as a ring in the prompt footer that opens a breakdown by source and compacts w"
+    },
+    {
+     "nome": "AI Inline Citations",
+     "pro": false,
+     "obs": "An answer with source chips beside each claim. One preview glides between chips and lights up the sentence it "
+    },
+    {
+     "nome": "AI Diff Review",
+     "pro": false,
+     "obs": "A coding agent's edits streaming in file by file, then reviewed per file with accept, reject and undo."
+    },
+    {
+     "nome": "AI Model Selector",
+     "pro": false,
+     "obs": "Pick a model and how hard it thinks. Effort is a detent track that reshapes for each model and keeps your leve"
+    },
+    {
+     "nome": "AI Token Alternatives",
+     "pro": false,
+     "obs": "An answer where every unsure word shows what else the model weighed. Pick another word and the reply writes it"
+    },
+    {
+     "nome": "AI Conversation Branches",
+     "pro": false,
+     "obs": "A chat where editing a message starts a new branch. A small tree beside it shows every version, and you can ju"
+    },
+    {
+     "nome": "AI Agent Lanes",
+     "pro": false,
+     "obs": "A lead agent hands work to sub-agents that run side by side. Each gets a lane of tool calls, and you can scrub"
+    },
+    {
+     "nome": "AI Inline Edit",
+     "pro": false,
+     "obs": "Select text in a document and ask AI to rewrite it. The edit streams in place as a word-level diff you accept,"
+    },
+    {
+     "nome": "AI Message Queue",
+     "pro": false,
+     "obs": "Keep typing while the agent works. Follow-ups stack above the composer, where you can reorder, edit or send on"
+    },
+    {
+     "nome": "AI Redact",
+     "pro": false,
+     "obs": "Masks names, emails, card numbers and keys as placeholders before a prompt is sent, then fills the real values"
+    },
+    {
+     "nome": "AI Memory",
+     "pro": false,
+     "obs": "An assistant that saves what it learns about you into a memory list. New facts replace the ones they contradic"
+    },
+    {
+     "nome": "AI Autocomplete",
+     "pro": false,
+     "obs": "A text box that suggests how your sentence ends in grey after the caret. Tab takes it all, the right arrow tak"
+    },
+    {
+     "nome": "Slash Command Menu",
+     "pro": true,
+     "obs": "A chat composer with slash commands, a hint bar that spells out each argument and a menu that offers values fo"
+    },
+    {
+     "nome": "Image Generation Card",
+     "pro": true,
+     "obs": "An AI image panel where Generate resolves the picture from coarse pixel blocks to sharp with a step counter, t"
+    }
+   ]
+  },
+  {
+   "nome": "Cards",
+   "itens": [
+    {
+     "nome": "Flick Card",
+     "pro": false,
+     "obs": "A two-sided card you spin with a drag or a flick, with thickness, light and a floor shadow that follow the ang"
+    },
+    {
+     "nome": "Throw Deck",
+     "pro": false,
+     "obs": "A pile of image cards you drag, flick off the top and send under the deck, with arrow keys and a details view."
+    },
+    {
+     "nome": "Now Playing",
+     "pro": false,
+     "obs": "Music card with a spinning disc you can grab and turn to scrub, built with React and Tailwind CSS."
+    },
+    {
+     "nome": "Apple Activity Card",
+     "pro": false,
+     "obs": "Activity rings that draw with a count-up, lap past 100% with a shadowed end cap and dim to focus, built with R"
+    },
+    {
+     "nome": "Widget Grid",
+     "pro": false,
+     "obs": "Dashboard widgets you lift, drag and resize on a 6-column grid, with spring physics and full keyboard support."
+    },
+    {
+     "nome": "Currency Transfer",
+     "pro": false,
+     "obs": "Transfer tracker that converts the amount in place, walks through each step on a filling rail and ends with a "
+    },
+    {
+     "nome": "Momentum Rail",
+     "pro": false,
+     "obs": "A card rail you flick with momentum, snapping on a spring, with scroll-driven cover-flow depth and parallax."
+    },
+    {
+     "nome": "Notification Stack",
+     "pro": false,
+     "obs": "Stacked notifications that fan out on hover and swipe away, built with React and Tailwind CSS."
+    },
+    {
+     "nome": "Liquid Gauge",
+     "pro": false,
+     "obs": "A usage meter filled with liquid that sloshes, ripples and bubbles, built with React and a wave simulation."
+    },
+    {
+     "nome": "Activity Terrain",
+     "pro": false,
+     "obs": "A contribution heatmap that tilts up into a 3D terrain you can turn, built with React and canvas."
+    },
+    {
+     "nome": "Page Flip",
+     "pro": false,
+     "obs": "A book you turn by the corner. Drag a page over the spine or tap to turn it."
+    },
+    {
+     "nome": "Receipt Printer",
+     "pro": false,
+     "obs": "A receipt that prints line by line, then tears off and falls when you pull it, built with React."
+    },
+    {
+     "nome": "Metric Card",
+     "pro": false,
+     "obs": "A revenue KPI card. Scrub a day, drag a range, or pick a segment; the number rolls, the line morphs and the br"
+    },
+    {
+     "nome": "Uptime Card",
+     "pro": false,
+     "obs": "A status page card with 90 days per service that swell under the cursor, and a day you click opens its inciden"
+    },
+    {
+     "nome": "Spending Ring",
+     "pro": false,
+     "obs": "A spending breakdown you spin like a dial; flick the ring and it settles with a category under the marker."
+    },
+    {
+     "nome": "Boarding Pass",
+     "pro": false,
+     "obs": "A boarding pass that keeps itself current. When the gate or times change, only the changed characters roll ove"
+    },
+    {
+     "nome": "Lightbox Grid",
+     "pro": false,
+     "obs": "A photo grid whose thumbnails grow into a full view and fly back to their slot when you drag them down."
+    },
+    {
+     "nome": "Onboarding Checklist",
+     "pro": true,
+     "obs": "A get-started checklist with a progress ring, steps that collapse as you check them and an all-set state at th"
+    }
+   ]
+  },
+  {
+   "nome": "Inputs e formulários",
+   "itens": [
+    {
+     "nome": "File Upload",
+     "pro": false,
+     "obs": "A multi-file upload queue with per-file progress, retry and cancel."
+    },
+    {
+     "nome": "Avatar Picker",
+     "pro": false,
+     "obs": "Generated avatars from a name, morphing as you type, on a 3D coin you can flick, tap or shuffle."
+    },
+    {
+     "nome": "Team Selector",
+     "pro": false,
+     "obs": "Seat picker with a scrubbable number, generated avatars and an optional rolling price line."
+    },
+    {
+     "nome": "Loader",
+     "pro": false,
+     "obs": "Animated loading indicator with rotating gradient rings, size variants and customizable title text. Built with"
+    },
+    {
+     "nome": "Detent Dial",
+     "pro": false,
+     "obs": "Rotary knob that clicks from notch to notch and coasts when flicked, built with React and Motion."
+    },
+    {
+     "nome": "Wheel Picker",
+     "pro": false,
+     "obs": "iOS-style 3D drum picker with flick momentum, built with React and Motion."
+    },
+    {
+     "nome": "Liquid Slider",
+     "pro": false,
+     "obs": "A vertical slider you fill like a glass, with a sloshing surface and rising bubbles."
+    },
+    {
+     "nome": "Signature Pad",
+     "pro": false,
+     "obs": "A signature field with a sprung pen tip, speed-weighted ink and SVG output."
+    },
+    {
+     "nome": "Time Zone Planner",
+     "pro": false,
+     "obs": "Find a meeting time across time zones. Turn the meeting round a 24-hour dial where each ring is someone's day."
+    },
+    {
+     "nome": "Amount Pad",
+     "pro": false,
+     "obs": "A keypad for sending money. Digits spring into place, commas slide them along, and the amount shrinks to fit a"
+    },
+    {
+     "nome": "Seat Map",
+     "pro": false,
+     "obs": "Pick seats for a show. Drag along a row to take several, and it points out any single seat you'd leave strande"
+    },
+    {
+     "nome": "Card Field",
+     "pro": false,
+     "obs": "A one-row card input for checkout. The number groups the way the brand prints it, then slides to its last four"
+    },
+    {
+     "nome": "Stay Picker",
+     "pro": false,
+     "obs": "A date range picker for booking stays. Every night shows its price, sold-out nights are hatched, and your stay"
+    },
+    {
+     "nome": "Slot Picker",
+     "pro": false,
+     "obs": "Book a meeting on a day rail. Drag a meeting into a free gap; it hops over existing bookings, resizes in place"
+    },
+    {
+     "nome": "Tip Selector",
+     "pro": false,
+     "obs": "A tip picker for checkout, set on a tape you drag and flick. The ticks you pass fill in, the amounts roll, and"
+    },
+    {
+     "nome": "Location Picker",
+     "pro": false,
+     "obs": "Set a pickup point the way ride apps do. Drag the map under a fixed pin; it lifts off its shadow, glides onto "
+    },
+    {
+     "nome": "Swatch Fan",
+     "pro": true,
+     "obs": "A color picker shaped like a paint fan deck. Drag it open, pick a hue and a shade, and copy the hex."
+    },
+    {
+     "nome": "Price Range",
+     "pro": true,
+     "obs": "A two-handle price filter drawn over a histogram of the results, with a live count."
+    }
+   ]
+  },
+  {
+   "nome": "Botões",
+   "itens": [
+    {
+     "nome": "Particle Button",
+     "pro": false,
+     "obs": "A status button for async actions, with a spinner, a drawn check and a particle burst on success."
+    },
+    {
+     "nome": "V0 Button",
+     "pro": false,
+     "obs": "Open in v0 button that sends a component registry JSON to v0.dev for instant editing, built with React, the sh"
+    },
+    {
+     "nome": "Gradient Button",
+     "pro": false,
+     "obs": "Layered gradient button with emerald, purple and orange variants, a gradient border, a soft inner glow, press "
+    },
+    {
+     "nome": "Magnet Button",
+     "pro": false,
+     "obs": "A call-to-action button wrapped in a field of iron filings that align to its magnetic field and lean toward yo"
+    },
+    {
+     "nome": "Hold Button",
+     "pro": false,
+     "obs": "Press and hold to confirm, with a fill that drains back on early release and a drawn check on completion."
+    },
+    {
+     "nome": "Command Button",
+     "pro": false,
+     "obs": "A button with its shortcut drawn as keycaps that sink as you press the real keys."
+    },
+    {
+     "nome": "Switch Button",
+     "pro": false,
+     "obs": "Light and dark theme toggle whose sun folds into a moon while the new theme spreads from the button as a circl"
+    },
+    {
+     "nome": "Slide Text Button",
+     "pro": false,
+     "obs": "Animated link button with a vertical text slide on hover and default and ghost variants, built with React, Nex"
+    },
+    {
+     "nome": "Pull Cord",
+     "pro": false,
+     "obs": "A lamp switch you pull on a swinging cord, built with React and a rope simulation."
+    },
+    {
+     "nome": "Tear Button",
+     "pro": false,
+     "obs": "A confirm button you tear off like a ticket stub, hole by hole."
+    },
+    {
+     "nome": "Bell Button",
+     "pro": false,
+     "obs": "A subscribe button whose bell swings and rings, with a clapper that really strikes."
+    },
+    {
+     "nome": "Morph Popover",
+     "pro": false,
+     "obs": "A button that grows into the form it opens, with its label sliding up to become the title, then shrinks into a"
+    },
+    {
+     "nome": "Undo Button",
+     "pro": false,
+     "obs": "An action button that gives you a few seconds to take it back, with the time left drawn around its own edge."
+    },
+    {
+     "nome": "Slide to Confirm",
+     "pro": false,
+     "obs": "A confirm control for payments and other actions you can't take back. Slide the thumb to the end, or flick it."
+    },
+    {
+     "nome": "Save Button",
+     "pro": false,
+     "obs": "A bookmark button that files into collections. Tap to save to the last one, then change it or make a new one f"
+    },
+    {
+     "nome": "Cart Button",
+     "pro": false,
+     "obs": "An Add button that opens into a quantity stepper in place, with a bin at one and press-and-hold to repeat."
+    },
+    {
+     "nome": "Pay Button",
+     "pro": true,
+     "obs": "The last button of a checkout, carrying the amount and the card it charges."
+    }
+   ]
+  },
+  {
+   "nome": "Fundos e heros",
+   "itens": [
+    {
+     "nome": "Dot Field",
+     "pro": false,
+     "obs": "A halftone dot membrane that ripples behind a swipe and rings out from a click, built with React and Canvas."
+    },
+    {
+     "nome": "Background Paths",
+     "pro": false,
+     "obs": "A ribbon of lines in one color that keeps flowing at any size and parts around the cursor."
+    },
+    {
+     "nome": "Shape Hero",
+     "pro": false,
+     "obs": "A landing hero where shapes drop in, pile up under the headline and can be grabbed and thrown."
+    },
+    {
+     "nome": "Wind",
+     "pro": false,
+     "obs": "Streamlines that part around the cursor, swirl in its wake and scatter on click, built with React and Canvas."
+    },
+    {
+     "nome": "Topo Background",
+     "pro": false,
+     "obs": "A living contour map that drifts, rises under the cursor and ripples on click, built with React and Canvas."
+    },
+    {
+     "nome": "Drape Background",
+     "pro": false,
+     "obs": "A pleated curtain in a breeze that you can push and pull, built with React, WebGL and a cloth simulation."
+    },
+    {
+     "nome": "Halftone Background",
+     "pro": false,
+     "obs": "Any image, or a lit sphere, printed as a halftone dot screen, with a loupe that looks closer under the cursor,"
+    },
+    {
+     "nome": "Ink Background",
+     "pro": false,
+     "obs": "A hero written in ink on water. Stir it and the letters bleed, click to drop ink, and the headline gathers its"
+    },
+    {
+     "nome": "Caustics Background",
+     "pro": false,
+     "obs": "A hero on the floor of a pool. Light ripples across it, clicks drop rings that bend the light, and the headlin"
+    },
+    {
+     "nome": "Rain Glass Background",
+     "pro": false,
+     "obs": "A hero seen through a rainy window. Drops gather and run, each a tiny lens on the view, and dragging wipes the"
+    },
+    {
+     "nome": "Rhythm Hero",
+     "pro": true,
+     "obs": "A health and sleep app hero with hairline rings breathing a 4-7-8 cycle, a week of sleep-stage bars and calm s"
+    },
+    {
+     "nome": "Dither Reveal Hero",
+     "pro": true,
+     "obs": "An image generation hero where a drawn scene resolves from coarse dither to full detail as the prompt types."
+    }
+   ]
+  },
+  {
+   "nome": "Texto animado",
+   "itens": [
+    {
+     "nome": "Typing Text",
+     "pro": false,
+     "obs": "Typewriter text that makes the odd typo and corrects it, erases by selecting, and blinks its caret only when i"
+    },
+    {
+     "nome": "Dynamic Text",
+     "pro": false,
+     "obs": "Morphing text where shared letters travel, old ones fall and new ones land, with decode and cycle modes."
+    },
+    {
+     "nome": "Glitch Text",
+     "pro": false,
+     "obs": "Flat text that cuts into hard-shifted bands with a thin red/cyan split, on idle, hover or text change."
+    },
+    {
+     "nome": "Extruded Text",
+     "pro": false,
+     "obs": "Zinc 3D extruded text lit by your pointer, with letters that press in like keycaps."
+    },
+    {
+     "nome": "Plucked Text",
+     "pro": false,
+     "obs": "A headline sitting on a string you can pluck, strum and let ring, built with React and real string physics."
+    },
+    {
+     "nome": "Cradle Text",
+     "pro": false,
+     "obs": "A headline hung like a Newton's cradle, so a knock on one letter clacks through the word, built with React and"
+    },
+    {
+     "nome": "Spoiler Text",
+     "pro": false,
+     "obs": "Inline text hidden under drifting specks, like a chat spoiler. A click blows the specks away from the point yo"
+    },
+    {
+     "nome": "Marker Text",
+     "pro": false,
+     "obs": "Hand-drawn highlights, underlines, circles, boxes and strikes that draw themselves in reading order when the t"
+    },
+    {
+     "nome": "Shadow Text",
+     "pro": false,
+     "obs": "A headline that works as a sundial. Each letter casts a long, soft shadow set by the reader's clock, and bring"
+    },
+    {
+     "nome": "Split Flap Text",
+     "pro": false,
+     "obs": "Departure-board lettering for headlines and status lines. Each tile flips only as far as its new letter, on a "
+    },
+    {
+     "nome": "Kinetic Type Hero",
+     "pro": true,
+     "obs": "A studio hero where an edge-to-edge headline sets itself in and leans away from the cursor."
+    }
+   ]
+  },
+  {
+   "nome": "Navegação",
+   "itens": [
+    {
+     "nome": "Split Nav",
+     "pro": false,
+     "obs": "Navigation bar that splits around the active link, with drag-to-scrub, flick projection and an optional compac"
+    },
+    {
+     "nome": "Tool Dock",
+     "pro": false,
+     "obs": "An editor tool dock with a sliding selection plate, shortcut tooltips and flyouts that you can throw to any ed"
+    },
+    {
+     "nome": "Swipe Tabs",
+     "pro": false,
+     "obs": "Tabs with a swipeable panel, a drag-tracked indicator and spring physics."
+    },
+    {
+     "nome": "Account Menu",
+     "pro": false,
+     "obs": "An account card that morphs into its own menu, with account switching, status, theme and hold-to-sign-out."
+    },
+    {
+     "nome": "Command Palette",
+     "pro": false,
+     "obs": "⌘K command palette with nested pages, fuzzy matching and in-row progress for running actions."
+    },
+    {
+     "nome": "Smooth Drawer",
+     "pro": false,
+     "obs": "Checkout bottom sheet on Vaul snap points, peeking at the total and dragging up for details."
+    },
+    {
+     "nome": "Marking Menu",
+     "pro": false,
+     "obs": "A radial menu you hold to open or flick to pick blind, built with React and Motion."
+    },
+    {
+     "nome": "Scroll Index",
+     "pro": false,
+     "obs": "A section rail for long pages, with a tick per heading that you can hover, click or drag to scrub, built with "
+    },
+    {
+     "nome": "Status Island",
+     "pro": false,
+     "obs": "A pill that reports background work, reshaping as tasks change and opening into a list of everything in flight"
+    },
+    {
+     "nome": "Stack Panel",
+     "pro": false,
+     "obs": "A panel that drills into pages like settings on a phone. The tapped row's label flies up into the title, and a"
+    }
+   ]
+  },
+  {
+   "nome": "Mídia",
+   "itens": [
+    {
+     "nome": "Clip Trimmer",
+     "pro": false,
+     "obs": "A video trim timeline with a filmstrip, handles that snap to whole seconds and a playhead that loops the kept "
+    },
+    {
+     "nome": "Synced Transcript",
+     "pro": false,
+     "obs": "A transcript that follows the spoken word, lets you click any word to jump there, and waits when you scroll aw"
+    },
+    {
+     "nome": "Focal Point Picker",
+     "pro": false,
+     "obs": "Set where a photo's subject is and see every crop follow it live. Hover a crop to see what it cuts."
+    },
+    {
+     "nome": "Photo Straighten",
+     "pro": false,
+     "obs": "Level a crooked photo on a ruler you drag or flick. The crop grows to hide the corners, and a grid shows while"
+    },
+    {
+     "nome": "Contact Sheet",
+     "pro": false,
+     "obs": "Pick from a shoot the way photographers do. Circle a frame in china marker, click again to strike it, and look"
+    },
+    {
+     "nome": "Audio Player Card",
+     "pro": true,
+     "obs": "A podcast or voice note player with a scrubbable waveform, chapter tooltips and a speed chip."
+    }
+   ]
+  },
+  {
+   "nome": "Feedback (toasts, alertas, estados)",
+   "itens": [
+    {
+     "nome": "Promise Toast",
+     "pro": false,
+     "obs": "A toast that follows a task: the ring spins while it works, closes into a check or a warning when it lands, an"
+    },
+    {
+     "nome": "Inline Alert",
+     "pro": false,
+     "obs": "An alert that does something about the problem: it lists the failed checks, re-runs them one by one, and turns"
+    },
+    {
+     "nome": "Save Status",
+     "pro": false,
+     "obs": "An autosave pill for editors that says Editing, Saving or Saved, counts changes while offline, and syncs them "
+    },
+    {
+     "nome": "Empty State",
+     "pro": false,
+     "obs": "An empty list that shows what is missing and turns into it: the card in the drawing becomes your first project"
+    },
+    {
+     "nome": "Helpful Rating",
+     "pro": false,
+     "obs": "A page rating whose face changes with each answer, then asks what went wrong or what helped, with quick reason"
+    }
+   ]
+  },
+  {
+   "nome": "Pro (vitrine kokonutui.pro): Heroes",
+   "itens": [
+    {
+     "nome": "Agent Flow Hero",
+     "pro": true,
+     "obs": "A live node graph of a run: pulses travel the edges and steps tick their results."
+    },
+    {
+     "nome": "Chart Hero",
+     "pro": true,
+     "obs": "A full-bleed area chart with a scrub crosshair and range tabs that morph the line."
+    },
+    {
+     "nome": "Terminal Hero",
+     "pro": true,
+     "obs": "A big terminal streams a deploy, then a preview card and passing checks land."
+    }
+   ]
+  },
+  {
+   "nome": "Pro (vitrine kokonutui.pro): Sections",
+   "itens": [
+    {
+     "nome": "Security Bento",
+     "pro": true,
+     "obs": "Every cell a working admin screen, and each change lands in the audit log."
+    },
+    {
+     "nome": "Dashboard Feature",
+     "pro": true,
+     "obs": "Drag across the chart and the nearest release says what it did to the number."
+    },
+    {
+     "nome": "Alternating Feature",
+     "pro": true,
+     "obs": "An agent run trace and a fine-tuning chart, in rows that swap sides."
+    },
+    {
+     "nome": "Collection Feature",
+     "pro": true,
+     "obs": "A line sheet of garment sketches that recolor with each colorway."
+    },
+    {
+     "nome": "Inline Chips Headline",
+     "pro": true,
+     "obs": "A headline with small pieces of product UI set inside the sentence."
+    },
+    {
+     "nome": "Minimal FAQ",
+     "pro": true,
+     "obs": "Hairline questions, one answer open at a time, each with its own link."
+    }
+   ]
+  },
+  {
+   "nome": "Pro (vitrine kokonutui.pro): App UI",
+   "itens": [
+    {
+     "nome": "Kanban Board",
+     "pro": true,
+     "obs": "Drag cards between columns, or move them with Space and the arrow keys."
+    },
+    {
+     "nome": "Calendar Schedule",
+     "pro": true,
+     "obs": "Event chips on a month, and the selected day's events beside it."
+    },
+    {
+     "nome": "Docs Search",
+     "pro": true,
+     "obs": "Hits grouped by page, and an answer that cites each source."
+    },
+    {
+     "nome": "Team Invite Card",
+     "pro": true,
+     "obs": "Paste emails, pick a role, check seats and send with Undo."
+    },
+    {
+     "nome": "Canvas Toolbar",
+     "pro": true,
+     "obs": "A whiteboard's tool dock with keys, sticky notes and live cursors."
+    }
+   ]
+  },
+  {
+   "nome": "Pro (vitrine kokonutui.pro): Cards",
+   "itens": [
+    {
+     "nome": "Order Tracker",
+     "pro": true,
+     "obs": "A milestone rail that unfolds into the full scan history."
+    },
+    {
+     "nome": "Poll Card",
+     "pro": true,
+     "obs": "Choosing is voting: bars grow to their share and Undo stays for five seconds."
+    },
+    {
+     "nome": "Job Listing Card",
+     "pro": true,
+     "obs": "Apply without leaving the card, with the salary on a market range."
+    }
+   ]
+  },
+  {
+   "nome": "Pro (vitrine kokonutui.pro): Inputs",
+   "itens": [
+    {
+     "nome": "Shortcut Recorder",
+     "pro": true,
+     "obs": "Hold keys to record a binding, and clashes offer to replace."
+    },
+    {
+     "nome": "Natural Date Input",
+     "pro": true,
+     "obs": "Type “next fri 3pm” and a preview rolls to the exact date."
+    },
+    {
+     "nome": "Mention Input",
+     "pro": true,
+     "obs": "Type @ to pick people, and see who will be notified before you send."
+    },
+    {
+     "nome": "Verification Code",
+     "pro": true,
+     "obs": "Fills from typing, paste or autofill, and folds into a Verified pill."
+    }
+   ]
+  },
+  {
+   "nome": "Pro (vitrine kokonutui.pro): Forms and dialogs",
+   "itens": [
+    {
+     "nome": "Flight Search Form",
+     "pro": true,
+     "obs": "A boarding-pass search with an animated swap and a passengers picker."
+    },
+    {
+     "nome": "Booking Picker",
+     "pro": true,
+     "obs": "Drag a 30-minute window between busy blocks in the host's day."
+    },
+    {
+     "nome": "Product Options Form",
+     "pro": true,
+     "obs": "A price delta on each option, a rolling total and stock hints."
+    },
+    {
+     "nome": "Shortcuts Dialog",
+     "pro": true,
+     "obs": "Every shortcut in one sheet, and keys light up as you press them."
+    },
+    {
+     "nome": "Settings Dialog",
+     "pro": true,
+     "obs": "Changes wait for Save, with a count bar and a dot on edited sections."
+    },
+    {
+     "nome": "Feedback Composer",
+     "pro": true,
+     "obs": "Similar roadmap requests show up as you type, ready to upvote."
+    }
+   ]
+  },
+  {
+   "nome": "Pro (vitrine kokonutui.pro): Pricing",
+   "itens": [
+    {
+     "nome": "Ticket Pricing",
+     "pro": true,
+     "obs": "Three plans as printed passes with rolling prices and a barcode stub."
+    },
+    {
+     "nome": "Layer Stack Pricing",
+     "pro": true,
+     "obs": "Pick a plan and an isometric stack builds up to it."
+    },
+    {
+     "nome": "Credit Pack Pricing",
+     "pro": true,
+     "obs": "Prepaid credit packs with the price per credit and auto top-up."
+    }
+   ]
+  },
+  {
+   "nome": "Pro (vitrine kokonutui.pro): Pages",
+   "itens": [
+    {
+     "nome": "Projects Dashboard",
+     "pro": true,
+     "obs": "Project covers, live search and a grid that morphs into a list."
+    },
+    {
+     "nome": "Billing and Usage",
+     "pro": true,
+     "obs": "Plan, projected usage meters, prorated changes and invoices."
+    },
+    {
+     "nome": "Team Calendar",
+     "pro": true,
+     "obs": "A team's week with drag to create, a second time zone and RSVPs."
+    },
+    {
+     "nome": "Storefront",
+     "pro": true,
+     "obs": "Garments that recolour live, quick add and a bag drawer."
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Templates Pro (sites completos Next.js): Marlow (Portfolio, $59), Fleet (AI agents, $59), Agenta (Startups, $59), Lume (Startups, $59), Sonae (AI agents, $59), Futur (Commerce, $49)",
+  "Kokonut UI Pro (kokonutui.pro): 150+ componentes, 20+ categorias, 6 templates (a vitrine só mostra ~48 nomes)",
+  "Instalação via shadcn CLI (npx shadcn@latest add @kokonutui/<nome>) e shadcn MCP",
+  "Hooks gratuitos: use-auto-resize-textarea, use-click-outside, use-copy-to-clipboard, use-mobile",
+  "llms.txt e llms-full.txt, páginas /docs/agents e /docs/changelog"
+ ],
+ "acesso_visto": "Componentes gratuitos e open source (shadcn registry). Pro/Templates pagos em kokonutui.pro; templates $49-$59 cada (preço no site); preço do pacote Pro não visto.",
+ "observacoes": "Lista dos componentes gratuitos completa (llms.txt + registry). Pro: só os ~48 itens da vitrine foram vistos; o catálogo Pro tem 150+ e o restante não é listado no site gratuito.",
+ "id": "kokonutui",
+ "conferido_em": "2026-11-27",
+ "total": 160
+}

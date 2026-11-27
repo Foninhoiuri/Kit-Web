@@ -1,0 +1,3755 @@
+{
+ "fontes": [
+  "https://freefrontend.com/sitemap.xml",
+  "https://freefrontend.com/ (home)",
+  "923 paginas de categoria (titulo H1 com contagem)"
+ ],
+ "total": 15343,
+ "grupos": [
+  {
+   "nome": "Bibliotecas JS e outros (82 categorias, ~1322 exemplos)",
+   "itens": [
+    {
+     "nome": "GSAP Examples & Code for Modern Web UI Animation",
+     "obs": "340+ exemplos"
+    },
+    {
+     "nome": "UI Micro Interaction Examples",
+     "obs": "170+ exemplos"
+    },
+    {
+     "nome": "Three.js Examples for Interactive 3D Web Graphics",
+     "obs": "160+ exemplos"
+    },
+    {
+     "nome": "WebGL Examples",
+     "obs": "100+ exemplos"
+    },
+    {
+     "nome": "GSAP ScrollTrigger.js Examples for Scroll Animations",
+     "obs": "60+ exemplos"
+    },
+    {
+     "nome": "Anime.js Animation Examples & Code Snippets",
+     "obs": "50+ exemplos"
+    },
+    {
+     "nome": "Alpine.js Examples & UI Code Snippets",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "GSAP Draggable Examples for Interactive UI Components",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "View Transition API Examples",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Intersection Observer API Examples",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Pure CSS iPhone Examples",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "GSAP SplitText.js Examples for Animated Typography",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Swiper.js Examples for Touch Sliders and Carousels",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Web Animations API Snippets",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Web Audio API Examples",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "GSAP DrawSVGPlugin Examples for SVG Path Animation",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "flip.js Examples & UI Animations for Modern Interfaces",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Lenis.js Examples for Smooth Scrolling and Web Motion",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "MorphSVG Plugin Examples for GSAP Animations",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Pointer Events API Examples for Universal Input UI",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Splitting.js Examples for Advanced Web Text Animation",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Three.js Game Examples for Browser-Based 3D Game UI",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "GSAP TweenMax.js Examples for Smooth Web Animation",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Fetch API Examples",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "State-Driven CSS Examples for Zero-JS Reactive UI",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "Chart.js Examples & Data UI Code Snippets",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "Moment.js Date and Time Examples in JavaScript",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "GSAP CustomEase Examples for Custom UI Motion Timing",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "D3.js Examples & Data Visualization Code Snippets Guide",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "VFX.js Examples for Web Visual Effects and Motion",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "amCharts Examples & Chart Code Snippets",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "ApexCharts Examples & Chart Code Snippets",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "GSAP Observer.js Examples for Gesture-Driven Web UI",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "p5.js Examples for Creative Coding and Web Graphics",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "PixiJS Examples for Fast 2D Web Graphics",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "Clipboard API Examples for Frictionless Data Transfer",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "Leaflet.js Examples for Interactive Web Maps and UI",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "date-fns Examples for JavaScript Date Handling & Parsing",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "Fullscreen API Examples",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "Hammer.js Examples for Touch and Gesture Interfaces",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "ZIM.js Examples for Interactive Canvas and Creative Coding",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "Chroma.js Color Examples for JavaScript Developers",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "DOM Rect API Snippets",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Locomotive Scroll Examples for Smooth Web Scrolling",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Lottie.js Examples for Lightweight Animated Web UI",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Svelte Range Sliders",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Zdog.js Examples for Pseudo-3D JavaScript Graphics",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Babylon-Js",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Deck of Cards API Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Dragula.js Examples for Drag-and-Drop Interfaces & Lists",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Faker.js Examples & Mock Data Code Snippets for Testing",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Fancybox Examples & JavaScript Lightbox Code Snippets",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "File API Snippets",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Flickity.js Carousel Examples for Responsive Interfaces",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Font-Stretch",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Gamepad API Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Github API Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Howler.js Examples for Web Audio and Sound Controls",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Html5-Audio",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "LeaderLine.js Examples for Connecting HTML Elements",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "LightGallery.js Examples for Modern Image Galleries",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Model Viewer.js Examples for Interactive 3D Web UI",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Motion.js Examples for Modern JavaScript Animation",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "OriDomi.js Examples for Folding Web Elements",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Paper.js Examples for Vector Graphics in JavaScript",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Particles.js Examples for Interactive Particle Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Phaser.js Game Examples for HTML5 and JavaScript",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Polymorph.js Examples for SVG Shape Morphing in UI",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "RGBA.js Examples for Color Manipulation in JavaScript",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "RoundSlider.js Examples for Circular Range Controls",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "GSAP ScrambleTextPlugin.js Examples for Text Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Snap.svg Examples for Interactive SVG Graphics",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "SweetAlert JavaScript Examples for Custom Alerts",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "TinyColor2 Examples for JavaScript Color Manipulation",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Tippy.js Examples for Tooltips, Popovers and UI Patterns",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "tsParticles.js Examples for Configurable Particle Systems",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Unsplash API Examples for Real-Time Media Galleries",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "URL API Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Velocity.js Animation Examples for JavaScript Interfaces",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vibration-Api",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Web Crypto API Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "YouTube API Examples",
+     "obs": "1+ exemplos"
+    }
+   ]
+  },
+  {
+   "nome": "Bootstrap (65 categorias, ~1033 exemplos)",
+   "itens": [
+    {
+     "nome": "Bootstrap Menu Components for Web Navigation",
+     "obs": "50+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Cards",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Footers",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Login Forms",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Modal Windows for Dialogs and Forms",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Carousels",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Dropdowns",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Forms",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Hover Effects for Interactive UI Elements",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Payment Forms",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Product Cards",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Profile Card Components for User Interfaces",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Sidebar Components for Web Interfaces",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Slider Components for Interactive UI",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Table Examples for Responsive Data UI",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Tabs for Responsive Content Navigation",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Testimonial Components for Websites",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Accordions",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Buttons",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Chats",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Checkboxes",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Comments",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Datepicker & Timepicker UI Code Examples",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Galleries",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Grid Examples",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Multiselect Boxes for Forms and Filters",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Search Box Components for Websites",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Timeline Components for Projects and Events",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Toggle Switches for Forms and Settings",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Alerts",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Breadcrumbs",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Cookie Consents",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Coupon",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Headers",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap List Components for Modern Interfaces",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Newsletter Signup Components",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Notification Components for Web UI",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Order Tracking and Details UI",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Progress Bars for Status and Loading UI",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Quote Components for Content and Reviews",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Radio Buttons for Forms and Options",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Select Box Components for Forms",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Shopping Cart UI Components",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Star Rating Components for Reviews",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap To-Do List Components and UI Patterns",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Weather Widgets for Responsive UI",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Charts and Graphs",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Counters",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Pagination Components for Websites",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Hero Section Examples for Landing Pages",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Contact Forms",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Off-Canvas Navigation and UI Panels",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Call To Action",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Data Visualization",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Button Groups",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Glassmorphism",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Mega Menu Components for Navigation",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Calendars",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Drag and Drop",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Bootstrap File Upload",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Fullscreen Menu Components for Navigation",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Lightbox Components for Images and Media",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Masonry Layouts for Responsive Content",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Process Steps for Forms and Workflows",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Bootstrap Sticky Headers",
+     "obs": "1+ exemplos"
+    }
+   ]
+  },
+  {
+   "nome": "CSS (331 categorias, ~8707 exemplos)",
+   "itens": [
+    {
+     "nome": "CSS Custom Properties Examples",
+     "obs": "370+ exemplos"
+    },
+    {
+     "nome": "CSS Buttons",
+     "obs": "270+ exemplos"
+    },
+    {
+     "nome": "CSS Background Patterns",
+     "obs": "230+ exemplos"
+    },
+    {
+     "nome": "CSS Grid Examples",
+     "obs": "190+ exemplos"
+    },
+    {
+     "nome": "CSS Grid Examples",
+     "obs": "190+ exemplos"
+    },
+    {
+     "nome": "CSS keyframes Examples",
+     "obs": "180+ exemplos"
+    },
+    {
+     "nome": "CSS transform Examples",
+     "obs": "180+ exemplos"
+    },
+    {
+     "nome": "CSS transition Examples",
+     "obs": "160+ exemplos"
+    },
+    {
+     "nome": "CSS Cards",
+     "obs": "150+ exemplos"
+    },
+    {
+     "nome": "CSS clip-path Examples",
+     "obs": "150+ exemplos"
+    },
+    {
+     "nome": "CSS Gradient Examples",
+     "obs": "150+ exemplos"
+    },
+    {
+     "nome": "CSS Spinners",
+     "obs": "150+ exemplos"
+    },
+    {
+     "nome": "CSS Illustrations",
+     "obs": "140+ exemplos"
+    },
+    {
+     "nome": "CSS box-shadow Examples",
+     "obs": "130+ exemplos"
+    },
+    {
+     "nome": "CSS Loaders",
+     "obs": "130+ exemplos"
+    },
+    {
+     "nome": "CSS Pseudo-Elements Examples",
+     "obs": "120+ exemplos"
+    },
+    {
+     "nome": "CSS Toggle Switches",
+     "obs": "120+ exemplos"
+    },
+    {
+     "nome": "CSS Image Effects",
+     "obs": "110+ exemplos"
+    },
+    {
+     "nome": "CSS Animations",
+     "obs": "100+ exemplos"
+    },
+    {
+     "nome": "CSS Hover Effects",
+     "obs": "100+ exemplos"
+    },
+    {
+     "nome": "Neumorphism Designs",
+     "obs": "100+ exemplos"
+    },
+    {
+     "nome": "CSS Text Effects",
+     "obs": "100+ exemplos"
+    },
+    {
+     "nome": "CSS 3D Transforms",
+     "obs": "90+ exemplos"
+    },
+    {
+     "nome": "CSS",
+     "obs": "80+ exemplos"
+    },
+    {
+     "nome": "CSS Menus",
+     "obs": "80+ exemplos"
+    },
+    {
+     "nome": "CSS Sliders",
+     "obs": "80+ exemplos"
+    },
+    {
+     "nome": "CSS 3D",
+     "obs": "70+ exemplos"
+    },
+    {
+     "nome": "CSS Filter Snippets",
+     "obs": "70+ exemplos"
+    },
+    {
+     "nome": "CSS Flexbox Examples",
+     "obs": "70+ exemplos"
+    },
+    {
+     "nome": "CSS Galleries",
+     "obs": "70+ exemplos"
+    },
+    {
+     "nome": "CSS Glassmorphism Designs",
+     "obs": "70+ exemplos"
+    },
+    {
+     "nome": "CSS linear-gradient Examples",
+     "obs": "70+ exemplos"
+    },
+    {
+     "nome": "CSS Magazine Layouts",
+     "obs": "70+ exemplos"
+    },
+    {
+     "nome": "CSS Mask Examples",
+     "obs": "70+ exemplos"
+    },
+    {
+     "nome": "CSS @property",
+     "obs": "60+ exemplos"
+    },
+    {
+     "nome": "CSS Perspective Effects",
+     "obs": "60+ exemplos"
+    },
+    {
+     "nome": "CSS Radio Buttons",
+     "obs": "60+ exemplos"
+    },
+    {
+     "nome": "CSS Text Animations",
+     "obs": "60+ exemplos"
+    },
+    {
+     "nome": "CSS Timelines",
+     "obs": "60+ exemplos"
+    },
+    {
+     "nome": "CSS Button Hover Effects",
+     "obs": "50+ exemplos"
+    },
+    {
+     "nome": "CSS Glow Effects",
+     "obs": "50+ exemplos"
+    },
+    {
+     "nome": "CSS Logos",
+     "obs": "50+ exemplos"
+    },
+    {
+     "nome": "CSS mix-blend-mode Examples",
+     "obs": "50+ exemplos"
+    },
+    {
+     "nome": "CSS Arrows",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "CSS backdrop-filter Examples",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "CSS Borders",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "CSS calc() Function",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "CSS Calendars",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "CSS Checkbox Hacks",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "CSS Checkboxes",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "CSS Forms",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "CSS Icons",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "CSS Lists",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "CSS Progress Bars",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "CSS Range Sliders",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "CSS Accordions",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Animated Buttons",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Best CSS Animation Libraries for Web Developers",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS background-clip Examples",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Badges",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Card Hover Effects",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Clocks",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS conic-gradient Examples",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Cubes",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS cubic-bezier Examples",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Fire Animations",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Hamburger Menu Icons",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Hero Sections",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Link Styles",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Modal Windows",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Parallax Effects",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Posters",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Product Cards",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS radial-gradient Examples",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Ribbons",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Scroll-Driven Examples",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Scroll Effects",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Social Media Icons",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Star Ratings",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS stroke-dashoffset Examples",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Tab Bars",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Text Shadow Effects",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS Triangles",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "CSS 3D Buttons",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS 3D Text Effects",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Animated Backgrounds",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS App Designs",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Pure CSS Avatar Examples",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Blob Effects",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Blockquotes",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Blog Cards",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Blur Effects",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Book Effects",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Border Animations",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Buttons with Animated Border Effects",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Buttons with Icons and Interactive Effects",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Card Layouts",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Carousels",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Charts and Graphs",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Circle Menus",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Corners",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Dropdown Menus",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Fixed Backgrounds",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Flip Cards",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Variable Font Effects",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Fullscreen Menus",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Games",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Glitch Effects",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Text Glow Effects",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Headers",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Hexagons",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Image Grids",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Infographics",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Input Text Snippets",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS light-dark() Snippets",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Liquid Effects",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Login Forms",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Math Function Examples",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Mobile Menus",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Morphing Effects",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Music Players",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Notifications",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Pagination Snippets",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Paper Effects",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Pixel Art",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Pricing Tables",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Profile Cards",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Retro Style Designs",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Reveal Animations",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Search Boxes",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Select Boxes",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS shape-outside Examples",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Sidebar Menus",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Speech Bubbles",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Subscribe Forms",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Tables",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Thumbnails",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Tickets",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Toggle Menus",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Tooltips",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "CSS Accordion Menus",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Anchor Positioning Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS background-blend-mode Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Banners",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Barcodes",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Breadcrumbs",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Bubbles",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Business Cards",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Button Click Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Button Libraries",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Call-to-Action Buttons with Interactive Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Chats",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Checkout Forms",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS clamp() Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Clouds",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Color Palettes",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Contact Forms",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Container Queries",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Countdowns",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Counters",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Credit Cards",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Dashboards",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Direction-Aware Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Dividers",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Dotted Menu Icons",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Download Buttons",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Floating Action Buttons",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Flowcharts",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Flyers",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Footers",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Frames",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Frosted Glass Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Game Buttons",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Ghibli Characters",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Gradient Buttons",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Button Groups",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Horizontal Menus",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Hotspots",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Houdini API Snippets for Advanced Custom Graphics",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Isometric Designs",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Keyboards",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Like Buttons",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Liquid Glass Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Loading and Upload Buttons with Progress Animations",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Masonry Layouts",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Material Design Cards",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Motion Path Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Movie Cards",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Neobrutalism Designs",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Neon Buttons with Glowing Borders and Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Neon Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Off-Canvas Menus",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS OKLCH Palette Snippets for Wide-Gamut Web Design",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Open Props",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Optical Illusions",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Page Transitions",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Panels",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Particle Backgrounds",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Play/Pause Buttons",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS position",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS preserve-3d Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Retro CSS Buttons with 3D, Pixel, and Arcade Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Ripple Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Round Buttons with Hover and Animation Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS scroll-snap Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Shimmer Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Skeleton Loadings",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Slideshows",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Sliding Menus",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Snow Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Social Share Buttons",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Solar Systems",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Spheres",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Sprites",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Stacked Cards",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Submit Buttons",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Tabs",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Testimonials",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Text Glitch Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS text-stroke Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Theme Switches",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Tilt Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Tree Views",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Triangle Backgrounds",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Typing Text Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Vertical Accordions",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Watches",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Water Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Weather Icons",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Weather Widgets",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "CSS Animated Counters",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "CSS Calendar Grids",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "CSS Horizontal Accordions",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "CSS @layer Examples for Cascade Architecture Rules",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "CSS Squircle Effects",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "CSS Staggered Animation Examples",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "CSS Zoom Effects",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "CSS Add to Cart Buttons with Animated Cart Effects",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "CSS Calculators",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "CSS Data Visualization",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "CSS Delete Buttons with Hover and Click Animations",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "CSS Ghost Buttons",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "CSS Gooey Effects",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "CSS Recipe Cards",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "CSS Sticky Headers",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "CSS Tags",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "CSS Text Highlight Effects",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "CSS Wave Effects",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "CSS @starting-style Examples",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "CSS border-radius Examples",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "CSS Close Buttons",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "CSS Coins",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "CSS corner-shape Examples",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "CSS Fading Effects",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "CSS Halloween Designs",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "CSS Login Buttons with Animated Sign-In Effects",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "CSS Rolling Effects",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "CSS sibling-index() Examples",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "CSS Sibling Selector Examples",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "CSS Cutout Effects",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "CSS drop-shadow Examples",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "CSS Periodic Tables",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "CSS Radio Hacks",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "CSS RGB Effects",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "CSS",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "CSS Glass Buttons",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "CSS Layout Switcher Examples",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "CSS Sci-Fi Style Examples for Space-Tech HUD UI",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "CSS shape() Examples",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "CSS Shine Effects",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "CSS aspect-ratio Examples for Zero-CLS Web Layouts",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "CSS Claymorphism Designs",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "CSS Duotone Effects",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "CSS hue-rotate() Examples",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "CSS Kinetic Effects",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "CSS Nested Lists",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "CSS Rain Effects",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "CSS Scroll Bars",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "CSS Scroll Buttons",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "CSS To-Do Lists",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "CSS Video Effects",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "CSS Drop Caps",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "CSS Filter and Sort",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "CSS",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "CSS Flashlight Effects",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "CSS Hand-Drawn Examples",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "CSS Particle Effects",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "CSS",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "CSS Dynamic Shadow Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "CSS Futuristic Style Examples for High-Tech UI",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "CSS if() Real-World Examples for Clean Stylesheets",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "CSS Image Comparison Sliders",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "CSS interpolate-size Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "CSS Knob Designs for Modern Audio & Dashboard UI",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "CSS Marquee Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Css-Menus",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "CSS Page Flip Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "CSS Portfolios",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "CSS Progress Steps",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "CSS Titles",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "CSS Background Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS border-image Code Snippets for Custom Frames",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS calc-size() Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS Doodle Examples for Generative Web Pattern Art",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Css-Dotted-Menu-Icon",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS Editor Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS FAQ Layouts",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS Floating Labels",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Css-Font-Weight",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS Form Validation",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS @function Code Snippets",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS Maps",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Css-Math",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS Mega Menus",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS Motion Design Examples for Fluid Web Interfaces",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS PiP Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Css-Scroll-Indicators",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS scroll-state Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS sibling-count() Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Css-Sparkles",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS steps() Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Css-Sticky-Sidebar",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS Storytelling Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS Subgrid Snippets",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Css-Tooltip",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Css-Wobble",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS Wood Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "CSS z-index Solutions",
+     "obs": "1+ exemplos"
+    }
+   ]
+  },
+  {
+   "nome": "HTML (23 categorias, ~417 exemplos)",
+   "itens": [
+    {
+     "nome": "Canvas API Snippets",
+     "obs": "90+ exemplos"
+    },
+    {
+     "nome": "HTML 404 Pages",
+     "obs": "60+ exemplos"
+    },
+    {
+     "nome": "HTML 403 Pages",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "HTML &lt;details> and &lt;summary> Examples",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "HTML Funny 404 Pages",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "HTML 408 Pages",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "HTML 500 Pages",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "HTML data-* Attributes Examples",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "HTML &lt;figure> and &lt;figcaption> Examples",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "HTML &lt;del> and &lt;ins> Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "HTML &lt;dt> and &lt;dd> Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "HTML &lt;hr> Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Popover API Examples for Overlay UI",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Resize Observer API Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "HTML CV/Resume Designs for Modern Web Developers",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "HTML &lt;sup> and &lt;sub> Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "HTML 401 Pages",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "HTML &lt;datalist> Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "HTML Drag and Drop API Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "HTML Lazy Loading Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "HTML &lt;progress> Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "HTML Table Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "HTML &lt;dialog> Examples",
+     "obs": "1+ exemplos"
+    }
+   ]
+  },
+  {
+   "nome": "JavaScript (195 categorias, ~2240 exemplos)",
+   "itens": [
+    {
+     "nome": "JavaScript Text Effects & UI Code Snippets",
+     "obs": "140+ exemplos"
+    },
+    {
+     "nome": "JavaScript Buttons",
+     "obs": "110+ exemplos"
+    },
+    {
+     "nome": "JavaScript Menus",
+     "obs": "110+ exemplos"
+    },
+    {
+     "nome": "JS Scroll Effects",
+     "obs": "80+ exemplos"
+    },
+    {
+     "nome": "JavaScript Carousels",
+     "obs": "70+ exemplos"
+    },
+    {
+     "nome": "JavaScript Galleries",
+     "obs": "70+ exemplos"
+    },
+    {
+     "nome": "JavaScript Hover Effects",
+     "obs": "70+ exemplos"
+    },
+    {
+     "nome": "JavaScript Background Effects",
+     "obs": "60+ exemplos"
+    },
+    {
+     "nome": "JavaScript Cards",
+     "obs": "60+ exemplos"
+    },
+    {
+     "nome": "JS Range Sliders",
+     "obs": "60+ exemplos"
+    },
+    {
+     "nome": "JavaScript Animations",
+     "obs": "50+ exemplos"
+    },
+    {
+     "nome": "JavaScript Games",
+     "obs": "50+ exemplos"
+    },
+    {
+     "nome": "JS Mouse Tracking",
+     "obs": "50+ exemplos"
+    },
+    {
+     "nome": "JS Parallax",
+     "obs": "50+ exemplos"
+    },
+    {
+     "nome": "JavaScript Sliders Examples & UI Code Snippets",
+     "obs": "50+ exemplos"
+    },
+    {
+     "nome": "JavaScript Image Effects",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "JS Progress Bars",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "JavaScript Clocks",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "JavaScript Cursors",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "JavaScript Drag & Drop Code Examples",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "JavaScript Input Text Code",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "JavaScript Music Players",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "JavaScript Particles",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "JS Reveal Effects",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "JavaScript Tab Bars & UI Code Snippets",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "JavaScript 3D Effects",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "JavaScript Hero Effects",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "JavaScript Morphing Effects",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "JS Mouse Interactions",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "JS Notifications",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "JavaScript Toggle Switches & UI Code Snippets",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "JavaScript Accordions",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Charts and Graphs",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Color Pickers",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JS Data Visualization Code",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Forms",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Glitch Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Keyboards",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Kinetic Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Liquid Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Lists",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Math Examples for Interactive Web Projects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Memory Game Examples in JavaScript for the Browser",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Modal Windows",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JS Navigations",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JS Preloaders",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JS Radio Buttons",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Slideshow Examples & UI Code Snippets",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Snake Game Examples in JavaScript for the Browser",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Spinners Examples & UI Code Snippets",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Staggered Animation Examples & UI Snippets",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Tabs Examples & UI Code Snippets",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tetris Game Examples in JavaScript and Canvas Code",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Text Reveal Examples & UI Snippets",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Theme Switches & UI Snippets",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tic Tac Toe Game Examples in JavaScript and UI Code",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Tilt Effects & UI Snippets",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Timeline Examples & Code Snippets",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JavaScript Zoom Examples & Code Snippets",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "JS Infinite Scroll Examples",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "JavaScript Checkboxes",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "JavaScript Fullscreen Menus",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "JavaScript Keyboard Events",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "JavaScript Loaders",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "JS Pagination",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "Pong Game Examples in JavaScript",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "JavaScript Select Boxes Examples & UI Snippets",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "Sudoku Game Examples in JavaScript for the Browser",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "JavaScript To-Do Lists",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "JS Filter and Sorting Examples",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "JavaScript Fullscreen Slider UI & Code Snippets",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "JavaScript Keyboard Navigations",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "JavaScript Lightbox Snippets",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "2048 Game Examples in JavaScript",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "JavaScript App Snippets",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "JavaScript Book Effects",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "JavaScript Border Examples",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "JavaScript Countdowns",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "JavaScript Dropdown Menus",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "JavaScript Flip Effects",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "JavaScript Image Comparison Snippets",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "JS Star Ratings",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "JS Scroll Indicators",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "JavaScript Storytelling Examples & UI Snippets",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "JavaScript 3D Carousels",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "JavaScript Audio Visualizer",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "JavaScript Calendars",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "JavaScript Counter Examples for Interactive Websites",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "JS Direction-Aware Snippets",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "Flappy Bird Game Examples in JavaScript and Canvas",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "JavaScript Glow Effects",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "JavaScript Gooey Effects",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "JS Horizontal Scroll Effects",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "JS Pixel Effects",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "JS Search Bars",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "JS Sliding Menus",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "Asteroids Game Examples in JavaScript and Canvas Code",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JavaScript Bounce Effects",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JavaScript FAQ Templates",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JavaScript Knobs",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JavaScript Lazy Loading Snippets",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JavaScript Link Examples",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JavaScript Magnetic Effects",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JS Magnifying Glasses",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JavaScript Maps",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JavaScript Mega Menus",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JS Ripple Effects",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JavaScript Split Screen UI & Code Snippets",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JavaScript Spotlight Effects & UI Code Snippets",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JavaScript Tags Examples & UI Snippets",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JavaScript Toast Messages & UI Code Snippets",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JavaScript Tooltip Examples & Code Snippets",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "JavaScript Calculators",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "JavaScript Form Validation Templates",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "JavaScript Glass Effects",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "JavaScript Holographic Effects",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "JS Low Polygon Examples",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "JavaScript Masonry Layouts",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "JavaScript Menu Icons",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "JavaScript Neon Effect Examples for Web Interfaces",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "JS Portfolio",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "JavaScript Puzzle Game Examples for Interactive UI",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "JavaScript Sci-Fi Style Examples for Web Interfaces",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "JS Custom Scrollbars",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "JavaScript Time Picker Examples & Snippets",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "JavaScript Video Player Examples for Web Projects",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "JavaScript Waves Examples & Code Snippets",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "JavaScript Autocomplete Snippets",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Avatar Snippets",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Captcha",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Color Generator Examples for Web Design",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Color Palette Snippets",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JS Context Menus",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Dark Mode Toggles",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Date Pickers",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Fire Effects",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Grid Effects",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Hotspots",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Infographics",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Logos",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Marquees",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Maze Game Examples in JavaScript for the Browser",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JS Mouse Wheel Effects",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Multi Buttons",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JS Page Transitions",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JS Product Tours",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Profile Cards",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JS Progress Indicators",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Snow Effects & UI Code Snippets",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript SPA Examples & UI Code Snippets",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Split Animation Examples & UI Snippets",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Sprite Sheet Examples & UI Code Snippets",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Stopwatch Examples & UI Code Snippets",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Table of Contents UI & Code Snippets",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Thermostat UI & Code Snippets",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "JavaScript Advent Calendars",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Chat Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Cube Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Dioramas",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Fireworks",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Floating Labels",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Flowcharts",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JS Folding Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Fractals",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Hotkeys",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Kanban Boards",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Layout Switcher Examples for Web Pages",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Lens Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Login Forms",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Minesweeper Game Examples in JavaScript and Canvas",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Nested Lists",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JS News Tickers",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JS Optical Illusions",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Overlay Menus",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Paper Effect Examples for Web Design",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JS Password Generators",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JS Periodic Tables",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JS Polls",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Javascript-Pricing-Table",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JS Progress Steps",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Quote Examples for Interactive Websites",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JS Rain Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JS Schedulers",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JS Scroll to Top",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Share Buttons",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Slice Effects & UI Code Snippets",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Snakes and Ladders Game Examples in JavaScript Code",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Sparkles Effect Examples for Websites",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Step Form Examples for Multi-Step Forms",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Tables Examples & UI Code Snippets",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Testimonials UI & Code Snippets",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Tower Defense Game Examples in JavaScript and Canvas",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Tree View Examples for Hierarchical Data",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Upload Examples & Code Snippets",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "JavaScript Weather Widget Examples for Websites",
+     "obs": "1+ exemplos"
+    }
+   ]
+  },
+  {
+   "nome": "jQuery (29 categorias, ~48 exemplos)",
+   "itens": [
+    {
+     "nome": "jQuery Buttons",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "jQuery Hover Effects",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "jQuery Progress Bars",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "jQuery Cards",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "jQuery Carousels",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "jQuery Forms",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "jQuery Galleries",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "jQuery Games",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "jQuery Input Text Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "jQuery Menus",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "jQuery Radio Button Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "jQuery Share Buttons",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "jQuery Sliders",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "jQuery Book Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "jQuery Clock and Watch Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "jQuery Cursors",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "jQuery Dropdowns",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Jquery Hero Sections",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "jQuery Lightbox Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "jQuery List Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "jQuery Loaders",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Jquery Parallax Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Jquery Scroll Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "jQuery Slice Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "jQuery Sticky Headers",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "jQuery Tabs",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Jquery Toggle Switches",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "jQuery Validation Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Jquery Zoom Effects",
+     "obs": "1+ exemplos"
+    }
+   ]
+  },
+  {
+   "nome": "React (70 categorias, ~378 exemplos)",
+   "itens": [
+    {
+     "nome": "React Animations",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "React Card Components",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "React GSAP Examples",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "React Animation Libraries",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "React Buttons",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "React Calendars",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "React Carousels",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "React Checkboxes",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "React Data Visualization Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "React Drag and Drop Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "React Framer Motion Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "React Galleries",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "React Hover Effects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "React List Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "React To-Do Lists",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "React Transition Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "React Form Examples",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "React Range Sliders",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "React Sliders",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "React Menu",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "React Parallax Examples",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "React Scroll Effects",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "React Timelines",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "React Toggle Switches",
+     "obs": "7+ exemplos"
+    },
+    {
+     "nome": "React Modal Windows",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "React Progress Bars",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "React Search",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "React Spinner Components",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "React App Examples",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "React Component Libraries",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "React Dashboards",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "React Chart & Graph Components",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "React Clock Components",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "React Select Boxes",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "React Counters",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "React Image Effects",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "React Notifications",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "React Pagination Examples",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "React Cursor Effects",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "React Filter and Sorting Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "React Horizontal Scroll Effects",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "React Infinite Scroll Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "React Keyboards",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "React Loader Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "React Music Players",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "React Scroll Indicators",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "React Sidebars",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "React Tab Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "React Text Animations",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "React Weather Widgets",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "React Badges",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Color Palette Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Color Pickers",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Dark Mode Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Dial Components",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React File Uploaders",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Filters",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Games",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Lazy Loadings",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Maps",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Mouse Tracking Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Order Tracking",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Particles",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Pricing Tables",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Progress Steps",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Rating Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React SPA Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Tables",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Text Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "React Zoom Examples",
+     "obs": "1+ exemplos"
+    }
+   ]
+  },
+  {
+   "nome": "Tailwind CSS (78 categorias, ~1124 exemplos)",
+   "itens": [
+    {
+     "nome": "Tailwind Card UI Examples for Web Projects",
+     "obs": "90+ exemplos"
+    },
+    {
+     "nome": "Tailwind Form Examples for Modern Web Interfaces",
+     "obs": "50+ exemplos"
+    },
+    {
+     "nome": "Tailwind Button Examples for Modern Web Interfaces",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "Tailwind Hero Section Examples for Landing Pages",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "Tailwind Pricing Table Examples for SaaS Websites",
+     "obs": "40+ exemplos"
+    },
+    {
+     "nome": "Tailwind Blog Component Examples for Websites",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Tailwind Dashboard Examples for Admin and SaaS Apps",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Tailwind Feature Section Examples for Landing Pages",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Tailwind Modal Window Examples for Web Interfaces",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Tailwind Sidebar Examples for Web Applications",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Tailwind Table Examples for Data-Heavy Interfaces",
+     "obs": "30+ exemplos"
+    },
+    {
+     "nome": "Tailwind Accordion Examples for Expandable Content",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Alert Examples for Notifications and Status",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Dropdown Examples for Menus and Controls",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind FAQ Examples for Websites and Landing Pages",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Footer Examples for Responsive Websites",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Input Examples for Modern Web Forms",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Menu Examples for Navigation and Actions",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Navbar Examples for Responsive Navigation",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Notification UI Examples for Web Apps",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Pagination Examples for Lists and Search",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Profile UI Examples for User Pages",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Progress Bar Examples for Web Interfaces",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Search Bar Examples for Websites and Apps",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Step UI Examples for Multi-Step Interfaces",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Tab Examples for Content Navigation",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Team Section Examples for Websites",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Testimonial Examples for Websites",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Timeline Examples for Events and History",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind Toggle Switch Examples for UI Controls",
+     "obs": "20+ exemplos"
+    },
+    {
+     "nome": "Tailwind 404 Page Templates for Custom Error Pages",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind App Design Examples for Web Interfaces",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Badge Examples for Status and Metadata",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Calendar UI Examples for Web Projects",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Call to Action Examples for Websites",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Chart and Graph UI Examples",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Chat UI Examples for Messaging Interfaces",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Gallery Examples for Responsive Image Layouts",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Grid Layout Examples for Responsive Websites",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Hover Effects for Interactive UI Elements",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind List UI Examples for Content and Data",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Music Player UI Examples for Web Apps",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Select Box Examples for Forms",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Slider Examples for Interactive Controls",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Spinner Examples for Loading States",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Stats Examples for Dashboards and Analytics",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Tooltip Examples for Web Interfaces",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Weather Widget Examples for Web Apps",
+     "obs": "10+ exemplos"
+    },
+    {
+     "nome": "Tailwind Breadcrumb Examples for Website Navigation",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "Tailwind Cookie Consent Examples for Websites",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "Tailwind Data Visualization UI Examples",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "Tailwind Radio Button Examples for Form Controls",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "Tailwind Upload Form Examples for File Inputs",
+     "obs": "9+ exemplos"
+    },
+    {
+     "nome": "Tailwind Avatar Examples for User Interfaces",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "Tailwind Loader Examples for Loading States",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "Tailwind Skeleton Loading Examples for Web Apps",
+     "obs": "8+ exemplos"
+    },
+    {
+     "nome": "Tailwind Counter UI Examples for Numbers and Metrics",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "Tailwind Comment UI Examples for Web Projects",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "Tailwind To-Do List Examples for Task Management",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "Tailwind Map UI Examples for Location Interfaces",
+     "obs": "4+ exemplos"
+    },
+    {
+     "nome": "Tailwind Checkbox Examples for Forms and UI",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "Tailwind Contact Forms",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "Tailwind Date Picker Examples for Forms and Apps",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "Tailwind File Uploader Examples for Web Forms",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "Tailwind Filter and Sort UI Examples for Lists",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "Tailwind Range Slider Examples for Filters and Forms",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "Tailwind Clock UI Examples for Web Interfaces",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Tailwind Login Form Examples for Authentication UI",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Tailwind Masonry Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Tailwind Multi-Step Form Examples for Web Apps",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Tailwind Portfolio Examples for Developer Websites",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Tailwind Calculator UI Examples for Web Apps",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Tailwind Carousel Examples for Responsive Interfaces",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Tailwind Drag and Drop Examples for Web Interfaces",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Tailwind Lightbox Examples for Images and Media",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Tailwind Multi-Selects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Tailwind Nested List Examples for Hierarchical Content",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Tailwind Shimmer Effects for Loading Interfaces",
+     "obs": "1+ exemplos"
+    }
+   ]
+  },
+  {
+   "nome": "Vue (50 categorias, ~74 exemplos)",
+   "itens": [
+    {
+     "nome": "Vue Cards",
+     "obs": "6+ exemplos"
+    },
+    {
+     "nome": "Vue Lists",
+     "obs": "5+ exemplos"
+    },
+    {
+     "nome": "Vue Galleries",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "Vue Range Sliders",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "Vue Tabs",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "Vue To-Do Lists",
+     "obs": "3+ exemplos"
+    },
+    {
+     "nome": "Vue Accordion Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Vue App Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Vue Dropdowns",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Vue Filter/Sort Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Vue Forms",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Vue Games",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Vue Page Transitions",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Vue Shopping Cart Examples",
+     "obs": "2+ exemplos"
+    },
+    {
+     "nome": "Vue-Audio-Visualizer",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Background Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Bar Charts",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Buttons",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Carousels",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Charts & Graphs",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Clocks",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Counters",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Data Visualizations",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Expand & Collapse Examples (2026)",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Form Validation Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Hero Sections",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Hover Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Image Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Infinite Scrolls",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Interactive Grid Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Lightboxes",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Loaders",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Maps",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Mouse Tracking Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue-Music-Player",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Nested Lists",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Paginations",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Parallax Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Radio Buttons",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Read More Components",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Reveal Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Scroll Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Search Bars",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Skeleton Loaders",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Slideshows",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Text Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Text Truncation Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Thermostat Examples",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "Vue Tilt Effects",
+     "obs": "1+ exemplos"
+    },
+    {
+     "nome": "vue-input-text",
+     "obs": "contagem nao lida"
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Gerador de CSS Button",
+  "Salvar snippets (stash)",
+  "Demos com codigo HTML/CSS/JS prontos, gratis"
+ ],
+ "observacoes": "Total = soma dos numeros 'N+' no titulo de cada categoria (arredondados para baixo, podem se sobrepor entre categorias). Sitemap tem 1192 URLs: 923 categorias e 269 paginas de exemplo recentes. Sem marcacao pro: tudo gratis.",
+ "id": "freefrontend",
+ "conferido_em": "2026-11-27"
+}

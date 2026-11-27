@@ -1,0 +1,697 @@
+{
+ "id": "inspira-ui",
+ "fontes": [
+  "https://v2.inspira-ui.com/docs/en/components",
+  "https://github.com/unovue/inspira-ui (árvore content/en/2.components)"
+ ],
+ "total": 155,
+ "grupos": [
+  {
+   "nome": "Fundos",
+   "itens": [
+    {
+     "nome": "Aurora Background",
+     "pro": false
+    },
+    {
+     "nome": "Black Hole Background",
+     "pro": false
+    },
+    {
+     "nome": "Bubbles Bg",
+     "pro": false
+    },
+    {
+     "nome": "Cosmic Portal",
+     "pro": false
+    },
+    {
+     "nome": "Falling Stars",
+     "pro": false
+    },
+    {
+     "nome": "Flickering Grid",
+     "pro": false
+    },
+    {
+     "nome": "Interactive Grid Pattern",
+     "pro": false
+    },
+    {
+     "nome": "Lamp Effect",
+     "pro": false
+    },
+    {
+     "nome": "Liquid Background",
+     "pro": false
+    },
+    {
+     "nome": "Neural Background",
+     "pro": false
+    },
+    {
+     "nome": "Particle Whirlpool Bg",
+     "pro": false
+    },
+    {
+     "nome": "Particles Bg",
+     "pro": false
+    },
+    {
+     "nome": "Pattern Background",
+     "pro": false
+    },
+    {
+     "nome": "Ribbon Background",
+     "pro": false
+    },
+    {
+     "nome": "Ripple",
+     "pro": false
+    },
+    {
+     "nome": "Silk Background",
+     "pro": false
+    },
+    {
+     "nome": "Singularity Background",
+     "pro": false
+    },
+    {
+     "nome": "Snowfall Bg",
+     "pro": false
+    },
+    {
+     "nome": "Sparkles",
+     "pro": false
+    },
+    {
+     "nome": "Stars Background",
+     "pro": false
+    },
+    {
+     "nome": "Stractium Background",
+     "pro": false
+    },
+    {
+     "nome": "Tetris",
+     "pro": false
+    },
+    {
+     "nome": "Thunderstorm Background",
+     "pro": false
+    },
+    {
+     "nome": "Video Text",
+     "pro": false
+    },
+    {
+     "nome": "Vortex",
+     "pro": false
+    },
+    {
+     "nome": "Warp Background",
+     "pro": false
+    },
+    {
+     "nome": "Wavy Background",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Botões",
+   "itens": [
+    {
+     "nome": "Gradient Button",
+     "pro": false
+    },
+    {
+     "nome": "Interactive Hover Button",
+     "pro": false
+    },
+    {
+     "nome": "Rainbow Button",
+     "pro": false
+    },
+    {
+     "nome": "Ripple Button",
+     "pro": false
+    },
+    {
+     "nome": "Shimmer Button",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Cards",
+   "itens": [
+    {
+     "nome": "3D Card",
+     "pro": false
+    },
+    {
+     "nome": "Apple Card Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Card Spotlight",
+     "pro": false
+    },
+    {
+     "nome": "Card Stack",
+     "pro": false
+    },
+    {
+     "nome": "Cube Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Direction Aware Hover",
+     "pro": false
+    },
+    {
+     "nome": "Fey Cards",
+     "pro": false
+    },
+    {
+     "nome": "Flip Card",
+     "pro": false
+    },
+    {
+     "nome": "Floating Card",
+     "pro": false
+    },
+    {
+     "nome": "Glare Card",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Cursor",
+   "itens": [
+    {
+     "nome": "Fluid Cursor",
+     "pro": false
+    },
+    {
+     "nome": "Image Trail Cursor",
+     "pro": false
+    },
+    {
+     "nome": "Sleek Line Cursor",
+     "pro": false
+    },
+    {
+     "nome": "Smooth Cursor",
+     "pro": false
+    },
+    {
+     "nome": "Tailed Cursor",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Mockups de dispositivo",
+   "itens": [
+    {
+     "nome": "Iphone Mockup",
+     "pro": false
+    },
+    {
+     "nome": "Safari Mockup",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "HTML in Canvas",
+   "itens": [
+    {
+     "nome": "Html Ascii",
+     "pro": false
+    },
+    {
+     "nome": "Html Blaze",
+     "pro": false
+    },
+    {
+     "nome": "Html Chromatic",
+     "pro": false
+    },
+    {
+     "nome": "Html Cloth",
+     "pro": false
+    },
+    {
+     "nome": "Html Drag",
+     "pro": false
+    },
+    {
+     "nome": "Html In Canvas",
+     "pro": false
+    },
+    {
+     "nome": "Html Liquid",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Formulários e Input",
+   "itens": [
+    {
+     "nome": "Balance Slider",
+     "pro": false
+    },
+    {
+     "nome": "Color Picker",
+     "pro": false
+    },
+    {
+     "nome": "File Upload",
+     "pro": false
+    },
+    {
+     "nome": "Halo Search",
+     "pro": false
+    },
+    {
+     "nome": "Input",
+     "pro": false
+    },
+    {
+     "nome": "Placeholders And Vanish Input",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Diversos",
+   "itens": [
+    {
+     "nome": "Animate Grid",
+     "pro": false
+    },
+    {
+     "nome": "Animated Circular Progressbar",
+     "pro": false
+    },
+    {
+     "nome": "Animated List",
+     "pro": false
+    },
+    {
+     "nome": "Animated Modal",
+     "pro": false
+    },
+    {
+     "nome": "Animated Tabs",
+     "pro": false
+    },
+    {
+     "nome": "Animated Tooltip",
+     "pro": false
+    },
+    {
+     "nome": "Bento Grid",
+     "pro": false
+    },
+    {
+     "nome": "Book",
+     "pro": false
+    },
+    {
+     "nome": "Circular Gallery",
+     "pro": false
+    },
+    {
+     "nome": "Compare",
+     "pro": false
+    },
+    {
+     "nome": "Container Scroll",
+     "pro": false
+    },
+    {
+     "nome": "Dock",
+     "pro": false
+    },
+    {
+     "nome": "Expandable Gallery",
+     "pro": false
+    },
+    {
+     "nome": "Float",
+     "pro": false
+    },
+    {
+     "nome": "Images Slider",
+     "pro": false
+    },
+    {
+     "nome": "Lens",
+     "pro": false
+    },
+    {
+     "nome": "Link Preview",
+     "pro": false
+    },
+    {
+     "nome": "Marquee",
+     "pro": false
+    },
+    {
+     "nome": "Media Text",
+     "pro": false
+    },
+    {
+     "nome": "Morphing Tabs",
+     "pro": false
+    },
+    {
+     "nome": "Multi Step Loader",
+     "pro": false
+    },
+    {
+     "nome": "Parallax Float",
+     "pro": false
+    },
+    {
+     "nome": "Path Marquee",
+     "pro": false
+    },
+    {
+     "nome": "Photo Gallery",
+     "pro": false
+    },
+    {
+     "nome": "Scroll Island",
+     "pro": false
+    },
+    {
+     "nome": "Shader Toy",
+     "pro": false
+    },
+    {
+     "nome": "Svg Mask",
+     "pro": false
+    },
+    {
+     "nome": "Timeline",
+     "pro": false
+    },
+    {
+     "nome": "Tracing Beam",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Efeitos especiais",
+   "itens": [
+    {
+     "nome": "Animated Beam",
+     "pro": false
+    },
+    {
+     "nome": "Border Beam",
+     "pro": false
+    },
+    {
+     "nome": "Confetti",
+     "pro": false
+    },
+    {
+     "nome": "Dither Shader",
+     "pro": false
+    },
+    {
+     "nome": "Glow Border",
+     "pro": false
+    },
+    {
+     "nome": "Glowing Effect",
+     "pro": false
+    },
+    {
+     "nome": "Images Badge",
+     "pro": false
+    },
+    {
+     "nome": "Meteors",
+     "pro": false
+    },
+    {
+     "nome": "Neon Border",
+     "pro": false
+    },
+    {
+     "nome": "Particle Image",
+     "pro": false
+    },
+    {
+     "nome": "Progressive Blur",
+     "pro": false
+    },
+    {
+     "nome": "Scales",
+     "pro": false
+    },
+    {
+     "nome": "Scratch To Reveal",
+     "pro": false
+    },
+    {
+     "nome": "Spring Calendar",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Depoimentos",
+   "itens": [
+    {
+     "nome": "Animated Testimonials",
+     "pro": false
+    },
+    {
+     "nome": "Design Testimonials",
+     "pro": false
+    },
+    {
+     "nome": "Testimonial Slider",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Animação de texto",
+   "itens": [
+    {
+     "nome": "3D Text",
+     "pro": false
+    },
+    {
+     "nome": "Blur Reveal",
+     "pro": false
+    },
+    {
+     "nome": "Box Reveal",
+     "pro": false
+    },
+    {
+     "nome": "Breathing Text",
+     "pro": false
+    },
+    {
+     "nome": "Colorful Text",
+     "pro": false
+    },
+    {
+     "nome": "Container Text Flip",
+     "pro": false
+    },
+    {
+     "nome": "Encrypted Text",
+     "pro": false
+    },
+    {
+     "nome": "Flip Words",
+     "pro": false
+    },
+    {
+     "nome": "Focus",
+     "pro": false
+    },
+    {
+     "nome": "Highlight Text",
+     "pro": false
+    },
+    {
+     "nome": "Hyper Text",
+     "pro": false
+    },
+    {
+     "nome": "Letter Pullup",
+     "pro": false
+    },
+    {
+     "nome": "Letter Swap",
+     "pro": false
+    },
+    {
+     "nome": "Line Shadow Text",
+     "pro": false
+    },
+    {
+     "nome": "Morphing Text",
+     "pro": false
+    },
+    {
+     "nome": "Number Ticker",
+     "pro": false
+    },
+    {
+     "nome": "Radiant Text",
+     "pro": false
+    },
+    {
+     "nome": "Screw Text",
+     "pro": false
+    },
+    {
+     "nome": "Scroll Swap Text",
+     "pro": false
+    },
+    {
+     "nome": "Sparkles Text",
+     "pro": false
+    },
+    {
+     "nome": "Spinning Text",
+     "pro": false
+    },
+    {
+     "nome": "Text Generate Effect",
+     "pro": false
+    },
+    {
+     "nome": "Text Glitch",
+     "pro": false
+    },
+    {
+     "nome": "Text Highlight",
+     "pro": false
+    },
+    {
+     "nome": "Text Hover Effect",
+     "pro": false
+    },
+    {
+     "nome": "Text Reveal Card",
+     "pro": false
+    },
+    {
+     "nome": "Text Reveal",
+     "pro": false
+    },
+    {
+     "nome": "Text Scroll Reveal",
+     "pro": false
+    },
+    {
+     "nome": "Typewriter Text",
+     "pro": false
+    },
+    {
+     "nome": "Underline Text",
+     "pro": false
+    },
+    {
+     "nome": "Variable Letter Text",
+     "pro": false
+    },
+    {
+     "nome": "Variable Text",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Visualização (3D, globos, galerias)",
+   "itens": [
+    {
+     "nome": "Bending Gallery",
+     "pro": false
+    },
+    {
+     "nome": "Carousal 3D",
+     "pro": false
+    },
+    {
+     "nome": "File Tree",
+     "pro": false
+    },
+    {
+     "nome": "Github Globe",
+     "pro": false
+    },
+    {
+     "nome": "Globe",
+     "pro": false
+    },
+    {
+     "nome": "Icon Cloud",
+     "pro": false
+    },
+    {
+     "nome": "Infinite Grid",
+     "pro": false
+    },
+    {
+     "nome": "Light Speed",
+     "pro": false
+    },
+    {
+     "nome": "Liquid Glass",
+     "pro": false
+    },
+    {
+     "nome": "Liquid Logo",
+     "pro": false
+    },
+    {
+     "nome": "Logo Cloud",
+     "pro": false
+    },
+    {
+     "nome": "Logo Origami",
+     "pro": false
+    },
+    {
+     "nome": "Orbit",
+     "pro": false
+    },
+    {
+     "nome": "Spline",
+     "pro": false
+    },
+    {
+     "nome": "World Map",
+     "pro": false
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Vue 3 / Nuxt, copy-paste via CLI",
+  "Todos gratuitos (open source)",
+  "Docs também em cn/it"
+ ],
+ "observacoes": "Nomes derivados dos nomes de arquivo do repositório (Title Case); a contagem bate com os 155 do site. Sem itens Pro.",
+ "conferido_em": "2026-11-27"
+}

@@ -1,0 +1,556 @@
+{
+ "id": "heroui",
+ "fontes": [
+  "https://heroui.com/llms.txt",
+  "https://heroui.com/react/llms.txt",
+  "https://heroui.com/native/llms.txt"
+ ],
+ "total": 112,
+ "grupos": [
+  {
+   "nome": "Botões",
+   "itens": [
+    {
+     "nome": "ButtonGroup",
+     "pro": false
+    },
+    {
+     "nome": "Button",
+     "pro": false
+    },
+    {
+     "nome": "CloseButton",
+     "pro": false
+    },
+    {
+     "nome": "ToggleButtonGroup",
+     "pro": false
+    },
+    {
+     "nome": "ToggleButton",
+     "pro": false
+    },
+    {
+     "nome": "Dropdown",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Seleção e listas",
+   "itens": [
+    {
+     "nome": "ListBox",
+     "pro": false
+    },
+    {
+     "nome": "TagGroup",
+     "pro": false
+    },
+    {
+     "nome": "Autocomplete",
+     "pro": false
+    },
+    {
+     "nome": "ComboBox",
+     "pro": false
+    },
+    {
+     "nome": "Select",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Cor",
+   "itens": [
+    {
+     "nome": "ColorArea",
+     "pro": false
+    },
+    {
+     "nome": "ColorField",
+     "pro": false
+    },
+    {
+     "nome": "ColorPicker",
+     "pro": false
+    },
+    {
+     "nome": "ColorSlider",
+     "pro": false
+    },
+    {
+     "nome": "ColorSwatchPicker",
+     "pro": false
+    },
+    {
+     "nome": "ColorSwatch",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Formulários",
+   "itens": [
+    {
+     "nome": "Slider",
+     "pro": false
+    },
+    {
+     "nome": "Switch",
+     "pro": false
+    },
+    {
+     "nome": "CheckboxGroup",
+     "pro": false
+    },
+    {
+     "nome": "Checkbox",
+     "pro": false
+    },
+    {
+     "nome": "Description",
+     "pro": false
+    },
+    {
+     "nome": "ErrorMessage",
+     "pro": false
+    },
+    {
+     "nome": "FieldError",
+     "pro": false
+    },
+    {
+     "nome": "Fieldset",
+     "pro": false
+    },
+    {
+     "nome": "Form",
+     "pro": false
+    },
+    {
+     "nome": "InputGroup",
+     "pro": false
+    },
+    {
+     "nome": "InputOTP",
+     "pro": false
+    },
+    {
+     "nome": "Input",
+     "pro": false
+    },
+    {
+     "nome": "Label",
+     "pro": false
+    },
+    {
+     "nome": "NumberField",
+     "pro": false
+    },
+    {
+     "nome": "RadioGroup",
+     "pro": false
+    },
+    {
+     "nome": "SearchField",
+     "pro": false
+    },
+    {
+     "nome": "TextArea",
+     "pro": false
+    },
+    {
+     "nome": "TextField",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Data e hora",
+   "itens": [
+    {
+     "nome": "Calendar",
+     "pro": false
+    },
+    {
+     "nome": "DateField",
+     "pro": false
+    },
+    {
+     "nome": "DatePicker",
+     "pro": false
+    },
+    {
+     "nome": "DateRangePicker",
+     "pro": false
+    },
+    {
+     "nome": "RangeCalendar",
+     "pro": false
+    },
+    {
+     "nome": "TimeField",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Exibição",
+   "itens": [
+    {
+     "nome": "Badge",
+     "pro": false
+    },
+    {
+     "nome": "Chip",
+     "pro": false
+    },
+    {
+     "nome": "Table",
+     "pro": false
+    },
+    {
+     "nome": "Card",
+     "pro": false
+    },
+    {
+     "nome": "Separator",
+     "pro": false
+    },
+    {
+     "nome": "Surface",
+     "pro": false
+    },
+    {
+     "nome": "AvatarGroup",
+     "pro": false
+    },
+    {
+     "nome": "Avatar",
+     "pro": false
+    },
+    {
+     "nome": "Kbd",
+     "pro": false
+    },
+    {
+     "nome": "Typography",
+     "pro": false
+    },
+    {
+     "nome": "ScrollShadow",
+     "pro": false
+    },
+    {
+     "nome": "Toolbar",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Feedback",
+   "itens": [
+    {
+     "nome": "Alert",
+     "pro": false
+    },
+    {
+     "nome": "Meter",
+     "pro": false
+    },
+    {
+     "nome": "ProgressBar",
+     "pro": false
+    },
+    {
+     "nome": "ProgressCircle",
+     "pro": false
+    },
+    {
+     "nome": "Skeleton",
+     "pro": false
+    },
+    {
+     "nome": "Spinner",
+     "pro": false
+    },
+    {
+     "nome": "Toast",
+     "pro": false
+    },
+    {
+     "nome": "Tooltip",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Navegação",
+   "itens": [
+    {
+     "nome": "Accordion",
+     "pro": false
+    },
+    {
+     "nome": "Breadcrumbs",
+     "pro": false
+    },
+    {
+     "nome": "DisclosureGroup",
+     "pro": false
+    },
+    {
+     "nome": "Disclosure",
+     "pro": false
+    },
+    {
+     "nome": "Link",
+     "pro": false
+    },
+    {
+     "nome": "Pagination",
+     "pro": false
+    },
+    {
+     "nome": "Tabs",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Overlays",
+   "itens": [
+    {
+     "nome": "AlertDialog",
+     "pro": false
+    },
+    {
+     "nome": "Drawer",
+     "pro": false
+    },
+    {
+     "nome": "Modal",
+     "pro": false
+    },
+    {
+     "nome": "Popover",
+     "pro": false
+    },
+    {
+     "nome": "Sheet",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "React Native (HeroUI Native)",
+   "itens": [
+    {
+     "nome": "Button",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "CloseButton",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "LinkButton",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Menu",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "TagGroup",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Slider",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Switch",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Chip",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Alert",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "SkeletonGroup",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Skeleton",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Spinner",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Checkbox",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "ControlField",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Description",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "FieldError",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "InputGroup",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "InputOTP",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Input",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Label",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "RadioGroup",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "SearchField",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Select",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "TextArea",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "TextField",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Card",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Separator",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Surface",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Avatar",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Accordion",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "ListGroup",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Tabs",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "BottomSheet",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Dialog",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Popover",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Toast",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "Typography",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "PressableFeedback",
+     "pro": false,
+     "obs": "nativo/mobile"
+    },
+    {
+     "nome": "ScrollShadow",
+     "pro": false,
+     "obs": "nativo/mobile"
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Servidor MCP, CLI, Agent Skills, AGENTS.md, DESIGN.md",
+  "HeroUI v3: React 19 + Tailwind v4 + React Aria Components",
+  "Guias de tema, cores, animação, dark mode",
+  "Versão React Native (HeroUI Native)"
+ ],
+ "observacoes": "Lista completa do llms.txt (React web + Native). Itens do grupo Native são da biblioteca mobile. Tudo gratuito/open source.",
+ "conferido_em": "2026-11-27"
+}

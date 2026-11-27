@@ -1,0 +1,594 @@
+{
+ "id": "tailwind-plus",
+ "fontes": [
+  "https://web.archive.org/web/2025/https://tailwindcss.com/plus/ui-blocks",
+  "https://web.archive.org/web/2025/https://tailwindcss.com/plus/templates",
+  "https://tailwindcss.com/plus (hoje redireciona para login)"
+ ],
+ "total": 107,
+ "grupos": [
+  {
+   "nome": "Marketing: seções de página",
+   "itens": [
+    {
+     "nome": "Hero Sections",
+     "pro": true,
+     "obs": "12 componentes"
+    },
+    {
+     "nome": "Feature Sections",
+     "pro": true,
+     "obs": "15 componentes"
+    },
+    {
+     "nome": "CTA Sections",
+     "pro": true,
+     "obs": "11 componentes"
+    },
+    {
+     "nome": "Bento Grids",
+     "pro": true,
+     "obs": "3 componentes"
+    },
+    {
+     "nome": "Pricing Sections",
+     "pro": true,
+     "obs": "12 componentes"
+    },
+    {
+     "nome": "Header Sections",
+     "pro": true,
+     "obs": "8 componentes"
+    },
+    {
+     "nome": "Newsletter Sections",
+     "pro": true,
+     "obs": "6 componentes"
+    },
+    {
+     "nome": "Stats",
+     "pro": true,
+     "obs": "8 componentes"
+    },
+    {
+     "nome": "Testimonials",
+     "pro": true,
+     "obs": "8 componentes"
+    },
+    {
+     "nome": "Blog Sections",
+     "pro": true,
+     "obs": "7 componentes"
+    },
+    {
+     "nome": "Contact Sections",
+     "pro": true,
+     "obs": "7 componentes"
+    },
+    {
+     "nome": "Team Sections",
+     "pro": true,
+     "obs": "9 componentes"
+    },
+    {
+     "nome": "Content Sections",
+     "pro": true,
+     "obs": "7 componentes"
+    },
+    {
+     "nome": "Logo Clouds",
+     "pro": true,
+     "obs": "6 componentes"
+    },
+    {
+     "nome": "FAQs",
+     "pro": true,
+     "obs": "7 componentes"
+    },
+    {
+     "nome": "Footers",
+     "pro": true,
+     "obs": "7 componentes"
+    },
+    {
+     "nome": "Headers",
+     "pro": true,
+     "obs": "11 componentes"
+    },
+    {
+     "nome": "Flyout Menus",
+     "pro": true,
+     "obs": "7 componentes"
+    },
+    {
+     "nome": "Banners",
+     "pro": true,
+     "obs": "13 componentes"
+    },
+    {
+     "nome": "404 Pages",
+     "pro": true,
+     "obs": "5 componentes"
+    }
+   ]
+  },
+  {
+   "nome": "Marketing: exemplos de página",
+   "itens": [
+    {
+     "nome": "Landing Pages",
+     "pro": true,
+     "obs": "4 exemplos"
+    },
+    {
+     "nome": "Pricing Pages",
+     "pro": true,
+     "obs": "3 exemplos"
+    },
+    {
+     "nome": "About Pages",
+     "pro": true,
+     "obs": "3 exemplos"
+    }
+   ]
+  },
+  {
+   "nome": "Application UI",
+   "itens": [
+    {
+     "nome": "Stacked Layouts",
+     "pro": true,
+     "obs": "9 componentes"
+    },
+    {
+     "nome": "Sidebar Layouts",
+     "pro": true,
+     "obs": "8 componentes"
+    },
+    {
+     "nome": "Multi-Column Layouts",
+     "pro": true,
+     "obs": "6 componentes"
+    },
+    {
+     "nome": "Page Headings",
+     "pro": true,
+     "obs": "9 componentes"
+    },
+    {
+     "nome": "Card Headings",
+     "pro": true,
+     "obs": "6 componentes"
+    },
+    {
+     "nome": "Section Headings",
+     "pro": true,
+     "obs": "10 componentes"
+    },
+    {
+     "nome": "Description Lists",
+     "pro": true,
+     "obs": "6 componentes"
+    },
+    {
+     "nome": "Stats",
+     "pro": true,
+     "obs": "5 componentes"
+    },
+    {
+     "nome": "Calendars",
+     "pro": true,
+     "obs": "8 componentes"
+    },
+    {
+     "nome": "Stacked Lists",
+     "pro": true,
+     "obs": "15 componentes"
+    },
+    {
+     "nome": "Tables",
+     "pro": true,
+     "obs": "19 componentes"
+    },
+    {
+     "nome": "Grid Lists",
+     "pro": true,
+     "obs": "7 componentes"
+    },
+    {
+     "nome": "Feeds",
+     "pro": true,
+     "obs": "3 componentes"
+    },
+    {
+     "nome": "Form Layouts",
+     "pro": true,
+     "obs": "4 componentes"
+    },
+    {
+     "nome": "Input Groups",
+     "pro": true,
+     "obs": "21 componentes"
+    },
+    {
+     "nome": "Select Menus",
+     "pro": true,
+     "obs": "7 componentes"
+    },
+    {
+     "nome": "Sign-in and Registration",
+     "pro": true,
+     "obs": "4 componentes"
+    },
+    {
+     "nome": "Textareas",
+     "pro": true,
+     "obs": "5 componentes"
+    },
+    {
+     "nome": "Radio Groups",
+     "pro": true,
+     "obs": "12 componentes"
+    },
+    {
+     "nome": "Checkboxes",
+     "pro": true,
+     "obs": "4 componentes"
+    },
+    {
+     "nome": "Toggles",
+     "pro": true,
+     "obs": "5 componentes"
+    },
+    {
+     "nome": "Action Panels",
+     "pro": true,
+     "obs": "8 componentes"
+    },
+    {
+     "nome": "Comboboxes",
+     "pro": true,
+     "obs": "4 componentes"
+    },
+    {
+     "nome": "Alerts",
+     "pro": true,
+     "obs": "6 componentes"
+    },
+    {
+     "nome": "Empty States",
+     "pro": true,
+     "obs": "6 componentes"
+    },
+    {
+     "nome": "Navbars",
+     "pro": true,
+     "obs": "11 componentes"
+    },
+    {
+     "nome": "Pagination",
+     "pro": true,
+     "obs": "3 componentes"
+    },
+    {
+     "nome": "Tabs",
+     "pro": true,
+     "obs": "9 componentes"
+    },
+    {
+     "nome": "Vertical Navigation",
+     "pro": true,
+     "obs": "6 componentes"
+    },
+    {
+     "nome": "Sidebar Navigation",
+     "pro": true,
+     "obs": "5 componentes"
+    },
+    {
+     "nome": "Breadcrumbs",
+     "pro": true,
+     "obs": "4 componentes"
+    },
+    {
+     "nome": "Progress Bars",
+     "pro": true,
+     "obs": "8 componentes"
+    },
+    {
+     "nome": "Command Palettes",
+     "pro": true,
+     "obs": "8 componentes"
+    },
+    {
+     "nome": "Modal Dialogs",
+     "pro": true,
+     "obs": "6 componentes"
+    },
+    {
+     "nome": "Drawers",
+     "pro": true,
+     "obs": "12 componentes"
+    },
+    {
+     "nome": "Notifications",
+     "pro": true,
+     "obs": "6 componentes"
+    },
+    {
+     "nome": "Avatars",
+     "pro": true,
+     "obs": "11 componentes"
+    },
+    {
+     "nome": "Badges",
+     "pro": true,
+     "obs": "16 componentes"
+    },
+    {
+     "nome": "Dropdowns",
+     "pro": true,
+     "obs": "5 componentes"
+    },
+    {
+     "nome": "Buttons",
+     "pro": true,
+     "obs": "8 componentes"
+    },
+    {
+     "nome": "Button Groups",
+     "pro": true,
+     "obs": "5 componentes"
+    },
+    {
+     "nome": "Containers",
+     "pro": true,
+     "obs": "5 componentes"
+    },
+    {
+     "nome": "Cards",
+     "pro": true,
+     "obs": "10 componentes"
+    },
+    {
+     "nome": "List containers",
+     "pro": true,
+     "obs": "7 componentes"
+    },
+    {
+     "nome": "Media Objects",
+     "pro": true,
+     "obs": "8 componentes"
+    },
+    {
+     "nome": "Dividers",
+     "pro": true,
+     "obs": "8 componentes"
+    }
+   ]
+  },
+  {
+   "nome": "Application UI: exemplos de página",
+   "itens": [
+    {
+     "nome": "Home Screens",
+     "pro": true,
+     "obs": "2 exemplos"
+    },
+    {
+     "nome": "Detail Screens",
+     "pro": true,
+     "obs": "2 exemplos"
+    },
+    {
+     "nome": "Settings Screens",
+     "pro": true,
+     "obs": "2 exemplos"
+    }
+   ]
+  },
+  {
+   "nome": "Ecommerce",
+   "itens": [
+    {
+     "nome": "Product Overviews",
+     "pro": true,
+     "obs": "5 componentes"
+    },
+    {
+     "nome": "Product Lists",
+     "pro": true,
+     "obs": "11 componentes"
+    },
+    {
+     "nome": "Category Previews",
+     "pro": true,
+     "obs": "6 componentes"
+    },
+    {
+     "nome": "Shopping Carts",
+     "pro": true,
+     "obs": "6 componentes"
+    },
+    {
+     "nome": "Category Filters",
+     "pro": true,
+     "obs": "5 componentes"
+    },
+    {
+     "nome": "Product Quickviews",
+     "pro": true,
+     "obs": "4 componentes"
+    },
+    {
+     "nome": "Product Features",
+     "pro": true,
+     "obs": "9 componentes"
+    },
+    {
+     "nome": "Store Navigation",
+     "pro": true,
+     "obs": "5 componentes"
+    },
+    {
+     "nome": "Promo Sections",
+     "pro": true,
+     "obs": "8 componentes"
+    },
+    {
+     "nome": "Checkout Forms",
+     "pro": true,
+     "obs": "5 componentes"
+    },
+    {
+     "nome": "Reviews",
+     "pro": true,
+     "obs": "4 componentes"
+    },
+    {
+     "nome": "Order Summaries",
+     "pro": true,
+     "obs": "4 componentes"
+    },
+    {
+     "nome": "Order History",
+     "pro": true,
+     "obs": "4 componentes"
+    },
+    {
+     "nome": "Incentives",
+     "pro": true,
+     "obs": "8 componentes"
+    }
+   ]
+  },
+  {
+   "nome": "Ecommerce: exemplos de página",
+   "itens": [
+    {
+     "nome": "Storefront Pages",
+     "pro": true,
+     "obs": "4 exemplos"
+    },
+    {
+     "nome": "Product Pages",
+     "pro": true,
+     "obs": "5 exemplos"
+    },
+    {
+     "nome": "Category Pages",
+     "pro": true,
+     "obs": "5 exemplos"
+    },
+    {
+     "nome": "Shopping Cart Pages",
+     "pro": true,
+     "obs": "3 exemplos"
+    },
+    {
+     "nome": "Checkout Pages",
+     "pro": true,
+     "obs": "5 exemplos"
+    },
+    {
+     "nome": "Order Detail Pages",
+     "pro": true,
+     "obs": "3 exemplos"
+    },
+    {
+     "nome": "Order History Pages",
+     "pro": true,
+     "obs": "5 exemplos"
+    }
+   ]
+  },
+  {
+   "nome": "Templates de site (React/Next.js)",
+   "itens": [
+    {
+     "nome": "Spotlight",
+     "pro": true,
+     "obs": "Site pessoal (US$99 avulso ou incluso no Tailwind Plus)"
+    },
+    {
+     "nome": "Radiant",
+     "pro": true,
+     "obs": "Marketing SaaS multi-página (US$99 avulso ou incluso no Tailwind Plus)"
+    },
+    {
+     "nome": "Compass",
+     "pro": true,
+     "obs": "Curso online (US$99 avulso ou incluso no Tailwind Plus)"
+    },
+    {
+     "nome": "Salient",
+     "pro": true,
+     "obs": "Landing SaaS (US$99 avulso ou incluso no Tailwind Plus)"
+    },
+    {
+     "nome": "Studio",
+     "pro": true,
+     "obs": "Agência (US$99 avulso ou incluso no Tailwind Plus)"
+    },
+    {
+     "nome": "Primer",
+     "pro": true,
+     "obs": "Produto de informação (curso/ebook) (US$99 avulso ou incluso no Tailwind Plus)"
+    },
+    {
+     "nome": "Protocol",
+     "pro": true,
+     "obs": "Referência de API (US$99 avulso ou incluso no Tailwind Plus)"
+    },
+    {
+     "nome": "Commit",
+     "pro": true,
+     "obs": "Changelog (US$99 avulso ou incluso no Tailwind Plus)"
+    },
+    {
+     "nome": "Transmit",
+     "pro": true,
+     "obs": "Podcast (US$99 avulso ou incluso no Tailwind Plus)"
+    },
+    {
+     "nome": "Pocket",
+     "pro": true,
+     "obs": "Marketing de app (US$99 avulso ou incluso no Tailwind Plus)"
+    },
+    {
+     "nome": "Syntax",
+     "pro": true,
+     "obs": "Documentação (US$99 avulso ou incluso no Tailwind Plus)"
+    },
+    {
+     "nome": "Keynote",
+     "pro": true,
+     "obs": "Conferência (US$99 avulso ou incluso no Tailwind Plus)"
+    }
+   ]
+  },
+  {
+   "nome": "Kits",
+   "itens": [
+    {
+     "nome": "Catalyst UI Kit",
+     "pro": true,
+     "obs": "kit React + Tailwind para criar seu sistema de componentes"
+    },
+    {
+     "nome": "Oatmeal",
+     "pro": true,
+     "obs": "kit de site de marketing multi-tema (anunciado no banner do snapshot)"
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "UI Blocks em HTML, React e Vue",
+  "Preço (snapshot 2025): pacotes Marketing, Application UI e Ecommerce US$149 cada; Tailwind Plus completo US$299, pagamento único, vitalício",
+  "Templates e Catalyst incluídos no Tailwind Plus",
+  "Versão para times"
+ ],
+ "observacoes": "Fonte é um snapshot do Internet Archive de 2025, pois o site ao vivo exige login. Contagens: Marketing 169, Application UI 358, Ecommerce 84 (total 611 blocos; o site diz 500+). Pode haver blocos, templates e preços novos desde então. O campo total conta categorias/itens listados, não blocos.",
+ "conferido_em": "2026-11-27"
+}

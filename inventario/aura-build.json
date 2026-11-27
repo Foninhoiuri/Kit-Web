@@ -1,0 +1,202 @@
+{
+ "fontes": [
+  "https://www.aura.build/components (renderizado no navegador)",
+  "https://www.aura.build/llms.txt",
+  "https://www.aura.build/pricing",
+  "https://www.aura.build/templates",
+  "https://www.aura.build/sitemap.xml"
+ ],
+ "grupos": [
+  {
+   "nome": "Categorias (chips da página de componentes)",
+   "itens": [
+    {
+     "nome": "Categoria Hero (busca no site)",
+     "pro": null,
+     "obs": "372 resultados (categorias se sobrepõem)"
+    },
+    {
+     "nome": "Categoria Section (busca no site)",
+     "pro": null,
+     "obs": "799 resultados (categorias se sobrepõem)"
+    },
+    {
+     "nome": "Categoria Button (busca no site)",
+     "pro": null,
+     "obs": "283 resultados (categorias se sobrepõem)"
+    },
+    {
+     "nome": "Categoria Card (busca no site)",
+     "pro": null,
+     "obs": "552 resultados (categorias se sobrepõem)"
+    },
+    {
+     "nome": "Categoria Background (busca no site)",
+     "pro": null,
+     "obs": "192 resultados (categorias se sobrepõem)"
+    },
+    {
+     "nome": "Categoria Header (busca no site)",
+     "pro": null,
+     "obs": "85 resultados (categorias se sobrepõem)"
+    },
+    {
+     "nome": "Categoria Logo (busca no site)",
+     "pro": null,
+     "obs": "157 resultados (categorias se sobrepõem)"
+    },
+    {
+     "nome": "Categoria Feature (busca no site)",
+     "pro": null,
+     "obs": "346 resultados (categorias se sobrepõem)"
+    },
+    {
+     "nome": "Categoria Pricing (busca no site)",
+     "pro": null,
+     "obs": "140 resultados (categorias se sobrepõem)"
+    },
+    {
+     "nome": "Categoria Testimonial (busca no site)",
+     "pro": null,
+     "obs": "100 resultados (categorias se sobrepõem)"
+    },
+    {
+     "nome": "Categoria Footer (busca no site)",
+     "pro": null,
+     "obs": "82 resultados (categorias se sobrepõem)"
+    },
+    {
+     "nome": "Categoria Form (busca no site)",
+     "pro": null,
+     "obs": "77 resultados (categorias se sobrepõem)"
+    },
+    {
+     "nome": "Categoria Heading (busca no site)",
+     "pro": null,
+     "obs": "45 resultados (categorias se sobrepõem)"
+    }
+   ]
+  },
+  {
+   "nome": "Exemplos dos mais populares (nome, Pro marcado)",
+   "itens": [
+    {
+     "nome": "Community Hero Section with Scrolling Photo Marquee",
+     "pro": true
+    },
+    {
+     "nome": "Animated Gradient Beam CTA Button",
+     "pro": true
+    },
+    {
+     "nome": "Lumina Hero Section with Nav and Preview UI",
+     "pro": true
+    },
+    {
+     "nome": "Marketing Hero Section with Animated Gradient CTA",
+     "pro": false
+    },
+    {
+     "nome": "Hero Section with Image & CTA Buttons",
+     "pro": false
+    },
+    {
+     "nome": "Gradient Pill Button with Icon",
+     "pro": true
+    },
+    {
+     "nome": "Animated Generate Button with Icon",
+     "pro": true
+    },
+    {
+     "nome": "Interactive Portfolio Hero with Card Gallery",
+     "pro": true
+    },
+    {
+     "nome": "Finance Hero Section with Mobile Dashboard Mockup",
+     "pro": true
+    },
+    {
+     "nome": "Glassmorphic Client Testimonials Section",
+     "pro": false
+    },
+    {
+     "nome": "AI Design System Hero with Floating UI Cards",
+     "pro": true
+    },
+    {
+     "nome": "Animated Glassmorphism CTA Button",
+     "pro": true
+    },
+    {
+     "nome": "Feature Showcase Section with Image Grid & CTA",
+     "pro": true
+    },
+    {
+     "nome": "Spinning Border Glow CTA Button",
+     "pro": true
+    },
+    {
+     "nome": "Interactive Feature Highlights Section",
+     "pro": false
+    },
+    {
+     "nome": "Liquid Glass Hero with Interactive Testimonial Stack",
+     "pro": false
+    },
+    {
+     "nome": "Animated Marquee Testimonials Carousel",
+     "pro": true
+    },
+    {
+     "nome": "Responsive Fixed Header with Mobile Slide-in Menu",
+     "pro": false
+    },
+    {
+     "nome": "Animated Hover CTA Button with Sliding Text",
+     "pro": true
+    },
+    {
+     "nome": "Social Campaign Performance Feature Section",
+     "pro": true
+    },
+    {
+     "nome": "Full-Width Animated Aura Background",
+     "pro": true
+    },
+    {
+     "nome": "Animated Integrations Showcase Section",
+     "pro": true
+    },
+    {
+     "nome": "Animated Aura Background with UnicornStudio",
+     "pro": true
+    },
+    {
+     "nome": "Unicorn Studio Embedded Background Effect",
+     "pro": true
+    },
+    {
+     "nome": "Tech Blog Header with Hero Section",
+     "pro": false
+    },
+    {
+     "nome": "Animated Button with Dot & Border Hover Effects",
+     "pro": false
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Total de componentes: 2.831 (2.495 Free, 336 Pro), HTML/Tailwind, da comunidade (criadores como Meng To)",
+  "Templates: 5.260 Free, 615 Pro, 68 Paid (landing pages HTML/CSS/React, remix no builder)",
+  "Assets, Skills (194+ no sitemap), DESIGN.md systems (726+ no sitemap), Aura MCP",
+  "Builder de sites com IA: exporta HTML, Tailwind, Figma; CMS, domínio próprio, SEO",
+  "Filtros: Web, Mobile, Animation, Tags; ordenar Popular/Trending/Recent"
+ ],
+ "acesso_visto": "Navegar e copiar itens Free é grátis. Pro (planos pagos) libera componentes/templates Pro, uso comercial e export Figma: Pro US$12,50/mês no anual (US$250/ano), Max US$25/mês (US$500/ano), Ultra US$50/mês (US$1.000/ano); 3 dias de trial com 20 prompts (exige cartão). Free: uso pessoal apenas, 2 páginas por projeto. Créditos: 200 por US$50.",
+ "observacoes": "Parcial por natureza: 2.831 itens da comunidade; a lista pública é carregada sob demanda e o sitemap traz só 1.000 de /component. O total (2.831) e contagens por categoria vêm dos contadores do site (buscas por tag, sobrepostas). Itens listados são apenas amostra dos mais populares. O campo total (2831) é o contador do site; os itens gravados em grupos são só categorias e amostra.",
+ "id": "aura-build",
+ "conferido_em": "2026-11-27",
+ "total": 2831
+}

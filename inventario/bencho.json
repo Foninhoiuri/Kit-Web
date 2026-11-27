@@ -1,0 +1,1021 @@
+{
+ "fontes": [
+  "https://bencho.dev/llms.txt",
+  "https://bencho.dev/r/registry.json",
+  "https://bencho.dev/ (lista com tipo de interação)",
+  "https://bencho.dev/blocks/<slug> (191 páginas, linha de status free/Pro)",
+  "https://bencho.dev/pricing",
+  "https://bencho.dev/sounds",
+  "https://bencho.dev/finds"
+ ],
+ "grupos": [
+  {
+   "nome": "Pressionar / clicar",
+   "itens": [
+    {
+     "nome": "VPN",
+     "pro": true,
+     "obs": "slug vpn"
+    },
+    {
+     "nome": "Vinyl player",
+     "pro": true,
+     "obs": "slug vinyl-player"
+    },
+    {
+     "nome": "Cover player",
+     "pro": true,
+     "obs": "slug cover-player"
+    },
+    {
+     "nome": "Date range",
+     "pro": true,
+     "obs": "slug date-range"
+    },
+    {
+     "nome": "Check key",
+     "pro": true,
+     "obs": "slug check-key"
+    },
+    {
+     "nome": "Live vote",
+     "pro": true,
+     "obs": "slug live-vote"
+    },
+    {
+     "nome": "Confirm send",
+     "pro": true,
+     "obs": "slug confirm-send"
+    },
+    {
+     "nome": "Huddle",
+     "pro": false,
+     "obs": "slug huddle"
+    },
+    {
+     "nome": "Password reveal",
+     "pro": true,
+     "obs": "slug pass-reveal"
+    },
+    {
+     "nome": "Seat map",
+     "pro": true,
+     "obs": "slug seat-map"
+    },
+    {
+     "nome": "AI Assistant",
+     "pro": true,
+     "obs": "slug listen"
+    },
+    {
+     "nome": "Hold to delete",
+     "pro": true,
+     "obs": "slug hold-delete"
+    },
+    {
+     "nome": "FAQ frames",
+     "pro": true,
+     "obs": "slug faq-frames"
+    },
+    {
+     "nome": "Status picker",
+     "pro": true,
+     "obs": "slug status-picker"
+    },
+    {
+     "nome": "Format bar",
+     "pro": true,
+     "obs": "slug format-bar"
+    },
+    {
+     "nome": "Jelly tabs",
+     "pro": true,
+     "obs": "slug jelly-tabs"
+    },
+    {
+     "nome": "Odds",
+     "pro": true,
+     "obs": "slug odds"
+    },
+    {
+     "nome": "Progress tracker",
+     "pro": true,
+     "obs": "slug progress-tracker"
+    },
+    {
+     "nome": "Genie effect",
+     "pro": true,
+     "obs": "slug genie"
+    },
+    {
+     "nome": "Flap board",
+     "pro": true,
+     "obs": "slug flap-board"
+    },
+    {
+     "nome": "Dust delete",
+     "pro": true,
+     "obs": "slug dust-delete"
+    },
+    {
+     "nome": "Standing calendar",
+     "pro": true,
+     "obs": "slug standing-calendar"
+    },
+    {
+     "nome": "Selection actions",
+     "pro": true,
+     "obs": "slug selection-actions"
+    },
+    {
+     "nome": "Private balance",
+     "pro": true,
+     "obs": "slug private-balance"
+    },
+    {
+     "nome": "Load cards",
+     "pro": true,
+     "obs": "slug load-cards"
+    },
+    {
+     "nome": "Ink bloom",
+     "pro": true,
+     "obs": "slug ink-bloom"
+    },
+    {
+     "nome": "Integrations",
+     "pro": true,
+     "obs": "slug connect-sources"
+    },
+    {
+     "nome": "FAQ accordion",
+     "pro": true,
+     "obs": "slug faq-accordion"
+    },
+    {
+     "nome": "Tree view",
+     "pro": true,
+     "obs": "slug tree-view"
+    },
+    {
+     "nome": "Access request",
+     "pro": true,
+     "obs": "slug access-request"
+    },
+    {
+     "nome": "Text fade",
+     "pro": true,
+     "obs": "slug text-fade"
+    },
+    {
+     "nome": "Text rise",
+     "pro": true,
+     "obs": "slug text-rise"
+    },
+    {
+     "nome": "Text blur",
+     "pro": true,
+     "obs": "slug text-blur"
+    },
+    {
+     "nome": "Tab bar",
+     "pro": true,
+     "obs": "slug tab-bar"
+    },
+    {
+     "nome": "Pay button",
+     "pro": true,
+     "obs": "slug pay-button"
+    },
+    {
+     "nome": "Collapsing sidebar",
+     "pro": true,
+     "obs": "slug collapsing-sidebar"
+    },
+    {
+     "nome": "Copy field",
+     "pro": true,
+     "obs": "slug copy-field"
+    },
+    {
+     "nome": "Dropdown",
+     "pro": true,
+     "obs": "slug fold-dropdown"
+    },
+    {
+     "nome": "Confetti",
+     "pro": true,
+     "obs": "slug confetti"
+    },
+    {
+     "nome": "Piano",
+     "pro": true,
+     "obs": "slug piano"
+    },
+    {
+     "nome": "Billing card",
+     "pro": true,
+     "obs": "slug billing-card"
+    },
+    {
+     "nome": "Flight island",
+     "pro": true,
+     "obs": "slug flight-island"
+    },
+    {
+     "nome": "Music island",
+     "pro": true,
+     "obs": "slug music-island"
+    },
+    {
+     "nome": "Call island",
+     "pro": true,
+     "obs": "slug call-island"
+    },
+    {
+     "nome": "Pill accordion",
+     "pro": true,
+     "obs": "slug pill-accordion"
+    },
+    {
+     "nome": "Feedback bar",
+     "pro": true,
+     "obs": "slug feedback-bar"
+    },
+    {
+     "nome": "Price flow",
+     "pro": true,
+     "obs": "slug price-flow"
+    },
+    {
+     "nome": "Card fan",
+     "pro": true,
+     "obs": "slug card-fan"
+    },
+    {
+     "nome": "Thinking",
+     "pro": true,
+     "obs": "slug thinking"
+    },
+    {
+     "nome": "Voice chat",
+     "pro": true,
+     "obs": "slug voice-chat"
+    },
+    {
+     "nome": "Skeleton morph",
+     "pro": true,
+     "obs": "slug skeleton-morph"
+    },
+    {
+     "nome": "Asset swap",
+     "pro": false,
+     "obs": "slug asset-swap"
+    },
+    {
+     "nome": "Like",
+     "pro": false,
+     "obs": "slug like"
+    },
+    {
+     "nome": "Voice note",
+     "pro": false,
+     "obs": "slug voice-note"
+    },
+    {
+     "nome": "Dynamic island",
+     "pro": true,
+     "obs": "slug dynamic-island"
+    },
+    {
+     "nome": "Generate",
+     "pro": false,
+     "obs": "slug generate"
+    },
+    {
+     "nome": "Step player",
+     "pro": false,
+     "obs": "slug step-player"
+    },
+    {
+     "nome": "Todo tower",
+     "pro": false,
+     "obs": "slug todo-tower"
+    },
+    {
+     "nome": "Checklist",
+     "pro": false,
+     "obs": "slug checklist"
+    },
+    {
+     "nome": "Palette",
+     "pro": false,
+     "obs": "slug palette"
+    },
+    {
+     "nome": "Now playing",
+     "pro": false,
+     "obs": "slug sound"
+    },
+    {
+     "nome": "Search",
+     "pro": false,
+     "obs": "slug seek"
+    },
+    {
+     "nome": "Create menu",
+     "pro": false,
+     "obs": "slug liq-create"
+    },
+    {
+     "nome": "Radial menu",
+     "pro": true,
+     "obs": "slug radial"
+    },
+    {
+     "nome": "Drag stepper",
+     "pro": true,
+     "obs": "slug stepper"
+    },
+    {
+     "nome": "Inline confirm",
+     "pro": true,
+     "obs": "slug confirm"
+    },
+    {
+     "nome": "Notify",
+     "pro": true,
+     "obs": "slug toasts"
+    },
+    {
+     "nome": "Liquid toggle",
+     "pro": false,
+     "obs": "slug liq-toggle"
+    }
+   ]
+  },
+  {
+   "nome": "Arrastar",
+   "itens": [
+    {
+     "nome": "Route covered",
+     "pro": true,
+     "obs": "slug route-covered"
+    },
+    {
+     "nome": "Drip slider",
+     "pro": true,
+     "obs": "slug drip-slider"
+    },
+    {
+     "nome": "Elastic slider",
+     "pro": true,
+     "obs": "slug elastic-slider"
+    },
+    {
+     "nome": "Path panel",
+     "pro": true,
+     "obs": "slug path-panel"
+    },
+    {
+     "nome": "Audio trim",
+     "pro": true,
+     "obs": "slug wave-trim"
+    },
+    {
+     "nome": "Dice",
+     "pro": true,
+     "obs": "slug dice"
+    },
+    {
+     "nome": "Score gauge",
+     "pro": true,
+     "obs": "slug gauge"
+    },
+    {
+     "nome": "Slingshot",
+     "pro": false,
+     "obs": "slug slingshot"
+    },
+    {
+     "nome": "Crumpled receipt",
+     "pro": true,
+     "obs": "slug crumple"
+    },
+    {
+     "nome": "Price chart",
+     "pro": true,
+     "obs": "slug price-chart"
+    },
+    {
+     "nome": "Orders globe",
+     "pro": true,
+     "obs": "slug orders-globe"
+    },
+    {
+     "nome": "Spec inspector",
+     "pro": true,
+     "obs": "slug spec-inspector"
+    },
+    {
+     "nome": "Card swap",
+     "pro": false,
+     "obs": "slug card-swap"
+    },
+    {
+     "nome": "Option wheel",
+     "pro": true,
+     "obs": "slug option-wheel"
+    },
+    {
+     "nome": "Wake slider",
+     "pro": false,
+     "obs": "slug wake-slider"
+    },
+    {
+     "nome": "Page peel",
+     "pro": true,
+     "obs": "slug page-peel"
+    },
+    {
+     "nome": "Resizable panels",
+     "pro": true,
+     "obs": "slug resizable-panels"
+    },
+    {
+     "nome": "Orbit cards",
+     "pro": true,
+     "obs": "slug orbit-cards"
+    },
+    {
+     "nome": "Budget slider",
+     "pro": true,
+     "obs": "slug budget-slider"
+    },
+    {
+     "nome": "Country wheel",
+     "pro": true,
+     "obs": "slug country-wheel"
+    },
+    {
+     "nome": "Coin",
+     "pro": true,
+     "obs": "slug coin"
+    },
+    {
+     "nome": "Range",
+     "pro": true,
+     "obs": "slug range"
+    },
+    {
+     "nome": "Tape",
+     "pro": true,
+     "obs": "slug tape"
+    },
+    {
+     "nome": "Picker wheel",
+     "pro": true,
+     "obs": "slug picker-wheel"
+    },
+    {
+     "nome": "Split view",
+     "pro": true,
+     "obs": "slug split-view"
+    },
+    {
+     "nome": "Resize frame",
+     "pro": true,
+     "obs": "slug resize-frame"
+    },
+    {
+     "nome": "Segment timer",
+     "pro": true,
+     "obs": "slug segment-timer"
+    },
+    {
+     "nome": "Ticket",
+     "pro": true,
+     "obs": "slug ticket"
+    },
+    {
+     "nome": "World clock",
+     "pro": true,
+     "obs": "slug world-clock"
+    },
+    {
+     "nome": "Folding bill",
+     "pro": false,
+     "obs": "slug folding-bill"
+    },
+    {
+     "nome": "Dot globe",
+     "pro": true,
+     "obs": "slug dot-globe"
+    },
+    {
+     "nome": "Image compare",
+     "pro": false,
+     "obs": "slug image-compare"
+    },
+    {
+     "nome": "Signature pad",
+     "pro": false,
+     "obs": "slug signature"
+    },
+    {
+     "nome": "Upload dropzone",
+     "pro": true,
+     "obs": "slug upload-dropzone"
+    },
+    {
+     "nome": "Rolling counter",
+     "pro": false,
+     "obs": "slug rolling-counter"
+    },
+    {
+     "nome": "Glass bubble",
+     "pro": false,
+     "obs": "slug glass-bubble"
+    },
+    {
+     "nome": "Slide to confirm",
+     "pro": false,
+     "obs": "slug slide-confirm"
+    },
+    {
+     "nome": "Dragging ball",
+     "pro": false,
+     "obs": "slug drag-ball"
+    },
+    {
+     "nome": "Pull to refresh",
+     "pro": false,
+     "obs": "slug pull"
+    },
+    {
+     "nome": "Reorder list",
+     "pro": true,
+     "obs": "slug liq-arrange"
+    },
+    {
+     "nome": "Wheel",
+     "pro": true,
+     "obs": "slug humidity"
+    },
+    {
+     "nome": "Range dial",
+     "pro": true,
+     "obs": "slug sleep"
+    }
+   ]
+  },
+  {
+   "nome": "Passar o mouse",
+   "itens": [
+    {
+     "nome": "Thinking orb",
+     "pro": true,
+     "obs": "slug thinking-orb"
+    },
+    {
+     "nome": "Stories",
+     "pro": true,
+     "obs": "slug stories"
+    },
+    {
+     "nome": "Liquid tooltip",
+     "pro": true,
+     "obs": "slug glide-tip"
+    },
+    {
+     "nome": "Income flow",
+     "pro": true,
+     "obs": "slug income-flow"
+    },
+    {
+     "nome": "3D bar chart",
+     "pro": true,
+     "obs": "slug pillars"
+    },
+    {
+     "nome": "Market chart",
+     "pro": true,
+     "obs": "slug market-chart"
+    },
+    {
+     "nome": "Card stack",
+     "pro": true,
+     "obs": "slug card-stack"
+    },
+    {
+     "nome": "Arc ring",
+     "pro": true,
+     "obs": "slug expenses"
+    },
+    {
+     "nome": "Image trail",
+     "pro": true,
+     "obs": "slug image-trail"
+    },
+    {
+     "nome": "Magnetic letters",
+     "pro": true,
+     "obs": "slug magnetic-letters"
+    },
+    {
+     "nome": "Context meter",
+     "pro": false,
+     "obs": "slug context-meter"
+    },
+    {
+     "nome": "Peek rating",
+     "pro": true,
+     "obs": "slug peek-rating"
+    },
+    {
+     "nome": "Edge light",
+     "pro": true,
+     "obs": "slug edge-light"
+    },
+    {
+     "nome": "Line sidebar",
+     "pro": true,
+     "obs": "slug line-sidebar"
+    },
+    {
+     "nome": "Gravity tags",
+     "pro": true,
+     "obs": "slug gravity-tags"
+    },
+    {
+     "nome": "Falling text",
+     "pro": true,
+     "obs": "slug falling-text"
+    },
+    {
+     "nome": "Dot swarm",
+     "pro": true,
+     "obs": "slug dot-swarm"
+    },
+    {
+     "nome": "Line sphere",
+     "pro": true,
+     "obs": "slug line-sphere"
+    },
+    {
+     "nome": "Stacked bars",
+     "pro": false,
+     "obs": "slug stacked-bars"
+    },
+    {
+     "nome": "Network graph",
+     "pro": true,
+     "obs": "slug blast-radius"
+    },
+    {
+     "nome": "Avatar group",
+     "pro": true,
+     "obs": "slug avatar-group"
+    },
+    {
+     "nome": "Profile hover card",
+     "pro": true,
+     "obs": "slug profile-card"
+    },
+    {
+     "nome": "Toast stack",
+     "pro": false,
+     "obs": "slug toast-stack"
+    },
+    {
+     "nome": "Metaballs",
+     "pro": true,
+     "obs": "slug metaballs"
+    },
+    {
+     "nome": "Code reveal",
+     "pro": true,
+     "obs": "slug code-reveal"
+    },
+    {
+     "nome": "Emoji reactions",
+     "pro": false,
+     "obs": "slug emoji-reactions"
+    },
+    {
+     "nome": "Folder",
+     "pro": true,
+     "obs": "slug folder"
+    },
+    {
+     "nome": "Foggy word",
+     "pro": true,
+     "obs": "slug foggy-word"
+    },
+    {
+     "nome": "Album shelf",
+     "pro": true,
+     "obs": "slug album-shelf"
+    },
+    {
+     "nome": "Hub diagram",
+     "pro": true,
+     "obs": "slug hub-diagram"
+    },
+    {
+     "nome": "Progressive blur",
+     "pro": true,
+     "obs": "slug progressive-blur"
+    },
+    {
+     "nome": "Smudge",
+     "pro": true,
+     "obs": "slug smudge"
+    },
+    {
+     "nome": "Radial pop-out",
+     "pro": true,
+     "obs": "slug radial-pop-out"
+    },
+    {
+     "nome": "Heart rate",
+     "pro": true,
+     "obs": "slug heart-rate"
+    },
+    {
+     "nome": "Light",
+     "pro": true,
+     "obs": "slug light"
+    },
+    {
+     "nome": "Share pill",
+     "pro": true,
+     "obs": "slug share-pill"
+    },
+    {
+     "nome": "Magnetic dots",
+     "pro": true,
+     "obs": "slug magnetic-dots"
+    },
+    {
+     "nome": "Sweep button",
+     "pro": true,
+     "obs": "slug sweep-button"
+    },
+    {
+     "nome": "ASCII wake",
+     "pro": false,
+     "obs": "slug ascii-wake"
+    },
+    {
+     "nome": "Heat map",
+     "pro": false,
+     "obs": "slug heat-word"
+    },
+    {
+     "nome": "Eye tracker",
+     "pro": false,
+     "obs": "slug eye-tracker"
+    },
+    {
+     "nome": "Particles",
+     "pro": false,
+     "obs": "slug particles"
+    },
+    {
+     "nome": "Image accordion",
+     "pro": false,
+     "obs": "slug image-accordion"
+    },
+    {
+     "nome": "Action node",
+     "pro": false,
+     "obs": "slug action-node"
+    },
+    {
+     "nome": "Tilt card",
+     "pro": false,
+     "obs": "slug tilt"
+    },
+    {
+     "nome": "Escape button",
+     "pro": true,
+     "obs": "slug escape"
+    },
+    {
+     "nome": "Magnifying dock",
+     "pro": false,
+     "obs": "slug dock"
+    },
+    {
+     "nome": "Progress ticks",
+     "pro": true,
+     "obs": "slug progress"
+    }
+   ]
+  },
+  {
+   "nome": "Carregamento / estados",
+   "itens": [
+    {
+     "nome": "Race bars",
+     "pro": true,
+     "obs": "slug race-bars"
+    },
+    {
+     "nome": "Thinking loader",
+     "pro": true,
+     "obs": "slug thinking-loader"
+    },
+    {
+     "nome": "Loading state",
+     "pro": true,
+     "obs": "slug loading-state"
+    },
+    {
+     "nome": "Blueprint loader",
+     "pro": true,
+     "obs": "slug blueprint-loader"
+    },
+    {
+     "nome": "Dot loader",
+     "pro": true,
+     "obs": "slug dot-loader"
+    },
+    {
+     "nome": "Image shimmer",
+     "pro": true,
+     "obs": "slug image-shimmer"
+    },
+    {
+     "nome": "Shimmer text",
+     "pro": true,
+     "obs": "slug shimmer-text"
+    },
+    {
+     "nome": "Wave loader",
+     "pro": true,
+     "obs": "slug wave-loader"
+    },
+    {
+     "nome": "Bounce loader",
+     "pro": true,
+     "obs": "slug bounce-loader"
+    },
+    {
+     "nome": "Trace loader",
+     "pro": true,
+     "obs": "slug trace-loader"
+    },
+    {
+     "nome": "Morph loader",
+     "pro": true,
+     "obs": "slug morph-loader"
+    },
+    {
+     "nome": "Pixel loader",
+     "pro": true,
+     "obs": "slug pixel-loader"
+    },
+    {
+     "nome": "Blocks loader",
+     "pro": true,
+     "obs": "slug blocks-loader"
+    }
+   ]
+  },
+  {
+   "nome": "Seleção",
+   "itens": [
+    {
+     "nome": "Magnetic select",
+     "pro": false,
+     "obs": "slug magnet-select"
+    },
+    {
+     "nome": "Assignees",
+     "pro": false,
+     "obs": "slug picker"
+    },
+    {
+     "nome": "Aspect ratio",
+     "pro": false,
+     "obs": "slug aspect"
+    },
+    {
+     "nome": "Canvas toolbar",
+     "pro": true,
+     "obs": "slug toolbar"
+    },
+    {
+     "nome": "Icon bar",
+     "pro": true,
+     "obs": "slug icon-bar"
+    },
+    {
+     "nome": "Selection list",
+     "pro": true,
+     "obs": "slug roster"
+    }
+   ]
+  },
+  {
+   "nome": "Deslizar",
+   "itens": [
+    {
+     "nome": "Time scrubber",
+     "pro": false,
+     "obs": "slug time-scrubber"
+    },
+    {
+     "nome": "Slosh slider",
+     "pro": true,
+     "obs": "slug slosh"
+    }
+   ]
+  },
+  {
+   "nome": "Swipe",
+   "itens": [
+    {
+     "nome": "Swipe deck",
+     "pro": true,
+     "obs": "slug swipe-deck"
+    },
+    {
+     "nome": "Activity stack",
+     "pro": true,
+     "obs": "slug activity-stack"
+    },
+    {
+     "nome": "Date reel",
+     "pro": true,
+     "obs": "slug date-reel"
+    },
+    {
+     "nome": "Carousel",
+     "pro": false,
+     "obs": "slug carousel"
+    }
+   ]
+  },
+  {
+   "nome": "Digitação",
+   "itens": [
+    {
+     "nome": "AI autocomplete",
+     "pro": true,
+     "obs": "slug ai-autocomplete"
+    },
+    {
+     "nome": "AI chat input",
+     "pro": true,
+     "obs": "slug ai-chat-input"
+    },
+    {
+     "nome": "Tag input",
+     "pro": true,
+     "obs": "slug tag-input"
+    },
+    {
+     "nome": "Form error",
+     "pro": true,
+     "obs": "slug form-error"
+    },
+    {
+     "nome": "Password strength",
+     "pro": true,
+     "obs": "slug password-strength"
+    },
+    {
+     "nome": "Label input",
+     "pro": false,
+     "obs": "slug label-input"
+    },
+    {
+     "nome": "One-time code",
+     "pro": false,
+     "obs": "slug one-time-code"
+    },
+    {
+     "nome": "Command bar",
+     "pro": true,
+     "obs": "slug command"
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Sounds: 182 sons de UI sintetizados (categorias: Actions 34, Feedback 26, Movement 27, Navigation 31, Notifications 17, Progress 16, Selection 23, System 8)",
+  "Finds: 284 interações de UI de outros designers, com crédito",
+  "Bench: canvas para organizar e ajustar blocos lado a lado (ilimitado no Pro)",
+  "MCP (bencho.dev/mcp) para o assistente colar o componente no projeto",
+  "Registry shadcn: bencho.dev/r/registry.json (só os 43 gratuitos) + bencho-tokens.css",
+  "Feito com React, TypeScript, framer-motion"
+ ],
+ "acesso_visto": "Free: 43 blocos com código completo, licença MIT (bencho.dev/license). Pro: 148 blocos (\"included with Bencho Pro\", uso livre, sem revenda), EUR 99 por ano, inclui todos os sons, Bench ilimitado, código-fonte completo, MCP e conteúdo futuro. Também plano \"Forever, pay once\" (preço não visto).",
+ "observacoes": "Lista completa dos 191 blocos (llms.txt) com status Free/Pro lido da página de cada bloco. Agrupamento pelo tipo de interação que o próprio site usa na home; não há categorias temáticas oficiais além disso.",
+ "id": "bencho",
+ "conferido_em": "2026-11-27",
+ "total": 191
+}

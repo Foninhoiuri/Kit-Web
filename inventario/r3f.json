@@ -1,0 +1,1195 @@
+{
+ "id": "r3f",
+ "fontes": [
+  "https://r3f.docs.pmnd.rs/llms.txt",
+  "https://r3f.docs.pmnd.rs/api/hooks",
+  "https://r3f.docs.pmnd.rs/getting-started/introduction",
+  "https://raw.githubusercontent.com/pmndrs/drei/master/README.md",
+  "api.github.com: listagem de src/ do drei, effects do react-postprocessing e components do react-three-rapier"
+ ],
+ "total": 219,
+ "grupos": [
+  {
+   "nome": "R3F: núcleo e hooks",
+   "itens": [
+    {
+     "nome": "Canvas",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useThree",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useFrame",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useLoader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useLoader.preload",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useGraph",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "drei: Câmeras",
+   "itens": [
+    {
+     "nome": "PerspectiveCamera",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "OrthographicCamera",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CubeCamera",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "drei: Controles",
+   "itens": [
+    {
+     "nome": "OrbitControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MapControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TrackballControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ArcballControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FlyControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FirstPersonControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PointerLockControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CameraControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ScrollControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PresentationControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "KeyboardControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FaceControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MotionPathControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DeviceOrientationControls",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "drei: Gizmos",
+   "itens": [
+    {
+     "nome": "GizmoHelper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "GizmoViewcube",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "GizmoViewport",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PivotControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DragControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TransformControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Grid",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Helper / useHelper",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "drei: Formas",
+   "itens": [
+    {
+     "nome": "RoundedBox",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ScreenQuad",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Line",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "QuadraticBezierLine",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CubicBezierLine",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CatmullRomLine",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Facemesh",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Plane / Box / Sphere / Circle / Cone / Cylinder / Tube / Torus / TorusKnot / Ring (formas básicas)",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Tetrahedron / Octahedron / Dodecahedron / Icosahedron / Polyhedron",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Extrude",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Lathe",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Shape",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "drei: Abstrações",
+   "itens": [
+    {
+     "nome": "Image",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Text",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Text3D",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Effects",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PositionalAudio",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Billboard",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ScreenSpace",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ScreenSizer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "GradientTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Edges",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Outlines",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Trail",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sampler",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ComputedAttribute",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Clone",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useAnimations",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MarchingCubes",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Decal",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Svg",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AsciiRenderer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Splat",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "drei: Cenário (Staging)",
+   "itens": [
+    {
+     "nome": "Center",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Resize",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "BBAnchor",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Bounds",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CameraShake",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Float",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Stage",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Backdrop",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Environment",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Lightformer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SpotLight",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SpotLightShadow",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Shadow",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Caustics",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ContactShadows",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RandomizedLight",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AccumulativeShadows",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sky",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Stars",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sparkles",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Cloud",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useEnvironment",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MatcapTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "NormalTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ShadowAlpha",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "drei: Materiais e shaders",
+   "itens": [
+    {
+     "nome": "MeshReflectorMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshWobbleMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshDistortMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshRefractionMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshTransmissionMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshDiscardMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshPortalMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PointMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MultiMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SoftShadows",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "shaderMaterial",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Wireframe",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "drei: Modificadores",
+   "itens": [
+    {
+     "nome": "CurveModifier",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "drei: Loaders e texturas",
+   "itens": [
+    {
+     "nome": "Loader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useProgress",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useGLTF / Gltf",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useFBX / Fbx",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useTexture / Texture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useKTX2 / Ktx2",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useCubeTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useVideoTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "VideoTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ScreenVideoTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "WebcamVideoTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TrailTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useFont",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useSpriteLoader",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "drei: Performance",
+   "itens": [
+    {
+     "nome": "Instances",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Merged",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Points",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Segments",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Detailed",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Preload",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "BakeShadows",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "meshBounds",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AdaptiveDpr",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AdaptiveEvents",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Bvh",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PerformanceMonitor",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "drei: Portais",
+   "itens": [
+    {
+     "nome": "Hud",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "View",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RenderTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RenderCubeTexture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Fisheye",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Mask",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "drei: Diversos",
+   "itens": [
+    {
+     "nome": "Html",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useContextBridge",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CycleRaycast",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Select",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SpriteAnimator",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Stats",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "StatsGl",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useDepthBuffer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useFBO",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useCamera",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useDetectGPU",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useAspect",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useCursor",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useIntersect",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useBoxProjectedEnv",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useSurfaceSampler",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FaceLandmarker",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Example",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "@react-three/postprocessing (efeitos)",
+   "itens": [
+    {
+     "nome": "ASCII",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Autofocus",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Bloom",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "BrightnessContrast",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ChromaticAberration",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ColorAverage",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ColorDepth",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Depth",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DepthOfField",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DotScreen",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FXAA",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Glitch",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "GodRays",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Grid",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Halftone",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "HueSaturation",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Kuwahara",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LUT",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LensDistortion",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LensFlare",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Linocut",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Noise",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Outline",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Pixelation",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Ramp",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SMAA",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SSAO",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ScanlineEffect",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SelectiveBloom",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sepia",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sharpness",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ShockWave",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Texture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TiltShift",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "TiltShift2",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ToneMapping",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Vignette",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Water",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "EffectComposer",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "@react-three/rapier (física)",
+   "itens": [
+    {
+     "nome": "Physics",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RigidBody",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "InstancedRigidBodies",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MeshCollider",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AnyCollider",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Debug",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FrameStepper",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "hooks e joints (arquivos hooks.ts/joints.ts)",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Ecossistema pmndrs",
+   "itens": [
+    {
+     "nome": "@react-three/gltfjsx",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "@react-three/test-renderer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "@react-three/flex",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "@react-three/xr",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "@react-three/csg",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "@react-three/cannon",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "@react-three/p2",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "@react-three/a11y",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "@react-three/gpu-pathtracer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "lamina",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "zustand",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "jotai",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "valtio",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "react-spring",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "framer-motion-3d",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "use-gesture",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "leva",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "maath",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "miniplex",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "composer-suite",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Docs com servidor MCP próprio (r3f.docs.pmnd.rs)",
+  "Guias: Events and Interaction, Loading Models, Loading Textures, Basic Animations, Scaling performance, v9 Migration, Testing",
+  "Community R3F Components"
+ ],
+ "observacoes": "drei vem do README mais a listagem de src/ (inclui itens fora do README, como MapControls e MultiMaterial). No rapier só os nomes de arquivo/componente foram confirmados, não os nomes de colisores e hooks. Efeitos do postprocessing vêm dos nomes de arquivo de src/effects. Outros hooks/exports do R3F (extend, createPortal etc.) não foram lidos. Tudo grátis (MIT).",
+ "conferido_em": "2026-11-27"
+}

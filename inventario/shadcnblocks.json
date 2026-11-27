@@ -1,0 +1,1039 @@
+{
+ "fontes": [
+  "https://www.shadcnblocks.com/components",
+  "https://www.shadcnblocks.com/blocks",
+  "https://www.shadcnblocks.com/pricing"
+ ],
+ "total": 5744,
+ "grupos": [
+  {
+   "nome": "Blocos (3.503 no total)",
+   "itens": [
+    {
+     "nome": "About",
+     "obs": "48 itens"
+    },
+    {
+     "nome": "Application Shell",
+     "obs": "47 itens"
+    },
+    {
+     "nome": "Audio Player",
+     "obs": "16 itens"
+    },
+    {
+     "nome": "Awards",
+     "obs": "24 itens"
+    },
+    {
+     "nome": "Background Pattern",
+     "obs": "145 itens"
+    },
+    {
+     "nome": "Banner",
+     "obs": "25 itens"
+    },
+    {
+     "nome": "Bento",
+     "obs": "59 itens"
+    },
+    {
+     "nome": "Blog",
+     "obs": "135 itens"
+    },
+    {
+     "nome": "Blog Post",
+     "obs": "42 itens"
+    },
+    {
+     "nome": "Book A Call",
+     "obs": "11 itens"
+    },
+    {
+     "nome": "Book A Demo",
+     "obs": "3 itens"
+    },
+    {
+     "nome": "Calendar",
+     "obs": "26 itens"
+    },
+    {
+     "nome": "Careers",
+     "obs": "16 itens"
+    },
+    {
+     "nome": "Careers Intro",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Case Studies",
+     "obs": "17 itens"
+    },
+    {
+     "nome": "Case Study",
+     "obs": "3 itens"
+    },
+    {
+     "nome": "Changelog",
+     "obs": "7 itens"
+    },
+    {
+     "nome": "Chart Card",
+     "obs": "27 itens"
+    },
+    {
+     "nome": "Chart Group",
+     "obs": "15 itens"
+    },
+    {
+     "nome": "Checkout",
+     "obs": "11 itens"
+    },
+    {
+     "nome": "Code Example",
+     "obs": "9 itens"
+    },
+    {
+     "nome": "Community",
+     "obs": "7 itens"
+    },
+    {
+     "nome": "Company Benefits",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Compare",
+     "obs": "11 itens"
+    },
+    {
+     "nome": "Compare Products",
+     "obs": "8 itens"
+    },
+    {
+     "nome": "Compliance",
+     "obs": "12 itens"
+    },
+    {
+     "nome": "Contact",
+     "obs": "46 itens"
+    },
+    {
+     "nome": "Content",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Contribution Graph",
+     "obs": "1 itens"
+    },
+    {
+     "nome": "Cookie Banner",
+     "obs": "19 itens"
+    },
+    {
+     "nome": "Countdown",
+     "obs": "11 itens"
+    },
+    {
+     "nome": "Coverflow",
+     "obs": "59 itens"
+    },
+    {
+     "nome": "Crud Companies",
+     "obs": "9 itens"
+    },
+    {
+     "nome": "Cta",
+     "obs": "57 itens"
+    },
+    {
+     "nome": "Customer Details",
+     "obs": "3 itens"
+    },
+    {
+     "nome": "Dashboard",
+     "obs": "31 itens"
+    },
+    {
+     "nome": "Data Table",
+     "obs": "32 itens"
+    },
+    {
+     "nome": "Deals",
+     "obs": "5 itens"
+    },
+    {
+     "nome": "Download",
+     "obs": "24 itens"
+    },
+    {
+     "nome": "Ecommerce Footer",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Ecommerce Hero",
+     "obs": "29 itens"
+    },
+    {
+     "nome": "Ecommerce Navbar",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Edit Product",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Experience",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Faq",
+     "obs": "38 itens"
+    },
+    {
+     "nome": "Feature",
+     "obs": "398 itens"
+    },
+    {
+     "nome": "Feedback",
+     "obs": "7 itens"
+    },
+    {
+     "nome": "Field Mapping",
+     "obs": "2 itens"
+    },
+    {
+     "nome": "Footer",
+     "obs": "45 itens"
+    },
+    {
+     "nome": "Forgot Password",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Gallery",
+     "obs": "148 itens"
+    },
+    {
+     "nome": "Gantt",
+     "obs": "1 itens"
+    },
+    {
+     "nome": "Help",
+     "obs": "2 itens"
+    },
+    {
+     "nome": "Help Center",
+     "obs": "2 itens"
+    },
+    {
+     "nome": "Hero",
+     "obs": "746 itens"
+    },
+    {
+     "nome": "Immersive",
+     "obs": "5 itens"
+    },
+    {
+     "nome": "Inbox",
+     "obs": "7 itens"
+    },
+    {
+     "nome": "Incentives",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Industries",
+     "obs": "5 itens"
+    },
+    {
+     "nome": "Integration",
+     "obs": "35 itens"
+    },
+    {
+     "nome": "Investors",
+     "obs": "1 itens"
+    },
+    {
+     "nome": "Invite User",
+     "obs": "11 itens"
+    },
+    {
+     "nome": "Issue Detail",
+     "obs": "2 itens"
+    },
+    {
+     "nome": "Issue List",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Kanban",
+     "obs": "3 itens"
+    },
+    {
+     "nome": "Launch",
+     "obs": "2 itens"
+    },
+    {
+     "nome": "Leaderboard",
+     "obs": "3 itens"
+    },
+    {
+     "nome": "List",
+     "obs": "3 itens"
+    },
+    {
+     "nome": "Live Purchase",
+     "obs": "3 itens"
+    },
+    {
+     "nome": "Login",
+     "obs": "8 itens"
+    },
+    {
+     "nome": "Logos",
+     "obs": "40 itens"
+    },
+    {
+     "nome": "Magic Link",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Maps",
+     "obs": "2 itens"
+    },
+    {
+     "nome": "Member List",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Navbar",
+     "obs": "21 itens"
+    },
+    {
+     "nome": "Newsletter",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Offer Modal",
+     "obs": "12 itens"
+    },
+    {
+     "nome": "Onboarding",
+     "obs": "2 itens"
+    },
+    {
+     "nome": "Order History",
+     "obs": "5 itens"
+    },
+    {
+     "nome": "Order Management",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Order Summary",
+     "obs": "9 itens"
+    },
+    {
+     "nome": "Our Story",
+     "obs": "7 itens"
+    },
+    {
+     "nome": "Passkey",
+     "obs": "2 itens"
+    },
+    {
+     "nome": "Payment Methods",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Press",
+     "obs": "1 itens"
+    },
+    {
+     "nome": "Pricing",
+     "obs": "98 itens"
+    },
+    {
+     "nome": "Process",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Product Card",
+     "obs": "28 itens"
+    },
+    {
+     "nome": "Product Categories",
+     "obs": "25 itens"
+    },
+    {
+     "nome": "Product Detail",
+     "obs": "53 itens"
+    },
+    {
+     "nome": "Product Gallery",
+     "obs": "23 itens"
+    },
+    {
+     "nome": "Product Inventory",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Product List",
+     "obs": "44 itens"
+    },
+    {
+     "nome": "Product Quick View",
+     "obs": "10 itens"
+    },
+    {
+     "nome": "Product Search",
+     "obs": "10 itens"
+    },
+    {
+     "nome": "Product Specs",
+     "obs": "5 itens"
+    },
+    {
+     "nome": "Products Bundle Hotspot",
+     "obs": "7 itens"
+    },
+    {
+     "nome": "Project",
+     "obs": "34 itens"
+    },
+    {
+     "nome": "Project Detail",
+     "obs": "2 itens"
+    },
+    {
+     "nome": "Project List",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Projects",
+     "obs": "34 itens"
+    },
+    {
+     "nome": "Promo Banner",
+     "obs": "11 itens"
+    },
+    {
+     "nome": "Rate Card",
+     "obs": "2 itens"
+    },
+    {
+     "nome": "Reset Password",
+     "obs": "5 itens"
+    },
+    {
+     "nome": "Resource",
+     "obs": "3 itens"
+    },
+    {
+     "nome": "Resources",
+     "obs": "12 itens"
+    },
+    {
+     "nome": "Returns Policy",
+     "obs": "1 itens"
+    },
+    {
+     "nome": "Reviews",
+     "obs": "21 itens"
+    },
+    {
+     "nome": "Service",
+     "obs": "7 itens"
+    },
+    {
+     "nome": "Services",
+     "obs": "19 itens"
+    },
+    {
+     "nome": "Settings Integrations",
+     "obs": "10 itens"
+    },
+    {
+     "nome": "Settings Members",
+     "obs": "5 itens"
+    },
+    {
+     "nome": "Settings Notifications",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Settings Profile",
+     "obs": "9 itens"
+    },
+    {
+     "nome": "Shader",
+     "obs": "20 itens"
+    },
+    {
+     "nome": "Shipments",
+     "obs": "3 itens"
+    },
+    {
+     "nome": "Shipping Calculator",
+     "obs": "1 itens"
+    },
+    {
+     "nome": "Shop The Look",
+     "obs": "10 itens"
+    },
+    {
+     "nome": "Shopping Cart",
+     "obs": "17 itens"
+    },
+    {
+     "nome": "Sidebar",
+     "obs": "21 itens"
+    },
+    {
+     "nome": "Signup",
+     "obs": "10 itens"
+    },
+    {
+     "nome": "Skills",
+     "obs": "2 itens"
+    },
+    {
+     "nome": "Social Media Trending",
+     "obs": "8 itens"
+    },
+    {
+     "nome": "Stats",
+     "obs": "26 itens"
+    },
+    {
+     "nome": "Stats Card",
+     "obs": "10 itens"
+    },
+    {
+     "nome": "Store Locator",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Survey",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Team",
+     "obs": "49 itens"
+    },
+    {
+     "nome": "Team List",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Testimonial",
+     "obs": "41 itens"
+    },
+    {
+     "nome": "Timeline",
+     "obs": "24 itens"
+    },
+    {
+     "nome": "Todo List",
+     "obs": "10 itens"
+    },
+    {
+     "nome": "Trust Strip",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Two Factor",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Uptime",
+     "obs": "7 itens"
+    },
+    {
+     "nome": "User Profile",
+     "obs": "12 itens"
+    },
+    {
+     "nome": "Verify Email",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Waitlist",
+     "obs": "3 itens"
+    },
+    {
+     "nome": "Wishlist",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Workplace Photos",
+     "obs": "1 itens"
+    }
+   ]
+  },
+  {
+   "nome": "Componentes (2.241 no total)",
+   "itens": [
+    {
+     "nome": "Accordion",
+     "obs": "108 itens"
+    },
+    {
+     "nome": "Alert",
+     "obs": "25 itens"
+    },
+    {
+     "nome": "Alert Dialog",
+     "obs": "39 itens"
+    },
+    {
+     "nome": "Announcement",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Aspect Ratio",
+     "obs": "7 itens"
+    },
+    {
+     "nome": "Autocomplete",
+     "obs": "15 itens"
+    },
+    {
+     "nome": "Avatar",
+     "obs": "34 itens"
+    },
+    {
+     "nome": "Avatar Group",
+     "obs": "9 itens"
+    },
+    {
+     "nome": "Avatar Stack",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Badge",
+     "obs": "22 itens"
+    },
+    {
+     "nome": "Banner",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Bento Tile",
+     "obs": "230 itens"
+    },
+    {
+     "nome": "Border Button",
+     "obs": "24 itens"
+    },
+    {
+     "nome": "Breadcrumb",
+     "obs": "14 itens"
+    },
+    {
+     "nome": "Button",
+     "obs": "126 itens"
+    },
+    {
+     "nome": "Button Group",
+     "obs": "39 itens"
+    },
+    {
+     "nome": "Calendar",
+     "obs": "16 itens"
+    },
+    {
+     "nome": "Card",
+     "obs": "5 itens"
+    },
+    {
+     "nome": "Carousel",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Chart",
+     "obs": "85 itens"
+    },
+    {
+     "nome": "Checkbox",
+     "obs": "12 itens"
+    },
+    {
+     "nome": "Choicebox",
+     "obs": "5 itens"
+    },
+    {
+     "nome": "Code Block",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Collapsible",
+     "obs": "23 itens"
+    },
+    {
+     "nome": "Color Picker",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Combobox",
+     "obs": "42 itens"
+    },
+    {
+     "nome": "Command",
+     "obs": "21 itens"
+    },
+    {
+     "nome": "Comparison",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Context Menu",
+     "obs": "27 itens"
+    },
+    {
+     "nome": "Contribution Graph",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Counter",
+     "obs": "11 itens"
+    },
+    {
+     "nome": "Credit Card",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Data Table",
+     "obs": "16 itens"
+    },
+    {
+     "nome": "Data Toolbar",
+     "obs": "3 itens"
+    },
+    {
+     "nome": "Date Picker",
+     "obs": "8 itens"
+    },
+    {
+     "nome": "Deck",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Dialog",
+     "obs": "17 itens"
+    },
+    {
+     "nome": "Dialog Stack",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Drawer",
+     "obs": "22 itens"
+    },
+    {
+     "nome": "Dropdown Menu",
+     "obs": "30 itens"
+    },
+    {
+     "nome": "Dropzone",
+     "obs": "5 itens"
+    },
+    {
+     "nome": "Editor",
+     "obs": "8 itens"
+    },
+    {
+     "nome": "Emoji Picker",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Empty",
+     "obs": "22 itens"
+    },
+    {
+     "nome": "Field",
+     "obs": "43 itens"
+    },
+    {
+     "nome": "File Upload",
+     "obs": "45 itens"
+    },
+    {
+     "nome": "Filter Panel",
+     "obs": "2 itens"
+    },
+    {
+     "nome": "Form",
+     "obs": "85 itens"
+    },
+    {
+     "nome": "Form Star Rating",
+     "obs": "7 itens"
+    },
+    {
+     "nome": "Gantt",
+     "obs": "12 itens"
+    },
+    {
+     "nome": "Github Stars",
+     "obs": "10 itens"
+    },
+    {
+     "nome": "Glimpse",
+     "obs": "5 itens"
+    },
+    {
+     "nome": "Hover Card",
+     "obs": "20 itens"
+    },
+    {
+     "nome": "Image Crop",
+     "obs": "8 itens"
+    },
+    {
+     "nome": "Image Zoom",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Input",
+     "obs": "24 itens"
+    },
+    {
+     "nome": "Input Group",
+     "obs": "39 itens"
+    },
+    {
+     "nome": "Input Otp",
+     "obs": "20 itens"
+    },
+    {
+     "nome": "Item",
+     "obs": "10 itens"
+    },
+    {
+     "nome": "Kanban",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Kbd",
+     "obs": "39 itens"
+    },
+    {
+     "nome": "Label",
+     "obs": "8 itens"
+    },
+    {
+     "nome": "List",
+     "obs": "8 itens"
+    },
+    {
+     "nome": "List Panel",
+     "obs": "66 itens"
+    },
+    {
+     "nome": "Login Button",
+     "obs": "32 itens"
+    },
+    {
+     "nome": "Logo",
+     "obs": "3 itens"
+    },
+    {
+     "nome": "Marquee",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Menubar",
+     "obs": "10 itens"
+    },
+    {
+     "nome": "Mini Calendar",
+     "obs": "5 itens"
+    },
+    {
+     "nome": "Navigation Menu",
+     "obs": "20 itens"
+    },
+    {
+     "nome": "Pagination",
+     "obs": "19 itens"
+    },
+    {
+     "nome": "Pill",
+     "obs": "25 itens"
+    },
+    {
+     "nome": "Popover",
+     "obs": "15 itens"
+    },
+    {
+     "nome": "Price",
+     "obs": "2 itens"
+    },
+    {
+     "nome": "Progress",
+     "obs": "20 itens"
+    },
+    {
+     "nome": "Qr Code",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Radio Group",
+     "obs": "10 itens"
+    },
+    {
+     "nome": "Rating",
+     "obs": "15 itens"
+    },
+    {
+     "nome": "Reel",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Relative Time",
+     "obs": "5 itens"
+    },
+    {
+     "nome": "Resizable",
+     "obs": "9 itens"
+    },
+    {
+     "nome": "Sandbox",
+     "obs": "4 itens"
+    },
+    {
+     "nome": "Scroll Area",
+     "obs": "8 itens"
+    },
+    {
+     "nome": "Scrollable Tabslist",
+     "obs": "1 itens"
+    },
+    {
+     "nome": "Select",
+     "obs": "51 itens"
+    },
+    {
+     "nome": "Separator",
+     "obs": "18 itens"
+    },
+    {
+     "nome": "Sheet",
+     "obs": "31 itens"
+    },
+    {
+     "nome": "Skeleton",
+     "obs": "30 itens"
+    },
+    {
+     "nome": "Slider",
+     "obs": "29 itens"
+    },
+    {
+     "nome": "Snippet",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Social Button",
+     "obs": "48 itens"
+    },
+    {
+     "nome": "Sonner",
+     "obs": "35 itens"
+    },
+    {
+     "nome": "Sparkline",
+     "obs": "3 itens"
+    },
+    {
+     "nome": "Spinner",
+     "obs": "28 itens"
+    },
+    {
+     "nome": "Stat",
+     "obs": "3 itens"
+    },
+    {
+     "nome": "Status",
+     "obs": "5 itens"
+    },
+    {
+     "nome": "Stepper",
+     "obs": "26 itens"
+    },
+    {
+     "nome": "Switch",
+     "obs": "19 itens"
+    },
+    {
+     "nome": "Table",
+     "obs": "38 itens"
+    },
+    {
+     "nome": "Tabs",
+     "obs": "11 itens"
+    },
+    {
+     "nome": "Tags",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Textarea",
+     "obs": "13 itens"
+    },
+    {
+     "nome": "Theme Switcher",
+     "obs": "5 itens"
+    },
+    {
+     "nome": "Theme Toggle",
+     "obs": "28 itens"
+    },
+    {
+     "nome": "Ticker",
+     "obs": "8 itens"
+    },
+    {
+     "nome": "Timeline",
+     "obs": "1 itens"
+    },
+    {
+     "nome": "Toggle",
+     "obs": "7 itens"
+    },
+    {
+     "nome": "Toggle Group",
+     "obs": "7 itens"
+    },
+    {
+     "nome": "Tooltip",
+     "obs": "8 itens"
+    },
+    {
+     "nome": "Tree",
+     "obs": "6 itens"
+    },
+    {
+     "nome": "Video Player",
+     "obs": "8 itens"
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Pages: 97 paginas prontas",
+  "Templates: 23 (Premium)",
+  "Themes: 39",
+  "Figma Kit: 579",
+  "Admin Kit: 280",
+  "Vue Blocks (site externo)",
+  "Shadcn CLI, Shadcn MCP, Shadcn Page Builder (v2), Shadcn IDE Extension",
+  "Add-ons de CMS: Payload CMS e Sanity CMS",
+  "Planos vitalicios (promo Black Friday 40%): Pro US$89 (de 149): 2241+ componentes e 3334+ blocos; Premium US$179 (de 299): + 23 templates, Figma Kit, Admin Kit; Elite US$239 (de 399): + 97+ pages e Page Builder",
+  "Licenca comercial, instalacao via CLI, codigo TS + Tailwind, tokens claro/escuro"
+ ],
+ "observacoes": "O site mostra so totais por categoria; NAO mostra quantos sao gratis vs pro por categoria. Pelo preco, Pro da 3334+ de 3503 blocos, sugerindo ~170 blocos gratis (inferencia, nao confirmado). Total = blocos + componentes.",
+ "id": "shadcnblocks",
+ "conferido_em": "2026-11-27"
+}

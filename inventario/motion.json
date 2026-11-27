@@ -1,0 +1,644 @@
+{
+ "id": "motion",
+ "fontes": [
+  "https://motion.dev/docs",
+  "https://motion.dev/llms.txt"
+ ],
+ "total": 115,
+ "grupos": [
+  {
+   "nome": "React: componentes (grátis)",
+   "itens": [
+    {
+     "nome": "motion (motion.div etc.)",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AnimatePresence",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AnimateView",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LayoutGroup",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LazyMotion",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MotionConfig",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Reorder (Reorder.Group/Item)",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "React: hooks (grátis)",
+   "itens": [
+    {
+     "nome": "useAnimate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useAnimationFrame",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useDragControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useInView",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useMotionTemplate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useMotionValueEvent",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "usePageInView",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useReducedMotion",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useScopeMotion",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useScroll",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useSpring",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useTime",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useTransform",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useVelocity",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "React: Motion+ (pago)",
+   "itens": [
+    {
+     "nome": "useCurtains",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "AnimateActivity",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "AnimateNumber",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "AnimateSuspense",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "Carousel",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "Cursor",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "FX",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "Gallery",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "ScrambleText",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "Ticker",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "Typewriter",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "useSplitText",
+     "pro": true,
+     "obs": "Motion+"
+    }
+   ]
+  },
+  {
+   "nome": "JavaScript: funções (grátis)",
+   "itens": [
+    {
+     "nome": "animate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "animateView",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "arc",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "attrEffect",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "clamp",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "css (springs CSS)",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "delay",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "distance",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "distance2D",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "drag",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "frame",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "hover",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "inView",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "mapValue",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "mix",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "motionValue",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "pinch",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "pipe",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "press",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "progress",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "propEffect",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "resize",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "resolveElements",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "scope/scopeMotion",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "scroll",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "spring",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "springValue",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "stagger",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "styleEffect",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "svgEffect",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "transform",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "transformValue",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "wrap",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "JavaScript: Motion+ (pago)",
+   "itens": [
+    {
+     "nome": "curtains()",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "FX (defineMotionFX)",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "scrambleText()",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "splitText()",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "typewriter()",
+     "pro": true,
+     "obs": "Motion+"
+    }
+   ]
+  },
+  {
+   "nome": "Vue: componentes e hooks (grátis)",
+   "itens": [
+    {
+     "nome": "Motion",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AnimatePresence",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AnimateView",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LayoutGroup",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LazyMotion",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "MotionConfig",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Reorder",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "v-motion (diretiva)",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useAnimate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useAnimationFrame",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useDragControls",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useInView",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useMotionTemplate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useMotionValueEvent",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useReducedMotion",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useScroll",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useSpring",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useTime",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useTransform",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useVelocity",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Vue: Motion+ (pago)",
+   "itens": [
+    {
+     "nome": "AnimateNumber",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "Carousel",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "Cursor",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "Ticker",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "Typewriter",
+     "pro": true,
+     "obs": "Motion+"
+    }
+   ]
+  },
+  {
+   "nome": "AI Kit (grátis)",
+   "itens": [
+    {
+     "nome": "Motion Studio",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Performance Guard",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Ultramotion",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Reduced motion",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Editing animations",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "AI Kit: Motion+ (pago)",
+   "itens": [
+    {
+     "nome": "Performance Doctor",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "Docs & examples para o agente",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "Generate CSS",
+     "pro": true,
+     "obs": "Motion+"
+    },
+    {
+     "nome": "Transition editor",
+     "pro": true,
+     "obs": "Motion+"
+    }
+   ]
+  },
+  {
+   "nome": "Guias de recursos (React)",
+   "itens": [
+    {
+     "nome": "Gesture/Hover/Drag animation",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Layout animation",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Scroll animation",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SVG animation",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Text animation",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Transitions",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Motion values",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Accessibility",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Reduce bundle size",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Integração com Tailwind / Radix UI / Base UI / Framer / Figma",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Motion UI Gallery e Motion UI (componentes instaláveis)",
+  "Dezenas de exemplos React/JS/Vue, parte grátis e parte Motion+ (ex.: Split text, Cursor trail, Command Palette, iOS App Store, Page wipe, Tilt card)",
+  "Motion AI Kit: skill e instalador para agentes",
+  "Guias: GSAP vs Motion, migração do GSAP, Three.js, Lenis, Svelte, WordPress, Webflow, Squarespace",
+  "Cursos de Motion para React"
+ ],
+ "observacoes": "Lista vinda do llms.txt do motion.dev. A divisão pago/grátis segue as seções 'Motion+' do índice; alguns exemplos são parcialmente pagos e não foram classificados um a um. Páginas individuais de cada API não foram lidas.",
+ "conferido_em": "2026-11-27"
+}

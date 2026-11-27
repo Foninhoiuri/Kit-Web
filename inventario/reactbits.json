@@ -1,0 +1,1386 @@
+{
+ "id": "reactbits",
+ "fontes": [
+  "https://reactbits.dev/llms.txt",
+  "https://pro.reactbits.dev"
+ ],
+ "total": 237,
+ "grupos": [
+  {
+   "nome": "Animações de texto",
+   "itens": [
+    {
+     "nome": "ASCII Text",
+     "pro": false
+    },
+    {
+     "nome": "Blur Text",
+     "pro": false
+    },
+    {
+     "nome": "Circular Text",
+     "pro": false
+    },
+    {
+     "nome": "Count Up",
+     "pro": false
+    },
+    {
+     "nome": "Curved Loop",
+     "pro": false
+    },
+    {
+     "nome": "Decrypted Text",
+     "pro": false
+    },
+    {
+     "nome": "Depth Text",
+     "pro": false
+    },
+    {
+     "nome": "Echo Text",
+     "pro": false
+    },
+    {
+     "nome": "Falling Text",
+     "pro": false
+    },
+    {
+     "nome": "Fold Text",
+     "pro": false
+    },
+    {
+     "nome": "Fuzzy Text",
+     "pro": false
+    },
+    {
+     "nome": "Glitch Text",
+     "pro": false
+    },
+    {
+     "nome": "Gradient Text",
+     "pro": false
+    },
+    {
+     "nome": "Masked Heading",
+     "pro": false
+    },
+    {
+     "nome": "Particle Text",
+     "pro": false
+    },
+    {
+     "nome": "Rotating Text",
+     "pro": false
+    },
+    {
+     "nome": "Scrambled Text",
+     "pro": false
+    },
+    {
+     "nome": "Scroll Float",
+     "pro": false
+    },
+    {
+     "nome": "Scroll Reveal",
+     "pro": false
+    },
+    {
+     "nome": "Scroll Velocity",
+     "pro": false
+    },
+    {
+     "nome": "Shiny Text",
+     "pro": false
+    },
+    {
+     "nome": "Shuffle",
+     "pro": false
+    },
+    {
+     "nome": "Split Flap Text",
+     "pro": false
+    },
+    {
+     "nome": "Split Text",
+     "pro": false
+    },
+    {
+     "nome": "Stroke Text",
+     "pro": false
+    },
+    {
+     "nome": "Tech Text",
+     "pro": false
+    },
+    {
+     "nome": "Text Cursor",
+     "pro": false
+    },
+    {
+     "nome": "Text Loop",
+     "pro": false
+    },
+    {
+     "nome": "Text Pressure",
+     "pro": false
+    },
+    {
+     "nome": "Text Type",
+     "pro": false
+    },
+    {
+     "nome": "True Focus",
+     "pro": false
+    },
+    {
+     "nome": "Variable Proximity",
+     "pro": false
+    },
+    {
+     "nome": "Warp Text",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Animações e cursores",
+   "itens": [
+    {
+     "nome": "Animated Content",
+     "pro": false
+    },
+    {
+     "nome": "Blob Cursor",
+     "pro": false
+    },
+    {
+     "nome": "Click Spark",
+     "pro": false
+    },
+    {
+     "nome": "Crosshair",
+     "pro": false
+    },
+    {
+     "nome": "Crystalized Ball",
+     "pro": false
+    },
+    {
+     "nome": "Cubes",
+     "pro": false
+    },
+    {
+     "nome": "Cursor Grid",
+     "pro": false
+    },
+    {
+     "nome": "Dither Veil",
+     "pro": false
+    },
+    {
+     "nome": "Elastic Mesh",
+     "pro": false
+    },
+    {
+     "nome": "Electric Border",
+     "pro": false
+    },
+    {
+     "nome": "Electric Logo",
+     "pro": false
+    },
+    {
+     "nome": "Fade Content",
+     "pro": false
+    },
+    {
+     "nome": "Ghost Cursor",
+     "pro": false
+    },
+    {
+     "nome": "Glare Hover",
+     "pro": false
+    },
+    {
+     "nome": "Glow Cursor",
+     "pro": false
+    },
+    {
+     "nome": "Gradual Blur",
+     "pro": false
+    },
+    {
+     "nome": "Halftone Reveal",
+     "pro": false
+    },
+    {
+     "nome": "Image Trail",
+     "pro": false
+    },
+    {
+     "nome": "Laser Flow",
+     "pro": false
+    },
+    {
+     "nome": "Logo Loop",
+     "pro": false
+    },
+    {
+     "nome": "Magnet",
+     "pro": false
+    },
+    {
+     "nome": "Meta Balls",
+     "pro": false
+    },
+    {
+     "nome": "Metallic Paint",
+     "pro": false
+    },
+    {
+     "nome": "Neon Logo",
+     "pro": false
+    },
+    {
+     "nome": "Noise",
+     "pro": false
+    },
+    {
+     "nome": "Orbit Images",
+     "pro": false
+    },
+    {
+     "nome": "Pixel Swap",
+     "pro": false
+    },
+    {
+     "nome": "Pixel Trail",
+     "pro": false
+    },
+    {
+     "nome": "Pixel Transition",
+     "pro": false
+    },
+    {
+     "nome": "Ribbons",
+     "pro": false
+    },
+    {
+     "nome": "Ripple Distortion",
+     "pro": false
+    },
+    {
+     "nome": "Scroll Expand",
+     "pro": false
+    },
+    {
+     "nome": "Shape Blur",
+     "pro": false
+    },
+    {
+     "nome": "Splash Cursor",
+     "pro": false
+    },
+    {
+     "nome": "Star Border",
+     "pro": false
+    },
+    {
+     "nome": "Sticker Peel",
+     "pro": false
+    },
+    {
+     "nome": "Strands",
+     "pro": false
+    },
+    {
+     "nome": "Swarm Cursor",
+     "pro": false
+    },
+    {
+     "nome": "Target Cursor",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Componentes",
+   "itens": [
+    {
+     "nome": "Accordion Gallery",
+     "pro": false
+    },
+    {
+     "nome": "Animated List",
+     "pro": false
+    },
+    {
+     "nome": "Border Glow",
+     "pro": false
+    },
+    {
+     "nome": "Bounce Cards",
+     "pro": false
+    },
+    {
+     "nome": "Bubble Menu",
+     "pro": false
+    },
+    {
+     "nome": "Card Nav",
+     "pro": false
+    },
+    {
+     "nome": "Card Swap",
+     "pro": false
+    },
+    {
+     "nome": "Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Chroma Grid",
+     "pro": false
+    },
+    {
+     "nome": "Circular Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Circular Gallery",
+     "pro": false
+    },
+    {
+     "nome": "Counter",
+     "pro": false
+    },
+    {
+     "nome": "Curved Input",
+     "pro": false
+    },
+    {
+     "nome": "Decay Card",
+     "pro": false
+    },
+    {
+     "nome": "Depth Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Dock",
+     "pro": false
+    },
+    {
+     "nome": "Dome Gallery",
+     "pro": false
+    },
+    {
+     "nome": "Drift Wall",
+     "pro": false
+    },
+    {
+     "nome": "Elastic Slider",
+     "pro": false
+    },
+    {
+     "nome": "Flex Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Flowing Menu",
+     "pro": false
+    },
+    {
+     "nome": "Fluid Glass",
+     "pro": false
+    },
+    {
+     "nome": "Flying Posters",
+     "pro": false
+    },
+    {
+     "nome": "Folder",
+     "pro": false
+    },
+    {
+     "nome": "Glass Icons",
+     "pro": false
+    },
+    {
+     "nome": "Glass Surface",
+     "pro": false
+    },
+    {
+     "nome": "Gooey Nav",
+     "pro": false
+    },
+    {
+     "nome": "Holo Card",
+     "pro": false
+    },
+    {
+     "nome": "Infinite Menu",
+     "pro": false
+    },
+    {
+     "nome": "Infinite Spiral",
+     "pro": false
+    },
+    {
+     "nome": "Lanyard",
+     "pro": false
+    },
+    {
+     "nome": "Line Sidebar",
+     "pro": false
+    },
+    {
+     "nome": "Magic Bento",
+     "pro": false
+    },
+    {
+     "nome": "Masonry",
+     "pro": false
+    },
+    {
+     "nome": "Model Viewer",
+     "pro": false
+    },
+    {
+     "nome": "Morph Slider",
+     "pro": false
+    },
+    {
+     "nome": "Option Wheel",
+     "pro": false
+    },
+    {
+     "nome": "Pill Nav",
+     "pro": false
+    },
+    {
+     "nome": "Pixel Card",
+     "pro": false
+    },
+    {
+     "nome": "Profile Card",
+     "pro": false
+    },
+    {
+     "nome": "Reflective Card",
+     "pro": false
+    },
+    {
+     "nome": "Scroll Stack",
+     "pro": false
+    },
+    {
+     "nome": "Specular Button",
+     "pro": false
+    },
+    {
+     "nome": "Spotlight Card",
+     "pro": false
+    },
+    {
+     "nome": "Stack",
+     "pro": false
+    },
+    {
+     "nome": "Staggered Menu",
+     "pro": false
+    },
+    {
+     "nome": "Stepper",
+     "pro": false
+    },
+    {
+     "nome": "Tilted Card",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Micro-interações",
+   "itens": [
+    {
+     "nome": "Bell Toggle",
+     "pro": false
+    },
+    {
+     "nome": "Branched Menu",
+     "pro": false
+    },
+    {
+     "nome": "Call Chip",
+     "pro": false
+    },
+    {
+     "nome": "Code Slots",
+     "pro": false
+    },
+    {
+     "nome": "Comet Dial",
+     "pro": false
+    },
+    {
+     "nome": "Dodge Field",
+     "pro": false
+    },
+    {
+     "nome": "Flip Card",
+     "pro": false
+    },
+    {
+     "nome": "Folder Float",
+     "pro": false
+    },
+    {
+     "nome": "Fuse Button",
+     "pro": false
+    },
+    {
+     "nome": "Glide Select",
+     "pro": false
+    },
+    {
+     "nome": "Hold Button",
+     "pro": false
+    },
+    {
+     "nome": "Jelly Radio",
+     "pro": false
+    },
+    {
+     "nome": "Lattice Loader",
+     "pro": false
+    },
+    {
+     "nome": "Paper Crumple",
+     "pro": false
+    },
+    {
+     "nome": "Peek Rating",
+     "pro": false
+    },
+    {
+     "nome": "Prompt Bar",
+     "pro": false
+    },
+    {
+     "nome": "Pulse Heart",
+     "pro": false
+    },
+    {
+     "nome": "Refine Frame",
+     "pro": false
+    },
+    {
+     "nome": "Rubber Segment",
+     "pro": false
+    },
+    {
+     "nome": "Scrub Field",
+     "pro": false
+    },
+    {
+     "nome": "Shredder",
+     "pro": false
+    },
+    {
+     "nome": "Slide Commit",
+     "pro": false
+    },
+    {
+     "nome": "Sling Button",
+     "pro": false
+    },
+    {
+     "nome": "Slosh Gauge",
+     "pro": false
+    },
+    {
+     "nome": "Spring Check",
+     "pro": false
+    },
+    {
+     "nome": "Squish Switch",
+     "pro": false
+    },
+    {
+     "nome": "Status Mark",
+     "pro": false
+    },
+    {
+     "nome": "Swipe Row",
+     "pro": false
+    },
+    {
+     "nome": "Swipe Toast",
+     "pro": false
+    },
+    {
+     "nome": "Tear Ticket",
+     "pro": false
+    },
+    {
+     "nome": "Thought Line",
+     "pro": false
+    },
+    {
+     "nome": "Voice Pill",
+     "pro": false
+    },
+    {
+     "nome": "Wake Slider",
+     "pro": false
+    },
+    {
+     "nome": "Warm Tooltip",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Fundos",
+   "itens": [
+    {
+     "nome": "Acid Squares",
+     "pro": false
+    },
+    {
+     "nome": "Aero Shards",
+     "pro": false
+    },
+    {
+     "nome": "Antigravity",
+     "pro": false
+    },
+    {
+     "nome": "Aurora",
+     "pro": false
+    },
+    {
+     "nome": "Balatro",
+     "pro": false
+    },
+    {
+     "nome": "Ballpit",
+     "pro": false
+    },
+    {
+     "nome": "Beams",
+     "pro": false
+    },
+    {
+     "nome": "Color Bends",
+     "pro": false
+    },
+    {
+     "nome": "CRT Warp",
+     "pro": false
+    },
+    {
+     "nome": "Dark Veil",
+     "pro": false
+    },
+    {
+     "nome": "Dither",
+     "pro": false
+    },
+    {
+     "nome": "Dot Field",
+     "pro": false
+    },
+    {
+     "nome": "Dot Grid",
+     "pro": false
+    },
+    {
+     "nome": "Faulty Terminal",
+     "pro": false
+    },
+    {
+     "nome": "Ferrofluid",
+     "pro": false
+    },
+    {
+     "nome": "Floating Lines",
+     "pro": false
+    },
+    {
+     "nome": "Flux Lines",
+     "pro": false
+    },
+    {
+     "nome": "Galaxy",
+     "pro": false
+    },
+    {
+     "nome": "Ghost Fibers",
+     "pro": false
+    },
+    {
+     "nome": "Gradient ASCII",
+     "pro": false
+    },
+    {
+     "nome": "Gradient Blinds",
+     "pro": false
+    },
+    {
+     "nome": "Gradient Waves",
+     "pro": false
+    },
+    {
+     "nome": "Grainient",
+     "pro": false
+    },
+    {
+     "nome": "Grid Distortion",
+     "pro": false
+    },
+    {
+     "nome": "Grid Motion",
+     "pro": false
+    },
+    {
+     "nome": "Grid Scan",
+     "pro": false
+    },
+    {
+     "nome": "Holo Mosaic",
+     "pro": false
+    },
+    {
+     "nome": "Hyperspeed",
+     "pro": false
+    },
+    {
+     "nome": "Iridescence",
+     "pro": false
+    },
+    {
+     "nome": "Letter Glitch",
+     "pro": false
+    },
+    {
+     "nome": "Lightfall",
+     "pro": false
+    },
+    {
+     "nome": "Lightning",
+     "pro": false
+    },
+    {
+     "nome": "Light Pillar",
+     "pro": false
+    },
+    {
+     "nome": "Light Rays",
+     "pro": false
+    },
+    {
+     "nome": "Light Tunnel",
+     "pro": false
+    },
+    {
+     "nome": "Line Waves",
+     "pro": false
+    },
+    {
+     "nome": "Liquid Chrome",
+     "pro": false
+    },
+    {
+     "nome": "Liquid Ether",
+     "pro": false
+    },
+    {
+     "nome": "Magic Rings",
+     "pro": false
+    },
+    {
+     "nome": "Magnet Lines",
+     "pro": false
+    },
+    {
+     "nome": "Micro Slats",
+     "pro": false
+    },
+    {
+     "nome": "Molten Metal",
+     "pro": false
+    },
+    {
+     "nome": "Neon Glyphs",
+     "pro": false
+    },
+    {
+     "nome": "Orb",
+     "pro": false
+    },
+    {
+     "nome": "Particles",
+     "pro": false
+    },
+    {
+     "nome": "Pattern Waves",
+     "pro": false
+    },
+    {
+     "nome": "Pixel Blast",
+     "pro": false
+    },
+    {
+     "nome": "Pixel Snow",
+     "pro": false
+    },
+    {
+     "nome": "Plasma",
+     "pro": false
+    },
+    {
+     "nome": "Plasma Wave",
+     "pro": false
+    },
+    {
+     "nome": "Prism",
+     "pro": false
+    },
+    {
+     "nome": "Prismatic Burst",
+     "pro": false
+    },
+    {
+     "nome": "Radar",
+     "pro": false
+    },
+    {
+     "nome": "Ripple Grid",
+     "pro": false
+    },
+    {
+     "nome": "Scanner",
+     "pro": false
+    },
+    {
+     "nome": "Shape Grid",
+     "pro": false
+    },
+    {
+     "nome": "Shape Waves",
+     "pro": false
+    },
+    {
+     "nome": "Side Rays",
+     "pro": false
+    },
+    {
+     "nome": "Silk",
+     "pro": false
+    },
+    {
+     "nome": "Sliced Waves",
+     "pro": false
+    },
+    {
+     "nome": "Soft Aurora",
+     "pro": false
+    },
+    {
+     "nome": "Threads",
+     "pro": false
+    },
+    {
+     "nome": "Topography",
+     "pro": false
+    },
+    {
+     "nome": "Waves",
+     "pro": false
+    },
+    {
+     "nome": "Web Threads",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Pro: componentes (só grupos e contagens)",
+   "itens": [
+    {
+     "nome": "Texto (32)",
+     "pro": true,
+     "obs": "categoria, não componente"
+    },
+    {
+     "nome": "Fundos (106)",
+     "pro": true,
+     "obs": "categoria, não componente"
+    },
+    {
+     "nome": "Imagens e galerias (52)",
+     "pro": true,
+     "obs": "categoria, não componente"
+    },
+    {
+     "nome": "Interface (30)",
+     "pro": true,
+     "obs": "categoria, não componente"
+    },
+    {
+     "nome": "3D e tátil (16)",
+     "pro": true,
+     "obs": "categoria, não componente"
+    },
+    {
+     "nome": "Cursores (19)",
+     "pro": true,
+     "obs": "categoria, não componente"
+    }
+   ]
+  },
+  {
+   "nome": "Pro: blocos (categorias e contagens)",
+   "itens": [
+    {
+     "nome": "Hero Section (59)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Features (22)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Bento (42)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Social Proof (20)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Logos (4)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Contact (14)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Footer (14)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Comparison (9)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Navigation (17)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Banner (3)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Auth (6)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Call To Action (17)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Newsletter (3)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "FAQ (12)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Pricing (18)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Stats (24)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "404 (8)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Profile (6)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "About (15)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Team (4)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Careers (3)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Timeline (3)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Waitlist (6)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Showcase (10)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Gallery (8)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "How It Works (11)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Integrations (3)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Changelog (3)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Download (8)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Blog (13)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Ecommerce (15)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    }
+   ]
+  },
+  {
+   "nome": "Pro: UI de app (categorias e contagens)",
+   "itens": [
+    {
+     "nome": "AI Chat (9)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Prompt Input (7)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Agent Activity (7)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Tool Calls (6)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Agent Approval (6)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Agent Plan (6)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "AI Usage (8)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "App Shell (9)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Cards (11)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Onboarding (7)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Kanban (6)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Wizard (7)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Comments (6)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Scheduling (7)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "App Sidebar (7)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Command Menu (6)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Data Table (8)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Dashboard (14)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "App Dialog (7)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Notifications (6)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Integrations (6)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Editor (5)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Settings Form (6)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Analytics (16)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "List (12)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Forms (12)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Filtering (9)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Feedback (6)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Support (5)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Billing (8)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Chat (6)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "File Manager (4)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Monitoring (10)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Navbar (14)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Mobile (5)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Empty State (5)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Paywall (7)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    },
+    {
+     "nome": "Authentication (14)",
+     "pro": true,
+     "obs": "categoria, não bloco"
+    }
+   ]
+  },
+  {
+   "nome": "Pro: templates",
+   "itens": [
+    {
+     "nome": "Arclight",
+     "pro": true
+    },
+    {
+     "nome": "GenAI",
+     "pro": true
+    },
+    {
+     "nome": "Reworker",
+     "pro": true
+    },
+    {
+     "nome": "Agentframe",
+     "pro": true
+    },
+    {
+     "nome": "Cloudlight",
+     "pro": true
+    },
+    {
+     "nome": "Imageworks",
+     "pro": true
+    },
+    {
+     "nome": "Sparkdesign",
+     "pro": true
+    },
+    {
+     "nome": "SaaS",
+     "pro": true
+    },
+    {
+     "nome": "Minimal",
+     "pro": true
+    },
+    {
+     "nome": "Agency",
+     "pro": true
+    },
+    {
+     "nome": "Finance",
+     "pro": true
+    },
+    {
+     "nome": "AI SaaS",
+     "pro": true
+    },
+    {
+     "nome": "Shader",
+     "pro": true
+    },
+    {
+     "nome": "Wireframe",
+     "pro": true
+    },
+    {
+     "nome": "Portfolio",
+     "pro": true
+    },
+    {
+     "nome": "8 Bit",
+     "pro": true
+    },
+    {
+     "nome": "AI App",
+     "pro": true
+    },
+    {
+     "nome": "Security",
+     "pro": true
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "4 variantes de código: JS+CSS, JS+Tailwind, TS+CSS, TS+Tailwind",
+  "Instalação via shadcn CLI / jsrepo",
+  "Pro: Agent Kit (35 itens: skills e prompts) e MCP server",
+  "Preços Pro (pagamento único): Starter US$129 (255 componentes), Pro US$249 (+400 blocos, 300 UI de app, Agent Kit), Ultimate US$349 (+18 templates)"
+ ],
+ "observacoes": "Lista gratuita completa (5 categorias). Pro: o site publica só grupos e contagens (255 componentes, 400 blocos, 300 UI de app, 18 templates); nomes individuais não vistos, exceto os 18 templates. O campo 'total' conta só os itens nomeados (gratuitos + 18 templates Pro); as linhas Pro de categoria (obs 'categoria') não entram no total.",
+ "conferido_em": "2026-11-27"
+}

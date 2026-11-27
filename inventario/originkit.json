@@ -1,0 +1,4990 @@
+{
+ "fontes": [
+  "https://www.originkit.dev/sitemap.xml",
+  "https://www.originkit.dev/components, /sections, /functional, /category/* (dados embutidos no HTML)",
+  "https://www.originkit.dev/docs/components",
+  "https://www.originkit.dev/docs/licensing",
+  "https://www.originkit.dev/docs/templates",
+  "https://www.originkit.dev/pricing"
+ ],
+ "grupos": [
+  {
+   "nome": "Componentes: Animações",
+   "itens": [
+    {
+     "nome": "ASCII Planet",
+     "pro": null,
+     "obs": "ascii-planet"
+    },
+    {
+     "nome": "Abacus Drift",
+     "pro": null,
+     "obs": "abacus-drift"
+    },
+    {
+     "nome": "Aether Sphere",
+     "pro": null,
+     "obs": "aether-sphere"
+    },
+    {
+     "nome": "Amethyst Heart",
+     "pro": null,
+     "obs": "amethyst-heart"
+    },
+    {
+     "nome": "Arrow Cross",
+     "pro": null,
+     "obs": "arrow-cross"
+    },
+    {
+     "nome": "Ascii Sphere",
+     "pro": null,
+     "obs": "ascii-sphere"
+    },
+    {
+     "nome": "Atlas Sash",
+     "pro": null,
+     "obs": "atlas-sash"
+    },
+    {
+     "nome": "Auger Tape",
+     "pro": null,
+     "obs": "auger-tape"
+    },
+    {
+     "nome": "Bead Cloth Lift",
+     "pro": null,
+     "obs": "bead-cloth-lift"
+    },
+    {
+     "nome": "Botanical Text",
+     "pro": null,
+     "obs": "botanical-text"
+    },
+    {
+     "nome": "Breathweave",
+     "pro": null,
+     "obs": "breathweave"
+    },
+    {
+     "nome": "Bubble Text",
+     "pro": null,
+     "obs": "bubble-text"
+    },
+    {
+     "nome": "Celadon Cage",
+     "pro": null,
+     "obs": "celadon-cage"
+    },
+    {
+     "nome": "Chrome Lattice Wrapped",
+     "pro": null,
+     "obs": "chrome-lattice-wrapped"
+    },
+    {
+     "nome": "Citron Keyscape",
+     "pro": null,
+     "obs": "citron-keyscape"
+    },
+    {
+     "nome": "Comet Orbit Atom",
+     "pro": null,
+     "obs": "comet-orbit-atom"
+    },
+    {
+     "nome": "Cookie Breeze",
+     "pro": null,
+     "obs": "cookie-breeze"
+    },
+    {
+     "nome": "Crimson Reviewboard",
+     "pro": null,
+     "obs": "crimson-reviewboard"
+    },
+    {
+     "nome": "Crystal Caldera",
+     "pro": null,
+     "obs": "crystal-caldera"
+    },
+    {
+     "nome": "Disc Split",
+     "pro": null,
+     "obs": "disc-split"
+    },
+    {
+     "nome": "Dither Globe",
+     "pro": null,
+     "obs": "dither-globe"
+    },
+    {
+     "nome": "Ember Husk",
+     "pro": null,
+     "obs": "ember-husk"
+    },
+    {
+     "nome": "Faceted Four Pointed",
+     "pro": null,
+     "obs": "faceted-four-pointed"
+    },
+    {
+     "nome": "Fibre Image Tear",
+     "pro": null,
+     "obs": "fibre-image-tear"
+    },
+    {
+     "nome": "Flat Disc Covered",
+     "pro": null,
+     "obs": "flat-disc-covered"
+    },
+    {
+     "nome": "Flip Cube",
+     "pro": null,
+     "obs": "flip-cube"
+    },
+    {
+     "nome": "Floating Icons",
+     "pro": null,
+     "obs": "floatingicons"
+    },
+    {
+     "nome": "Flower Border",
+     "pro": null,
+     "obs": "flower-border"
+    },
+    {
+     "nome": "Gel Pebble",
+     "pro": null,
+     "obs": "gel-pebble"
+    },
+    {
+     "nome": "Glitter Wrap",
+     "pro": null,
+     "obs": "glitterwrap"
+    },
+    {
+     "nome": "Glyph Tumbler",
+     "pro": null,
+     "obs": "glyph-tumbler"
+    },
+    {
+     "nome": "Glyph room",
+     "pro": null,
+     "obs": "glyph-room"
+    },
+    {
+     "nome": "Gold Confetti Burst",
+     "pro": null,
+     "obs": "gold-confetti-burst"
+    },
+    {
+     "nome": "Grain Mass",
+     "pro": null,
+     "obs": "grain-mass"
+    },
+    {
+     "nome": "Gravity Gallery",
+     "pro": null,
+     "obs": "gravitygallery"
+    },
+    {
+     "nome": "Gravitygloss",
+     "pro": null,
+     "obs": "gravitygloss"
+    },
+    {
+     "nome": "Grid Hole",
+     "pro": null,
+     "obs": "grid-hole"
+    },
+    {
+     "nome": "Hex Plated Torus",
+     "pro": null,
+     "obs": "hex-plated-torus"
+    },
+    {
+     "nome": "Infinity Light Strands",
+     "pro": null,
+     "obs": "infinity-light-strands"
+    },
+    {
+     "nome": "Interactive Grid",
+     "pro": null,
+     "obs": "interactive-grid"
+    },
+    {
+     "nome": "Iridescent Knot",
+     "pro": null,
+     "obs": "iridescent-knot"
+    },
+    {
+     "nome": "Juice Effect",
+     "pro": null,
+     "obs": "juiceeffect"
+    },
+    {
+     "nome": "Keycap Wall",
+     "pro": null,
+     "obs": "keycap-wall"
+    },
+    {
+     "nome": "Kinetic Text",
+     "pro": null,
+     "obs": "kinetic-text"
+    },
+    {
+     "nome": "Kinetic Typeflow",
+     "pro": null,
+     "obs": "kinetic-typeflow"
+    },
+    {
+     "nome": "Lantern Lotus",
+     "pro": null,
+     "obs": "lantern-lotus"
+    },
+    {
+     "nome": "Lathe Verse",
+     "pro": null,
+     "obs": "lathe-verse"
+    },
+    {
+     "nome": "Lilac Jelly",
+     "pro": null,
+     "obs": "lilac-jelly"
+    },
+    {
+     "nome": "Liquid Sphere",
+     "pro": null,
+     "obs": "liquid-sphere"
+    },
+    {
+     "nome": "Live Chat",
+     "pro": null,
+     "obs": "live-chat"
+    },
+    {
+     "nome": "Luminous Fold",
+     "pro": null,
+     "obs": "luminous-fold"
+    },
+    {
+     "nome": "Metal Rosette",
+     "pro": null,
+     "obs": "metal-rosette"
+    },
+    {
+     "nome": "Mirror Shards",
+     "pro": null,
+     "obs": "mirror-shards"
+    },
+    {
+     "nome": "Miura Image Fold",
+     "pro": null,
+     "obs": "miura-image-fold"
+    },
+    {
+     "nome": "Morphing Glass Torus",
+     "pro": null,
+     "obs": "morphing-glass-torus"
+    },
+    {
+     "nome": "Morphing Glyph Cloud",
+     "pro": null,
+     "obs": "morphing-glyph-cloud"
+    },
+    {
+     "nome": "Neural Filament Sphere",
+     "pro": null,
+     "obs": "neural-filament-sphere"
+    },
+    {
+     "nome": "Newton Cradle",
+     "pro": null,
+     "obs": "newton-cradle"
+    },
+    {
+     "nome": "Orbit Bundle",
+     "pro": null,
+     "obs": "orbit-bundle"
+    },
+    {
+     "nome": "Outline Typeflow",
+     "pro": null,
+     "obs": "outline-typeflow"
+    },
+    {
+     "nome": "Paperline Archive",
+     "pro": null,
+     "obs": "paperline-archive"
+    },
+    {
+     "nome": "Particle Fountain Globe",
+     "pro": null,
+     "obs": "particle-fountain-globe"
+    },
+    {
+     "nome": "Particle Saturn 2",
+     "pro": null,
+     "obs": "particle-saturn-02"
+    },
+    {
+     "nome": "Particle Tunnel",
+     "pro": null,
+     "obs": "particletunnel"
+    },
+    {
+     "nome": "Petal Vortex",
+     "pro": null,
+     "obs": "petal-vortex"
+    },
+    {
+     "nome": "Plexus Network Spin",
+     "pro": null,
+     "obs": "plexus-network-spin"
+    },
+    {
+     "nome": "Prism Glass Dodecahedron",
+     "pro": null,
+     "obs": "prism-glass-dodecahedron"
+    },
+    {
+     "nome": "Prism Grid",
+     "pro": null,
+     "obs": "prism-grid"
+    },
+    {
+     "nome": "Prisma Smoke",
+     "pro": null,
+     "obs": "prisma-smoke"
+    },
+    {
+     "nome": "Prismburst",
+     "pro": null,
+     "obs": "prismburst"
+    },
+    {
+     "nome": "Reactive Grid",
+     "pro": null,
+     "obs": "reactivegrid"
+    },
+    {
+     "nome": "Reactive Lines",
+     "pro": null,
+     "obs": "reactive-lines"
+    },
+    {
+     "nome": "Rising Balloons",
+     "pro": null,
+     "obs": "rising-balloons"
+    },
+    {
+     "nome": "Rising Lines",
+     "pro": null,
+     "obs": "risinglines"
+    },
+    {
+     "nome": "SVG Particle",
+     "pro": null,
+     "obs": "svgparticles"
+    },
+    {
+     "nome": "Sapphire Armillary",
+     "pro": null,
+     "obs": "sapphire-armillary"
+    },
+    {
+     "nome": "Single Clear Faceted",
+     "pro": null,
+     "obs": "single-clear-faceted"
+    },
+    {
+     "nome": "Single Glass Keyboard",
+     "pro": null,
+     "obs": "single-glass-keyboard"
+    },
+    {
+     "nome": "Six Chunky Cubes",
+     "pro": null,
+     "obs": "six-chunky-cubes"
+    },
+    {
+     "nome": "Slat Knot Loop",
+     "pro": null,
+     "obs": "slat-knot-loop"
+    },
+    {
+     "nome": "Sphere Shield Tiled",
+     "pro": null,
+     "obs": "sphere-shield-tiled"
+    },
+    {
+     "nome": "Stammer Type Bands",
+     "pro": null,
+     "obs": "stammer-type-bands"
+    },
+    {
+     "nome": "Star Burst",
+     "pro": null,
+     "obs": "starburst"
+    },
+    {
+     "nome": "Stipple Flow",
+     "pro": null,
+     "obs": "stipple-flow"
+    },
+    {
+     "nome": "Text Fall",
+     "pro": null,
+     "obs": "text-fall"
+    },
+    {
+     "nome": "Thread Sphere",
+     "pro": null,
+     "obs": "thread-sphere"
+    },
+    {
+     "nome": "Ticker Delta",
+     "pro": null,
+     "obs": "ticker-delta"
+    },
+    {
+     "nome": "Tumbling Gradient Cylinders",
+     "pro": null,
+     "obs": "tumbling-gradient-cylinders"
+    },
+    {
+     "nome": "Tumbling Tile Bowls",
+     "pro": null,
+     "obs": "tumbling-tile-bowls"
+    },
+    {
+     "nome": "Twinkling Particle Orb",
+     "pro": null,
+     "obs": "twinkling-particle-orb"
+    },
+    {
+     "nome": "Two Reaching Hands",
+     "pro": null,
+     "obs": "two-reaching-hands"
+    },
+    {
+     "nome": "Type Slab Field",
+     "pro": null,
+     "obs": "type-slab-field"
+    },
+    {
+     "nome": "Velvetwave Drapery",
+     "pro": null,
+     "obs": "velvetwave-drapery"
+    },
+    {
+     "nome": "Void Spiral",
+     "pro": null,
+     "obs": "void-spiral"
+    },
+    {
+     "nome": "Vortex Dust Fall",
+     "pro": null,
+     "obs": "vortex-dust-fall"
+    },
+    {
+     "nome": "Voxel Erosion",
+     "pro": null,
+     "obs": "voxel-erosion"
+    },
+    {
+     "nome": "Wave Arcs",
+     "pro": null,
+     "obs": "wave-arcs"
+    },
+    {
+     "nome": "Wireframe Terrain Noise",
+     "pro": null,
+     "obs": "wireframe-terrain-noise"
+    },
+    {
+     "nome": "Wobbling Lattice Sphere",
+     "pro": null,
+     "obs": "wobbling-lattice-sphere"
+    },
+    {
+     "nome": "Word Soul Glowing",
+     "pro": null,
+     "obs": "word-soul-glowing"
+    },
+    {
+     "nome": "Woven Sphere",
+     "pro": null,
+     "obs": "woven-sphere"
+    },
+    {
+     "nome": "Xylophone Helix 2",
+     "pro": null,
+     "obs": "xylophone-helix-02"
+    },
+    {
+     "nome": "Xylophone Helix 3",
+     "pro": null,
+     "obs": "xylophone-helix-03"
+    }
+   ]
+  },
+  {
+   "nome": "Componentes: Fundos animados",
+   "itens": [
+    {
+     "nome": "ASCII Rain",
+     "pro": null,
+     "obs": "ascii-rain"
+    },
+    {
+     "nome": "Accretion Disc",
+     "pro": null,
+     "obs": "accretion-disc"
+    },
+    {
+     "nome": "Accretion Disc 2",
+     "pro": null,
+     "obs": "accretion-disc-02"
+    },
+    {
+     "nome": "Accretion Disc 3",
+     "pro": null,
+     "obs": "accretion-disc-03"
+    },
+    {
+     "nome": "Accretion Disc 4",
+     "pro": null,
+     "obs": "accretion-disc-04"
+    },
+    {
+     "nome": "Acrylic Pour",
+     "pro": null,
+     "obs": "acrylic-pour"
+    },
+    {
+     "nome": "Aetherglint",
+     "pro": null,
+     "obs": "aetherglint"
+    },
+    {
+     "nome": "Aetherloom",
+     "pro": null,
+     "obs": "aetherloom"
+    },
+    {
+     "nome": "Apricot Gingham",
+     "pro": null,
+     "obs": "apricot-gingham"
+    },
+    {
+     "nome": "Arch Corridor",
+     "pro": null,
+     "obs": "arch-corridor"
+    },
+    {
+     "nome": "Ascii Flame",
+     "pro": null,
+     "obs": "ascii-flame"
+    },
+    {
+     "nome": "Ascii Flame Ball",
+     "pro": null,
+     "obs": "ascii-flame-ball"
+    },
+    {
+     "nome": "Ascii Radar",
+     "pro": null,
+     "obs": "ascii-radar"
+    },
+    {
+     "nome": "Ascii Tunnel",
+     "pro": null,
+     "obs": "ascii-tunnel"
+    },
+    {
+     "nome": "Ascii Water",
+     "pro": null,
+     "obs": "ascii-water"
+    },
+    {
+     "nome": "Ascii Wave",
+     "pro": null,
+     "obs": "ascii-wave"
+    },
+    {
+     "nome": "Astral Quilt",
+     "pro": null,
+     "obs": "astral-quilt"
+    },
+    {
+     "nome": "Aureole Drift",
+     "pro": null,
+     "obs": "aureole-drift"
+    },
+    {
+     "nome": "Azureglass Mosaic",
+     "pro": null,
+     "obs": "azureglass-mosaic"
+    },
+    {
+     "nome": "Bayer Vortex",
+     "pro": null,
+     "obs": "bayer-vortex"
+    },
+    {
+     "nome": "Beating Hearts",
+     "pro": null,
+     "obs": "beating-hearts"
+    },
+    {
+     "nome": "Beyond Horizon",
+     "pro": null,
+     "obs": "beyond-horizon"
+    },
+    {
+     "nome": "Billow Silk",
+     "pro": null,
+     "obs": "billow-silk"
+    },
+    {
+     "nome": "Blinking Squares",
+     "pro": null,
+     "obs": "blinkingsquares"
+    },
+    {
+     "nome": "Block Drift",
+     "pro": null,
+     "obs": "block-drift"
+    },
+    {
+     "nome": "Bluebell Pass",
+     "pro": null,
+     "obs": "bluebell-pass"
+    },
+    {
+     "nome": "Bokeh Particle Galaxy",
+     "pro": null,
+     "obs": "bokeh-particle-galaxy"
+    },
+    {
+     "nome": "Breathing Dots",
+     "pro": null,
+     "obs": "breathing-dots"
+    },
+    {
+     "nome": "Brocade Eyelet",
+     "pro": null,
+     "obs": "brocade-eyelet"
+    },
+    {
+     "nome": "Brushed Metal Scales",
+     "pro": null,
+     "obs": "brushed-metal-scales"
+    },
+    {
+     "nome": "Bubble Stream",
+     "pro": null,
+     "obs": "bubble-stream"
+    },
+    {
+     "nome": "Butterfly Drift",
+     "pro": null,
+     "obs": "butterfly-drift"
+    },
+    {
+     "nome": "Caustic Weave",
+     "pro": null,
+     "obs": "caustic-weave"
+    },
+    {
+     "nome": "Cell Field",
+     "pro": null,
+     "obs": "cell-field"
+    },
+    {
+     "nome": "Chain Vortex",
+     "pro": null,
+     "obs": "chain-vortex"
+    },
+    {
+     "nome": "Chalkflow Geometry",
+     "pro": null,
+     "obs": "chalkflow-geometry"
+    },
+    {
+     "nome": "Character Waves",
+     "pro": null,
+     "obs": "character-waves"
+    },
+    {
+     "nome": "Checker Vortex",
+     "pro": null,
+     "obs": "checker-vortex"
+    },
+    {
+     "nome": "Chess Horizon",
+     "pro": null,
+     "obs": "chess-horizon"
+    },
+    {
+     "nome": "Chevron Duct",
+     "pro": null,
+     "obs": "chevron-duct"
+    },
+    {
+     "nome": "Chladni Tune",
+     "pro": null,
+     "obs": "chladni-tune"
+    },
+    {
+     "nome": "Chromablock Morph",
+     "pro": null,
+     "obs": "chromablock-morph"
+    },
+    {
+     "nome": "Chromaflux",
+     "pro": null,
+     "obs": "chromaflux"
+    },
+    {
+     "nome": "Chromatic Drift",
+     "pro": null,
+     "obs": "chromatic-drift"
+    },
+    {
+     "nome": "Chromatic Text Tunnel",
+     "pro": null,
+     "obs": "chromatic-text-tunnel"
+    },
+    {
+     "nome": "Chromatic Waves",
+     "pro": null,
+     "obs": "chromatic-waves"
+    },
+    {
+     "nome": "Chrome Cells",
+     "pro": null,
+     "obs": "chrome-cells"
+    },
+    {
+     "nome": "Chrome Stack",
+     "pro": null,
+     "obs": "chrome-stack"
+    },
+    {
+     "nome": "Clip Stack Fixed",
+     "pro": null,
+     "obs": "clip-stack-fixed"
+    },
+    {
+     "nome": "Cloud Sky",
+     "pro": null,
+     "obs": "cloud-sky"
+    },
+    {
+     "nome": "Cloud Sky 2",
+     "pro": null,
+     "obs": "cloud-sky-02"
+    },
+    {
+     "nome": "Cloud Sky 3",
+     "pro": null,
+     "obs": "cloud-sky-03"
+    },
+    {
+     "nome": "Cloud Sky 4",
+     "pro": null,
+     "obs": "cloud-sky-04"
+    },
+    {
+     "nome": "Cobalt Louvre",
+     "pro": null,
+     "obs": "cobalt-louvre"
+    },
+    {
+     "nome": "Cog Train",
+     "pro": null,
+     "obs": "cog-train"
+    },
+    {
+     "nome": "Contour Embers",
+     "pro": null,
+     "obs": "contour-embers"
+    },
+    {
+     "nome": "Contour Loop",
+     "pro": null,
+     "obs": "contour-loop"
+    },
+    {
+     "nome": "Copper Corridor",
+     "pro": null,
+     "obs": "copper-corridor"
+    },
+    {
+     "nome": "Cosmic BG",
+     "pro": null,
+     "obs": "cosmic-bg"
+    },
+    {
+     "nome": "Crater Burst",
+     "pro": null,
+     "obs": "crater-burst"
+    },
+    {
+     "nome": "Cube Trail",
+     "pro": null,
+     "obs": "iso-cube-trail"
+    },
+    {
+     "nome": "Curl Pool",
+     "pro": null,
+     "obs": "curl-pool"
+    },
+    {
+     "nome": "Cursor Ring Field",
+     "pro": null,
+     "obs": "cursor-ring-field"
+    },
+    {
+     "nome": "Cursor Ring Field 2",
+     "pro": null,
+     "obs": "cursor-ring-field-02"
+    },
+    {
+     "nome": "Cursor Ring Field 3",
+     "pro": null,
+     "obs": "cursor-ring-field-03"
+    },
+    {
+     "nome": "Cursor Ring Field 4",
+     "pro": null,
+     "obs": "cursor-ring-field-04"
+    },
+    {
+     "nome": "Cyclone Ink",
+     "pro": null,
+     "obs": "cyclone-ink"
+    },
+    {
+     "nome": "Dapple Gradient",
+     "pro": null,
+     "obs": "dapple-gradient"
+    },
+    {
+     "nome": "Data Pixel Arc",
+     "pro": null,
+     "obs": "data-pixel-arc"
+    },
+    {
+     "nome": "Data Strings",
+     "pro": null,
+     "obs": "data-strings"
+    },
+    {
+     "nome": "Defense Lines",
+     "pro": null,
+     "obs": "defense-lines"
+    },
+    {
+     "nome": "Dense Grid Round",
+     "pro": null,
+     "obs": "dense-grid-round"
+    },
+    {
+     "nome": "Depth Code Stream",
+     "pro": null,
+     "obs": "depth-code-stream"
+    },
+    {
+     "nome": "Dice Wave Field",
+     "pro": null,
+     "obs": "dice-wave-field"
+    },
+    {
+     "nome": "Digital Rain Curtain",
+     "pro": null,
+     "obs": "digital-rain-curtain"
+    },
+    {
+     "nome": "Dimensional Field",
+     "pro": null,
+     "obs": "dimensional-field"
+    },
+    {
+     "nome": "Dither Burn",
+     "pro": null,
+     "obs": "dither-burn"
+    },
+    {
+     "nome": "Dither Effect",
+     "pro": null,
+     "obs": "dither-effect"
+    },
+    {
+     "nome": "Dither Effect 2",
+     "pro": null,
+     "obs": "dither-effect-2"
+    },
+    {
+     "nome": "Dithered Pixel Grid",
+     "pro": null,
+     "obs": "dithered-pixel-grid"
+    },
+    {
+     "nome": "Dot Lens",
+     "pro": null,
+     "obs": "dot-lens"
+    },
+    {
+     "nome": "Dot Matrix",
+     "pro": null,
+     "obs": "dotmatrix"
+    },
+    {
+     "nome": "Draped Line Fabric",
+     "pro": null,
+     "obs": "draped-line-fabric"
+    },
+    {
+     "nome": "Drifting Feather Field",
+     "pro": null,
+     "obs": "drifting-feather-field"
+    },
+    {
+     "nome": "Elemental Lightning",
+     "pro": null,
+     "obs": "elemental-lightning"
+    },
+    {
+     "nome": "Ember Mosaic",
+     "pro": null,
+     "obs": "ember-mosaic"
+    },
+    {
+     "nome": "Emberglow Horizon",
+     "pro": null,
+     "obs": "emberglow-horizon"
+    },
+    {
+     "nome": "Endless Tunnel Square",
+     "pro": null,
+     "obs": "endless-tunnel-square"
+    },
+    {
+     "nome": "Energy Ring",
+     "pro": null,
+     "obs": "energy-ring"
+    },
+    {
+     "nome": "Energy Stream",
+     "pro": null,
+     "obs": "energy-stream"
+    },
+    {
+     "nome": "Falling Canopy",
+     "pro": null,
+     "obs": "falling-canopy"
+    },
+    {
+     "nome": "Fibre Arc 4",
+     "pro": null,
+     "obs": "fibre-arc-04"
+    },
+    {
+     "nome": "Field Horizontal Rows",
+     "pro": null,
+     "obs": "field-horizontal-rows"
+    },
+    {
+     "nome": "Fireworks",
+     "pro": null,
+     "obs": "fireworks"
+    },
+    {
+     "nome": "Flame",
+     "pro": null,
+     "obs": "flame"
+    },
+    {
+     "nome": "Flare Arc",
+     "pro": null,
+     "obs": "flare-arc"
+    },
+    {
+     "nome": "Floral Thicket",
+     "pro": null,
+     "obs": "floral-thicket"
+    },
+    {
+     "nome": "Flow Field",
+     "pro": null,
+     "obs": "flow-field"
+    },
+    {
+     "nome": "Flower Expansion",
+     "pro": null,
+     "obs": "flower-expansion"
+    },
+    {
+     "nome": "Fluid Field",
+     "pro": null,
+     "obs": "fluid-field"
+    },
+    {
+     "nome": "Fluid Ribbons",
+     "pro": null,
+     "obs": "fluid-ribbons"
+    },
+    {
+     "nome": "Foil Drift",
+     "pro": null,
+     "obs": "foil-drift"
+    },
+    {
+     "nome": "Formflow",
+     "pro": null,
+     "obs": "formflow"
+    },
+    {
+     "nome": "Formula Stream",
+     "pro": null,
+     "obs": "formula-stream"
+    },
+    {
+     "nome": "Frond Burst",
+     "pro": null,
+     "obs": "frond-burst"
+    },
+    {
+     "nome": "Frosted Veil",
+     "pro": null,
+     "obs": "frosted-veil"
+    },
+    {
+     "nome": "Fuchsia Siphon",
+     "pro": null,
+     "obs": "fuchsia-siphon"
+    },
+    {
+     "nome": "Full Frame Abstract",
+     "pro": null,
+     "obs": "full-frame-abstract"
+    },
+    {
+     "nome": "Fur Pelt",
+     "pro": null,
+     "obs": "fur-pelt"
+    },
+    {
+     "nome": "Gateway Flow",
+     "pro": null,
+     "obs": "gateway-flow"
+    },
+    {
+     "nome": "Gauze Blaze",
+     "pro": null,
+     "obs": "gauze-blaze"
+    },
+    {
+     "nome": "Gilded Pixelwave",
+     "pro": null,
+     "obs": "gilded-pixelwave"
+    },
+    {
+     "nome": "Glacier Falls",
+     "pro": null,
+     "obs": "glacier-falls"
+    },
+    {
+     "nome": "Glass Block Refraction",
+     "pro": null,
+     "obs": "glass-block-refraction"
+    },
+    {
+     "nome": "Glass Whorl",
+     "pro": null,
+     "obs": "glass-whorl"
+    },
+    {
+     "nome": "Glassbound",
+     "pro": null,
+     "obs": "glassbound"
+    },
+    {
+     "nome": "Glimmer Vale",
+     "pro": null,
+     "obs": "glimmer-vale"
+    },
+    {
+     "nome": "Glitter Cascade",
+     "pro": null,
+     "obs": "glitter-cascade"
+    },
+    {
+     "nome": "Glossy Liquid Looking",
+     "pro": null,
+     "obs": "glossy-liquid-looking"
+    },
+    {
+     "nome": "Glowing Energy Burst",
+     "pro": null,
+     "obs": "glowing-energy-burst"
+    },
+    {
+     "nome": "Glowing Hourglass Shaped",
+     "pro": null,
+     "obs": "glowing-hourglass-shaped"
+    },
+    {
+     "nome": "Glyph Ring",
+     "pro": null,
+     "obs": "glyph-ring"
+    },
+    {
+     "nome": "Glyph Ripple",
+     "pro": null,
+     "obs": "glyph-ripple"
+    },
+    {
+     "nome": "Glyph Tunnel Zoom",
+     "pro": null,
+     "obs": "glyph-tunnel-zoom"
+    },
+    {
+     "nome": "Glyph Wall",
+     "pro": null,
+     "obs": "glyph-wall"
+    },
+    {
+     "nome": "Grain Ring",
+     "pro": null,
+     "obs": "grain-ring"
+    },
+    {
+     "nome": "Grass Field",
+     "pro": null,
+     "obs": "grass-field"
+    },
+    {
+     "nome": "Grid Massing",
+     "pro": null,
+     "obs": "grid-massing"
+    },
+    {
+     "nome": "Gumball Surge",
+     "pro": null,
+     "obs": "gumball-surge"
+    },
+    {
+     "nome": "Halftone Bloom",
+     "pro": null,
+     "obs": "halftone-bloom"
+    },
+    {
+     "nome": "Halftone Pulse",
+     "pro": null,
+     "obs": "halftone-pulse"
+    },
+    {
+     "nome": "Helix Shaft",
+     "pro": null,
+     "obs": "helix-shaft"
+    },
+    {
+     "nome": "Hex Comb",
+     "pro": null,
+     "obs": "hex-comb"
+    },
+    {
+     "nome": "Hex Flux",
+     "pro": null,
+     "obs": "hex-flux"
+    },
+    {
+     "nome": "Hex Shaft",
+     "pro": null,
+     "obs": "hex-shaft"
+    },
+    {
+     "nome": "Hexagon Hyperspace",
+     "pro": null,
+     "obs": "hexagon-hyperspace"
+    },
+    {
+     "nome": "Hyper Space",
+     "pro": null,
+     "obs": "hyperspace"
+    },
+    {
+     "nome": "Ice Cavern Drift",
+     "pro": null,
+     "obs": "ice-cavern-drift"
+    },
+    {
+     "nome": "Infinite Hole",
+     "pro": null,
+     "obs": "infinite-hole"
+    },
+    {
+     "nome": "Infinite Stairs",
+     "pro": null,
+     "obs": "infinite-stairs"
+    },
+    {
+     "nome": "Infinite Tendrils",
+     "pro": null,
+     "obs": "infinite-tendrils"
+    },
+    {
+     "nome": "Ink Current",
+     "pro": null,
+     "obs": "ink-current"
+    },
+    {
+     "nome": "Ink Plume",
+     "pro": null,
+     "obs": "ink-plume"
+    },
+    {
+     "nome": "Ink Wake",
+     "pro": null,
+     "obs": "ink-wake"
+    },
+    {
+     "nome": "Lattice Flight",
+     "pro": null,
+     "obs": "lattice-flight"
+    },
+    {
+     "nome": "Leaf Fall",
+     "pro": null,
+     "obs": "leaf-fall"
+    },
+    {
+     "nome": "Lens Ribbon",
+     "pro": null,
+     "obs": "lens-ribbon"
+    },
+    {
+     "nome": "Letter Flue",
+     "pro": null,
+     "obs": "letter-flue"
+    },
+    {
+     "nome": "Light Bloom",
+     "pro": null,
+     "obs": "light-bloom"
+    },
+    {
+     "nome": "Light Cables",
+     "pro": null,
+     "obs": "light-cables"
+    },
+    {
+     "nome": "Light Cables 2",
+     "pro": null,
+     "obs": "light-cables-02"
+    },
+    {
+     "nome": "Light Cables 3",
+     "pro": null,
+     "obs": "light-cables-03"
+    },
+    {
+     "nome": "Light Cables 4",
+     "pro": null,
+     "obs": "light-cables-04"
+    },
+    {
+     "nome": "Light Curtain",
+     "pro": null,
+     "obs": "light-curtain"
+    },
+    {
+     "nome": "Light Waterfall Pool",
+     "pro": null,
+     "obs": "light-waterfall-pool"
+    },
+    {
+     "nome": "Lightfall",
+     "pro": null,
+     "obs": "lightfall"
+    },
+    {
+     "nome": "Line Ripple Background",
+     "pro": null,
+     "obs": "line-ripple-background"
+    },
+    {
+     "nome": "Liquid Chrome",
+     "pro": null,
+     "obs": "liquid-chrome"
+    },
+    {
+     "nome": "Liquid Film",
+     "pro": null,
+     "obs": "liquid-film"
+    },
+    {
+     "nome": "Liquid Grid",
+     "pro": null,
+     "obs": "liquid-grid"
+    },
+    {
+     "nome": "Liquid Marble Flow",
+     "pro": null,
+     "obs": "liquid-marble-flow"
+    },
+    {
+     "nome": "Liquid Metal",
+     "pro": null,
+     "obs": "liquid-metal"
+    },
+    {
+     "nome": "Liquid Vortex",
+     "pro": null,
+     "obs": "liquid-vortex"
+    },
+    {
+     "nome": "Lumaweave",
+     "pro": null,
+     "obs": "lumaweave"
+    },
+    {
+     "nome": "Lumenwave",
+     "pro": null,
+     "obs": "lumenwave"
+    },
+    {
+     "nome": "Luminous Prism",
+     "pro": null,
+     "obs": "luminous-prism"
+    },
+    {
+     "nome": "Magnet Filaments",
+     "pro": null,
+     "obs": "magnet-filaments"
+    },
+    {
+     "nome": "Mandala Bloom",
+     "pro": null,
+     "obs": "mandala-bloom"
+    },
+    {
+     "nome": "Many Thin Light",
+     "pro": null,
+     "obs": "many-thin-light"
+    },
+    {
+     "nome": "Mauve Lattice",
+     "pro": null,
+     "obs": "mauve-lattice"
+    },
+    {
+     "nome": "Mauve Mullion",
+     "pro": null,
+     "obs": "mauve-mullion"
+    },
+    {
+     "nome": "Meadow Sundown",
+     "pro": null,
+     "obs": "meadow-sundown"
+    },
+    {
+     "nome": "Membrane Bloom",
+     "pro": null,
+     "obs": "membrane-bloom"
+    },
+    {
+     "nome": "Moire Lattice",
+     "pro": null,
+     "obs": "moire-lattice"
+    },
+    {
+     "nome": "Molten Cracks",
+     "pro": null,
+     "obs": "molten-cracks"
+    },
+    {
+     "nome": "Molten Rill",
+     "pro": null,
+     "obs": "molten-rill"
+    },
+    {
+     "nome": "Mood Field",
+     "pro": null,
+     "obs": "mood-field"
+    },
+    {
+     "nome": "Moonlit Birchwood",
+     "pro": null,
+     "obs": "moonlit-birchwood"
+    },
+    {
+     "nome": "Moonlit Petals",
+     "pro": null,
+     "obs": "moonlit-petals"
+    },
+    {
+     "nome": "Moonpetal Meadow",
+     "pro": null,
+     "obs": "moonpetal-meadow"
+    },
+    {
+     "nome": "Mosaic Lens",
+     "pro": null,
+     "obs": "mosaic-lens"
+    },
+    {
+     "nome": "Nebula Drift",
+     "pro": null,
+     "obs": "nebula-drift"
+    },
+    {
+     "nome": "Neon Embergrid",
+     "pro": null,
+     "obs": "neon-embergrid"
+    },
+    {
+     "nome": "Neon Singularity",
+     "pro": null,
+     "obs": "neon-singularity"
+    },
+    {
+     "nome": "Network Lines",
+     "pro": null,
+     "obs": "network-lines"
+    },
+    {
+     "nome": "Ocean Background",
+     "pro": null,
+     "obs": "ocean-background"
+    },
+    {
+     "nome": "Ocean Swell",
+     "pro": null,
+     "obs": "ocean-swell"
+    },
+    {
+     "nome": "Ocean Waves",
+     "pro": null,
+     "obs": "ocean-waves"
+    },
+    {
+     "nome": "One Continuous Colour",
+     "pro": null,
+     "obs": "one-continuous-colour"
+    },
+    {
+     "nome": "Op Art Tubes",
+     "pro": null,
+     "obs": "op-art-tubes"
+    },
+    {
+     "nome": "Paper Quilling",
+     "pro": null,
+     "obs": "paper-quilling"
+    },
+    {
+     "nome": "Paper Ridge",
+     "pro": null,
+     "obs": "paper-ridge"
+    },
+    {
+     "nome": "Particle Saturn 3",
+     "pro": null,
+     "obs": "particle-saturn-03"
+    },
+    {
+     "nome": "Petal Tunnel Zoom",
+     "pro": null,
+     "obs": "petal-tunnel-zoom"
+    },
+    {
+     "nome": "Phosphor",
+     "pro": null,
+     "obs": "phosphor"
+    },
+    {
+     "nome": "Pinora",
+     "pro": null,
+     "obs": "pinora"
+    },
+    {
+     "nome": "Pixel Arc",
+     "pro": null,
+     "obs": "pixel-arc"
+    },
+    {
+     "nome": "Pixel Art Night",
+     "pro": null,
+     "obs": "pixel-art-night"
+    },
+    {
+     "nome": "Pixel Card",
+     "pro": null,
+     "obs": "pixelcard"
+    },
+    {
+     "nome": "Pixel Grid Art",
+     "pro": null,
+     "obs": "pixel-grid-art"
+    },
+    {
+     "nome": "Pixel Parallax Skyline",
+     "pro": null,
+     "obs": "pixel-parallax-skyline"
+    },
+    {
+     "nome": "Pixelcascade",
+     "pro": null,
+     "obs": "pixelcascade"
+    },
+    {
+     "nome": "Plexus Chain Drift",
+     "pro": null,
+     "obs": "plexus-chain-drift"
+    },
+    {
+     "nome": "Predictive Arc",
+     "pro": null,
+     "obs": "predictive-arc"
+    },
+    {
+     "nome": "Predictive Arc 2",
+     "pro": null,
+     "obs": "predictive-arc-02"
+    },
+    {
+     "nome": "Predictive Arc 3",
+     "pro": null,
+     "obs": "predictive-arc-03"
+    },
+    {
+     "nome": "Predictive Arc 4",
+     "pro": null,
+     "obs": "predictive-arc-04"
+    },
+    {
+     "nome": "Prism Bubbles",
+     "pro": null,
+     "obs": "prism-bubbles"
+    },
+    {
+     "nome": "Prism Burst",
+     "pro": null,
+     "obs": "prism-burst"
+    },
+    {
+     "nome": "Prism Cascade",
+     "pro": null,
+     "obs": "prism-cascade"
+    },
+    {
+     "nome": "Prism Film",
+     "pro": null,
+     "obs": "prism-film"
+    },
+    {
+     "nome": "Prismveil",
+     "pro": null,
+     "obs": "prismveil"
+    },
+    {
+     "nome": "Prismwake",
+     "pro": null,
+     "obs": "prismwake"
+    },
+    {
+     "nome": "Pulse Grid",
+     "pro": null,
+     "obs": "pulse-grid"
+    },
+    {
+     "nome": "Pulse Lines",
+     "pro": null,
+     "obs": "pulse-lines"
+    },
+    {
+     "nome": "Pulseflare",
+     "pro": null,
+     "obs": "pulseflare"
+    },
+    {
+     "nome": "Pulsing Ripple",
+     "pro": null,
+     "obs": "pulsing-ripple"
+    },
+    {
+     "nome": "Purple Wireframe Room",
+     "pro": null,
+     "obs": "purple-wireframe-room"
+    },
+    {
+     "nome": "Rain Pane",
+     "pro": null,
+     "obs": "rain-pane"
+    },
+    {
+     "nome": "Rain Puddle",
+     "pro": null,
+     "obs": "rain-puddle"
+    },
+    {
+     "nome": "Ray Column",
+     "pro": null,
+     "obs": "ray-column"
+    },
+    {
+     "nome": "Reflect Background",
+     "pro": null,
+     "obs": "reflect-background"
+    },
+    {
+     "nome": "Reflect Shader",
+     "pro": null,
+     "obs": "reflect-shader"
+    },
+    {
+     "nome": "Reliefwave",
+     "pro": null,
+     "obs": "reliefwave"
+    },
+    {
+     "nome": "Ribbon Glow",
+     "pro": null,
+     "obs": "ribbon-glow"
+    },
+    {
+     "nome": "Ribbon Glow 2",
+     "pro": null,
+     "obs": "ribbon-glow-02"
+    },
+    {
+     "nome": "Ribbon Glow 3",
+     "pro": null,
+     "obs": "ribbon-glow-03"
+    },
+    {
+     "nome": "Ribbon Glow 4",
+     "pro": null,
+     "obs": "ribbon-glow-04"
+    },
+    {
+     "nome": "Ridge Parallax",
+     "pro": null,
+     "obs": "ridge-parallax"
+    },
+    {
+     "nome": "Ripple Field",
+     "pro": null,
+     "obs": "ripple-field"
+    },
+    {
+     "nome": "Ripple Study",
+     "pro": null,
+     "obs": "ripple-study"
+    },
+    {
+     "nome": "Satin Crescent Bloom",
+     "pro": null,
+     "obs": "satin-crescent-bloom"
+    },
+    {
+     "nome": "Satin Flow",
+     "pro": null,
+     "obs": "satin-flow"
+    },
+    {
+     "nome": "Satin Mirage",
+     "pro": null,
+     "obs": "satin-mirage"
+    },
+    {
+     "nome": "Satin Ribbon",
+     "pro": null,
+     "obs": "satin-ribbon"
+    },
+    {
+     "nome": "Scroll Wave Field",
+     "pro": null,
+     "obs": "scroll-wave-field"
+    },
+    {
+     "nome": "Scroll Wave Field 2",
+     "pro": null,
+     "obs": "scroll-wave-field-02"
+    },
+    {
+     "nome": "Scroll Wave Field 3",
+     "pro": null,
+     "obs": "scroll-wave-field-03"
+    },
+    {
+     "nome": "Scroll Wave Field 4",
+     "pro": null,
+     "obs": "scroll-wave-field-04"
+    },
+    {
+     "nome": "Sequin Orrery",
+     "pro": null,
+     "obs": "sequin-orrery"
+    },
+    {
+     "nome": "Shadow Cast",
+     "pro": null,
+     "obs": "shadow-cast"
+    },
+    {
+     "nome": "Shape Mosaic",
+     "pro": null,
+     "obs": "shape-mosaic"
+    },
+    {
+     "nome": "Silk Fringe",
+     "pro": null,
+     "obs": "silk-fringe"
+    },
+    {
+     "nome": "Silk Waves",
+     "pro": null,
+     "obs": "silk-waves"
+    },
+    {
+     "nome": "Silkcurrent",
+     "pro": null,
+     "obs": "silkcurrent"
+    },
+    {
+     "nome": "Single Glossy Sphere",
+     "pro": null,
+     "obs": "single-glossy-sphere"
+    },
+    {
+     "nome": "Slit Scan Ribbons",
+     "pro": null,
+     "obs": "slit-scan-ribbons"
+    },
+    {
+     "nome": "Smokey Shader",
+     "pro": null,
+     "obs": "smokey-shader"
+    },
+    {
+     "nome": "Snow Fall",
+     "pro": null,
+     "obs": "snowfall"
+    },
+    {
+     "nome": "Sonar Bloom",
+     "pro": null,
+     "obs": "sonar-bloom"
+    },
+    {
+     "nome": "Spark Lattice",
+     "pro": null,
+     "obs": "spark-lattice"
+    },
+    {
+     "nome": "Spider Web",
+     "pro": null,
+     "obs": "spider-web"
+    },
+    {
+     "nome": "Spiral Echo",
+     "pro": null,
+     "obs": "spiral-echo"
+    },
+    {
+     "nome": "Spiral Particle Emitter",
+     "pro": null,
+     "obs": "spiral-particle-emitter"
+    },
+    {
+     "nome": "Spiral Tunnel",
+     "pro": null,
+     "obs": "spiral-tunnel"
+    },
+    {
+     "nome": "Spiral Warp Tunnel",
+     "pro": null,
+     "obs": "spiral-warp-tunnel"
+    },
+    {
+     "nome": "Spiral Weave",
+     "pro": null,
+     "obs": "spiral-weave"
+    },
+    {
+     "nome": "Stained Glass",
+     "pro": null,
+     "obs": "stained-glass"
+    },
+    {
+     "nome": "Star Gate",
+     "pro": null,
+     "obs": "star-gate"
+    },
+    {
+     "nome": "Star Panel Tunnel",
+     "pro": null,
+     "obs": "star-panel-tunnel"
+    },
+    {
+     "nome": "Star Trail Field",
+     "pro": null,
+     "obs": "star-trail-field"
+    },
+    {
+     "nome": "Stardust",
+     "pro": null,
+     "obs": "stardust"
+    },
+    {
+     "nome": "Stepped Gradient Discs",
+     "pro": null,
+     "obs": "stepped-gradient-discs"
+    },
+    {
+     "nome": "Still Sunset Meadow",
+     "pro": null,
+     "obs": "still-sunset-meadow"
+    },
+    {
+     "nome": "Stream Convergence",
+     "pro": null,
+     "obs": "stream-convergence"
+    },
+    {
+     "nome": "Striped Waves",
+     "pro": null,
+     "obs": "striped-waves"
+    },
+    {
+     "nome": "Sumi Vortexforge",
+     "pro": null,
+     "obs": "sumi-vortexforge"
+    },
+    {
+     "nome": "Sunset Velocity",
+     "pro": null,
+     "obs": "sunset-velocity"
+    },
+    {
+     "nome": "Swell Grid",
+     "pro": null,
+     "obs": "swell-grid"
+    },
+    {
+     "nome": "Swirl Flow",
+     "pro": null,
+     "obs": "swirl-flow"
+    },
+    {
+     "nome": "Text Wave",
+     "pro": null,
+     "obs": "text-wave"
+    },
+    {
+     "nome": "Thistle Portico",
+     "pro": null,
+     "obs": "thistle-portico"
+    },
+    {
+     "nome": "Tidal Stipple",
+     "pro": null,
+     "obs": "tidal-stipple"
+    },
+    {
+     "nome": "Tilt Mosaic",
+     "pro": null,
+     "obs": "tilt-mosaic"
+    },
+    {
+     "nome": "Time Swirl",
+     "pro": null,
+     "obs": "time-swirl"
+    },
+    {
+     "nome": "Toon fireball 3",
+     "pro": null,
+     "obs": "toonfireball-03"
+    },
+    {
+     "nome": "Toon fireball 4",
+     "pro": null,
+     "obs": "toonfireball-04"
+    },
+    {
+     "nome": "Topo Contour",
+     "pro": null,
+     "obs": "topo-contour"
+    },
+    {
+     "nome": "Tornado 2",
+     "pro": null,
+     "obs": "tornado-02"
+    },
+    {
+     "nome": "Tornado 3",
+     "pro": null,
+     "obs": "tornado-03"
+    },
+    {
+     "nome": "Traffic Wave",
+     "pro": null,
+     "obs": "traffic-wave"
+    },
+    {
+     "nome": "Triangle Halftone Dark",
+     "pro": null,
+     "obs": "triangle-halftone-dark"
+    },
+    {
+     "nome": "Tunnel Square Cross",
+     "pro": null,
+     "obs": "tunnel-square-cross"
+    },
+    {
+     "nome": "Tunnel Wrap",
+     "pro": null,
+     "obs": "tunnel-wrap"
+    },
+    {
+     "nome": "Twilight Gable",
+     "pro": null,
+     "obs": "twilight-gable"
+    },
+    {
+     "nome": "Twist Ribbon",
+     "pro": null,
+     "obs": "twist-ribbon"
+    },
+    {
+     "nome": "Twisting Vortex Glowing",
+     "pro": null,
+     "obs": "twisting-vortex-glowing"
+    },
+    {
+     "nome": "Velvetwave Cascade",
+     "pro": null,
+     "obs": "velvetwave-cascade"
+    },
+    {
+     "nome": "Vortex Dust",
+     "pro": null,
+     "obs": "vortex-dust"
+    },
+    {
+     "nome": "Warp Field",
+     "pro": null,
+     "obs": "warp-field"
+    },
+    {
+     "nome": "Wave Grid",
+     "pro": null,
+     "obs": "wave-grid"
+    },
+    {
+     "nome": "Wave Ribbons",
+     "pro": null,
+     "obs": "wave-ribbons"
+    },
+    {
+     "nome": "Wind Pyre",
+     "pro": null,
+     "obs": "wind-pyre"
+    },
+    {
+     "nome": "Wire Terrain",
+     "pro": null,
+     "obs": "wire-terrain"
+    },
+    {
+     "nome": "Wire Terrain 2",
+     "pro": null,
+     "obs": "wire-terrain-02"
+    },
+    {
+     "nome": "Wire Terrain 3",
+     "pro": null,
+     "obs": "wire-terrain-03"
+    },
+    {
+     "nome": "Wire Terrain 4",
+     "pro": null,
+     "obs": "wire-terrain-04"
+    },
+    {
+     "nome": "Wire Throat",
+     "pro": null,
+     "obs": "wire-throat"
+    },
+    {
+     "nome": "Wobble Fence",
+     "pro": null,
+     "obs": "wobble-fence"
+    }
+   ]
+  },
+  {
+   "nome": "Componentes: Bordas",
+   "itens": [
+    {
+     "nome": "Electric Border",
+     "pro": null,
+     "obs": "electricborder"
+    },
+    {
+     "nome": "Glow Border",
+     "pro": null,
+     "obs": "glow-border"
+    },
+    {
+     "nome": "Neon Border",
+     "pro": null,
+     "obs": "neon-border"
+    },
+    {
+     "nome": "Pulsating Border",
+     "pro": null,
+     "obs": "pulsating-border"
+    }
+   ]
+  },
+  {
+   "nome": "Componentes: Botões",
+   "itens": [
+    {
+     "nome": "Angora Badge",
+     "pro": null,
+     "obs": "angora-badge"
+    },
+    {
+     "nome": "Arrow Reveal Button",
+     "pro": null,
+     "obs": "arrow-reveal-button"
+    },
+    {
+     "nome": "Cube Flip Button",
+     "pro": null,
+     "obs": "cube-flip-button"
+    },
+    {
+     "nome": "Dotted Offset Button",
+     "pro": null,
+     "obs": "dotted-offset-button"
+    },
+    {
+     "nome": "Emoji Burst",
+     "pro": null,
+     "obs": "emojiburst"
+    },
+    {
+     "nome": "Encrypt Button",
+     "pro": null,
+     "obs": "encrypt-button"
+    },
+    {
+     "nome": "Keycap Button",
+     "pro": null,
+     "obs": "keycap-button"
+    },
+    {
+     "nome": "Label Slide Button",
+     "pro": null,
+     "obs": "label-slide-button"
+    },
+    {
+     "nome": "Light Glass Button",
+     "pro": null,
+     "obs": "light-glass-button"
+    },
+    {
+     "nome": "Link Preview",
+     "pro": null,
+     "obs": "link-preview"
+    },
+    {
+     "nome": "Liquid Carve Button",
+     "pro": null,
+     "obs": "liquid-carve-button"
+    },
+    {
+     "nome": "Magnetic Hover Button",
+     "pro": null,
+     "obs": "magnetic-hover-button"
+    },
+    {
+     "nome": "Mohair Capsule",
+     "pro": null,
+     "obs": "mohair-capsule"
+    },
+    {
+     "nome": "Moving Gradient Button",
+     "pro": null,
+     "obs": "moving-gradient-button"
+    },
+    {
+     "nome": "Neon Glow Button",
+     "pro": null,
+     "obs": "neon-glow-button"
+    },
+    {
+     "nome": "Orbit Border Button",
+     "pro": null,
+     "obs": "orbit-border-button"
+    },
+    {
+     "nome": "Prism Ring Button",
+     "pro": null,
+     "obs": "prism-ring-button"
+    },
+    {
+     "nome": "Radial Reveal Button",
+     "pro": null,
+     "obs": "radial-reveal-button"
+    },
+    {
+     "nome": "Ruby Fjord",
+     "pro": null,
+     "obs": "ruby-fjord"
+    },
+    {
+     "nome": "Scan Grid Button",
+     "pro": null,
+     "obs": "scan-grid-button"
+    },
+    {
+     "nome": "Slide Fill Button",
+     "pro": null,
+     "obs": "slide-fill-button"
+    },
+    {
+     "nome": "Spider Button",
+     "pro": null,
+     "obs": "spider-button"
+    },
+    {
+     "nome": "Starfield Button",
+     "pro": null,
+     "obs": "starfield-button"
+    },
+    {
+     "nome": "Tactile Button",
+     "pro": null,
+     "obs": "tactile-button"
+    },
+    {
+     "nome": "Tincture Slosh",
+     "pro": null,
+     "obs": "tincture-slosh"
+    },
+    {
+     "nome": "Umber Flute",
+     "pro": null,
+     "obs": "umber-flute"
+    },
+    {
+     "nome": "Velour Bolster",
+     "pro": null,
+     "obs": "velour-bolster"
+    },
+    {
+     "nome": "Venom Button",
+     "pro": null,
+     "obs": "venom-button"
+    },
+    {
+     "nome": "Water Button",
+     "pro": null,
+     "obs": "water-button"
+    }
+   ]
+  },
+  {
+   "nome": "Componentes: Cursor",
+   "itens": [
+    {
+     "nome": "Aura Cursor",
+     "pro": null,
+     "obs": "aura-cursor"
+    },
+    {
+     "nome": "Axis Cursor",
+     "pro": null,
+     "obs": "axis-cursor"
+    },
+    {
+     "nome": "Character Cursor",
+     "pro": null,
+     "obs": "character-cursor"
+    },
+    {
+     "nome": "Circle Cursor",
+     "pro": null,
+     "obs": "circle-cursor"
+    },
+    {
+     "nome": "Click Effects",
+     "pro": null,
+     "obs": "clickeffects"
+    },
+    {
+     "nome": "Confetti Cursor",
+     "pro": null,
+     "obs": "confetti-cursor"
+    },
+    {
+     "nome": "Dash Cursor",
+     "pro": null,
+     "obs": "dash-cursor"
+    },
+    {
+     "nome": "Dot Cursor",
+     "pro": null,
+     "obs": "dot-cursor"
+    },
+    {
+     "nome": "Firework Cursor",
+     "pro": null,
+     "obs": "firework-cursor"
+    },
+    {
+     "nome": "Fluid Trail",
+     "pro": null,
+     "obs": "fluidtrail"
+    },
+    {
+     "nome": "Glitter Cursor",
+     "pro": null,
+     "obs": "glitter-cursor"
+    },
+    {
+     "nome": "Glyph Burst",
+     "pro": null,
+     "obs": "glyph-burst"
+    },
+    {
+     "nome": "Ink Flow Field",
+     "pro": null,
+     "obs": "ink-flow-field"
+    },
+    {
+     "nome": "Inkbleed Cursor",
+     "pro": null,
+     "obs": "inkbleed-cursor"
+    },
+    {
+     "nome": "Kinetic Grid",
+     "pro": null,
+     "obs": "kineticgrid"
+    },
+    {
+     "nome": "Lightning Cursor",
+     "pro": null,
+     "obs": "lightning-cursor"
+    },
+    {
+     "nome": "Look At Me Grid",
+     "pro": null,
+     "obs": "look-at-me-grid"
+    },
+    {
+     "nome": "Multi-Effect Cursor",
+     "pro": null,
+     "obs": "multi-effect-cursor"
+    },
+    {
+     "nome": "Pixel Trail",
+     "pro": null,
+     "obs": "pixel-trail"
+    },
+    {
+     "nome": "Ribbon Trails",
+     "pro": null,
+     "obs": "ribbon-trails"
+    },
+    {
+     "nome": "Spin Cursor",
+     "pro": null,
+     "obs": "spin-cursor"
+    },
+    {
+     "nome": "Text Button Cursor",
+     "pro": null,
+     "obs": "text-button-cursor"
+    },
+    {
+     "nome": "Tile Cursor",
+     "pro": null,
+     "obs": "tile-cursor"
+    },
+    {
+     "nome": "User Cursor",
+     "pro": null,
+     "obs": "usercursor"
+    }
+   ]
+  },
+  {
+   "nome": "Componentes: Jogos",
+   "itens": [
+    {
+     "nome": "Deparkanoid",
+     "pro": null,
+     "obs": "deparkanoid"
+    },
+    {
+     "nome": "Flap",
+     "pro": null,
+     "obs": "flap"
+    },
+    {
+     "nome": "Pixel Run Game",
+     "pro": null,
+     "obs": "pixel-run-game"
+    },
+    {
+     "nome": "Slice Blade",
+     "pro": null,
+     "obs": "slice-blade"
+    },
+    {
+     "nome": "Snake Grid",
+     "pro": null,
+     "obs": "snake-grid"
+    },
+    {
+     "nome": "Stack Tower",
+     "pro": null,
+     "obs": "stack-tower"
+    },
+    {
+     "nome": "Tetris",
+     "pro": null,
+     "obs": "pixel-tetris"
+    }
+   ]
+  },
+  {
+   "nome": "Componentes: Imagem",
+   "itens": [
+    {
+     "nome": "ASCII Reveal",
+     "pro": null,
+     "obs": "ascii-reveal"
+    },
+    {
+     "nome": "Blur Reveal",
+     "pro": null,
+     "obs": "blur-reveal"
+    },
+    {
+     "nome": "Brick Projection",
+     "pro": null,
+     "obs": "brick-projection"
+    },
+    {
+     "nome": "Broken Glass",
+     "pro": null,
+     "obs": "broken-glass"
+    },
+    {
+     "nome": "Compare Slider",
+     "pro": null,
+     "obs": "compare-slider"
+    },
+    {
+     "nome": "Dither Reveal",
+     "pro": null,
+     "obs": "dither-reveal"
+    },
+    {
+     "nome": "Dot Image Reveal",
+     "pro": null,
+     "obs": "dot-image-reveal"
+    },
+    {
+     "nome": "Draggable Sticker",
+     "pro": null,
+     "obs": "draggablesticker"
+    },
+    {
+     "nome": "Dry Brush Reveal",
+     "pro": null,
+     "obs": "dry-brush-reveal"
+    },
+    {
+     "nome": "Ember Dissolve",
+     "pro": null,
+     "obs": "ember-dissolve"
+    },
+    {
+     "nome": "Facet Wall",
+     "pro": null,
+     "obs": "facet-wall"
+    },
+    {
+     "nome": "Fluid Image Reveal",
+     "pro": null,
+     "obs": "fluid-image-reveal"
+    },
+    {
+     "nome": "Frost Glass Image",
+     "pro": null,
+     "obs": "frost-glass-card"
+    },
+    {
+     "nome": "Glass Curl Reveal",
+     "pro": null,
+     "obs": "glass-curl-reveal"
+    },
+    {
+     "nome": "Image Flipper",
+     "pro": null,
+     "obs": "image-flipper"
+    },
+    {
+     "nome": "Image Fold",
+     "pro": null,
+     "obs": "imagefold"
+    },
+    {
+     "nome": "Image Magnifier",
+     "pro": null,
+     "obs": "image-magnifier"
+    },
+    {
+     "nome": "Image Motion Trail",
+     "pro": null,
+     "obs": "image-motion-trail"
+    },
+    {
+     "nome": "Image Reveal",
+     "pro": null,
+     "obs": "image-reveal"
+    },
+    {
+     "nome": "Image Ripple",
+     "pro": null,
+     "obs": "image-ripple"
+    },
+    {
+     "nome": "Image Spotlight",
+     "pro": null,
+     "obs": "image-spotlight"
+    },
+    {
+     "nome": "Lenticular Duo",
+     "pro": null,
+     "obs": "lenticular-duo"
+    },
+    {
+     "nome": "Liquid Burn Reveal",
+     "pro": null,
+     "obs": "liquid-burn-reveal"
+    },
+    {
+     "nome": "Liquid Distortion",
+     "pro": null,
+     "obs": "liquid-distortion"
+    },
+    {
+     "nome": "Liquid Hover",
+     "pro": null,
+     "obs": "liquid-hover"
+    },
+    {
+     "nome": "Liquid Mask Cursor",
+     "pro": null,
+     "obs": "liquid-mask-cursor"
+    },
+    {
+     "nome": "Money Rain",
+     "pro": null,
+     "obs": "money-rain"
+    },
+    {
+     "nome": "Noise Wipe",
+     "pro": null,
+     "obs": "noise-wipe"
+    },
+    {
+     "nome": "Paper Image",
+     "pro": null,
+     "obs": "paper-image"
+    },
+    {
+     "nome": "Particle Simulation",
+     "pro": null,
+     "obs": "particle-simulation"
+    },
+    {
+     "nome": "Pixel Distortion",
+     "pro": null,
+     "obs": "pixel-distortion"
+    },
+    {
+     "nome": "Pixel Reveal",
+     "pro": null,
+     "obs": "pixelreveal"
+    },
+    {
+     "nome": "Pixel Reveal",
+     "pro": null,
+     "obs": "pixel-reveal"
+    },
+    {
+     "nome": "Pixel Unfold",
+     "pro": null,
+     "obs": "pixel-unfold"
+    },
+    {
+     "nome": "Pixelate Image",
+     "pro": null,
+     "obs": "pixelate-image"
+    },
+    {
+     "nome": "Pixelated Frame",
+     "pro": null,
+     "obs": "pixelated-frame"
+    },
+    {
+     "nome": "Repetition Hover",
+     "pro": null,
+     "obs": "repetition-hover"
+    },
+    {
+     "nome": "Ripple Image Card",
+     "pro": null,
+     "obs": "ripple-image-card"
+    },
+    {
+     "nome": "Rubber Mesh",
+     "pro": null,
+     "obs": "rubber-mesh"
+    },
+    {
+     "nome": "Scan Effect",
+     "pro": null,
+     "obs": "scan-effect"
+    },
+    {
+     "nome": "Sticker Peel",
+     "pro": null,
+     "obs": "sticker-peel"
+    },
+    {
+     "nome": "Wax Seal",
+     "pro": null,
+     "obs": "wax-seal"
+    },
+    {
+     "nome": "Zoom Grid",
+     "pro": null,
+     "obs": "zoom-grid"
+    }
+   ]
+  },
+  {
+   "nome": "Componentes: Galerias de imagem",
+   "itens": [
+    {
+     "nome": "Blur Carousel",
+     "pro": null,
+     "obs": "blurcarousel"
+    },
+    {
+     "nome": "Box Carousel",
+     "pro": null,
+     "obs": "boxcarousel"
+    },
+    {
+     "nome": "Button Carousel",
+     "pro": null,
+     "obs": "button-carousel"
+    },
+    {
+     "nome": "Cello Stack",
+     "pro": null,
+     "obs": "cello-stack"
+    },
+    {
+     "nome": "Circular Gallery",
+     "pro": null,
+     "obs": "circular-gallery"
+    },
+    {
+     "nome": "Coverflow Carousel",
+     "pro": null,
+     "obs": "coverflowcarousel"
+    },
+    {
+     "nome": "Coverflow Gallery",
+     "pro": null,
+     "obs": "coverflowgallery"
+    },
+    {
+     "nome": "Crease Flyer",
+     "pro": null,
+     "obs": "crease-flyer"
+    },
+    {
+     "nome": "Crumple Card Carousel",
+     "pro": null,
+     "obs": "crumple-card-carousel"
+    },
+    {
+     "nome": "Cursor Image Gallery",
+     "pro": null,
+     "obs": "cursor-image-gallery"
+    },
+    {
+     "nome": "Cursor Image Trail",
+     "pro": null,
+     "obs": "cursor-image-trail"
+    },
+    {
+     "nome": "Deck Carousel",
+     "pro": null,
+     "obs": "deck-carousel"
+    },
+    {
+     "nome": "Depth Gallery",
+     "pro": null,
+     "obs": "depth-gallery"
+    },
+    {
+     "nome": "Draggable Grid",
+     "pro": null,
+     "obs": "draggable-grid"
+    },
+    {
+     "nome": "Eye Gallery",
+     "pro": null,
+     "obs": "eye-gallery"
+    },
+    {
+     "nome": "Flip Gallery",
+     "pro": null,
+     "obs": "flip-gallery"
+    },
+    {
+     "nome": "Floating Gallery",
+     "pro": null,
+     "obs": "floating-gallery"
+    },
+    {
+     "nome": "Gallery Tunnel",
+     "pro": null,
+     "obs": "gallery-tunnel"
+    },
+    {
+     "nome": "Grainy Carousel",
+     "pro": null,
+     "obs": "grainy-carousel"
+    },
+    {
+     "nome": "Hover Image Reveal",
+     "pro": null,
+     "obs": "hover-image-reveal"
+    },
+    {
+     "nome": "Image Gallery",
+     "pro": null,
+     "obs": "imagegallery"
+    },
+    {
+     "nome": "Image Grid",
+     "pro": null,
+     "obs": "image-grid"
+    },
+    {
+     "nome": "Image Group Circle",
+     "pro": null,
+     "obs": "image-group-circle"
+    },
+    {
+     "nome": "Image Tunnel Carousel",
+     "pro": null,
+     "obs": "image-tunnel-carousel"
+    },
+    {
+     "nome": "Infinity Canvas",
+     "pro": null,
+     "obs": "infinitegallery"
+    },
+    {
+     "nome": "Iridescent Reverie",
+     "pro": null,
+     "obs": "iridescent-reverie"
+    },
+    {
+     "nome": "Liquid Glass Carousel",
+     "pro": null,
+     "obs": "liquid-glass-carousel"
+    },
+    {
+     "nome": "Magazine Flip",
+     "pro": null,
+     "obs": "magazine-flip"
+    },
+    {
+     "nome": "Magnetic Carousel",
+     "pro": null,
+     "obs": "magneticcarousel"
+    },
+    {
+     "nome": "Mosaic Flip",
+     "pro": null,
+     "obs": "mosaic-flip"
+    },
+    {
+     "nome": "Path Gallery",
+     "pro": null,
+     "obs": "path-gallery"
+    },
+    {
+     "nome": "Poster Page Curl",
+     "pro": null,
+     "obs": "poster-page-curl"
+    },
+    {
+     "nome": "Proximity Orbit",
+     "pro": null,
+     "obs": "proximityorbit"
+    },
+    {
+     "nome": "Ring Gallery",
+     "pro": null,
+     "obs": "ring-gallery"
+    },
+    {
+     "nome": "Rotating Carousel",
+     "pro": null,
+     "obs": "rotating-carousel"
+    },
+    {
+     "nome": "Rotating Gallery",
+     "pro": null,
+     "obs": "rotating-gallery"
+    },
+    {
+     "nome": "Rotunda Carousel",
+     "pro": null,
+     "obs": "rotunda-carousel"
+    },
+    {
+     "nome": "Round Carousel",
+     "pro": null,
+     "obs": "roundcarousel"
+    },
+    {
+     "nome": "Scroll Buldge",
+     "pro": null,
+     "obs": "scroll-buldge"
+    },
+    {
+     "nome": "Smooth Scroll Slider",
+     "pro": null,
+     "obs": "smooth-scroll-slider"
+    },
+    {
+     "nome": "Sphere Gallery 3D",
+     "pro": null,
+     "obs": "sphere-gallery-3d"
+    },
+    {
+     "nome": "Spin Carousel",
+     "pro": null,
+     "obs": "spin-carousel"
+    },
+    {
+     "nome": "Spin Image",
+     "pro": null,
+     "obs": "spinimage"
+    },
+    {
+     "nome": "Spiral Images",
+     "pro": null,
+     "obs": "spiralimages"
+    },
+    {
+     "nome": "Spotlight Frames",
+     "pro": null,
+     "obs": "spotlight-frames"
+    },
+    {
+     "nome": "Stacked Carousel",
+     "pro": null,
+     "obs": "stacked-carousel"
+    },
+    {
+     "nome": "Swipe Stack",
+     "pro": null,
+     "obs": "swipe-stack"
+    },
+    {
+     "nome": "Vertical Parallax",
+     "pro": null,
+     "obs": "vertical-parallax"
+    },
+    {
+     "nome": "Web GL Carousel",
+     "pro": null,
+     "obs": "web-gl-carousel"
+    },
+    {
+     "nome": "Website Panorama Carousel",
+     "pro": null,
+     "obs": "website-panorama-carousel"
+    }
+   ]
+  },
+  {
+   "nome": "Componentes: Elementos interativos",
+   "itens": [
+    {
+     "nome": "Asterforge",
+     "pro": null,
+     "obs": "asterforge"
+    },
+    {
+     "nome": "Astralume",
+     "pro": null,
+     "obs": "astralume"
+    },
+    {
+     "nome": "Aurora Drift",
+     "pro": null,
+     "obs": "aurora-drift"
+    },
+    {
+     "nome": "Ball Study",
+     "pro": null,
+     "obs": "ball-study"
+    },
+    {
+     "nome": "Balloon Zinnia",
+     "pro": null,
+     "obs": "balloon-zinnia"
+    },
+    {
+     "nome": "Bangle Funnel",
+     "pro": null,
+     "obs": "bangle-funnel"
+    },
+    {
+     "nome": "Beam Sweep",
+     "pro": null,
+     "obs": "beam-sweep"
+    },
+    {
+     "nome": "Black Hole",
+     "pro": null,
+     "obs": "blackhole"
+    },
+    {
+     "nome": "Blooming Flower",
+     "pro": null,
+     "obs": "blooming-flower"
+    },
+    {
+     "nome": "Brioche Aloft",
+     "pro": null,
+     "obs": "brioche-aloft"
+    },
+    {
+     "nome": "Bubble Burst",
+     "pro": null,
+     "obs": "bubble-burst"
+    },
+    {
+     "nome": "Capsule Orb",
+     "pro": null,
+     "obs": "capsule-orb"
+    },
+    {
+     "nome": "Chrome Blob",
+     "pro": null,
+     "obs": "chrome-blob"
+    },
+    {
+     "nome": "Clay Robot",
+     "pro": null,
+     "obs": "clay-robot"
+    },
+    {
+     "nome": "Cloth Study",
+     "pro": null,
+     "obs": "cloth-study"
+    },
+    {
+     "nome": "Cluster About Glossy",
+     "pro": null,
+     "obs": "cluster-about-glossy"
+    },
+    {
+     "nome": "Cluster About Soap",
+     "pro": null,
+     "obs": "cluster-about-soap"
+    },
+    {
+     "nome": "Cobalt Sprite",
+     "pro": null,
+     "obs": "cobalt-sprite"
+    },
+    {
+     "nome": "Coinburst Lattice",
+     "pro": null,
+     "obs": "coinburst-lattice"
+    },
+    {
+     "nome": "Color Hexa Sphere",
+     "pro": null,
+     "obs": "color-hexa-sphere"
+    },
+    {
+     "nome": "Connectivity Graph",
+     "pro": null,
+     "obs": "connectivity-graph"
+    },
+    {
+     "nome": "Constellation",
+     "pro": null,
+     "obs": "constellation"
+    },
+    {
+     "nome": "Constellation Shell",
+     "pro": null,
+     "obs": "constellation-shell"
+    },
+    {
+     "nome": "Corolla Gleam",
+     "pro": null,
+     "obs": "corolla-gleam"
+    },
+    {
+     "nome": "Cosmic Orb",
+     "pro": null,
+     "obs": "cosmic-orb"
+    },
+    {
+     "nome": "Crystal Gem",
+     "pro": null,
+     "obs": "crystalgem"
+    },
+    {
+     "nome": "Cube",
+     "pro": null,
+     "obs": "cube"
+    },
+    {
+     "nome": "Dark Cluster",
+     "pro": null,
+     "obs": "dark-cluster"
+    },
+    {
+     "nome": "Dice Roll",
+     "pro": null,
+     "obs": "dice-roll"
+    },
+    {
+     "nome": "Elemental Water",
+     "pro": null,
+     "obs": "elemental-water"
+    },
+    {
+     "nome": "Enamel Pin",
+     "pro": null,
+     "obs": "enamel-pin"
+    },
+    {
+     "nome": "Fibre Arc",
+     "pro": null,
+     "obs": "fibre-arc"
+    },
+    {
+     "nome": "Fibre Arc 2",
+     "pro": null,
+     "obs": "fibre-arc-02"
+    },
+    {
+     "nome": "Fibre Arc 3",
+     "pro": null,
+     "obs": "fibre-arc-03"
+    },
+    {
+     "nome": "Foil Balloons",
+     "pro": null,
+     "obs": "foil-balloons"
+    },
+    {
+     "nome": "Folding Particle Shell",
+     "pro": null,
+     "obs": "folding-particle-shell"
+    },
+    {
+     "nome": "Frosted Type Band",
+     "pro": null,
+     "obs": "frosted-type-band"
+    },
+    {
+     "nome": "Furry Helix Ribbon",
+     "pro": null,
+     "obs": "furry-helix-ribbon"
+    },
+    {
+     "nome": "Gabriel Graph",
+     "pro": null,
+     "obs": "gabriel-graph"
+    },
+    {
+     "nome": "Glass Bead Sphere",
+     "pro": null,
+     "obs": "glass-bead-sphere"
+    },
+    {
+     "nome": "Glass Icon",
+     "pro": null,
+     "obs": "glass-icon"
+    },
+    {
+     "nome": "Glass Prism",
+     "pro": null,
+     "obs": "glass-prism"
+    },
+    {
+     "nome": "Globe",
+     "pro": null,
+     "obs": "globe"
+    },
+    {
+     "nome": "Globe Mesh",
+     "pro": null,
+     "obs": "globe-mesh"
+    },
+    {
+     "nome": "Globe Study",
+     "pro": null,
+     "obs": "globe-study"
+    },
+    {
+     "nome": "Globe Study 2",
+     "pro": null,
+     "obs": "globe-study-02"
+    },
+    {
+     "nome": "Globe Study 3",
+     "pro": null,
+     "obs": "globe-study-03"
+    },
+    {
+     "nome": "Globe Study 4",
+     "pro": null,
+     "obs": "globe-study-04"
+    },
+    {
+     "nome": "Glowing Dome Liquid",
+     "pro": null,
+     "obs": "glowing-dome-liquid"
+    },
+    {
+     "nome": "Glowing Particles",
+     "pro": null,
+     "obs": "glowing-particles"
+    },
+    {
+     "nome": "Glowing Sphere",
+     "pro": null,
+     "obs": "glowing-sphere"
+    },
+    {
+     "nome": "Glyph Globe",
+     "pro": null,
+     "obs": "glyph-globe"
+    },
+    {
+     "nome": "Gravitational Vortex",
+     "pro": null,
+     "obs": "gravitational-vortex"
+    },
+    {
+     "nome": "Grin Iris",
+     "pro": null,
+     "obs": "grin-iris"
+    },
+    {
+     "nome": "Gyro Rings",
+     "pro": null,
+     "obs": "gyro-rings"
+    },
+    {
+     "nome": "Harmonic Shell",
+     "pro": null,
+     "obs": "harmonic-shell"
+    },
+    {
+     "nome": "Interactive Coins",
+     "pro": null,
+     "obs": "coins"
+    },
+    {
+     "nome": "Interactive Droplets",
+     "pro": null,
+     "obs": "interactive-droplets"
+    },
+    {
+     "nome": "Interactive Landscape",
+     "pro": null,
+     "obs": "interactive-landscape"
+    },
+    {
+     "nome": "Isometric Squares",
+     "pro": null,
+     "obs": "isometric-squares"
+    },
+    {
+     "nome": "Jade Bagel",
+     "pro": null,
+     "obs": "jade-bagel"
+    },
+    {
+     "nome": "Lava Lamp",
+     "pro": null,
+     "obs": "lava-lamp"
+    },
+    {
+     "nome": "Liquid Glass Cube",
+     "pro": null,
+     "obs": "liquid-glass-cube"
+    },
+    {
+     "nome": "Low Poly Asteroid",
+     "pro": null,
+     "obs": "low-poly-asteroid"
+    },
+    {
+     "nome": "Magic Marble",
+     "pro": null,
+     "obs": "magic-marble"
+    },
+    {
+     "nome": "Marble Contour Orb",
+     "pro": null,
+     "obs": "marble-contour-orb"
+    },
+    {
+     "nome": "Matrix Junction",
+     "pro": null,
+     "obs": "matrix-junction"
+    },
+    {
+     "nome": "Mech Keyboard",
+     "pro": null,
+     "obs": "mech-keyboard"
+    },
+    {
+     "nome": "Metal Flower",
+     "pro": null,
+     "obs": "metal-flower"
+    },
+    {
+     "nome": "Metal Rubics",
+     "pro": null,
+     "obs": "metal-rubics"
+    },
+    {
+     "nome": "Metallic Dodecahedron",
+     "pro": null,
+     "obs": "metallic-dodecahedron"
+    },
+    {
+     "nome": "Mood Spire",
+     "pro": null,
+     "obs": "mood-spire"
+    },
+    {
+     "nome": "Morph Solid",
+     "pro": null,
+     "obs": "morph-solid"
+    },
+    {
+     "nome": "Morphing Rings",
+     "pro": null,
+     "obs": "morphing-rings"
+    },
+    {
+     "nome": "Nacre Spine",
+     "pro": null,
+     "obs": "nacre-spine"
+    },
+    {
+     "nome": "Neon Helix Drift",
+     "pro": null,
+     "obs": "neon-helix-drift"
+    },
+    {
+     "nome": "One Glossy Liquid",
+     "pro": null,
+     "obs": "one-glossy-liquid"
+    },
+    {
+     "nome": "One Solid Glass",
+     "pro": null,
+     "obs": "one-solid-glass"
+    },
+    {
+     "nome": "Onyx Riddle",
+     "pro": null,
+     "obs": "onyx-riddle"
+    },
+    {
+     "nome": "Particle Drift",
+     "pro": null,
+     "obs": "particle-drift"
+    },
+    {
+     "nome": "Particle Drift 2",
+     "pro": null,
+     "obs": "particle-drift-02"
+    },
+    {
+     "nome": "Particle Drift 3",
+     "pro": null,
+     "obs": "particle-drift-03"
+    },
+    {
+     "nome": "Particle Drift 4",
+     "pro": null,
+     "obs": "particle-drift-04"
+    },
+    {
+     "nome": "Particle Jupiter",
+     "pro": null,
+     "obs": "particle-jupiter"
+    },
+    {
+     "nome": "Particle Saturn",
+     "pro": null,
+     "obs": "particle-saturn"
+    },
+    {
+     "nome": "Particle Saturn 4",
+     "pro": null,
+     "obs": "particle-saturn-04"
+    },
+    {
+     "nome": "Particle Sphere",
+     "pro": null,
+     "obs": "particlesphere"
+    },
+    {
+     "nome": "Persimmon Waft",
+     "pro": null,
+     "obs": "persimmon-waft"
+    },
+    {
+     "nome": "Petrol Glob",
+     "pro": null,
+     "obs": "petrol-glob"
+    },
+    {
+     "nome": "Phyllotaxis Disc",
+     "pro": null,
+     "obs": "phyllotaxis-disc"
+    },
+    {
+     "nome": "Pistachio Floret",
+     "pro": null,
+     "obs": "pistachio-floret"
+    },
+    {
+     "nome": "Plasma Ring",
+     "pro": null,
+     "obs": "plasma-ring"
+    },
+    {
+     "nome": "Plinth Tally",
+     "pro": null,
+     "obs": "plinth-tally"
+    },
+    {
+     "nome": "Plush Tile",
+     "pro": null,
+     "obs": "plush-tile"
+    },
+    {
+     "nome": "Point DNA Helix",
+     "pro": null,
+     "obs": "point-dna-helix"
+    },
+    {
+     "nome": "Prismcoil",
+     "pro": null,
+     "obs": "prismcoil"
+    },
+    {
+     "nome": "Recursive Erosion",
+     "pro": null,
+     "obs": "recursive-erosion"
+    },
+    {
+     "nome": "Refract Gem",
+     "pro": null,
+     "obs": "refract-gem"
+    },
+    {
+     "nome": "Render One Thick",
+     "pro": null,
+     "obs": "render-one-thick"
+    },
+    {
+     "nome": "Rope",
+     "pro": null,
+     "obs": "rope"
+    },
+    {
+     "nome": "Rose Selene",
+     "pro": null,
+     "obs": "rose-selene"
+    },
+    {
+     "nome": "Rubber Spheres",
+     "pro": null,
+     "obs": "rubber-spheres"
+    },
+    {
+     "nome": "Shattered Glass",
+     "pro": null,
+     "obs": "shattered-glass"
+    },
+    {
+     "nome": "Shine Card",
+     "pro": null,
+     "obs": "shine-card"
+    },
+    {
+     "nome": "Shiny Droplet",
+     "pro": null,
+     "obs": "shiny-droplet"
+    },
+    {
+     "nome": "Solar Flare",
+     "pro": null,
+     "obs": "solar-flare"
+    },
+    {
+     "nome": "Solar Particle Globe",
+     "pro": null,
+     "obs": "solar-particle-globe"
+    },
+    {
+     "nome": "Spiral Glass Hollow",
+     "pro": null,
+     "obs": "spiral-glass-hollow"
+    },
+    {
+     "nome": "Spiral Sphere",
+     "pro": null,
+     "obs": "spiral-sphere"
+    },
+    {
+     "nome": "Squish Cube",
+     "pro": null,
+     "obs": "squish-cube"
+    },
+    {
+     "nome": "Star burst Graph",
+     "pro": null,
+     "obs": "star-burst-graph"
+    },
+    {
+     "nome": "Stardrift Sphere",
+     "pro": null,
+     "obs": "stardrift-sphere"
+    },
+    {
+     "nome": "Stencil Moon",
+     "pro": null,
+     "obs": "stencil-moon"
+    },
+    {
+     "nome": "Stipple Sphere",
+     "pro": null,
+     "obs": "stipple-sphere"
+    },
+    {
+     "nome": "Structure Flow",
+     "pro": null,
+     "obs": "structure-flow"
+    },
+    {
+     "nome": "Taffy Chain",
+     "pro": null,
+     "obs": "taffy-chain"
+    },
+    {
+     "nome": "Terra Dusk",
+     "pro": null,
+     "obs": "terra-dusk"
+    },
+    {
+     "nome": "Text Orbit Marquee",
+     "pro": null,
+     "obs": "text-orbit-marquee"
+    },
+    {
+     "nome": "Thunder Strike",
+     "pro": null,
+     "obs": "thunderstrike"
+    },
+    {
+     "nome": "Toon fireball",
+     "pro": null,
+     "obs": "toonfireball"
+    },
+    {
+     "nome": "Toon fireball 2",
+     "pro": null,
+     "obs": "toonfireball-02"
+    },
+    {
+     "nome": "Topology Field",
+     "pro": null,
+     "obs": "topology-field"
+    },
+    {
+     "nome": "Tornado",
+     "pro": null,
+     "obs": "tornado"
+    },
+    {
+     "nome": "Transparent Glass Cube",
+     "pro": null,
+     "obs": "transparent-glass-cube"
+    },
+    {
+     "nome": "Twin Galaxy Rings",
+     "pro": null,
+     "obs": "twin-galaxy-rings"
+    },
+    {
+     "nome": "Velvet Prismboard",
+     "pro": null,
+     "obs": "velvet-prismboard"
+    },
+    {
+     "nome": "Vertical Column Made",
+     "pro": null,
+     "obs": "vertical-column-made"
+    },
+    {
+     "nome": "Voxel Sphere",
+     "pro": null,
+     "obs": "voxel-sphere"
+    },
+    {
+     "nome": "Water Ball",
+     "pro": null,
+     "obs": "water-ball"
+    },
+    {
+     "nome": "Wax Envelope",
+     "pro": null,
+     "obs": "wax-envelope"
+    },
+    {
+     "nome": "Wireframe Globe Made",
+     "pro": null,
+     "obs": "wireframe-globe-made"
+    },
+    {
+     "nome": "Word Globe",
+     "pro": null,
+     "obs": "word-globe"
+    },
+    {
+     "nome": "Xylophone Helix",
+     "pro": null,
+     "obs": "xylophone-helix"
+    },
+    {
+     "nome": "Xylophone Helix 4",
+     "pro": null,
+     "obs": "xylophone-helix-04"
+    }
+   ]
+  },
+  {
+   "nome": "Componentes: Loaders",
+   "itens": [
+    {
+     "nome": "Chromatic Gyroscope",
+     "pro": null,
+     "obs": "chromatic-gyroscope"
+    },
+    {
+     "nome": "Coin Loader",
+     "pro": null,
+     "obs": "coin-loader"
+    },
+    {
+     "nome": "Dotstream Vortex",
+     "pro": null,
+     "obs": "dotstream-vortex"
+    },
+    {
+     "nome": "Gyro Loader",
+     "pro": null,
+     "obs": "gyro-loader"
+    },
+    {
+     "nome": "Hairline Loader",
+     "pro": null,
+     "obs": "hairline-loader"
+    },
+    {
+     "nome": "Hammer Strike",
+     "pro": null,
+     "obs": "hammer-strike"
+    },
+    {
+     "nome": "Infinity Trail",
+     "pro": null,
+     "obs": "infinity-trail"
+    },
+    {
+     "nome": "Masthead Reveal",
+     "pro": null,
+     "obs": "masthead-reveal"
+    },
+    {
+     "nome": "Matrix Loader",
+     "pro": null,
+     "obs": "matrix-loader"
+    },
+    {
+     "nome": "Metal Frame Cross",
+     "pro": null,
+     "obs": "metal-frame-cross"
+    },
+    {
+     "nome": "Metal Lap Joint",
+     "pro": null,
+     "obs": "metal-lap-joint"
+    },
+    {
+     "nome": "Metal Unfold",
+     "pro": null,
+     "obs": "metal-unfold"
+    },
+    {
+     "nome": "Motion Orbit",
+     "pro": null,
+     "obs": "motion-orbit"
+    },
+    {
+     "nome": "Orbit Counter",
+     "pro": null,
+     "obs": "orbit-counter"
+    },
+    {
+     "nome": "Origami Loop",
+     "pro": null,
+     "obs": "origami-loop"
+    },
+    {
+     "nome": "Particle Dome",
+     "pro": null,
+     "obs": "particle-dome"
+    },
+    {
+     "nome": "Particle Enfold",
+     "pro": null,
+     "obs": "particle-enfold"
+    },
+    {
+     "nome": "Particle Gimbal",
+     "pro": null,
+     "obs": "particle-gimbal"
+    },
+    {
+     "nome": "Particle Interlock",
+     "pro": null,
+     "obs": "particle-interlock"
+    },
+    {
+     "nome": "Particle Pulse",
+     "pro": null,
+     "obs": "particle-pulse"
+    },
+    {
+     "nome": "Particle Revolve",
+     "pro": null,
+     "obs": "particle-revolve"
+    },
+    {
+     "nome": "Particle Surge",
+     "pro": null,
+     "obs": "particle-surge"
+    },
+    {
+     "nome": "Particle Tether",
+     "pro": null,
+     "obs": "particle-tether"
+    },
+    {
+     "nome": "Particle Winding",
+     "pro": null,
+     "obs": "particle-winding"
+    },
+    {
+     "nome": "Particle Wobble",
+     "pro": null,
+     "obs": "particle-wobble"
+    },
+    {
+     "nome": "Plate Stack",
+     "pro": null,
+     "obs": "plate-stack"
+    },
+    {
+     "nome": "Pulse Roll",
+     "pro": null,
+     "obs": "pulse-roll"
+    },
+    {
+     "nome": "Quantum Swirl",
+     "pro": null,
+     "obs": "quantum-swirl"
+    },
+    {
+     "nome": "Tiles Loader",
+     "pro": null,
+     "obs": "tiles-loader"
+    }
+   ]
+  },
+  {
+   "nome": "Componentes: Texto",
+   "itens": [
+    {
+     "nome": "3D Stagger Flip",
+     "pro": null,
+     "obs": "3d-stagger-flip"
+    },
+    {
+     "nome": "3D Text Unfold",
+     "pro": null,
+     "obs": "3d-text-unfold"
+    },
+    {
+     "nome": "Appear Text",
+     "pro": null,
+     "obs": "appear-text"
+    },
+    {
+     "nome": "Blob Text Reveal",
+     "pro": null,
+     "obs": "blob-text-reveal"
+    },
+    {
+     "nome": "Block Text Reveal",
+     "pro": null,
+     "obs": "block-text-reveal"
+    },
+    {
+     "nome": "Bold Slanted Condensed",
+     "pro": null,
+     "obs": "bold-slanted-condensed"
+    },
+    {
+     "nome": "Breathing Balloon Letter",
+     "pro": null,
+     "obs": "breathing-balloon-letter"
+    },
+    {
+     "nome": "Brush Reveal",
+     "pro": null,
+     "obs": "brush-reveal"
+    },
+    {
+     "nome": "Crystal Glow",
+     "pro": null,
+     "obs": "crystal-glow"
+    },
+    {
+     "nome": "Cube Roll Letter Role",
+     "pro": null,
+     "obs": "cube-roll-letter-role"
+    },
+    {
+     "nome": "Curved Marquee",
+     "pro": null,
+     "obs": "curvedmarquee"
+    },
+    {
+     "nome": "Diagonal Letterwave",
+     "pro": null,
+     "obs": "diagonal-letterwave"
+    },
+    {
+     "nome": "Direction Hover",
+     "pro": null,
+     "obs": "directionhover"
+    },
+    {
+     "nome": "Domino Text Fall",
+     "pro": null,
+     "obs": "domino-text-fall"
+    },
+    {
+     "nome": "Dot Scatter",
+     "pro": null,
+     "obs": "dot-scatter"
+    },
+    {
+     "nome": "Dust Text Reveal",
+     "pro": null,
+     "obs": "dust-text-reveal"
+    },
+    {
+     "nome": "Dynamic Weight",
+     "pro": null,
+     "obs": "dynamic-weight"
+    },
+    {
+     "nome": "Elastic Text",
+     "pro": null,
+     "obs": "elastic-text"
+    },
+    {
+     "nome": "Embroidery",
+     "pro": null,
+     "obs": "embroidery"
+    },
+    {
+     "nome": "Emoji Particle",
+     "pro": null,
+     "obs": "emoji-particle"
+    },
+    {
+     "nome": "Falling Text",
+     "pro": null,
+     "obs": "falling-text"
+    },
+    {
+     "nome": "Flat Text",
+     "pro": null,
+     "obs": "flat-text"
+    },
+    {
+     "nome": "Flicker Text",
+     "pro": null,
+     "obs": "flickertext"
+    },
+    {
+     "nome": "Fluid Text",
+     "pro": null,
+     "obs": "fluid-text"
+    },
+    {
+     "nome": "Focus Reveal",
+     "pro": null,
+     "obs": "focus-reveal"
+    },
+    {
+     "nome": "Glassora",
+     "pro": null,
+     "obs": "glassora"
+    },
+    {
+     "nome": "Glitch Text",
+     "pro": null,
+     "obs": "glitch-text"
+    },
+    {
+     "nome": "Glyphforge",
+     "pro": null,
+     "obs": "glyphforge"
+    },
+    {
+     "nome": "Gradient Text",
+     "pro": null,
+     "obs": "gradient-text"
+    },
+    {
+     "nome": "Heat Streak Text Ring",
+     "pro": null,
+     "obs": "heat-streak-text-ring"
+    },
+    {
+     "nome": "Infinite Text Passage",
+     "pro": null,
+     "obs": "infinite-text-passage"
+    },
+    {
+     "nome": "Inkbleed",
+     "pro": null,
+     "obs": "inkbleed"
+    },
+    {
+     "nome": "Iridescent Glyph",
+     "pro": null,
+     "obs": "iridescent-glyph"
+    },
+    {
+     "nome": "Letter Drop",
+     "pro": null,
+     "obs": "letter-drop"
+    },
+    {
+     "nome": "Letter Swing",
+     "pro": null,
+     "obs": "letter-swing"
+    },
+    {
+     "nome": "Light Shaft Text",
+     "pro": null,
+     "obs": "light-shaft-text"
+    },
+    {
+     "nome": "Luminous Text",
+     "pro": null,
+     "obs": "luminous-text"
+    },
+    {
+     "nome": "Mask Text Reveal",
+     "pro": null,
+     "obs": "mask-text-reveal"
+    },
+    {
+     "nome": "Mechanical Flip",
+     "pro": null,
+     "obs": "mechanical-flip"
+    },
+    {
+     "nome": "Mesh Text Hover",
+     "pro": null,
+     "obs": "meshtexthover"
+    },
+    {
+     "nome": "Metal Text",
+     "pro": null,
+     "obs": "metal-text"
+    },
+    {
+     "nome": "Motion Text Trail",
+     "pro": null,
+     "obs": "motion-text-trail"
+    },
+    {
+     "nome": "Motion Text Wave",
+     "pro": null,
+     "obs": "motion-text-wave"
+    },
+    {
+     "nome": "Pixel Bulge",
+     "pro": null,
+     "obs": "pixel-bulge"
+    },
+    {
+     "nome": "Pixel Drift",
+     "pro": null,
+     "obs": "pixeldrift"
+    },
+    {
+     "nome": "Pixel LED Display",
+     "pro": null,
+     "obs": "pixel-led-display"
+    },
+    {
+     "nome": "Popcorn Text",
+     "pro": null,
+     "obs": "popcorn-text"
+    },
+    {
+     "nome": "Prismatic Extrusion",
+     "pro": null,
+     "obs": "prismatic-extrusion"
+    },
+    {
+     "nome": "Random Letter Swap",
+     "pro": null,
+     "obs": "random-letter-swap"
+    },
+    {
+     "nome": "Rolling Letters",
+     "pro": null,
+     "obs": "rolling-letters"
+    },
+    {
+     "nome": "Scramble Text",
+     "pro": null,
+     "obs": "scrambletext"
+    },
+    {
+     "nome": "Scroll Text Highlight",
+     "pro": null,
+     "obs": "scroll-text-highlight"
+    },
+    {
+     "nome": "Scroll Text Reveal",
+     "pro": null,
+     "obs": "scroll-text-reveal"
+    },
+    {
+     "nome": "Shadow Play",
+     "pro": null,
+     "obs": "shadow-play"
+    },
+    {
+     "nome": "Shiny Pill",
+     "pro": null,
+     "obs": "shiny-pill"
+    },
+    {
+     "nome": "Skew in text effect",
+     "pro": null,
+     "obs": "skew-in-text-effect"
+    },
+    {
+     "nome": "Smoky Text",
+     "pro": null,
+     "obs": "smokytext"
+    },
+    {
+     "nome": "Spiral Text",
+     "pro": null,
+     "obs": "spiral-text"
+    },
+    {
+     "nome": "Spotlight Text",
+     "pro": null,
+     "obs": "spotlighttext"
+    },
+    {
+     "nome": "Spring Text",
+     "pro": null,
+     "obs": "spring-text"
+    },
+    {
+     "nome": "Stagger Text Rise",
+     "pro": null,
+     "obs": "stagger-text-rise"
+    },
+    {
+     "nome": "Starlit Glyphfield",
+     "pro": null,
+     "obs": "starlit-glyphfield"
+    },
+    {
+     "nome": "Sticker Reading",
+     "pro": null,
+     "obs": "sticker-reading"
+    },
+    {
+     "nome": "Sync Scroll",
+     "pro": null,
+     "obs": "sync-scroll"
+    },
+    {
+     "nome": "Text Carousel",
+     "pro": null,
+     "obs": "text-carousel"
+    },
+    {
+     "nome": "Text Colour Sweep",
+     "pro": null,
+     "obs": "text-colour-sweep"
+    },
+    {
+     "nome": "Text Distortion",
+     "pro": null,
+     "obs": "text-distortion"
+    },
+    {
+     "nome": "Text Dither",
+     "pro": null,
+     "obs": "text-dither"
+    },
+    {
+     "nome": "Text Emerge",
+     "pro": null,
+     "obs": "text-emerge"
+    },
+    {
+     "nome": "Text Gather",
+     "pro": null,
+     "obs": "text-gather"
+    },
+    {
+     "nome": "Text Lift",
+     "pro": null,
+     "obs": "textlift"
+    },
+    {
+     "nome": "Text Morph",
+     "pro": null,
+     "obs": "textmorph"
+    },
+    {
+     "nome": "Text Noise",
+     "pro": null,
+     "obs": "text-noise"
+    },
+    {
+     "nome": "Text Path",
+     "pro": null,
+     "obs": "textpath"
+    },
+    {
+     "nome": "Text Reveal Wall",
+     "pro": null,
+     "obs": "text-reveal-wall"
+    },
+    {
+     "nome": "Text Ring",
+     "pro": null,
+     "obs": "text-ring"
+    },
+    {
+     "nome": "Text String",
+     "pro": null,
+     "obs": "text-string"
+    },
+    {
+     "nome": "Text Vaporize",
+     "pro": null,
+     "obs": "text-vaporize"
+    },
+    {
+     "nome": "Text Wipe",
+     "pro": null,
+     "obs": "text-wipe"
+    },
+    {
+     "nome": "Triangle Type Tunnel",
+     "pro": null,
+     "obs": "triangle-type-tunnel"
+    },
+    {
+     "nome": "Type Sequence",
+     "pro": null,
+     "obs": "type-sequence"
+    },
+    {
+     "nome": "Type Writer",
+     "pro": null,
+     "obs": "typewriter"
+    },
+    {
+     "nome": "Typo Torus",
+     "pro": null,
+     "obs": "typo-torus"
+    },
+    {
+     "nome": "Typographic Tides",
+     "pro": null,
+     "obs": "typographic-tides"
+    },
+    {
+     "nome": "Vector Wordmark",
+     "pro": null,
+     "obs": "vector-wordmark"
+    },
+    {
+     "nome": "Vector Wordmark 2",
+     "pro": null,
+     "obs": "vector-wordmark-02"
+    },
+    {
+     "nome": "Vector Wordmark 3",
+     "pro": null,
+     "obs": "vector-wordmark-03"
+    },
+    {
+     "nome": "Vector Wordmark 4",
+     "pro": null,
+     "obs": "vector-wordmark-04"
+    },
+    {
+     "nome": "Video Text",
+     "pro": null,
+     "obs": "video-text"
+    },
+    {
+     "nome": "Weight Hover",
+     "pro": null,
+     "obs": "weight-hover"
+    },
+    {
+     "nome": "Word Truth Heavy",
+     "pro": null,
+     "obs": "word-truth-heavy"
+    }
+   ]
+  },
+  {
+   "nome": "Seções: Contato",
+   "itens": [
+    {
+     "nome": "Contact 01",
+     "pro": null,
+     "obs": "contact-01"
+    }
+   ]
+  },
+  {
+   "nome": "Seções: CTA",
+   "itens": [
+    {
+     "nome": "CTA 01",
+     "pro": null,
+     "obs": "cta-01"
+    },
+    {
+     "nome": "CTA 02",
+     "pro": null,
+     "obs": "cta-02"
+    },
+    {
+     "nome": "Cta 03",
+     "pro": null,
+     "obs": "cta-03"
+    },
+    {
+     "nome": "Cta 04",
+     "pro": null,
+     "obs": "cta-04"
+    }
+   ]
+  },
+  {
+   "nome": "Seções: FAQ",
+   "itens": [
+    {
+     "nome": "Faq 01",
+     "pro": null,
+     "obs": "faq-01"
+    }
+   ]
+  },
+  {
+   "nome": "Seções: Features",
+   "itens": [
+    {
+     "nome": "Feature 04",
+     "pro": null,
+     "obs": "features-04"
+    },
+    {
+     "nome": "Features 01",
+     "pro": null,
+     "obs": "features-01"
+    },
+    {
+     "nome": "Features 02",
+     "pro": null,
+     "obs": "features-02"
+    },
+    {
+     "nome": "Features 03",
+     "pro": null,
+     "obs": "features-03"
+    },
+    {
+     "nome": "Features 05",
+     "pro": null,
+     "obs": "features-05"
+    },
+    {
+     "nome": "Features 06",
+     "pro": null,
+     "obs": "features-06"
+    }
+   ]
+  },
+  {
+   "nome": "Seções: Rodapé",
+   "itens": [
+    {
+     "nome": "Footer 01",
+     "pro": null,
+     "obs": "footer-01"
+    },
+    {
+     "nome": "Footer 02",
+     "pro": null,
+     "obs": "footer-02"
+    },
+    {
+     "nome": "Footer 03",
+     "pro": null,
+     "obs": "footer-03"
+    }
+   ]
+  },
+  {
+   "nome": "Seções: Hero",
+   "itens": [
+    {
+     "nome": "Hero 01",
+     "pro": null,
+     "obs": "hero-01"
+    },
+    {
+     "nome": "Hero 02",
+     "pro": null,
+     "obs": "hero-02"
+    },
+    {
+     "nome": "Hero 03",
+     "pro": null,
+     "obs": "hero-03"
+    },
+    {
+     "nome": "Hero 04",
+     "pro": null,
+     "obs": "hero-04"
+    },
+    {
+     "nome": "Hero 05",
+     "pro": null,
+     "obs": "hero-05"
+    },
+    {
+     "nome": "Hero 06",
+     "pro": null,
+     "obs": "hero-06"
+    },
+    {
+     "nome": "Hero 07",
+     "pro": null,
+     "obs": "hero-07"
+    },
+    {
+     "nome": "Hero 08",
+     "pro": null,
+     "obs": "hero-08"
+    },
+    {
+     "nome": "Hero 09",
+     "pro": null,
+     "obs": "hero-09"
+    },
+    {
+     "nome": "Hero 10",
+     "pro": null,
+     "obs": "hero-10"
+    },
+    {
+     "nome": "Hero 11",
+     "pro": null,
+     "obs": "hero-11"
+    },
+    {
+     "nome": "Hero 12",
+     "pro": null,
+     "obs": "hero-12"
+    },
+    {
+     "nome": "Hero 13",
+     "pro": null,
+     "obs": "hero-13"
+    },
+    {
+     "nome": "Hero 14",
+     "pro": null,
+     "obs": "hero-14"
+    },
+    {
+     "nome": "Hero 15",
+     "pro": null,
+     "obs": "hero-15"
+    },
+    {
+     "nome": "Hero 16",
+     "pro": null,
+     "obs": "hero-16"
+    },
+    {
+     "nome": "Hero 17",
+     "pro": null,
+     "obs": "hero-17"
+    },
+    {
+     "nome": "Hero 18",
+     "pro": null,
+     "obs": "hero-18"
+    },
+    {
+     "nome": "Hero 19",
+     "pro": null,
+     "obs": "hero-19"
+    },
+    {
+     "nome": "Hero 20",
+     "pro": null,
+     "obs": "hero-20"
+    },
+    {
+     "nome": "Hero 21",
+     "pro": null,
+     "obs": "hero-21"
+    },
+    {
+     "nome": "Hero 22",
+     "pro": null,
+     "obs": "hero-22"
+    },
+    {
+     "nome": "Hero 23",
+     "pro": null,
+     "obs": "hero-23"
+    },
+    {
+     "nome": "Hero 24",
+     "pro": null,
+     "obs": "hero-24"
+    },
+    {
+     "nome": "Hero 25",
+     "pro": null,
+     "obs": "hero-25"
+    },
+    {
+     "nome": "Hero 26",
+     "pro": null,
+     "obs": "hero-26"
+    },
+    {
+     "nome": "Hero 27",
+     "pro": null,
+     "obs": "hero-27"
+    },
+    {
+     "nome": "Hero 28",
+     "pro": null,
+     "obs": "hero-28"
+    },
+    {
+     "nome": "Hero 29",
+     "pro": null,
+     "obs": "hero-29"
+    },
+    {
+     "nome": "Hero 30",
+     "pro": null,
+     "obs": "hero-30"
+    },
+    {
+     "nome": "Hero 31",
+     "pro": null,
+     "obs": "hero-31"
+    },
+    {
+     "nome": "Hero 32",
+     "pro": null,
+     "obs": "hero-32"
+    },
+    {
+     "nome": "Hero 33",
+     "pro": null,
+     "obs": "hero-33"
+    },
+    {
+     "nome": "Hero 34",
+     "pro": null,
+     "obs": "hero-34"
+    },
+    {
+     "nome": "Hero 35",
+     "pro": null,
+     "obs": "hero-35"
+    },
+    {
+     "nome": "Hero 36",
+     "pro": null,
+     "obs": "hero-36"
+    },
+    {
+     "nome": "Hero 37",
+     "pro": null,
+     "obs": "hero-37"
+    },
+    {
+     "nome": "Hero 38",
+     "pro": null,
+     "obs": "hero-38"
+    },
+    {
+     "nome": "Hero 39",
+     "pro": null,
+     "obs": "hero-39"
+    },
+    {
+     "nome": "Hero 40",
+     "pro": null,
+     "obs": "hero-40"
+    },
+    {
+     "nome": "Hero 41",
+     "pro": null,
+     "obs": "hero-41"
+    },
+    {
+     "nome": "Hero 42",
+     "pro": null,
+     "obs": "hero-42"
+    },
+    {
+     "nome": "Hero 43",
+     "pro": null,
+     "obs": "hero-43"
+    },
+    {
+     "nome": "Hero 44",
+     "pro": null,
+     "obs": "hero-44"
+    },
+    {
+     "nome": "Hero 45",
+     "pro": null,
+     "obs": "hero-45"
+    },
+    {
+     "nome": "Hero 46",
+     "pro": null,
+     "obs": "hero-46"
+    },
+    {
+     "nome": "Hero 47",
+     "pro": null,
+     "obs": "hero-47"
+    },
+    {
+     "nome": "Hero 48",
+     "pro": null,
+     "obs": "hero-48"
+    },
+    {
+     "nome": "Hero 49",
+     "pro": null,
+     "obs": "hero-49"
+    },
+    {
+     "nome": "Hero 50",
+     "pro": null,
+     "obs": "hero-50"
+    },
+    {
+     "nome": "Hero 51",
+     "pro": null,
+     "obs": "hero-51"
+    },
+    {
+     "nome": "Hero 52",
+     "pro": null,
+     "obs": "hero-52"
+    },
+    {
+     "nome": "Hero 53",
+     "pro": null,
+     "obs": "hero-53"
+    },
+    {
+     "nome": "Hero 54",
+     "pro": null,
+     "obs": "hero-54"
+    },
+    {
+     "nome": "Hero 55",
+     "pro": null,
+     "obs": "hero-55"
+    },
+    {
+     "nome": "Hero 56",
+     "pro": null,
+     "obs": "hero-56"
+    },
+    {
+     "nome": "Hero 57",
+     "pro": null,
+     "obs": "hero-57"
+    },
+    {
+     "nome": "Hero 58",
+     "pro": null,
+     "obs": "hero-58"
+    },
+    {
+     "nome": "Hero 59",
+     "pro": null,
+     "obs": "hero-59"
+    },
+    {
+     "nome": "Hero 60",
+     "pro": null,
+     "obs": "hero-60"
+    },
+    {
+     "nome": "Hero 61",
+     "pro": null,
+     "obs": "hero-61"
+    },
+    {
+     "nome": "Hero 62",
+     "pro": null,
+     "obs": "hero-62"
+    },
+    {
+     "nome": "Hero 63",
+     "pro": null,
+     "obs": "hero-63"
+    },
+    {
+     "nome": "Hero 64",
+     "pro": null,
+     "obs": "hero-64"
+    },
+    {
+     "nome": "Hero 65",
+     "pro": null,
+     "obs": "hero-65"
+    },
+    {
+     "nome": "Hero 66",
+     "pro": null,
+     "obs": "hero-66"
+    },
+    {
+     "nome": "Hero 67",
+     "pro": null,
+     "obs": "hero-67"
+    },
+    {
+     "nome": "Hero 68",
+     "pro": null,
+     "obs": "hero-68"
+    },
+    {
+     "nome": "Hero 69",
+     "pro": null,
+     "obs": "hero-69"
+    },
+    {
+     "nome": "Hero 70",
+     "pro": null,
+     "obs": "hero-70"
+    },
+    {
+     "nome": "Hero 71",
+     "pro": null,
+     "obs": "hero-71"
+    }
+   ]
+  },
+  {
+   "nome": "Seções: Preços",
+   "itens": [
+    {
+     "nome": "Pricing 01",
+     "pro": null,
+     "obs": "pricing-01"
+    },
+    {
+     "nome": "Pricing 02",
+     "pro": null,
+     "obs": "pricing-02"
+    },
+    {
+     "nome": "Pricing 03",
+     "pro": null,
+     "obs": "pricing-03"
+    },
+    {
+     "nome": "Pricing 04",
+     "pro": null,
+     "obs": "pricing-04"
+    }
+   ]
+  },
+  {
+   "nome": "Seções: Estatísticas",
+   "itens": [
+    {
+     "nome": "Stats 01",
+     "pro": null,
+     "obs": "stats-01"
+    }
+   ]
+  },
+  {
+   "nome": "Seções: Depoimentos",
+   "itens": [
+    {
+     "nome": "Testimonials 01",
+     "pro": null,
+     "obs": "testimonials-01"
+    }
+   ]
+  },
+  {
+   "nome": "Funcional: Tabs & Selectors",
+   "itens": [
+    {
+     "nome": "Status Dot Picker",
+     "pro": null,
+     "obs": "status-dot-picker"
+    },
+    {
+     "nome": "Selenite Chips",
+     "pro": null,
+     "obs": "selenite-chips"
+    },
+    {
+     "nome": "Pixel Swarm Dropdown",
+     "pro": null,
+     "obs": "pixel-swarm-dropdown"
+    },
+    {
+     "nome": "Bouncing Dot Tabs",
+     "pro": null,
+     "obs": "bouncing-dot-tabs"
+    },
+    {
+     "nome": "Charcoal Shuttle",
+     "pro": null,
+     "obs": "charcoal-shuttle"
+    },
+    {
+     "nome": "Accordion OS",
+     "pro": null,
+     "obs": "accordion-os"
+    }
+   ]
+  },
+  {
+   "nome": "Funcional: Text Effects",
+   "itens": [
+    {
+     "nome": "Bloom Wave Text",
+     "pro": null,
+     "obs": "bloom-wave-text"
+    },
+    {
+     "nome": "Bezier Anchor Type",
+     "pro": null,
+     "obs": "bezier-anchor-type"
+    },
+    {
+     "nome": "Signature",
+     "pro": null,
+     "obs": "signature"
+    },
+    {
+     "nome": "Letter Cascade",
+     "pro": null,
+     "obs": "letter-cascade"
+    },
+    {
+     "nome": "Text Repel",
+     "pro": null,
+     "obs": "text-repel"
+    }
+   ]
+  },
+  {
+   "nome": "Funcional: Cards & Badges",
+   "itens": [
+    {
+     "nome": "Holo Flip Badge",
+     "pro": null,
+     "obs": "holo-flip-badge"
+    },
+    {
+     "nome": "Flip Invite Ticket",
+     "pro": null,
+     "obs": "flip-invite-ticket"
+    },
+    {
+     "nome": "Tilt",
+     "pro": null,
+     "obs": "tilt"
+    },
+    {
+     "nome": "Peel Sticker",
+     "pro": null,
+     "obs": "peel-sticker"
+    },
+    {
+     "nome": "Holo Card Dispenser",
+     "pro": null,
+     "obs": "holo-card-dispenser"
+    },
+    {
+     "nome": "Water Ripple Refraction",
+     "pro": null,
+     "obs": "water-ripple-refraction"
+    },
+    {
+     "nome": "Swinging Lanyard Badge",
+     "pro": null,
+     "obs": "swinging-lanyard-badge"
+    },
+    {
+     "nome": "Draggable Cloth Print",
+     "pro": null,
+     "obs": "draggable-cloth-print"
+    }
+   ]
+  },
+  {
+   "nome": "Funcional: Widgets & Media",
+   "itens": [
+    {
+     "nome": "QR Code Assemble",
+     "pro": null,
+     "obs": "qr-code-assemble"
+    },
+    {
+     "nome": "Liquid Glass Clock",
+     "pro": null,
+     "obs": "liquid-glass-clock"
+    },
+    {
+     "nome": "Corner Video",
+     "pro": null,
+     "obs": "corner-video"
+    }
+   ]
+  },
+  {
+   "nome": "Funcional: Galleries & Card Stacks",
+   "itens": [
+    {
+     "nome": "Photo Card Globe",
+     "pro": null,
+     "obs": "photo-card-globe"
+    },
+    {
+     "nome": "Layered Stack",
+     "pro": null,
+     "obs": "layered-stack"
+    },
+    {
+     "nome": "Dynamic Grid Gallery",
+     "pro": null,
+     "obs": "dynamic-grid-gallery"
+    },
+    {
+     "nome": "Orbit Card Stack",
+     "pro": null,
+     "obs": "orbit-card-stack"
+    },
+    {
+     "nome": "Card Swap",
+     "pro": null,
+     "obs": "card-swap"
+    },
+    {
+     "nome": "Bookshelf Cover Flip",
+     "pro": null,
+     "obs": "bookshelf-cover-flip"
+    },
+    {
+     "nome": "Photo Stack Lightbox",
+     "pro": null,
+     "obs": "photo-stack-lightbox"
+    },
+    {
+     "nome": "Infinite Grid",
+     "pro": null,
+     "obs": "infinite-grid"
+    }
+   ]
+  },
+  {
+   "nome": "Funcional: Sliders & Progress",
+   "itens": [
+    {
+     "nome": "Hyaline Level",
+     "pro": null,
+     "obs": "hyaline-level"
+    },
+    {
+     "nome": "Wake Slider",
+     "pro": null,
+     "obs": "wake-slider"
+    },
+    {
+     "nome": "Vitreous Brim",
+     "pro": null,
+     "obs": "vitreous-brim"
+    },
+    {
+     "nome": "Garden Progress Slider",
+     "pro": null,
+     "obs": "garden-progress-slider"
+    }
+   ]
+  },
+  {
+   "nome": "Funcional: Carousels",
+   "itens": [
+    {
+     "nome": "Spiral 3D Slider",
+     "pro": null,
+     "obs": "spiral-3d-slider"
+    },
+    {
+     "nome": "Crumple Paper Carousel",
+     "pro": null,
+     "obs": "crumple-paper-carousel"
+    },
+    {
+     "nome": "Coverflow Drag",
+     "pro": null,
+     "obs": "coverflow-drag"
+    },
+    {
+     "nome": "Snap Carousel",
+     "pro": null,
+     "obs": "snap-carousel"
+    },
+    {
+     "nome": "Carousel",
+     "pro": null,
+     "obs": "carousel"
+    },
+    {
+     "nome": "Glass Carousel",
+     "pro": null,
+     "obs": "glass-carousel"
+    },
+    {
+     "nome": "Halo Card Carousel",
+     "pro": null,
+     "obs": "halo-card-carousel"
+    },
+    {
+     "nome": "Mirror Flip Carousel",
+     "pro": null,
+     "obs": "mirror-flip-carousel"
+    },
+    {
+     "nome": "App Icon Paddle Wheel",
+     "pro": null,
+     "obs": "app-icon-paddle-wheel"
+    }
+   ]
+  },
+  {
+   "nome": "Funcional: Inputs & Forms",
+   "itens": [
+    {
+     "nome": "One Time Code",
+     "pro": null,
+     "obs": "one-time-code"
+    },
+    {
+     "nome": "Label Input",
+     "pro": null,
+     "obs": "label-input"
+    },
+    {
+     "nome": "Inline Edit",
+     "pro": null,
+     "obs": "inline-edit"
+    },
+    {
+     "nome": "Rolling Counter",
+     "pro": null,
+     "obs": "rolling-counter"
+    },
+    {
+     "nome": "Gooey Search",
+     "pro": null,
+     "obs": "gooey-search"
+    }
+   ]
+  },
+  {
+   "nome": "Funcional: Navigation",
+   "itens": [
+    {
+     "nome": "Dock",
+     "pro": null,
+     "obs": "dock"
+    },
+    {
+     "nome": "Magnetic Dock",
+     "pro": null,
+     "obs": "magnetic-dock"
+    },
+    {
+     "nome": "Licorice Glide",
+     "pro": null,
+     "obs": "licorice-glide"
+    },
+    {
+     "nome": "Expanding Tool Tray",
+     "pro": null,
+     "obs": "expanding-tool-tray"
+    },
+    {
+     "nome": "Scribble Loop Nav",
+     "pro": null,
+     "obs": "scribble-loop-nav"
+    },
+    {
+     "nome": "Scroll Progress Outline",
+     "pro": null,
+     "obs": "scroll-progress-outline"
+    }
+   ]
+  },
+  {
+   "nome": "Funcional: Buttons & Toggles",
+   "itens": [
+    {
+     "nome": "Like",
+     "pro": null,
+     "obs": "like"
+    },
+    {
+     "nome": "Gooey Delete Confirm",
+     "pro": null,
+     "obs": "gooey-delete-confirm"
+    },
+    {
+     "nome": "Stretch Pill Toggle",
+     "pro": null,
+     "obs": "stretch-pill-toggle"
+    },
+    {
+     "nome": "Button Morph Card",
+     "pro": null,
+     "obs": "button-morph-card"
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Seções (92) e Templates completos (React/Next.js ou HTML/CSS; todos Pro/Ultimate; nomes não listados no site sem login)",
+  "CLI: npx originkit add/list/search/init/login",
+  "MCP hospedado: https://mcp.originkit.dev/mcp (list_components, get_component, search, fetch; sem geração)",
+  "Copiar para Framer (componentes), React/Next/Vite, comando CLI ou prompt de IA",
+  "AI Editor e créditos de IA (Free 5/dia; Pro +100/mês; Ultimate 200/mês); Templens (25.000+ templates de sites)",
+  "Controles ao vivo para ajustar props antes de copiar"
+ ],
+ "acesso_visto": "Navegar e pré-visualizar é grátis; copiar exige conta. Free US$0: 3 componentes e 3 seções por dia, 0 templates. Pro US$79/ano (de US$144): 25/dia, 5 templates/dia, biblioteca completa. Ultimate US$99/ano (de US$209): sem limite (uso justo). Licença: uso comercial ilimitado, sem atribuição; proibido redistribuir em templates, kits, Figma ou bibliotecas sem parceria.",
+ "observacoes": "Total: 813 componentes (inclui variações numeradas, ex. 02/03; 766 bases), 92 seções, 58 itens da aba Functional (novos). Nomes e categorias lidos dos dados da própria página. O site não marca por item o que é Pro (pro=null); o limite é por cópias/dia, não por item. Templates não listados.",
+ "id": "originkit",
+ "conferido_em": "2026-11-27",
+ "total": 963
+}

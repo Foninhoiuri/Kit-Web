@@ -1,0 +1,262 @@
+{
+ "id": "transitions-dev",
+ "fontes": [
+  "https://transitions.dev/builder.html",
+  "https://transitions.dev/library.html"
+ ],
+ "total": 47,
+ "grupos": [
+  {
+   "nome": "Transições grátis",
+   "itens": [
+    {
+     "nome": "Card resize",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Number pop-in",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Notification badge",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Text states swap",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Menu dropdown",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Modal open/close",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Panel reveal",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Page side-by-side",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Icon swap",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Success check",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Avatar group hover",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Error state shake",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Input clear with dissolve",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Skeleton loader and reveal",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Texts reveal",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Tabs sliding",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Shimmer text",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Tooltip open/close",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "3D tilt",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Dropdown menu morph",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Accordion",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Toast open/close",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Like button",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Learn more hover",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Checkbox check",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Spinning counter",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Number subtle change",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Toggle",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Thinking states",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Reasoning stream",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Streaming text",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Matrix dot loader",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Banner stacking",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "To-do reorder",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Magnetic slider",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Transições Pro",
+   "itens": [
+    {
+     "nome": "Confetti burst",
+     "pro": true,
+     "obs": "Pro"
+    },
+    {
+     "nome": "Gooey plus menu",
+     "pro": true,
+     "obs": "Pro"
+    },
+    {
+     "nome": "Card stack hover",
+     "pro": true,
+     "obs": "Pro"
+    },
+    {
+     "nome": "Drag & drop with physics",
+     "pro": true,
+     "obs": "Pro"
+    },
+    {
+     "nome": "Organic shimmer",
+     "pro": true,
+     "obs": "Pro"
+    },
+    {
+     "nome": "Image open tilt",
+     "pro": true,
+     "obs": "Pro"
+    },
+    {
+     "nome": "Spinner to check morph",
+     "pro": true,
+     "obs": "Pro"
+    },
+    {
+     "nome": "Pro gradient text",
+     "pro": true,
+     "obs": "Pro"
+    },
+    {
+     "nome": "Delete with smoky dissolve",
+     "pro": true,
+     "obs": "Pro"
+    },
+    {
+     "nome": "Image generation placeholder",
+     "pro": true,
+     "obs": "Pro"
+    },
+    {
+     "nome": "Icon morph",
+     "pro": true,
+     "obs": "Pro"
+    },
+    {
+     "nome": "Get Pro button",
+     "pro": true,
+     "obs": "Pro"
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Builder (builder.html): agente que aplica transições em estados de UI",
+  "Bibliotecas pré-instaladas de libraries.dev (tier grátis)",
+  "Recursos de design system exigem Pro e Business"
+ ],
+ "observacoes": "A library.html lista cerca de 46-47 cartões (35 grátis, 12 Pro; 'Get Pro button' é um botão de upsell, não uma transição). Categorias Animate/Play só aparecem em alguns cartões. O builder.html não lista as transições; a lista veio da library.html.",
+ "conferido_em": "2026-11-27"
+}

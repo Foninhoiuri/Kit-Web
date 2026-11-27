@@ -1,0 +1,2750 @@
+{
+ "id": "shadcn-io",
+ "fontes": [
+  "https://www.shadcn.io/llms.txt"
+ ],
+ "total": 670,
+ "grupos": [
+  {
+   "nome": "Componentes (UI, IA/chat, mídia, dados)",
+   "itens": [
+    {
+     "nome": "3D Card",
+     "pro": false
+    },
+    {
+     "nome": "3D Marquee",
+     "pro": false
+    },
+    {
+     "nome": "3D Pin",
+     "pro": false
+    },
+    {
+     "nome": "Accordion",
+     "pro": false
+    },
+    {
+     "nome": "Action Bar",
+     "pro": false
+    },
+    {
+     "nome": "Agent",
+     "pro": false
+    },
+    {
+     "nome": "Alert",
+     "pro": false
+    },
+    {
+     "nome": "Alert Dialog",
+     "pro": false
+    },
+    {
+     "nome": "Anatomy",
+     "pro": false
+    },
+    {
+     "nome": "Android",
+     "pro": false
+    },
+    {
+     "nome": "Angle Slider",
+     "pro": false
+    },
+    {
+     "nome": "Animated Beam",
+     "pro": false
+    },
+    {
+     "nome": "Animated Cursor",
+     "pro": false
+    },
+    {
+     "nome": "Animated Testimonials",
+     "pro": false
+    },
+    {
+     "nome": "Animated Tooltip",
+     "pro": false
+    },
+    {
+     "nome": "Announcement",
+     "pro": false
+    },
+    {
+     "nome": "Artifact",
+     "pro": false
+    },
+    {
+     "nome": "Aspect Ratio",
+     "pro": false
+    },
+    {
+     "nome": "Attachment",
+     "pro": false
+    },
+    {
+     "nome": "Audio Player",
+     "pro": false
+    },
+    {
+     "nome": "Autocomplete",
+     "pro": false
+    },
+    {
+     "nome": "Avatar",
+     "pro": false
+    },
+    {
+     "nome": "Badge",
+     "pro": false
+    },
+    {
+     "nome": "Bottom Navigation",
+     "pro": false
+    },
+    {
+     "nome": "Breadcrumb",
+     "pro": false
+    },
+    {
+     "nome": "Bubble",
+     "pro": false
+    },
+    {
+     "nome": "Button",
+     "pro": false
+    },
+    {
+     "nome": "Button Group",
+     "pro": false
+    },
+    {
+     "nome": "Calendar",
+     "pro": false
+    },
+    {
+     "nome": "Canvas",
+     "pro": false
+    },
+    {
+     "nome": "Card",
+     "pro": false
+    },
+    {
+     "nome": "Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Chain of Thought",
+     "pro": false
+    },
+    {
+     "nome": "Chart",
+     "pro": false
+    },
+    {
+     "nome": "Chat",
+     "pro": false
+    },
+    {
+     "nome": "Checkbox",
+     "pro": false
+    },
+    {
+     "nome": "Checkpoint",
+     "pro": false
+    },
+    {
+     "nome": "Circular Progress",
+     "pro": false
+    },
+    {
+     "nome": "Circular Slider",
+     "pro": false
+    },
+    {
+     "nome": "Clipboard",
+     "pro": false
+    },
+    {
+     "nome": "Code Block",
+     "pro": false
+    },
+    {
+     "nome": "Code Editor",
+     "pro": false
+    },
+    {
+     "nome": "Collapsible",
+     "pro": false
+    },
+    {
+     "nome": "Color Picker",
+     "pro": false
+    },
+    {
+     "nome": "Combobox",
+     "pro": false
+    },
+    {
+     "nome": "Command",
+     "pro": false
+    },
+    {
+     "nome": "Commit",
+     "pro": false
+    },
+    {
+     "nome": "Comparison",
+     "pro": false
+    },
+    {
+     "nome": "Confirmation",
+     "pro": false
+    },
+    {
+     "nome": "Context",
+     "pro": false
+    },
+    {
+     "nome": "Context Menu",
+     "pro": false
+    },
+    {
+     "nome": "Credit Card",
+     "pro": false
+    },
+    {
+     "nome": "Cursor",
+     "pro": false
+    },
+    {
+     "nome": "Data List",
+     "pro": false
+    },
+    {
+     "nome": "Date Input",
+     "pro": false
+    },
+    {
+     "nome": "Date Picker",
+     "pro": false
+    },
+    {
+     "nome": "Dialog",
+     "pro": false
+    },
+    {
+     "nome": "Direction",
+     "pro": false
+    },
+    {
+     "nome": "Dock",
+     "pro": false
+    },
+    {
+     "nome": "Drawer",
+     "pro": false
+    },
+    {
+     "nome": "Dropdown Menu",
+     "pro": false
+    },
+    {
+     "nome": "Editable",
+     "pro": false
+    },
+    {
+     "nome": "Empty",
+     "pro": false
+    },
+    {
+     "nome": "Environment Variables",
+     "pro": false
+    },
+    {
+     "nome": "Field",
+     "pro": false
+    },
+    {
+     "nome": "File Tree",
+     "pro": false
+    },
+    {
+     "nome": "File Upload",
+     "pro": false
+    },
+    {
+     "nome": "Float",
+     "pro": false
+    },
+    {
+     "nome": "Floating Panel",
+     "pro": false
+    },
+    {
+     "nome": "Frame",
+     "pro": false
+    },
+    {
+     "nome": "Gantt",
+     "pro": false
+    },
+    {
+     "nome": "Generated Image",
+     "pro": false
+    },
+    {
+     "nome": "Guides",
+     "pro": false
+    },
+    {
+     "nome": "Hello Effect",
+     "pro": false
+    },
+    {
+     "nome": "Hint",
+     "pro": false
+    },
+    {
+     "nome": "Hover Card",
+     "pro": false
+    },
+    {
+     "nome": "Image Cropper",
+     "pro": false
+    },
+    {
+     "nome": "Image Zoom",
+     "pro": false
+    },
+    {
+     "nome": "Inline Citation",
+     "pro": false
+    },
+    {
+     "nome": "Input",
+     "pro": false
+    },
+    {
+     "nome": "Input Group",
+     "pro": false
+    },
+    {
+     "nome": "Input OTP",
+     "pro": false
+    },
+    {
+     "nome": "iPhone",
+     "pro": false
+    },
+    {
+     "nome": "Item",
+     "pro": false
+    },
+    {
+     "nome": "Kanban",
+     "pro": false
+    },
+    {
+     "nome": "Kbd",
+     "pro": false
+    },
+    {
+     "nome": "Keyboard Table",
+     "pro": false
+    },
+    {
+     "nome": "Label",
+     "pro": false
+    },
+    {
+     "nome": "Limelight Nav",
+     "pro": false
+    },
+    {
+     "nome": "Link Overlay",
+     "pro": false
+    },
+    {
+     "nome": "List",
+     "pro": false
+    },
+    {
+     "nome": "Listbox",
+     "pro": false
+    },
+    {
+     "nome": "Map",
+     "pro": false
+    },
+    {
+     "nome": "Marker",
+     "pro": false
+    },
+    {
+     "nome": "Marquee",
+     "pro": false
+    },
+    {
+     "nome": "Menu Dock",
+     "pro": false
+    },
+    {
+     "nome": "Menubar",
+     "pro": false
+    },
+    {
+     "nome": "Message",
+     "pro": false
+    },
+    {
+     "nome": "Message Branch",
+     "pro": false
+    },
+    {
+     "nome": "Message Scroller",
+     "pro": false
+    },
+    {
+     "nome": "Mic Selector",
+     "pro": false
+    },
+    {
+     "nome": "Mini Calendar",
+     "pro": false
+    },
+    {
+     "nome": "Model Selector",
+     "pro": false
+    },
+    {
+     "nome": "Motion Highlight",
+     "pro": false
+    },
+    {
+     "nome": "Native Select",
+     "pro": false
+    },
+    {
+     "nome": "Navigation Menu",
+     "pro": false
+    },
+    {
+     "nome": "Number Input",
+     "pro": false
+    },
+    {
+     "nome": "Open in Chat",
+     "pro": false
+    },
+    {
+     "nome": "Package Info",
+     "pro": false
+    },
+    {
+     "nome": "Pagination",
+     "pro": false
+    },
+    {
+     "nome": "Password Input",
+     "pro": false
+    },
+    {
+     "nome": "Persona",
+     "pro": false
+    },
+    {
+     "nome": "Pin List",
+     "pro": false
+    },
+    {
+     "nome": "Pixel Image",
+     "pro": false
+    },
+    {
+     "nome": "Plan",
+     "pro": false
+    },
+    {
+     "nome": "Popover",
+     "pro": false
+    },
+    {
+     "nome": "Progress",
+     "pro": false
+    },
+    {
+     "nome": "Prompt Input",
+     "pro": false
+    },
+    {
+     "nome": "Prose",
+     "pro": false
+    },
+    {
+     "nome": "QR Code",
+     "pro": false
+    },
+    {
+     "nome": "Questionnaire",
+     "pro": false
+    },
+    {
+     "nome": "Queue",
+     "pro": false
+    },
+    {
+     "nome": "Radio Group",
+     "pro": false
+    },
+    {
+     "nome": "Rating",
+     "pro": false
+    },
+    {
+     "nome": "Reasoning",
+     "pro": false
+    },
+    {
+     "nome": "Relative Time",
+     "pro": false
+    },
+    {
+     "nome": "Resizable",
+     "pro": false
+    },
+    {
+     "nome": "Safari",
+     "pro": false
+    },
+    {
+     "nome": "Sandbox",
+     "pro": false
+    },
+    {
+     "nome": "Sandbox Run",
+     "pro": false
+    },
+    {
+     "nome": "Schema Display",
+     "pro": false
+    },
+    {
+     "nome": "Scroll Area",
+     "pro": false
+    },
+    {
+     "nome": "Segment Group",
+     "pro": false
+    },
+    {
+     "nome": "Select",
+     "pro": false
+    },
+    {
+     "nome": "Separator",
+     "pro": false
+    },
+    {
+     "nome": "Sheet",
+     "pro": false
+    },
+    {
+     "nome": "Sidebar",
+     "pro": false
+    },
+    {
+     "nome": "Signature Pad",
+     "pro": false
+    },
+    {
+     "nome": "Skeleton",
+     "pro": false
+    },
+    {
+     "nome": "Skip Nav",
+     "pro": false
+    },
+    {
+     "nome": "Slider",
+     "pro": false
+    },
+    {
+     "nome": "Sonner",
+     "pro": false
+    },
+    {
+     "nome": "Sources",
+     "pro": false
+    },
+    {
+     "nome": "Speech Input",
+     "pro": false
+    },
+    {
+     "nome": "Spinner",
+     "pro": false
+    },
+    {
+     "nome": "Stack Trace",
+     "pro": false
+    },
+    {
+     "nome": "Status",
+     "pro": false
+    },
+    {
+     "nome": "Steps",
+     "pro": false
+    },
+    {
+     "nome": "Subagent",
+     "pro": false
+    },
+    {
+     "nome": "Suggestion",
+     "pro": false
+    },
+    {
+     "nome": "Switch",
+     "pro": false
+    },
+    {
+     "nome": "Table",
+     "pro": false
+    },
+    {
+     "nome": "Table of Contents",
+     "pro": false
+    },
+    {
+     "nome": "Tabs",
+     "pro": false
+    },
+    {
+     "nome": "Tags Input",
+     "pro": false
+    },
+    {
+     "nome": "Task",
+     "pro": false
+    },
+    {
+     "nome": "Terminal",
+     "pro": false
+    },
+    {
+     "nome": "Test Results",
+     "pro": false
+    },
+    {
+     "nome": "Textarea",
+     "pro": false
+    },
+    {
+     "nome": "Ticker",
+     "pro": false
+    },
+    {
+     "nome": "Timer",
+     "pro": false
+    },
+    {
+     "nome": "Toast",
+     "pro": false
+    },
+    {
+     "nome": "Toggle",
+     "pro": false
+    },
+    {
+     "nome": "Toggle Group",
+     "pro": false
+    },
+    {
+     "nome": "Toggle Tooltip",
+     "pro": false
+    },
+    {
+     "nome": "Tool",
+     "pro": false
+    },
+    {
+     "nome": "Tooltip",
+     "pro": false
+    },
+    {
+     "nome": "Tour",
+     "pro": false
+    },
+    {
+     "nome": "Trace",
+     "pro": false
+    },
+    {
+     "nome": "Transcription",
+     "pro": false
+    },
+    {
+     "nome": "Tree View",
+     "pro": false
+    },
+    {
+     "nome": "Type Table",
+     "pro": false
+    },
+    {
+     "nome": "Video Player",
+     "pro": false
+    },
+    {
+     "nome": "Voice Selector",
+     "pro": false
+    },
+    {
+     "nome": "Web Preview",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Utilitários",
+   "itens": [
+    {
+     "nome": "Client Only",
+     "pro": false
+    },
+    {
+     "nome": "Download Trigger",
+     "pro": false
+    },
+    {
+     "nome": "Format",
+     "pro": false
+    },
+    {
+     "nome": "Highlight",
+     "pro": false
+    },
+    {
+     "nome": "Hitbox",
+     "pro": false
+    },
+    {
+     "nome": "JSON Tree View",
+     "pro": false
+    },
+    {
+     "nome": "Presence",
+     "pro": false
+    },
+    {
+     "nome": "Scroll Fade",
+     "pro": false
+    },
+    {
+     "nome": "Shimmer",
+     "pro": false
+    },
+    {
+     "nome": "Show",
+     "pro": false
+    },
+    {
+     "nome": "Swap",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Hooks",
+   "itens": [
+    {
+     "nome": "useBoolean",
+     "pro": false
+    },
+    {
+     "nome": "useClickAnyWhere",
+     "pro": false
+    },
+    {
+     "nome": "useCopyToClipboard",
+     "pro": false
+    },
+    {
+     "nome": "useCountdown",
+     "pro": false
+    },
+    {
+     "nome": "useCounter",
+     "pro": false
+    },
+    {
+     "nome": "useDarkMode",
+     "pro": false
+    },
+    {
+     "nome": "useDebounceCallback",
+     "pro": false
+    },
+    {
+     "nome": "useDebounceValue",
+     "pro": false
+    },
+    {
+     "nome": "useDocumentTitle",
+     "pro": false
+    },
+    {
+     "nome": "useEventCallback",
+     "pro": false
+    },
+    {
+     "nome": "useEventListener",
+     "pro": false
+    },
+    {
+     "nome": "useHover",
+     "pro": false
+    },
+    {
+     "nome": "useIntersectionObserver",
+     "pro": false
+    },
+    {
+     "nome": "useInterval",
+     "pro": false
+    },
+    {
+     "nome": "useIsClient",
+     "pro": false
+    },
+    {
+     "nome": "useIsMobile",
+     "pro": false
+    },
+    {
+     "nome": "useIsMounted",
+     "pro": false
+    },
+    {
+     "nome": "useIsomorphicLayoutEffect",
+     "pro": false
+    },
+    {
+     "nome": "useLocalStorage",
+     "pro": false
+    },
+    {
+     "nome": "useMap",
+     "pro": false
+    },
+    {
+     "nome": "useMediaQuery",
+     "pro": false
+    },
+    {
+     "nome": "useMousePosition",
+     "pro": false
+    },
+    {
+     "nome": "useOnClickOutside",
+     "pro": false
+    },
+    {
+     "nome": "useReadLocalStorage",
+     "pro": false
+    },
+    {
+     "nome": "useResizeObserver",
+     "pro": false
+    },
+    {
+     "nome": "useScreen",
+     "pro": false
+    },
+    {
+     "nome": "useScript",
+     "pro": false
+    },
+    {
+     "nome": "useScrollLock",
+     "pro": false
+    },
+    {
+     "nome": "useSessionStorage",
+     "pro": false
+    },
+    {
+     "nome": "useStep",
+     "pro": false
+    },
+    {
+     "nome": "useTernaryDarkMode",
+     "pro": false
+    },
+    {
+     "nome": "useTimeout",
+     "pro": false
+    },
+    {
+     "nome": "useToggle",
+     "pro": false
+    },
+    {
+     "nome": "useUnmount",
+     "pro": false
+    },
+    {
+     "nome": "useWindowSize",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Blocks (categorias; 6.231 blocks no total)",
+   "itens": [
+    {
+     "nome": "About",
+     "pro": false
+    },
+    {
+     "nome": "Account",
+     "pro": false
+    },
+    {
+     "nome": "AI",
+     "pro": false
+    },
+    {
+     "nome": "Awards",
+     "pro": false
+    },
+    {
+     "nome": "Banner",
+     "pro": false
+    },
+    {
+     "nome": "Billing",
+     "pro": false
+    },
+    {
+     "nome": "Blog",
+     "pro": false
+    },
+    {
+     "nome": "Calendar",
+     "pro": false
+    },
+    {
+     "nome": "Carousel",
+     "pro": false
+    },
+    {
+     "nome": "Changelog",
+     "pro": false
+    },
+    {
+     "nome": "Chat",
+     "pro": false
+    },
+    {
+     "nome": "Checkout",
+     "pro": false
+    },
+    {
+     "nome": "Command Menu",
+     "pro": false
+    },
+    {
+     "nome": "Comments",
+     "pro": false
+    },
+    {
+     "nome": "Contact",
+     "pro": false
+    },
+    {
+     "nome": "CRUD",
+     "pro": false
+    },
+    {
+     "nome": "CTA",
+     "pro": false
+    },
+    {
+     "nome": "Dashboard",
+     "pro": false
+    },
+    {
+     "nome": "Dialog",
+     "pro": false
+    },
+    {
+     "nome": "Empty State",
+     "pro": false
+    },
+    {
+     "nome": "Error",
+     "pro": false
+    },
+    {
+     "nome": "FAQ",
+     "pro": false
+    },
+    {
+     "nome": "Features",
+     "pro": false
+    },
+    {
+     "nome": "File Upload",
+     "pro": false
+    },
+    {
+     "nome": "Footer",
+     "pro": false
+    },
+    {
+     "nome": "Form",
+     "pro": false
+    },
+    {
+     "nome": "Gallery",
+     "pro": false
+    },
+    {
+     "nome": "Hero",
+     "pro": false
+    },
+    {
+     "nome": "Integration",
+     "pro": false
+    },
+    {
+     "nome": "Kanban",
+     "pro": false
+    },
+    {
+     "nome": "Login",
+     "pro": false
+    },
+    {
+     "nome": "Logos",
+     "pro": false
+    },
+    {
+     "nome": "Map",
+     "pro": false
+    },
+    {
+     "nome": "Monitoring",
+     "pro": false
+    },
+    {
+     "nome": "Music",
+     "pro": false
+    },
+    {
+     "nome": "Navbar",
+     "pro": false
+    },
+    {
+     "nome": "Notification",
+     "pro": false
+    },
+    {
+     "nome": "Onboarding",
+     "pro": false
+    },
+    {
+     "nome": "Pricing",
+     "pro": false
+    },
+    {
+     "nome": "Product Cards",
+     "pro": false
+    },
+    {
+     "nome": "Profile",
+     "pro": false
+    },
+    {
+     "nome": "Reviews",
+     "pro": false
+    },
+    {
+     "nome": "Search",
+     "pro": false
+    },
+    {
+     "nome": "Settings",
+     "pro": false
+    },
+    {
+     "nome": "Sidebar",
+     "pro": false
+    },
+    {
+     "nome": "Skeleton",
+     "pro": false
+    },
+    {
+     "nome": "Stats",
+     "pro": false
+    },
+    {
+     "nome": "Stepper",
+     "pro": false
+    },
+    {
+     "nome": "Storefront",
+     "pro": false
+    },
+    {
+     "nome": "Success",
+     "pro": false
+    },
+    {
+     "nome": "Tables",
+     "pro": false
+    },
+    {
+     "nome": "Team",
+     "pro": false
+    },
+    {
+     "nome": "Testimonials",
+     "pro": false
+    },
+    {
+     "nome": "Timeline",
+     "pro": false
+    },
+    {
+     "nome": "Todo List",
+     "pro": false
+    },
+    {
+     "nome": "Web3",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Gráficos (tipos; 331 variantes no total)",
+   "itens": [
+    {
+     "nome": "Area",
+     "pro": false
+    },
+    {
+     "nome": "Bar",
+     "pro": false
+    },
+    {
+     "nome": "Line",
+     "pro": false
+    },
+    {
+     "nome": "Scatter",
+     "pro": false
+    },
+    {
+     "nome": "Candlestick",
+     "pro": false
+    },
+    {
+     "nome": "Composed",
+     "pro": false
+    },
+    {
+     "nome": "Live line",
+     "pro": false
+    },
+    {
+     "nome": "Gantt",
+     "pro": false
+    },
+    {
+     "nome": "Waterfall",
+     "pro": false
+    },
+    {
+     "nome": "Lollipop",
+     "pro": false
+    },
+    {
+     "nome": "Dumbbell",
+     "pro": false
+    },
+    {
+     "nome": "Uncertainty",
+     "pro": false
+    },
+    {
+     "nome": "Bump",
+     "pro": false
+    },
+    {
+     "nome": "Slope",
+     "pro": false
+    },
+    {
+     "nome": "Sparkline",
+     "pro": false
+    },
+    {
+     "nome": "Pie",
+     "pro": false
+    },
+    {
+     "nome": "Ring",
+     "pro": false
+    },
+    {
+     "nome": "Radar",
+     "pro": false
+    },
+    {
+     "nome": "Radial",
+     "pro": false
+    },
+    {
+     "nome": "Gauge",
+     "pro": false
+    },
+    {
+     "nome": "Funnel",
+     "pro": false
+    },
+    {
+     "nome": "Heatmap",
+     "pro": false
+    },
+    {
+     "nome": "Sunburst",
+     "pro": false
+    },
+    {
+     "nome": "Sankey",
+     "pro": false
+    },
+    {
+     "nome": "Treemap",
+     "pro": false
+    },
+    {
+     "nome": "Tree",
+     "pro": false
+    },
+    {
+     "nome": "Network",
+     "pro": false
+    },
+    {
+     "nome": "Waffle",
+     "pro": false
+    },
+    {
+     "nome": "Marimekko",
+     "pro": false
+    },
+    {
+     "nome": "Stream",
+     "pro": false
+    },
+    {
+     "nome": "Diverging bar",
+     "pro": false
+    },
+    {
+     "nome": "Choropleth",
+     "pro": false
+    },
+    {
+     "nome": "Histogram",
+     "pro": false
+    },
+    {
+     "nome": "Ridgeline",
+     "pro": false
+    },
+    {
+     "nome": "ECDF",
+     "pro": false
+    },
+    {
+     "nome": "Beeswarm",
+     "pro": false
+    },
+    {
+     "nome": "Violin",
+     "pro": false
+    },
+    {
+     "nome": "Box plot",
+     "pro": false
+    },
+    {
+     "nome": "Hexbin",
+     "pro": false
+    },
+    {
+     "nome": "Density",
+     "pro": false
+    },
+    {
+     "nome": "Bubble map",
+     "pro": false
+    },
+    {
+     "nome": "Route map",
+     "pro": false
+    },
+    {
+     "nome": "Globe",
+     "pro": false
+    },
+    {
+     "nome": "Vector field",
+     "pro": false
+    },
+    {
+     "nome": "Tooltip",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Templates",
+   "itens": [
+    {
+     "nome": "Solaris",
+     "pro": false
+    },
+    {
+     "nome": "Reframe Labs",
+     "pro": false
+    },
+    {
+     "nome": "Spherule",
+     "pro": false
+    },
+    {
+     "nome": "Max",
+     "pro": false
+    },
+    {
+     "nome": "Zel Designs",
+     "pro": false
+    },
+    {
+     "nome": "Arete",
+     "pro": false
+    },
+    {
+     "nome": "Lightbox",
+     "pro": false
+    },
+    {
+     "nome": "Chatly",
+     "pro": false
+    },
+    {
+     "nome": "Alt+Shift",
+     "pro": false
+    },
+    {
+     "nome": "Prodexa",
+     "pro": false
+    },
+    {
+     "nome": "Studio IX",
+     "pro": false
+    },
+    {
+     "nome": "MeetingIQ",
+     "pro": false
+    },
+    {
+     "nome": "Galileo",
+     "pro": false
+    },
+    {
+     "nome": "Culio",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Botões animados",
+   "itens": [
+    {
+     "nome": "Arrow Button",
+     "pro": false
+    },
+    {
+     "nome": "Border Trace Button",
+     "pro": false
+    },
+    {
+     "nome": "Confetti Button",
+     "pro": false
+    },
+    {
+     "nome": "Copy Button",
+     "pro": false
+    },
+    {
+     "nome": "Countdown Button",
+     "pro": false
+    },
+    {
+     "nome": "Counter Button",
+     "pro": false
+    },
+    {
+     "nome": "Depth Button",
+     "pro": false
+    },
+    {
+     "nome": "Download Button",
+     "pro": false
+    },
+    {
+     "nome": "Flip Button",
+     "pro": false
+    },
+    {
+     "nome": "Flow Button",
+     "pro": false
+    },
+    {
+     "nome": "GitHub Stars Button",
+     "pro": false
+    },
+    {
+     "nome": "Glass Button",
+     "pro": false
+    },
+    {
+     "nome": "Glow Border Button",
+     "pro": false
+    },
+    {
+     "nome": "Gradient Button",
+     "pro": false
+    },
+    {
+     "nome": "Icon Button",
+     "pro": false
+    },
+    {
+     "nome": "Input Button",
+     "pro": false
+    },
+    {
+     "nome": "Kbd Button",
+     "pro": false
+    },
+    {
+     "nome": "Liquid Button",
+     "pro": false
+    },
+    {
+     "nome": "Loading Button",
+     "pro": false
+    },
+    {
+     "nome": "Long Press Button",
+     "pro": false
+    },
+    {
+     "nome": "Magnetic Button",
+     "pro": false
+    },
+    {
+     "nome": "Neon Button",
+     "pro": false
+    },
+    {
+     "nome": "Pill Button",
+     "pro": false
+    },
+    {
+     "nome": "Pulse Button",
+     "pro": false
+    },
+    {
+     "nome": "Record Button",
+     "pro": false
+    },
+    {
+     "nome": "Ripple Button",
+     "pro": false
+    },
+    {
+     "nome": "Shake Button",
+     "pro": false
+    },
+    {
+     "nome": "Shimmer Button",
+     "pro": false
+    },
+    {
+     "nome": "Shine Button",
+     "pro": false
+    },
+    {
+     "nome": "Slide To Confirm Button",
+     "pro": false
+    },
+    {
+     "nome": "Spotlight Button",
+     "pro": false
+    },
+    {
+     "nome": "Stitch Button",
+     "pro": false
+    },
+    {
+     "nome": "Success Button",
+     "pro": false
+    },
+    {
+     "nome": "Theme Toggle Button",
+     "pro": false
+    },
+    {
+     "nome": "Underline Button",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Efeitos de texto",
+   "itens": [
+    {
+     "nome": "Anagram Text",
+     "pro": false
+    },
+    {
+     "nome": "Annotation Text",
+     "pro": false
+    },
+    {
+     "nome": "Backspace Text",
+     "pro": false
+    },
+    {
+     "nome": "Binary Text",
+     "pro": false
+    },
+    {
+     "nome": "Blur Text",
+     "pro": false
+    },
+    {
+     "nome": "Bouncing Text",
+     "pro": false
+    },
+    {
+     "nome": "Breathing Text",
+     "pro": false
+    },
+    {
+     "nome": "Caps Toggle Text",
+     "pro": false
+    },
+    {
+     "nome": "Chromatic Text",
+     "pro": false
+    },
+    {
+     "nome": "Chrome Text",
+     "pro": false
+    },
+    {
+     "nome": "Circular Text",
+     "pro": false
+    },
+    {
+     "nome": "Clock Text",
+     "pro": false
+    },
+    {
+     "nome": "Colourful Text",
+     "pro": false
+    },
+    {
+     "nome": "Container Text Flip",
+     "pro": false
+    },
+    {
+     "nome": "Copy Text",
+     "pro": false
+    },
+    {
+     "nome": "Countdown Text",
+     "pro": false
+    },
+    {
+     "nome": "Counting Number",
+     "pro": false
+    },
+    {
+     "nome": "Curved Loop",
+     "pro": false
+    },
+    {
+     "nome": "Decrypted Text",
+     "pro": false
+    },
+    {
+     "nome": "Diff Text",
+     "pro": false
+    },
+    {
+     "nome": "Dot Matrix Text",
+     "pro": false
+    },
+    {
+     "nome": "Drift Text",
+     "pro": false
+    },
+    {
+     "nome": "Drop Cap Text",
+     "pro": false
+    },
+    {
+     "nome": "Echo Text",
+     "pro": false
+    },
+    {
+     "nome": "Elastic Text",
+     "pro": false
+    },
+    {
+     "nome": "Emboss Text",
+     "pro": false
+    },
+    {
+     "nome": "Erase Text",
+     "pro": false
+    },
+    {
+     "nome": "Flickering Text",
+     "pro": false
+    },
+    {
+     "nome": "Flip Words",
+     "pro": false
+    },
+    {
+     "nome": "Foil Text",
+     "pro": false
+    },
+    {
+     "nome": "Fuzzy Text",
+     "pro": false
+    },
+    {
+     "nome": "Glitch Text",
+     "pro": false
+    },
+    {
+     "nome": "Gloss Text",
+     "pro": false
+    },
+    {
+     "nome": "Gradient Text",
+     "pro": false
+    },
+    {
+     "nome": "Gravity Text",
+     "pro": false
+    },
+    {
+     "nome": "Highlight Text",
+     "pro": false
+    },
+    {
+     "nome": "Inertia Text",
+     "pro": false
+    },
+    {
+     "nome": "Iris Text",
+     "pro": false
+    },
+    {
+     "nome": "JSON Text",
+     "pro": false
+    },
+    {
+     "nome": "Kerning Text",
+     "pro": false
+    },
+    {
+     "nome": "LCD Text",
+     "pro": false
+    },
+    {
+     "nome": "Line Shadow Text",
+     "pro": false
+    },
+    {
+     "nome": "Liquid Text",
+     "pro": false
+    },
+    {
+     "nome": "Log Stream Text",
+     "pro": false
+    },
+    {
+     "nome": "Magnet Text",
+     "pro": false
+    },
+    {
+     "nome": "Magnify Text",
+     "pro": false
+    },
+    {
+     "nome": "Mask Reveal Text",
+     "pro": false
+    },
+    {
+     "nome": "Morph Text",
+     "pro": false
+    },
+    {
+     "nome": "Neon Text",
+     "pro": false
+    },
+    {
+     "nome": "Outline Text",
+     "pro": false
+    },
+    {
+     "nome": "Paint Text",
+     "pro": false
+    },
+    {
+     "nome": "Paper Cut Text",
+     "pro": false
+    },
+    {
+     "nome": "Paper Fold Text",
+     "pro": false
+    },
+    {
+     "nome": "Password Text",
+     "pro": false
+    },
+    {
+     "nome": "Pendulum Text",
+     "pro": false
+    },
+    {
+     "nome": "Pop Text",
+     "pro": false
+    },
+    {
+     "nome": "Progress Text",
+     "pro": false
+    },
+    {
+     "nome": "Rainbow Text",
+     "pro": false
+    },
+    {
+     "nome": "Redact Text",
+     "pro": false
+    },
+    {
+     "nome": "Regex Text",
+     "pro": false
+    },
+    {
+     "nome": "Relative Time Text",
+     "pro": false
+    },
+    {
+     "nome": "Ripple Text",
+     "pro": false
+    },
+    {
+     "nome": "Rolling Text",
+     "pro": false
+    },
+    {
+     "nome": "Rotating Text",
+     "pro": false
+    },
+    {
+     "nome": "Scrambled Text",
+     "pro": false
+    },
+    {
+     "nome": "Scroll Velocity",
+     "pro": false
+    },
+    {
+     "nome": "Search Highlight Text",
+     "pro": false
+    },
+    {
+     "nome": "Shatter Text",
+     "pro": false
+    },
+    {
+     "nome": "Shimmering Text",
+     "pro": false
+    },
+    {
+     "nome": "Shuffle",
+     "pro": false
+    },
+    {
+     "nome": "Skeleton Text",
+     "pro": false
+    },
+    {
+     "nome": "Sliding Number",
+     "pro": false
+    },
+    {
+     "nome": "Smallcaps Text",
+     "pro": false
+    },
+    {
+     "nome": "Spiral Text",
+     "pro": false
+    },
+    {
+     "nome": "Splitting Text",
+     "pro": false
+    },
+    {
+     "nome": "Spotlight Text",
+     "pro": false
+    },
+    {
+     "nome": "Stamp Text",
+     "pro": false
+    },
+    {
+     "nome": "Status Pulse Text",
+     "pro": false
+    },
+    {
+     "nome": "Stretch Text",
+     "pro": false
+    },
+    {
+     "nome": "Syntax Text",
+     "pro": false
+    },
+    {
+     "nome": "Terminal Text",
+     "pro": false
+    },
+    {
+     "nome": "Text Cursor",
+     "pro": false
+    },
+    {
+     "nome": "Text Generate Effect",
+     "pro": false
+    },
+    {
+     "nome": "Text Hover Effect",
+     "pro": false
+    },
+    {
+     "nome": "Text Pressure",
+     "pro": false
+    },
+    {
+     "nome": "Text Reveal",
+     "pro": false
+    },
+    {
+     "nome": "Tilt Text",
+     "pro": false
+    },
+    {
+     "nome": "Timecode Text",
+     "pro": false
+    },
+    {
+     "nome": "True Focus",
+     "pro": false
+    },
+    {
+     "nome": "Typing Indicator Text",
+     "pro": false
+    },
+    {
+     "nome": "Typing Text",
+     "pro": false
+    },
+    {
+     "nome": "Variable Proximity",
+     "pro": false
+    },
+    {
+     "nome": "Wave Text",
+     "pro": false
+    },
+    {
+     "nome": "Waveform Text",
+     "pro": false
+    },
+    {
+     "nome": "Wobble Text",
+     "pro": false
+    },
+    {
+     "nome": "Writing Text",
+     "pro": false
+    },
+    {
+     "nome": "Xray Text",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Fundos",
+   "itens": [
+    {
+     "nome": "ASCII Background",
+     "pro": false
+    },
+    {
+     "nome": "Aurora Background",
+     "pro": false
+    },
+    {
+     "nome": "Background Canvas",
+     "pro": false
+    },
+    {
+     "nome": "Beams Background",
+     "pro": false
+    },
+    {
+     "nome": "Beams Collision Background",
+     "pro": false
+    },
+    {
+     "nome": "Blinds Background",
+     "pro": false
+    },
+    {
+     "nome": "Bokeh Background",
+     "pro": false
+    },
+    {
+     "nome": "Boxes Background",
+     "pro": false
+    },
+    {
+     "nome": "Bubbles Background",
+     "pro": false
+    },
+    {
+     "nome": "Caustics Background",
+     "pro": false
+    },
+    {
+     "nome": "Circles Background",
+     "pro": false
+    },
+    {
+     "nome": "Circuit Background",
+     "pro": false
+    },
+    {
+     "nome": "Clouds Background",
+     "pro": false
+    },
+    {
+     "nome": "Confetti Background",
+     "pro": false
+    },
+    {
+     "nome": "Constellation Background",
+     "pro": false
+    },
+    {
+     "nome": "Corona Background",
+     "pro": false
+    },
+    {
+     "nome": "CRT Background",
+     "pro": false
+    },
+    {
+     "nome": "Dither Background",
+     "pro": false
+    },
+    {
+     "nome": "DNA Background",
+     "pro": false
+    },
+    {
+     "nome": "Dot Pattern Background",
+     "pro": false
+    },
+    {
+     "nome": "Drops Background",
+     "pro": false
+    },
+    {
+     "nome": "Dunes Background",
+     "pro": false
+    },
+    {
+     "nome": "Eclipse Background",
+     "pro": false
+    },
+    {
+     "nome": "Facets Background",
+     "pro": false
+    },
+    {
+     "nome": "Fireflies Background",
+     "pro": false
+    },
+    {
+     "nome": "Fireplace Background",
+     "pro": false
+    },
+    {
+     "nome": "Fireworks Background",
+     "pro": false
+    },
+    {
+     "nome": "Flickering Grid Background",
+     "pro": false
+    },
+    {
+     "nome": "Fluid Background",
+     "pro": false
+    },
+    {
+     "nome": "Fog Background",
+     "pro": false
+    },
+    {
+     "nome": "Fractal Background",
+     "pro": false
+    },
+    {
+     "nome": "Galaxy Background",
+     "pro": false
+    },
+    {
+     "nome": "Glitch Background",
+     "pro": false
+    },
+    {
+     "nome": "Glow Background",
+     "pro": false
+    },
+    {
+     "nome": "Gradient Animation Background",
+     "pro": false
+    },
+    {
+     "nome": "Gradient Background",
+     "pro": false
+    },
+    {
+     "nome": "Grain Background",
+     "pro": false
+    },
+    {
+     "nome": "Grid Pattern Background",
+     "pro": false
+    },
+    {
+     "nome": "Halftone Background",
+     "pro": false
+    },
+    {
+     "nome": "Heatmap Background",
+     "pro": false
+    },
+    {
+     "nome": "Hexagon Background",
+     "pro": false
+    },
+    {
+     "nome": "Hologram Background",
+     "pro": false
+    },
+    {
+     "nome": "Ink Background",
+     "pro": false
+    },
+    {
+     "nome": "Interactive Grid Pattern Background",
+     "pro": false
+    },
+    {
+     "nome": "Interference Background",
+     "pro": false
+    },
+    {
+     "nome": "Kaleidoscope Background",
+     "pro": false
+    },
+    {
+     "nome": "Lamp Background",
+     "pro": false
+    },
+    {
+     "nome": "Laser Grid Background",
+     "pro": false
+    },
+    {
+     "nome": "Life Background",
+     "pro": false
+    },
+    {
+     "nome": "Light Pillar Background",
+     "pro": false
+    },
+    {
+     "nome": "Light Waves Background",
+     "pro": false
+    },
+    {
+     "nome": "Lightning Background",
+     "pro": false
+    },
+    {
+     "nome": "Magnetic Field Background",
+     "pro": false
+    },
+    {
+     "nome": "Marble Background",
+     "pro": false
+    },
+    {
+     "nome": "Matrix Background",
+     "pro": false
+    },
+    {
+     "nome": "Mercury Background",
+     "pro": false
+    },
+    {
+     "nome": "Mesh Gradient Background",
+     "pro": false
+    },
+    {
+     "nome": "Metaballs Background",
+     "pro": false
+    },
+    {
+     "nome": "Meteors Background",
+     "pro": false
+    },
+    {
+     "nome": "Nebula Background",
+     "pro": false
+    },
+    {
+     "nome": "Ocean Background",
+     "pro": false
+    },
+    {
+     "nome": "Orb Background",
+     "pro": false
+    },
+    {
+     "nome": "Orbits Background",
+     "pro": false
+    },
+    {
+     "nome": "Oscilloscope Background",
+     "pro": false
+    },
+    {
+     "nome": "Paper Background",
+     "pro": false
+    },
+    {
+     "nome": "Particles Background",
+     "pro": false
+    },
+    {
+     "nome": "Paths Background",
+     "pro": false
+    },
+    {
+     "nome": "Pixels Background",
+     "pro": false
+    },
+    {
+     "nome": "Plasma Background",
+     "pro": false
+    },
+    {
+     "nome": "Pollen Background",
+     "pro": false
+    },
+    {
+     "nome": "Portal Background",
+     "pro": false
+    },
+    {
+     "nome": "Prism Background",
+     "pro": false
+    },
+    {
+     "nome": "Rain Background",
+     "pro": false
+    },
+    {
+     "nome": "Reaction Diffusion Background",
+     "pro": false
+    },
+    {
+     "nome": "Retro Grid Background",
+     "pro": false
+    },
+    {
+     "nome": "Ribbons Background",
+     "pro": false
+    },
+    {
+     "nome": "Ripple Background",
+     "pro": false
+    },
+    {
+     "nome": "Shapes Background",
+     "pro": false
+    },
+    {
+     "nome": "Shooting Stars Background",
+     "pro": false
+    },
+    {
+     "nome": "Silk Background",
+     "pro": false
+    },
+    {
+     "nome": "Smoke Background",
+     "pro": false
+    },
+    {
+     "nome": "Snow Background",
+     "pro": false
+    },
+    {
+     "nome": "Sonar Background",
+     "pro": false
+    },
+    {
+     "nome": "Sparkles Background",
+     "pro": false
+    },
+    {
+     "nome": "Sphere Background",
+     "pro": false
+    },
+    {
+     "nome": "Spotlight Background",
+     "pro": false
+    },
+    {
+     "nome": "Starfield Background",
+     "pro": false
+    },
+    {
+     "nome": "Supernova Background",
+     "pro": false
+    },
+    {
+     "nome": "Swirl Background",
+     "pro": false
+    },
+    {
+     "nome": "Terrain Background",
+     "pro": false
+    },
+    {
+     "nome": "Topography Background",
+     "pro": false
+    },
+    {
+     "nome": "Truchet Background",
+     "pro": false
+    },
+    {
+     "nome": "Tunnel Background",
+     "pro": false
+    },
+    {
+     "nome": "Underwater Background",
+     "pro": false
+    },
+    {
+     "nome": "Voronoi Background",
+     "pro": false
+    },
+    {
+     "nome": "Vortex Background",
+     "pro": false
+    },
+    {
+     "nome": "Warp Background",
+     "pro": false
+    },
+    {
+     "nome": "Watercolor Background",
+     "pro": false
+    },
+    {
+     "nome": "Wave Grid Background",
+     "pro": false
+    },
+    {
+     "nome": "Wavy Background",
+     "pro": false
+    },
+    {
+     "nome": "Wind Background",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Shaders",
+   "itens": [
+    {
+     "nome": "Abstract Mod Shader",
+     "pro": false
+    },
+    {
+     "nome": "Accretion Shader",
+     "pro": false
+    },
+    {
+     "nome": "Advanced Tunnel Shader",
+     "pro": false
+    },
+    {
+     "nome": "Agate Geode Shader",
+     "pro": false
+    },
+    {
+     "nome": "ASCII Sculpture Shader",
+     "pro": false
+    },
+    {
+     "nome": "Aurora 3D Shader",
+     "pro": false
+    },
+    {
+     "nome": "Aurora Shader",
+     "pro": false
+    },
+    {
+     "nome": "Binary Shader",
+     "pro": false
+    },
+    {
+     "nome": "Bioluminescence Shader",
+     "pro": false
+    },
+    {
+     "nome": "Biomine Shader",
+     "pro": false
+    },
+    {
+     "nome": "Breathing Dots Shader",
+     "pro": false
+    },
+    {
+     "nome": "Burning Paper Shader",
+     "pro": false
+    },
+    {
+     "nome": "Cellular Tiled Tunnel Shader",
+     "pro": false
+    },
+    {
+     "nome": "Chiffon Shader",
+     "pro": false
+    },
+    {
+     "nome": "City Lights Shader",
+     "pro": false
+    },
+    {
+     "nome": "Cloud Rays Shader",
+     "pro": false
+    },
+    {
+     "nome": "Cloud Sea Shader",
+     "pro": false
+    },
+    {
+     "nome": "CMYK Halftone Shader",
+     "pro": false
+    },
+    {
+     "nome": "Cosmic Discs Shader",
+     "pro": false
+    },
+    {
+     "nome": "Cosmic Waves Shader",
+     "pro": false
+    },
+    {
+     "nome": "CRT Phosphor Shader",
+     "pro": false
+    },
+    {
+     "nome": "Desert Sand Shader",
+     "pro": false
+    },
+    {
+     "nome": "Diffraction Shader",
+     "pro": false
+    },
+    {
+     "nome": "Digital Tunnel Shader",
+     "pro": false
+    },
+    {
+     "nome": "Dither Gradient Shader",
+     "pro": false
+    },
+    {
+     "nome": "Drapery Shader",
+     "pro": false
+    },
+    {
+     "nome": "Embers Shader",
+     "pro": false
+    },
+    {
+     "nome": "Extruded Mobius Spiral Shader",
+     "pro": false
+    },
+    {
+     "nome": "Ferrofluid Shader",
+     "pro": false
+    },
+    {
+     "nome": "Fire 3D Shader",
+     "pro": false
+    },
+    {
+     "nome": "Fluted Glass Shader",
+     "pro": false
+    },
+    {
+     "nome": "Glass Caustics Shader",
+     "pro": false
+    },
+    {
+     "nome": "Glitch Shader",
+     "pro": false
+    },
+    {
+     "nome": "Gradient Mesh Shader",
+     "pro": false
+    },
+    {
+     "nome": "Guilloche Shader",
+     "pro": false
+    },
+    {
+     "nome": "Hexagon Grid Pattern Shader",
+     "pro": false
+    },
+    {
+     "nome": "Hologram Shader",
+     "pro": false
+    },
+    {
+     "nome": "Incense Shader",
+     "pro": false
+    },
+    {
+     "nome": "Ink Vortex Shader",
+     "pro": false
+    },
+    {
+     "nome": "Isometric Blocks Shader",
+     "pro": false
+    },
+    {
+     "nome": "Kaleidoscope Shader",
+     "pro": false
+    },
+    {
+     "nome": "Lattice Light Shader",
+     "pro": false
+    },
+    {
+     "nome": "Light Leak Shader",
+     "pro": false
+    },
+    {
+     "nome": "Liquid Glass Shader",
+     "pro": false
+    },
+    {
+     "nome": "Magma Shader",
+     "pro": false
+    },
+    {
+     "nome": "Mandelbrot Pattern Decoration Shader",
+     "pro": false
+    },
+    {
+     "nome": "Marbling Shader",
+     "pro": false
+    },
+    {
+     "nome": "Matrix Shader",
+     "pro": false
+    },
+    {
+     "nome": "Minimal Jigsaw Shader",
+     "pro": false
+    },
+    {
+     "nome": "Mirage Shader",
+     "pro": false
+    },
+    {
+     "nome": "Mobius Sierpinski Shader",
+     "pro": false
+    },
+    {
+     "nome": "Moire Shader",
+     "pro": false
+    },
+    {
+     "nome": "Monster Tunnel Shader",
+     "pro": false
+    },
+    {
+     "nome": "Nebula Shader",
+     "pro": false
+    },
+    {
+     "nome": "Noise Contours Shader",
+     "pro": false
+    },
+    {
+     "nome": "Noise Shader",
+     "pro": false
+    },
+    {
+     "nome": "Oil Slick Shader",
+     "pro": false
+    },
+    {
+     "nome": "Oldschool Tube Shader",
+     "pro": false
+    },
+    {
+     "nome": "Op Art Bulge Shader",
+     "pro": false
+    },
+    {
+     "nome": "Orb Grid Shader",
+     "pro": false
+    },
+    {
+     "nome": "Penrose Tiling Shader",
+     "pro": false
+    },
+    {
+     "nome": "Perspex Web Lattice Shader",
+     "pro": false
+    },
+    {
+     "nome": "Photoelastic Shader",
+     "pro": false
+    },
+    {
+     "nome": "Pixel Sort Shader",
+     "pro": false
+    },
+    {
+     "nome": "Planet Shader",
+     "pro": false
+    },
+    {
+     "nome": "Plasma Shader",
+     "pro": false
+    },
+    {
+     "nome": "Platonic Solids Shader",
+     "pro": false
+    },
+    {
+     "nome": "Poincaré Disc Animation Shader",
+     "pro": false
+    },
+    {
+     "nome": "Pyramid Pattern Shader",
+     "pro": false
+    },
+    {
+     "nome": "Quasicrystal Shader",
+     "pro": false
+    },
+    {
+     "nome": "Random Grid Subdivision Shader",
+     "pro": false
+    },
+    {
+     "nome": "Raymarching Shader",
+     "pro": false
+    },
+    {
+     "nome": "Ridgeline Shader",
+     "pro": false
+    },
+    {
+     "nome": "Ripple Shader",
+     "pro": false
+    },
+    {
+     "nome": "Ripples in Black Shader",
+     "pro": false
+    },
+    {
+     "nome": "Sea Shader",
+     "pro": false
+    },
+    {
+     "nome": "Shader Canvas",
+     "pro": false
+    },
+    {
+     "nome": "Sigmoids Sines Shader",
+     "pro": false
+    },
+    {
+     "nome": "Simplex Truchet Weave Shader",
+     "pro": false
+    },
+    {
+     "nome": "Singularity Shader",
+     "pro": false
+    },
+    {
+     "nome": "Smoke Shader",
+     "pro": false
+    },
+    {
+     "nome": "Smooth Noise Contours Shader",
+     "pro": false
+    },
+    {
+     "nome": "Smooth Voronoi Contours Shader",
+     "pro": false
+    },
+    {
+     "nome": "Soap Bubbles 2D Shader",
+     "pro": false
+    },
+    {
+     "nome": "Sparks Drifting Shader",
+     "pro": false
+    },
+    {
+     "nome": "Spectrogram Shader",
+     "pro": false
+    },
+    {
+     "nome": "Sphere Field Shader",
+     "pro": false
+    },
+    {
+     "nome": "Spiral Galaxy Shader",
+     "pro": false
+    },
+    {
+     "nome": "Starry Planes Shader",
+     "pro": false
+    },
+    {
+     "nome": "Streamlines Shader",
+     "pro": false
+    },
+    {
+     "nome": "Synthwave Canyon Shader",
+     "pro": false
+    },
+    {
+     "nome": "Three-Tap Voronoi Shader",
+     "pro": false
+    },
+    {
+     "nome": "Triangle Mesh Incircles Shader",
+     "pro": false
+    },
+    {
+     "nome": "Truchet Kaleidoscope Shader",
+     "pro": false
+    },
+    {
+     "nome": "Truchet Shader",
+     "pro": false
+    },
+    {
+     "nome": "Valley Mist Shader",
+     "pro": false
+    },
+    {
+     "nome": "Voxel Flyover Shader",
+     "pro": false
+    },
+    {
+     "nome": "Warped Noise Shader",
+     "pro": false
+    },
+    {
+     "nome": "Water Shader",
+     "pro": false
+    },
+    {
+     "nome": "Waves Shader",
+     "pro": false
+    },
+    {
+     "nome": "Worley Noise Shader",
+     "pro": false
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "MCP server (list_components, search_blocks, get_block, plan_page, search_templates, get_install_plan, search_icons...)",
+  "Ícones: Lucide, HeroIcons, Material Symbols, Tabler, Radix Icons, Font Awesome 6 Solid, Feather, Simple Icons",
+  "Arquivos DESIGN.md de marcas (Stripe, Linear, Apple, GitHub, Vercel, Claude, Figma, Framer, Notion, Shopify, Airbnb, Tesla, Spotify, Raycast, Supabase, Cursor, Nike...)",
+  "Prompts de IA para codar (Next.js, Tailwind v4, Stripe, Supabase, Prisma...)",
+  "Ferramentas web (hash, imagens, CSS generators, cores...)",
+  "Exemplos (1.033 em 52 galerias), Showcase, gerador de temas, cores Tailwind, easings",
+  "Suporte a Base UI, Radix, React Aria, Ark UI; Vue, Svelte, Solid"
+ ],
+ "observacoes": "Lista via llms.txt (249 mil caracteres); não li os últimos ~14 mil caracteres (após offset 235000), nem as 1.033 exemplos, nem os nomes individuais dos 6.231 blocks (só as 56 categorias) e dos 331 charts (só os tipos). Não consegui ver quais itens são Pro (há página Pricing não lida): pro=false aqui significa 'não verificado', não 'gratuito'. Lista de Templates, botões e texto vistos em trechos sobrepostos; pode haver itens no início da lista de Text effects que eu tenha pulado (li a partir de Anagram Text).",
+ "conferido_em": "2026-11-27"
+}

@@ -1,0 +1,856 @@
+{
+ "fontes": [
+  "https://shaders.com/docs/components (lido completo, 114k caracteres)"
+ ],
+ "total": 199,
+ "grupos": [
+  {
+   "nome": "Textures (55)",
+   "itens": [
+    {
+     "nome": "Aurora",
+     "pro": false
+    },
+    {
+     "nome": "Beam",
+     "pro": false
+    },
+    {
+     "nome": "Blob",
+     "pro": false
+    },
+    {
+     "nome": "BlockNoise",
+     "pro": false
+    },
+    {
+     "nome": "BlueNoise",
+     "pro": false
+    },
+    {
+     "nome": "BrickPattern",
+     "pro": false
+    },
+    {
+     "nome": "Checkerboard",
+     "pro": false
+    },
+    {
+     "nome": "Chevron",
+     "pro": false
+    },
+    {
+     "nome": "ColorWheel",
+     "pro": false
+    },
+    {
+     "nome": "ConicGradient",
+     "pro": false
+    },
+    {
+     "nome": "CurlNoise",
+     "pro": false
+    },
+    {
+     "nome": "DiamondGradient",
+     "pro": false
+    },
+    {
+     "nome": "DotGrid",
+     "pro": false
+    },
+    {
+     "nome": "ErosionNoise",
+     "pro": false
+    },
+    {
+     "nome": "FallingLines",
+     "pro": false
+    },
+    {
+     "nome": "FloatingParticles",
+     "pro": false
+    },
+    {
+     "nome": "FlowingGradient",
+     "pro": false
+    },
+    {
+     "nome": "FractalNoise",
+     "pro": false
+    },
+    {
+     "nome": "GaborNoise",
+     "pro": false
+    },
+    {
+     "nome": "Godrays",
+     "pro": false
+    },
+    {
+     "nome": "Grid",
+     "pro": false
+    },
+    {
+     "nome": "HexGrid",
+     "pro": false
+    },
+    {
+     "nome": "HTMLInCanvas",
+     "pro": false
+    },
+    {
+     "nome": "ImageTexture",
+     "pro": false
+    },
+    {
+     "nome": "IsometricCubes",
+     "pro": false
+    },
+    {
+     "nome": "LinearGradient",
+     "pro": false
+    },
+    {
+     "nome": "Marble",
+     "pro": false
+    },
+    {
+     "nome": "MeshGradient",
+     "pro": false
+    },
+    {
+     "nome": "MultiPointGradient",
+     "pro": false
+    },
+    {
+     "nome": "PerlinNoise",
+     "pro": false
+    },
+    {
+     "nome": "Plasma",
+     "pro": false
+    },
+    {
+     "nome": "Prism",
+     "pro": false
+    },
+    {
+     "nome": "RadialGradient",
+     "pro": false
+    },
+    {
+     "nome": "Ripples",
+     "pro": false
+    },
+    {
+     "nome": "Satin",
+     "pro": false
+    },
+    {
+     "nome": "Scratches",
+     "pro": false
+    },
+    {
+     "nome": "SimplexNoise",
+     "pro": false
+    },
+    {
+     "nome": "SineWave",
+     "pro": false
+    },
+    {
+     "nome": "SolidColor",
+     "pro": false
+    },
+    {
+     "nome": "Spiral",
+     "pro": false
+    },
+    {
+     "nome": "Strands",
+     "pro": false
+    },
+    {
+     "nome": "Stripes",
+     "pro": false
+    },
+    {
+     "nome": "StudioBackground",
+     "pro": false
+    },
+    {
+     "nome": "SunBurst",
+     "pro": false
+    },
+    {
+     "nome": "Swirl",
+     "pro": false
+    },
+    {
+     "nome": "Text",
+     "pro": false
+    },
+    {
+     "nome": "TriangularGrid",
+     "pro": false
+    },
+    {
+     "nome": "Truchet",
+     "pro": false
+    },
+    {
+     "nome": "VideoTexture",
+     "pro": false
+    },
+    {
+     "nome": "Voronoi",
+     "pro": false
+    },
+    {
+     "nome": "Waveform",
+     "pro": false
+    },
+    {
+     "nome": "WaveletNoise",
+     "pro": false
+    },
+    {
+     "nome": "Weave",
+     "pro": false
+    },
+    {
+     "nome": "WebcamTexture",
+     "pro": false
+    },
+    {
+     "nome": "WorleyNoise",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Shapes (16)",
+   "itens": [
+    {
+     "nome": "Arc",
+     "pro": false
+    },
+    {
+     "nome": "Circle",
+     "pro": false
+    },
+    {
+     "nome": "Crescent",
+     "pro": false
+    },
+    {
+     "nome": "Cross",
+     "pro": false
+    },
+    {
+     "nome": "Ellipse",
+     "pro": false
+    },
+    {
+     "nome": "Flower",
+     "pro": false
+    },
+    {
+     "nome": "Heart",
+     "pro": false
+    },
+    {
+     "nome": "Line",
+     "pro": false
+    },
+    {
+     "nome": "Parallelogram",
+     "pro": false
+    },
+    {
+     "nome": "Polygon",
+     "pro": false
+    },
+    {
+     "nome": "Ring",
+     "pro": false
+    },
+    {
+     "nome": "RoundedRect",
+     "pro": false
+    },
+    {
+     "nome": "Star",
+     "pro": false
+    },
+    {
+     "nome": "Teardrop",
+     "pro": false
+    },
+    {
+     "nome": "Trapezoid",
+     "pro": false
+    },
+    {
+     "nome": "Vesica",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Shape Effects (23)",
+   "itens": [
+    {
+     "nome": "BrushedMetal",
+     "pro": false
+    },
+    {
+     "nome": "CarbonFiber",
+     "pro": false
+    },
+    {
+     "nome": "Chrome",
+     "pro": false
+    },
+    {
+     "nome": "Crystal",
+     "pro": false
+    },
+    {
+     "nome": "Emboss",
+     "pro": false
+    },
+    {
+     "nome": "Frost",
+     "pro": false
+    },
+    {
+     "nome": "Glass",
+     "pro": false
+    },
+    {
+     "nome": "Goo",
+     "pro": false
+    },
+    {
+     "nome": "Heatmap",
+     "pro": false
+    },
+    {
+     "nome": "Hologram",
+     "pro": false
+    },
+    {
+     "nome": "Holographic",
+     "pro": false
+    },
+    {
+     "nome": "Irradiance",
+     "pro": false
+    },
+    {
+     "nome": "LightEdge",
+     "pro": false
+    },
+    {
+     "nome": "LiquidMetal",
+     "pro": false
+    },
+    {
+     "nome": "Nebula",
+     "pro": false
+    },
+    {
+     "nome": "Neon",
+     "pro": false
+    },
+    {
+     "nome": "Obsidian",
+     "pro": false
+    },
+    {
+     "nome": "Particles",
+     "pro": false
+    },
+    {
+     "nome": "Plastic",
+     "pro": false
+    },
+    {
+     "nome": "SmokeFill",
+     "pro": false
+    },
+    {
+     "nome": "ThinFilm",
+     "pro": false
+    },
+    {
+     "nome": "Voxels",
+     "pro": false
+    },
+    {
+     "nome": "Water",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Stylize (31)",
+   "itens": [
+    {
+     "nome": "Ascii",
+     "pro": false
+    },
+    {
+     "nome": "Chalkboard",
+     "pro": false
+    },
+    {
+     "nome": "ChromaticAberration",
+     "pro": false
+    },
+    {
+     "nome": "CompressionArtifacts",
+     "pro": false
+    },
+    {
+     "nome": "ContourLines",
+     "pro": false
+    },
+    {
+     "nome": "CRTScreen",
+     "pro": false
+    },
+    {
+     "nome": "DataMosh",
+     "pro": false
+    },
+    {
+     "nome": "Dither",
+     "pro": false
+    },
+    {
+     "nome": "DropShadow",
+     "pro": false
+    },
+    {
+     "nome": "Engraving",
+     "pro": false
+    },
+    {
+     "nome": "FilmGrain",
+     "pro": false
+    },
+    {
+     "nome": "Glitch",
+     "pro": false
+    },
+    {
+     "nome": "Glow",
+     "pro": false
+    },
+    {
+     "nome": "GradientMap",
+     "pro": false
+    },
+    {
+     "nome": "Halftone",
+     "pro": false
+    },
+    {
+     "nome": "KeyFrames",
+     "pro": false
+    },
+    {
+     "nome": "LensDistortion",
+     "pro": false
+    },
+    {
+     "nome": "LensFlare",
+     "pro": false
+    },
+    {
+     "nome": "LightLeak",
+     "pro": false
+    },
+    {
+     "nome": "ObjectTracker",
+     "pro": false
+    },
+    {
+     "nome": "Paper",
+     "pro": false
+    },
+    {
+     "nome": "ParticleField",
+     "pro": false
+    },
+    {
+     "nome": "Pixelate",
+     "pro": false
+    },
+    {
+     "nome": "ReflectivePlane",
+     "pro": false
+    },
+    {
+     "nome": "Sparkle",
+     "pro": false
+    },
+    {
+     "nome": "Stone",
+     "pro": false
+    },
+    {
+     "nome": "TimeTrail",
+     "pro": false
+    },
+    {
+     "nome": "VHS",
+     "pro": false
+    },
+    {
+     "nome": "Vignette",
+     "pro": false
+    },
+    {
+     "nome": "Watercolor",
+     "pro": false
+    },
+    {
+     "nome": "Wool",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Interactive (16)",
+   "itens": [
+    {
+     "nome": "Boids",
+     "pro": false
+    },
+    {
+     "nome": "ChromaFlow",
+     "pro": false
+    },
+    {
+     "nome": "CursorRipples",
+     "pro": false
+    },
+    {
+     "nome": "CursorTrail",
+     "pro": false
+    },
+    {
+     "nome": "Fog",
+     "pro": false
+    },
+    {
+     "nome": "GridDistortion",
+     "pro": false
+    },
+    {
+     "nome": "InkFlow",
+     "pro": false
+    },
+    {
+     "nome": "Liquify",
+     "pro": false
+    },
+    {
+     "nome": "MagneticFilings",
+     "pro": false
+    },
+    {
+     "nome": "ParticleFlow",
+     "pro": false
+    },
+    {
+     "nome": "PixelSort",
+     "pro": false
+    },
+    {
+     "nome": "PixelThrow",
+     "pro": false
+    },
+    {
+     "nome": "ReactionDiffusion",
+     "pro": false
+    },
+    {
+     "nome": "Shatter",
+     "pro": false
+    },
+    {
+     "nome": "Smoke",
+     "pro": false
+    },
+    {
+     "nome": "SmokeFlow",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Distortions (22)",
+   "itens": [
+    {
+     "nome": "BarShift",
+     "pro": false
+    },
+    {
+     "nome": "Bend",
+     "pro": false
+    },
+    {
+     "nome": "Bulge",
+     "pro": false
+    },
+    {
+     "nome": "ConcentricSpin",
+     "pro": false
+    },
+    {
+     "nome": "CornerPin",
+     "pro": false
+    },
+    {
+     "nome": "DisplacementMap",
+     "pro": false
+    },
+    {
+     "nome": "Flip",
+     "pro": false
+    },
+    {
+     "nome": "FlowField",
+     "pro": false
+    },
+    {
+     "nome": "FlutedGlass",
+     "pro": false
+    },
+    {
+     "nome": "Form3D",
+     "pro": false
+    },
+    {
+     "nome": "GlassTiles",
+     "pro": false
+    },
+    {
+     "nome": "Kaleidoscope",
+     "pro": false
+    },
+    {
+     "nome": "Mirror",
+     "pro": false
+    },
+    {
+     "nome": "Perspective",
+     "pro": false
+    },
+    {
+     "nome": "PolarCoordinates",
+     "pro": false
+    },
+    {
+     "nome": "RectangularCoordinates",
+     "pro": false
+    },
+    {
+     "nome": "Repeater",
+     "pro": false
+    },
+    {
+     "nome": "Spherize",
+     "pro": false
+    },
+    {
+     "nome": "Stretch",
+     "pro": false
+    },
+    {
+     "nome": "Surface3D",
+     "pro": false
+    },
+    {
+     "nome": "Twirl",
+     "pro": false
+    },
+    {
+     "nome": "WaveDistortion",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Transitions (13)",
+   "itens": [
+    {
+     "nome": "BarnDoors",
+     "pro": false
+    },
+    {
+     "nome": "BlockDissolve",
+     "pro": false
+    },
+    {
+     "nome": "CheckerWipe",
+     "pro": false
+    },
+    {
+     "nome": "DiamondWipe",
+     "pro": false
+    },
+    {
+     "nome": "IrisWipe",
+     "pro": false
+    },
+    {
+     "nome": "LinearWipe",
+     "pro": false
+    },
+    {
+     "nome": "NoiseDissolve",
+     "pro": false
+    },
+    {
+     "nome": "PagePeel",
+     "pro": false
+    },
+    {
+     "nome": "RadialWipe",
+     "pro": false
+    },
+    {
+     "nome": "RandomBars",
+     "pro": false
+    },
+    {
+     "nome": "RippleWipe",
+     "pro": false
+    },
+    {
+     "nome": "SliceWipe",
+     "pro": false
+    },
+    {
+     "nome": "VenetianBlinds",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Blurs (9)",
+   "itens": [
+    {
+     "nome": "AngularBlur",
+     "pro": false
+    },
+    {
+     "nome": "Blur",
+     "pro": false
+    },
+    {
+     "nome": "BokehBlur",
+     "pro": false
+    },
+    {
+     "nome": "ChannelBlur",
+     "pro": false
+    },
+    {
+     "nome": "DiffuseBlur",
+     "pro": false
+    },
+    {
+     "nome": "LinearBlur",
+     "pro": false
+    },
+    {
+     "nome": "ProgressiveBlur",
+     "pro": false
+    },
+    {
+     "nome": "TiltShift",
+     "pro": false
+    },
+    {
+     "nome": "ZoomBlur",
+     "pro": false
+    }
+   ]
+  },
+  {
+   "nome": "Adjustments (14)",
+   "itens": [
+    {
+     "nome": "BrightnessContrast",
+     "pro": false
+    },
+    {
+     "nome": "Duotone",
+     "pro": false
+    },
+    {
+     "nome": "Exposure",
+     "pro": false
+    },
+    {
+     "nome": "FilmStock",
+     "pro": false
+    },
+    {
+     "nome": "Grayscale",
+     "pro": false
+    },
+    {
+     "nome": "HueShift",
+     "pro": false
+    },
+    {
+     "nome": "Invert",
+     "pro": false
+    },
+    {
+     "nome": "Posterize",
+     "pro": false
+    },
+    {
+     "nome": "Saturation",
+     "pro": false
+    },
+    {
+     "nome": "Sharpness",
+     "pro": false
+    },
+    {
+     "nome": "Solarize",
+     "pro": false
+    },
+    {
+     "nome": "Tint",
+     "pro": false
+    },
+    {
+     "nome": "Tritone",
+     "pro": false
+    },
+    {
+     "nome": "Vibrance",
+     "pro": false
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "WebGPU, componentes compostos em camadas (texturas + efeitos)",
+  "Navegar e gratis; exportar codigo e instalar por MCP exigem Pro (docs: shaders.com/docs/guide/mcp)"
+ ],
+ "observacoes": "Interactive: o texto cortou o item entre o 15o e SmokeFlow (a pagina indicava 16); pode haver 1 item nao identificado. A pagina de docs nao marca itens individuais como pro; o Pro e uma biblioteca separada.",
+ "id": "shaders",
+ "conferido_em": "2026-11-27"
+}

@@ -1,0 +1,580 @@
+{
+ "id": "recharts",
+ "fontes": [
+  "https://recharts.github.io/en-US/api/"
+ ],
+ "total": 103,
+ "grupos": [
+  {
+   "nome": "Gráficos (12)",
+   "itens": [
+    {
+     "nome": "AreaChart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "BarChart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LineChart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ComposedChart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PieChart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RadarChart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RadialBarChart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ScatterChart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "FunnelChart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Treemap",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sankey",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "SunburstChart",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Componentes cartesianos",
+   "itens": [
+    {
+     "nome": "Area",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Bar",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "BarStack",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Line",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Scatter",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Funnel",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "XAxis",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "YAxis",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ZAxis",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Brush",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CartesianAxis",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "CartesianGrid",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ReferenceLine",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ReferenceDot",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ReferenceArea",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ErrorBar",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Componentes polares",
+   "itens": [
+    {
+     "nome": "Pie",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Radar",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "RadialBar",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PolarAngleAxis",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PolarGrid",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "PolarRadiusAxis",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Componentes gerais",
+   "itens": [
+    {
+     "nome": "ResponsiveContainer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Legend",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DefaultLegendContent",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Tooltip",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "DefaultTooltipContent",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Cell",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Text",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Label",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LabelList",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Layer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Customized",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "ZIndexLayer",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Surface",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Global",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "getNiceTickValues",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "getRelativeCoordinate",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Formas",
+   "itens": [
+    {
+     "nome": "Cross",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Curve",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Dot",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Polygon",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Rectangle",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Sector",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Trapezoid",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "Symbols",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Animação",
+   "itens": [
+    {
+     "nome": "matchByIndex",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "matchByDataKey",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "matchAppend",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "interpolate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AreaRevealShape",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "LineDrawShape",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "AnimationControllerProvider",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Tema",
+   "itens": [
+    {
+     "nome": "RechartsThemeProvider",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useRechartsTheme",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "lightTheme",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "darkTheme",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "autoTheme",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "emptyTheme",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "lightPalette",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "darkPalette",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "autoPalette",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "patterns",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "pattern",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "gradients",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "linearGradient",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Hooks de tooltip e escalas",
+   "itens": [
+    {
+     "nome": "useIsTooltipActive",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useActiveTooltipCoordinate",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useActiveTooltipDataPoints",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useActiveTooltipLabel",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useXAxisDomain",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useXAxisTicks",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useYAxisDomain",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useYAxisTicks",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useCartesianScale",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useXAxisScale",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useYAxisScale",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useXAxisInverseScale",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useYAxisInverseScale",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useCartesianChartLayout",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "usePolarChartLayout",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Hooks de layout",
+   "itens": [
+    {
+     "nome": "useMargin",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useOffset",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "usePlotArea",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useChartWidth",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useChartHeight",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "useChartLayout",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  },
+  {
+   "nome": "Fábricas de gráfico",
+   "itens": [
+    {
+     "nome": "createHorizontalChart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "createVerticalChart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "createRadialChart",
+     "pro": false,
+     "obs": ""
+    },
+    {
+     "nome": "createCentricChart",
+     "pro": false,
+     "obs": ""
+    }
+   ]
+  }
+ ],
+ "tambem_tem": [
+  "Guias e exemplos em recharts.github.io (não lidos em detalhe)",
+  "Grátis (open source)"
+ ],
+ "observacoes": "Lista vem do índice da API (versão recente, com tema e animação novos). Quatro hooks de escala inversa (useX/YAxisInverseDataSnapScale e InverseTickSnapScale) foram omitidos. Props de cada componente não foram inventariadas. recharts.org/en-US/api deu 404; usei recharts.github.io.",
+ "conferido_em": "2026-11-27"
+}
